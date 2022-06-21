@@ -24,3 +24,8 @@ https://user-images.githubusercontent.com/38736127/174905966-ccff40c7-d833-44e5-
 
 https://user-images.githubusercontent.com/38736127/174909302-b3901000-2807-471f-93b6-27f24e98cbe1.mp4
 
+### Building instructions
+
+## CAD models
+
+[a relative link](CAD models.md)
