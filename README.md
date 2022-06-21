@@ -28,4 +28,4 @@ https://user-images.githubusercontent.com/38736127/174909302-b3901000-2807-471f-
 
 ## CAD models
 
-[a relative link](CAD_models)
+[CAD models](CAD_models)
