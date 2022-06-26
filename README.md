@@ -40,6 +40,6 @@ https://user-images.githubusercontent.com/38736127/174909302-b3901000-2807-471f-
 
 ### CAD models
 
-[CAD models](CAD_models)
+[CAD models](CAD_models/1P&2P_Assembly.stl)
 
 
