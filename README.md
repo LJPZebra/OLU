@@ -46,6 +46,6 @@ https://user-images.githubusercontent.com/38736127/174909302-b3901000-2807-471f-
 
 [Light-Sheet_Holder](CAD_models/Light-Sheet_Holder_Assembly_v3.stl)
 
-[Light-Sheet_Unit.stl](CAD_models/Light-Sheet_Unit_Assembly_v6.stl)
+[Light-Sheet_Unit](CAD_models/Light-Sheet_Unit_Assembly_v6.stl)
 
 
