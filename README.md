@@ -50,9 +50,13 @@ Fix the fiber holder to the piezo crystal.
 
 Screw in the FC/PC connector into the cyclinder and enter the cyclinder into the holder. 
 
+
 Connect the fiber. 
 
-Before you switch on the laser prepare laser safety in the room (remove you juwlerie, make sure that nobody is in the laser path and that the laser will not hit on reflecting surfaces. 
+Before you switch on the laser prepare laser safety in the room (remove you juwlerie, make sure that nobody is in the laser path and that the laser will not hit any reflecting surfaces. 
+
+Switch on the 
+
 
 Insert the galanometer mirror and rotate by 45degree (see photo 1). 
 
