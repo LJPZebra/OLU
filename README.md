@@ -42,35 +42,14 @@ First order all part:
 https://www.olympus-lifescience.com/modules/pdfgen/pdfmaker/en_pdf-export_objectives.7efd53eb1e8b4d509bc1bbe2184a7e28/LMPLN5XIR.pdf?rev=1615725199
 
 
-* The main part of the light-sheet unit is  milled out of an aluminium block. If you do not have a mechanical workshop in house then you can download the 3D model, e.g. as a step file, and send it to an online milling service (e.g. https://xometry.eu/fr/usinage-cnc-fraisage-cnc/). 
 
 
 #### Let's start to assemble
 
+(1) The main part of the light-sheet unit is  milled out of an aluminium block. If you do not have a mechanical workshop in house then you can download the 3D model, e.g. as a step file, and send it to an online milling service (e.g. https://xometry.eu/fr/usinage-cnc-fraisage-cnc/). 
 
 
-![BuildingInstructions](https://user-images.githubusercontent.com/38736127/176246435-6fac2192-8932-4ac4-a85b-36d63835c25d.png)
-
-!(https://user-images.githubusercontent.com/38736127/176241651-0f14c584-0f2d-4a13-ac4f-06cd258ab204.png )
-
-
-![Montage_NA-expander](https://user-images.githubusercontent.com/38736127/176241706-8856b31e-ee73-419c-9677-609d441503f4.png)
-![Montage_LU_collimation](https://user-images.githubusercontent.com/38736127/176241781-ad4691f0-ce67-4bda-99ca-3249b830603f.png)
-![Montage_NA_Galvo](https://user-images.githubusercontent.com/38736127/176241794-96122dbd-1c0f-4f54-9025-3fe8f1265f4c.png)
-
-![Montage_LU_Adaptor](https://user-images.githubusercontent.com/38736127/176241612-6130ca6c-d9a6-429c-947d-0d4d7cc30bd9.png)
-
-![LU_Microscope](https://user-images.githubusercontent.com/38736127/176241870-3b6203d5-44d8-4415-9622-d4fd1ee4158f.png)
-![LU_Microscope_Obj2_fiber](https://user-images.githubusercontent.com/38736127/176241889-afbbee36-ce74-445f-86bf-2d7629de51b2.png)
-![LU_Microscope_Obj2_fiber_DetectionObj](https://user-images.githubusercontent.com/38736127/176241910-429d99b9-ff94-4353-9ebd-89a422d332b6.png)
-
-
-
-* Attach the z- and x-translation stages to the cube. 
-
-* Fix the adaptor plates to the system.
-
-* Fix the collimation objective to the cube. 
+(2) Fix the collimation objective to the cube (). 
 
 * Fix the piezocrystal to the cube. 
 
@@ -96,6 +75,11 @@ https://www.olympus-lifescience.com/modules/pdfgen/pdfmaker/en_pdf-export_object
 * Fix the illumination objective.
 
 * Detach the fiber to prevent to domage it and fix the ligh-sheet holder onto the motorized stage of the microscpe body.
+
+![BuildingInstructions](https://user-images.githubusercontent.com/38736127/176246435-6fac2192-8932-4ac4-a85b-36d63835c25d.png)
+
+
+
 
 ![LightSheetUnit_different_Views](https://user-images.githubusercontent.com/38736127/175005382-7465c87b-a4d5-4bc8-8349-bc513ecaa548.png)
 
