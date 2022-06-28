@@ -26,6 +26,45 @@ https://user-images.githubusercontent.com/38736127/174909302-b3901000-2807-471f-
 
 ## Building instructions
 
+Let's start building the system. 
+
+We start with the building instructions for a one-photon multicolor system. 
+
+First order all part:
+
+If you in
+Objective: LMPLN5XIR
+https://www.olympus-lifescience.com/modules/pdfgen/pdfmaker/en_pdf-export_objectives.7efd53eb1e8b4d509bc1bbe2184a7e28/LMPLN5XIR.pdf?rev=1615725199
+
+The main part of the light-sheet unit is  milled out of an aluminium block. If you do not have a mechanical workshop in house then you can download the 3D model, e.g. as a step file, and send it to an online milling service (e.g. https://xometry.eu/fr/usinage-cnc-fraisage-cnc/). 
+
+Attach the z- and x-translation stages to the cube. 
+
+Fix the adaptor plates to the system.
+
+Fix the collimation objective to the cube. 
+
+Fix the piezocrystal to the cube. 
+
+Fix the fiber holder to the piezo crystal.
+
+Screw in the FC/PC connector into the cyclinder and enter the cyclinder into the holder. 
+
+Connect the fiber. 
+
+Before you switch on the laser prepare laser safety in the room (remove you juwlerie, make sure that nobody is in the laser path and that the laser will not hit on reflecting surfaces. 
+
+Insert the galanometer mirror and rotate by 45degree (see photo 1). 
+
+
+
+
+
+
+
+
+
+
 [Fiber coupling](Fiber_coupling)
 
 [1P Multicolor Unit](1P_Multicolor_Unit)
