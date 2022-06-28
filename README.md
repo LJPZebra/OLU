@@ -46,7 +46,7 @@ https://www.olympus-lifescience.com/modules/pdfgen/pdfmaker/en_pdf-export_object
 
 
 #### Let's start to assemble
-![](https://user-images.githubusercontent.com/38736127/176241651-0f14c584-0f2d-4a13-ac4f-06cd258ab204.png | width=100)
+![](https://user-images.githubusercontent.com/38736127/176241651-0f14c584-0f2d-4a13-ac4f-06cd258ab204.png )
 
 
 ![Montage_NA-expander](https://user-images.githubusercontent.com/38736127/176241706-8856b31e-ee73-419c-9677-609d441503f4.png)
