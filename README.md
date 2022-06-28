@@ -29,21 +29,6 @@ https://user-images.githubusercontent.com/38736127/174909302-b3901000-2807-471f-
 
 We start with the building instructions for a one-photon multicolor system. 
 
-
-
-### Light-sheet cube
-
-
-
-First order all part:
-
-#### Parts and spec sheets
-* Objective: LMPLN5XIR
-https://www.olympus-lifescience.com/modules/pdfgen/pdfmaker/en_pdf-export_objectives.7efd53eb1e8b4d509bc1bbe2184a7e28/LMPLN5XIR.pdf?rev=1615725199
-
-
-
-
 #### Let's start to assemble
 
 (1) Prepare the main cube (green) of the light-sheet unit. It is  milled out of an aluminium block. If you do not have a mechanical workshop in house then you can download the 3D model, e.g. as a step file, and send it to an online milling service (e.g. https://xometry.eu/fr/usinage-cnc-fraisage-cnc/). 
