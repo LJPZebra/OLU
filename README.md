@@ -26,9 +26,14 @@ https://user-images.githubusercontent.com/38736127/174909302-b3901000-2807-471f-
 
 ## Building instructions
 
-Let's start building the system. 
 
 We start with the building instructions for a one-photon multicolor system. 
+
+
+
+### Light-sheet cube
+
+
 
 First order all part:
 
@@ -66,6 +71,18 @@ https://www.olympus-lifescience.com/modules/pdfgen/pdfmaker/en_pdf-export_object
 * Carefully center the beam into the opening by fin adjusting the orentation of the galvometer mirror. Once done fix the mirror position with the fixation screw. 
 
 * Fix the illumination objective.
+
+* Detach the fiber to prevent to domage it and fix the ligh-sheet holder onto the motorized stage of the microscpe body.
+
+
+
+### Detection path
+
+* fix the detection objectives and insert the filters (?,?,?) in to the filter holders. Attach the Hamamatsu camera to the camera port. 
+
+
+### Sample holder
+
 
 
 
