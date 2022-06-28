@@ -31,6 +31,10 @@ We start with the building instructions for a one-photon multicolor system.
 
 #### Let's start to assemble
 
+(0) Purchase the laser directly fiber coupled. In this configuration the laser can direclty be used.
+
+![Fiber-Coupling-Option](https://user-images.githubusercontent.com/38736127/176257994-01be6fa9-9e3d-4bea-bbec-7d433b006e01.png)
+
 (1) Prepare the main cube (green) of the light-sheet unit. It is  milled out of an aluminium block. If you do not have a mechanical workshop in house then you can download the 3D model, e.g. as a step file, and send it to an online milling service (e.g. https://xometry.eu/fr/usinage-cnc-fraisage-cnc/). 
 
 (2) Fix the collimation objective to the cube. 
