@@ -74,6 +74,7 @@ https://www.olympus-lifescience.com/modules/pdfgen/pdfmaker/en_pdf-export_object
 
 * Detach the fiber to prevent to domage it and fix the ligh-sheet holder onto the motorized stage of the microscpe body.
 
+![LightSheetUnit_different_Views](https://user-images.githubusercontent.com/38736127/175005382-7465c87b-a4d5-4bc8-8349-bc513ecaa548.png)
 
 
 ### Detection path
@@ -112,8 +113,7 @@ https://www.olympus-lifescience.com/modules/pdfgen/pdfmaker/en_pdf-export_object
 [2P Unit](2P_Unit)
 
 
-#### The light-sheet unit
-![LightSheetUnit_different_Views](https://user-images.githubusercontent.com/38736127/175005382-7465c87b-a4d5-4bc8-8349-bc513ecaa548.png)
+
 
 
 ### CAD models
