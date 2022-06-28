@@ -46,6 +46,19 @@ https://www.olympus-lifescience.com/modules/pdfgen/pdfmaker/en_pdf-export_object
 
 
 #### Let's start to assemble
+![Montage_LU](https://user-images.githubusercontent.com/38736127/176241651-0f14c584-0f2d-4a13-ac4f-06cd258ab204.png)
+![Montage_NA-expander](https://user-images.githubusercontent.com/38736127/176241706-8856b31e-ee73-419c-9677-609d441503f4.png)
+![Montage_LU_collimation](https://user-images.githubusercontent.com/38736127/176241781-ad4691f0-ce67-4bda-99ca-3249b830603f.png)
+![Montage_NA_Galvo](https://user-images.githubusercontent.com/38736127/176241794-96122dbd-1c0f-4f54-9025-3fe8f1265f4c.png)
+
+![Montage_LU_Adaptor](https://user-images.githubusercontent.com/38736127/176241612-6130ca6c-d9a6-429c-947d-0d4d7cc30bd9.png)
+
+![LU_Microscope](https://user-images.githubusercontent.com/38736127/176241870-3b6203d5-44d8-4415-9622-d4fd1ee4158f.png)
+![LU_Microscope_Obj2_fiber](https://user-images.githubusercontent.com/38736127/176241889-afbbee36-ce74-445f-86bf-2d7629de51b2.png)
+![LU_Microscope_Obj2_fiber_DetectionObj](https://user-images.githubusercontent.com/38736127/176241910-429d99b9-ff94-4353-9ebd-89a422d332b6.png)
+
+
+
 * Attach the z- and x-translation stages to the cube. 
 
 * Fix the adaptor plates to the system.
