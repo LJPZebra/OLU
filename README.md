@@ -62,9 +62,12 @@ We start with the building instructions for a one-photon multicolor system.
 ### Detection path
 
 * fix the detection objectives and insert the filters (?,?,?) in to the filter holders. Attach the Hamamatsu camera to the camera port. 
+* We used a Olympus 20x objective with a custom tube lens of 150mm focal lenth. 
 
 
 ### Sample holder
+
+
 
 
 
