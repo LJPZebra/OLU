@@ -63,9 +63,11 @@ https://www.olympus-lifescience.com/modules/pdfgen/pdfmaker/en_pdf-export_object
 
 * Switch on the laser.
 
-* Carefully center the been into the opening. 
+* Carefully center the beam into the opening by fin adjusting the orentation of the galvometer mirror. Once done fix the mirror position with the fixation screw. 
 
 * Fix the illumination objective.
+
+
 
 
 
