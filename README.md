@@ -72,12 +72,12 @@ We start with the building instructions for a one-photon multicolor system.
 
 ### Sample holder
 
-[Fiber coupling](Fiber_coupling)
+[Fiber coupling](Fiber_coupling.md)
 
-[1P Multicolor Unit](1P_Multicolor_Unit)
+[1P Multicolor Unit](1P_Multicolor_Unit.md)
 
 
-[2P Unit](2P_Unit)
+[2P Unit](2P_Unit.md)
 
 
 
