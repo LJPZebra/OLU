@@ -31,13 +31,16 @@ We start with the building instructions for a one-photon multicolor system.
 
 #### Let's start to assemble
 
-(0) Purchase the laser directly fiber coupled. In this configuration the laser can direclty be used.
+![BuildingInstructions](https://user-images.githubusercontent.com/38736127/176259875-00e95eff-b3b2-4a9b-b127-b309bcc323d5.png)
 
-![Fiber-Coupling-Option](https://user-images.githubusercontent.com/38736127/176257994-01be6fa9-9e3d-4bea-bbec-7d433b006e01.png)
 
-(1) Prepare the main cube (green) of the light-sheet unit. It is  milled out of an aluminium block. If you do not have a mechanical workshop in house then you can download the 3D model, e.g. as a step file, and send it to an online milling service (e.g. https://xometry.eu/fr/usinage-cnc-fraisage-cnc/). 
 
-(2) Fix the collimation objective to the cube. 
+(1) Purchase the laser directly fiber coupled.
+
+(2) 
+* Prepare the main cube (green) of the light-sheet unit. It is  milled out of an aluminium block. If you do not have a mechanical workshop in house then you can download the 3D model, e.g. as a step file, and send it to an online milling service (e.g. https://xometry.eu/fr/usinage-cnc-fraisage-cnc/). 
+
+* Fix the collimation objective to the cube. 
 
 (3) Fix the piezocrystal to the cube (dark gray). 
 
@@ -55,8 +58,6 @@ We start with the building instructions for a one-photon multicolor system.
 
 (12) Fix the illumination objective to the light-sheet unit and attach again the fiber. Now you can attach the imaging objective to the microscope. 
 
-![BuildingInstructions](https://user-images.githubusercontent.com/38736127/176246435-6fac2192-8932-4ac4-a85b-36d63835c25d.png)
-
 
 
 
@@ -70,29 +71,6 @@ We start with the building instructions for a one-photon multicolor system.
 
 
 ### Sample holder
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 [Fiber coupling](Fiber_coupling)
 
