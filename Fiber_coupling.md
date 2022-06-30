@@ -1,5 +1,7 @@
 # Let's couple the pulsed two-photon laser into the hollowo core fiber
 
+[<img width="100" alt="Test" src="https://user-images.githubusercontent.com/38736127/176673048-5717d417-f3cd-4252-8551-5a9e17c1132f.png">](https://www.youtube.com/watch?v=kQvhbJbDG0M)
+
 We coupled the femtosecond pulsed Ti:Sapphire laser (MaiTai, Coherent, USA) with a mirror, a dichroic and a coupling lens (f=40mm, Thorlabs, AC254-040-B-ML) into the fiber that was hold by a differential xyz-translation stage. The coupling mirror was placed on a magnetic precision stand so that it could be temporally removed to use the laser on the standard microscope setup. The continuous blue laser (488\,nm, Oxxius, France) was coupled into the same fiber through the aforementioned dichroic with two additional mirrors. For efficient optical coupling and suppression of higher laser modes the width of the laser focus projected onto the fiber input side had to match the mode field diameter of the fiber. For the femtosecond laser we placed the coupling unit at a distance to the laser source where the slightly diverging laser beam reaches the desired beam diameter necessary to match the mode field diameter in combination with the chosen coupling lens; for the blue laser we used a beam expander. 
 
 
