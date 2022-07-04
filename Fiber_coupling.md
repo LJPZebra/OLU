@@ -24,6 +24,15 @@ In our case we placed the coupling unit at a distance of 1.5m and we used a coup
 
 [<img width="100" alt="Test" src="https://user-images.githubusercontent.com/38736127/176673048-5717d417-f3cd-4252-8551-5a9e17c1132f.png">](https://www.youtube.com/watch?v=kQvhbJbDG0M)
 
+GLO-photonics manual for fiber coupling:
+
+[PIP_PMC-OEM.pdf](https://github.com/vbormuth/OLU/files/9039094/PIP_PMC-OEM.pdf)
+
+Spec sheet of the fiber:
+
+[PMC-C-K9005 B2_delivered_2019-01-16.pdf](https://github.com/vbormuth/OLU/files/9039097/PMC-C-K9005.B2_delivered_2019-01-16.pdf)
+
+
 
 
 ========
