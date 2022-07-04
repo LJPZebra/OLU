@@ -5,12 +5,13 @@ Due to the very low fibers numerical aperture coupling a laser into the fiber is
 
 For the coupling we will need :
 *	a coupling lens to focus the laser into the fiber
+*	eventually a telescope to adjust the beam diameter for optimal coupling
 *	a differential xyz-translation stage to position the fiber outlet precisely into the focal point of the coupling lens. 
 *	Two coupling mirrors to align the laser with the fiber axis. One of the mirrors can be replaced by a dichroic that reflects the infrared laser but is transparent in the visible spectrum . This will allow coupling in addition a visible laser into the same fiber. 
 
 *How to choose the coupling lens ?* 
 
-For efficient optical coupling and suppression of higher laser modes the width of the laser focus projected onto the fiber input side has to match the mode field diameter of the fiber. In our case the mode field diameter was ??? um (measured at 1/e^2 and given by the spec sheet => add link). When a lens focuses a Gaussian beam the width of the beam, w_0, in the focus is given by $w_0 = \lambda / (\pi NA) = (\lambda 2 f)/(\pi n D)$ with D the diameter of the collimated beam on the lens and f the focal distance of the lens.  (make a drawing).
+For optimal coupling you should use an objective as coupling lens, e.g. the Olympus LMPLN5xIR/0.10. For efficient optical coupling and suppression of higher laser modes the width of the laser focus projected onto the fiber input side has to match the mode field diameter of the fiber. In our case the mode field diameter was ??? um (measured at 1/e^2 and given by the spec sheet => add link). When a lens focuses a Gaussian beam the width of the beam, w_0, in the focus is given by $w_0 = \lambda / (\pi NA) = (\lambda 2 f)/(\pi n D)$ with D the diameter of the collimated beam on the lens and f the focal distance of the lens.  (make a drawing).
 
 To match the mode field diameter, you have the laser diameter and the coupling lens focal distance to play with. A Gaussian beam is never perfectly collimated.
 
@@ -33,7 +34,10 @@ Spec sheet of the fiber:
 [PMC-C-K9005 B2_delivered_2019-01-16.pdf](https://github.com/vbormuth/OLU/files/9039097/PMC-C-K9005.B2_delivered_2019-01-16.pdf)
 
 
+Coupling the 488nm laser 
+Fiber P1-460B-FC-2  (3mm jacket, NA1 = 0.1-0.14) => collimation lens C171TMD-A (f = 6.2 mm, NA = 0.6, Mounted Aspheric Lens, ARC: 350 - 700 nm) =>  coupling lens AC254-040-B-ML
 
+We selected the collimation lens focal distance with the formula: f1 = f2*  NA1/NA2 = 40 * 0.02 / 0.13
 
 ========
 
