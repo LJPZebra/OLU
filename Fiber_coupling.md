@@ -39,6 +39,10 @@ Fiber P1-460B-FC-2  (3mm jacket, NA1 = 0.1-0.14) => collimation lens C171TMD-A (
 
 We selected the collimation lens focal distance with the formula: f1 = f2*  NA1/NA2 = 40 * 0.02 / 0.13
 
+you can also use prealigned fiber collimators: F110FC-532  (f=6.09mm and aligned for 532nm)
+
+
+
 ========
 
 
