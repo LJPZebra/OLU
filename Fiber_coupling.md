@@ -4,13 +4,19 @@
 Due to the very low fibers numerical aperture coupling a laser into the fiber is not trivial but can easily be accomplished with the following protocol.  
 
 For the coupling we will need :
-*	a coupling lens to focus the laser into the fiber
+*	a coupling lens to focus the laser into the fiber (Thorlabs AC254-040-B-ML)
 *	eventually a telescope to adjust the beam diameter for optimal coupling
-*	a differential xyz-translation stage to position the fiber outlet precisely into the focal point of the coupling lens. 
+*	a differential xyz-translation stage (Thorlabs MAX355D/M) to position the fiber outlet precisely into the focal point of the coupling lens. 
 *	Two coupling mirrors to align the laser with the fiber axis. 
 *	a dichroic that is transparent for the infrared laser but reflexs the visible spectrum . This will allow coupling in addition a visible laser into the same fiber. 
+*	Two coupling mirrors to align the visible laser into the fiber.
 
 ![Photo_FiberCoupling](https://user-images.githubusercontent.com/38736127/177211832-9b103593-d3d3-4efb-b24c-df840a2f0456.png)
+
+For efficient optical coupling and suppression of higher laser modes the width of the laser focus projected onto the fiber input side has to match the mode field diameter of the fiber. Or in other words the opening angle of the focused laser beam has to match the numerical apperture of the fiber. In our case the mode field diameter was ??? um (measured at 1/e^2 and given by the spec sheet => add link). When a lens focuses a Gaussian beam the width of the beam, w_0, in the focus is given by $w_0 = \lambda / (\pi NA) = (\lambda 2 f)/(\pi n D)$ with D the diameter of the collimated beam on the lens and f the focal distance of the lens.  (make a drawing).
+
+
+For optimal coupling you should use an objective as coupling lens, e.g. the Olympus LMPLN5xIR/0.10. 
 
 *How to choose the coupling lens ?* 
 
@@ -29,8 +35,6 @@ PC2/M holder for thin plate
 for horizontal mounting RA90
 
 
-
-For optimal coupling you should use an objective as coupling lens, e.g. the Olympus LMPLN5xIR/0.10. For efficient optical coupling and suppression of higher laser modes the width of the laser focus projected onto the fiber input side has to match the mode field diameter of the fiber. In our case the mode field diameter was ??? um (measured at 1/e^2 and given by the spec sheet => add link). When a lens focuses a Gaussian beam the width of the beam, w_0, in the focus is given by $w_0 = \lambda / (\pi NA) = (\lambda 2 f)/(\pi n D)$ with D the diameter of the collimated beam on the lens and f the focal distance of the lens.  (make a drawing).
 
 To match the mode field diameter, you have the laser diameter and the coupling lens focal distance to play with. A Gaussian beam is never perfectly collimated.
 
