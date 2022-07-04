@@ -18,6 +18,9 @@ MaiTai specs:
 To measure the beam width you can use the moving knif technique
 the normalized transmitted power is given by 0.5(1+erf((x-x0)/w))  with w the beam width at 1/e
 
+which is the width between the point where the intesisty is between 1-0.92 times the maximum and 0.92 times the maximum. 
+we2 = we1 * \sqrt(2)
+
 
 For optimal coupling you should use an objective as coupling lens, e.g. the Olympus LMPLN5xIR/0.10. For efficient optical coupling and suppression of higher laser modes the width of the laser focus projected onto the fiber input side has to match the mode field diameter of the fiber. In our case the mode field diameter was ??? um (measured at 1/e^2 and given by the spec sheet => add link). When a lens focuses a Gaussian beam the width of the beam, w_0, in the focus is given by $w_0 = \lambda / (\pi NA) = (\lambda 2 f)/(\pi n D)$ with D the diameter of the collimated beam on the lens and f the focal distance of the lens.  (make a drawing).
 
