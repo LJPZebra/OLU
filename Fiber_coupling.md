@@ -7,7 +7,8 @@ For the coupling we will need :
 *	a coupling lens to focus the laser into the fiber
 *	eventually a telescope to adjust the beam diameter for optimal coupling
 *	a differential xyz-translation stage to position the fiber outlet precisely into the focal point of the coupling lens. 
-*	Two coupling mirrors to align the laser with the fiber axis. One of the mirrors can be replaced by a dichroic that reflects the infrared laser but is transparent in the visible spectrum . This will allow coupling in addition a visible laser into the same fiber. 
+*	Two coupling mirrors to align the laser with the fiber axis. 
+*	a dichroic that is transparent for the infrared laser but reflexs the visible spectrum . This will allow coupling in addition a visible laser into the same fiber. 
 
 ![Photo_FiberCoupling](https://user-images.githubusercontent.com/38736127/177211832-9b103593-d3d3-4efb-b24c-df840a2f0456.png)
 
