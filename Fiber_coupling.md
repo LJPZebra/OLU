@@ -13,7 +13,10 @@ For the coupling we will need :
 
 ![Photo_FiberCoupling](https://user-images.githubusercontent.com/38736127/177211832-9b103593-d3d3-4efb-b24c-df840a2f0456.png)
 
-For efficient optical coupling and suppression of higher laser modes the width of the laser focus projected onto the fiber input side has to match the mode field diameter of the fiber. Or in other words the opening angle of the focused laser beam has to match the numerical apperture of the fiber. In our case the mode field diameter was ??? um (measured at 1/e^2 and given by the spec sheet => add link). When a lens focuses a Gaussian beam the width of the beam, w_0, in the focus is given by $w_0 = \lambda / (\pi NA) = (\lambda 2 f)/(\pi n D)$ with D the diameter of the collimated beam on the lens and f the focal distance of the lens.  (make a drawing).
+For efficient optical coupling and suppression of higher laser modes the width of the laser focus projected onto the fiber input side has to match the mode field diameter of the fiber. Or in other words the opening angle of the focused laser beam has to match the numerical apperture of the fiber. In our case the the fiber has a low numerical apperture of Na=0.02. At the position where we had place on the optical table to place the fiber coupling unit the laser had a diameter of 1.6mm. The optimal coupling lens diameter is f = D / (2*NA) = 40mm. Use this formula to adapt the coupling lens to your conditions. You can measure the diameter of the laser either with a beam profiler (Thorlabs BC207VIS/M) or 
+
+
+mode field diameter was ??? um (measured at 1/e^2 and given by the spec sheet => add link). When a lens focuses a Gaussian beam the width of the beam, w_0, in the focus is given by $w_0 = \lambda / (\pi NA) = (\lambda 2 f)/(\pi n D)$ with D the diameter of the collimated beam on the lens and f the focal distance of the lens.  (make a drawing).
 
 
 For optimal coupling you should use an objective as coupling lens, e.g. the Olympus LMPLN5xIR/0.10. 
@@ -26,6 +29,8 @@ MaiTai specs:
 
 To measure the beam width you can use the moving knif technique
 the normalized transmitted power is given by 0.5(1+erf((x-x0)/w))  with w the beam width at 1/e
+
+https://www.researchgate.net/figure/Measurement-of-the-focal-spot-size-by-the-knife-edge-method-The-measured-signal-gray_fig12_8185920
 
 which is the width between the point where the intesisty is between 1-0.92 times the maximum and 0.92 times the maximum. 
 we2 = we1 * \sqrt(2)
