@@ -9,6 +9,8 @@ For the coupling we will need :
 *	a differential xyz-translation stage to position the fiber outlet precisely into the focal point of the coupling lens. 
 *	Two coupling mirrors to align the laser with the fiber axis. One of the mirrors can be replaced by a dichroic that reflects the infrared laser but is transparent in the visible spectrum . This will allow coupling in addition a visible laser into the same fiber. 
 
+![Photo_FiberCoupling](https://user-images.githubusercontent.com/38736127/177211832-9b103593-d3d3-4efb-b24c-df840a2f0456.png)
+
 *How to choose the coupling lens ?* 
 
 MaiTai specs:
@@ -20,6 +22,11 @@ the normalized transmitted power is given by 0.5(1+erf((x-x0)/w))  with w the be
 
 which is the width between the point where the intesisty is between 1-0.92 times the maximum and 0.92 times the maximum. 
 we2 = we1 * \sqrt(2)
+
+Translation stage: XRN25C/M
+PC2/M holder for thin plate 
+for horizontal mounting RA90
+
 
 
 For optimal coupling you should use an objective as coupling lens, e.g. the Olympus LMPLN5xIR/0.10. For efficient optical coupling and suppression of higher laser modes the width of the laser focus projected onto the fiber input side has to match the mode field diameter of the fiber. In our case the mode field diameter was ??? um (measured at 1/e^2 and given by the spec sheet => add link). When a lens focuses a Gaussian beam the width of the beam, w_0, in the focus is given by $w_0 = \lambda / (\pi NA) = (\lambda 2 f)/(\pi n D)$ with D the diameter of the collimated beam on the lens and f the focal distance of the lens.  (make a drawing).
