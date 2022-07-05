@@ -10,6 +10,8 @@
 *	a [Single mode fiber](https://www.thorlabs.com/thorproduct.cfm?partnumber=P1-460B-FC-2) 
 *	a [VIS/IR Detector Card](https://www.thorlabs.com/thorproduct.cfm?partnumber=VRC2)
 *	[Laser Safety Glasses: 48% Visible Light Transmission](https://www.thorlabs.com/thorproduct.cfm?partnumber=LG3)
+*	[Cable Continuity Tester](https://www.flukenetworks.com/datacom-cabling/fiber-testing/VisiFault-Visual-Fault-Locator)  
+*	[Fiber Inspection Scope](https://www.thorlabs.com/thorproduct.cfm?partnumber=FS201)
 
 Note: Do the coupling procedure at very low laser power for laser safety and to protect the fiber and to protect the fiber. The fiber has a very high domage threshold but only if the laser is well coupled. 
 
@@ -44,12 +46,17 @@ Further tips for the fiber coupling can be found in the [manual from GLO-photoni
 
 ## For the coupling we will need 
 
-*	Two coupling mirrors to align the visible laser into the fiber.
+* a fiber coupled laser or several coupled into one fiber with a fiber combinor
+*	two coupling mirrors to align the visible laser into the fiber
+*	a collimation lens C171TMD-A
 
-Once the pulsed infrared laser is coupled
-Fiber P1-460B-FC-2  (3mm jacket, NA1 = 0.1-0.14) => collimation lens C171TMD-A (f = 6.2 mm, NA = 0.6, Mounted Aspheric Lens, ARC: 350 - 700 nm) =>  coupling lens AC254-040-B-ML
 
 We selected the collimation lens focal distance with the formula: f1 = f2*  NA1/NA2 = 40 * 0.02 / 0.13
+
+
+
+Fiber P1-460B-FC-2  (3mm jacket, NA1 = 0.1-0.14) => collimation lens C171TMD-A (f = 6.2 mm, NA = 0.6, Mounted Aspheric Lens, ARC: 350 - 700 nm) =>  coupling lens AC254-040-B-ML
+
 
 you can also use prealigned fiber collimators: F110FC-532  (f=6.09mm and aligned for 532nm)
 * mount with adaptor AD11BA
