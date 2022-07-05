@@ -50,19 +50,22 @@ Further tips for the fiber coupling can be found in the [manual from GLO-photoni
 *	two coupling mirrors to align the visible laser into the fiber
 *	a collimation lens C171TMD-A
 
+you can also use prealigned fiber collimators: F110FC-532  (f=6.09mm and aligned for 532nm)
+* mount with adaptor AD11BA
+* KM05/M	Kinematic Mirror Mount for Ø1/2" Optics, M4 Taps
+* TR1  Ø1/2" Optical Post, SS, 8-32 Setscrew, 1/4"-20 Tap, L = 1"
+* UPH1  Ø1/2" Universal Post Holder, Spring-Loaded Locking Thumbscrew, L = 1" 
 
-We selected the collimation lens focal distance with the formula: f1 = f2*  NA1/NA2 = 40 * 0.02 / 0.13
+
+
+
+We selected the collimation lens focal distance with the formula: $f_1 = f_2 *  \frac{NA_1}{NA_2} = 40mm \frac{0.02}{0.13}$
 
 
 
 Fiber P1-460B-FC-2  (3mm jacket, NA1 = 0.1-0.14) => collimation lens C171TMD-A (f = 6.2 mm, NA = 0.6, Mounted Aspheric Lens, ARC: 350 - 700 nm) =>  coupling lens AC254-040-B-ML
 
 
-you can also use prealigned fiber collimators: F110FC-532  (f=6.09mm and aligned for 532nm)
-* mount with adaptor AD11BA
-* KM05/M	Kinematic Mirror Mount for Ø1/2" Optics, M4 Taps
-* TR1  Ø1/2" Optical Post, SS, 8-32 Setscrew, 1/4"-20 Tap, L = 1"
-* UPH1  Ø1/2" Universal Post Holder, Spring-Loaded Locking Thumbscrew, L = 1" 
 
 ## Let's do it:
 
