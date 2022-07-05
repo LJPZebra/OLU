@@ -1,6 +1,6 @@
 # Let's couple the pulsed two-photon laser into the hollowo core fiber
 
-For the coupling we will need :
+## For the coupling we will need :
 *	a coupling lens to focus the laser into the fiber ([AC254-040-B-ML](https://www.thorlabs.com/thorproduct.cfm?partnumber=AC254-040-B-ML))
 *	eventually a telescope to adjust the beam diameter for optimal coupling
 *	a differential xyz-translation stage ([MAX355D/M](https://www.thorlabs.com/thorproduct.cfm?partnumber=MAX355D/M)) to position the fiber outlet precisely into the focal point of the coupling lens. 
@@ -12,6 +12,7 @@ For the coupling we will need :
 
 Note: Do the coupling procedure at very low laser power for laser safety and to protect the fiber and to protect the fiber. The fiber has a very high domage threshold but only if the laser is well coupled. 
 
+## Let's do it:
 A possible configuration of the fiber coupling optical setup that we used is shown in the following figure:
 
 <img width="400" alt="Test" src="https://user-images.githubusercontent.com/38736127/177211832-9b103593-d3d3-4efb-b24c-df840a2f0456.png">
@@ -37,7 +38,11 @@ Further tips for the fiber coupling can be found in the [manual from GLO-photoni
 
 
 
-## Coupling the 488nm laser 
+# Let's add the visible laser
+
+
+## For the coupling we will need 
+
 Once the pulsed infrared laser is coupled
 Fiber P1-460B-FC-2  (3mm jacket, NA1 = 0.1-0.14) => collimation lens C171TMD-A (f = 6.2 mm, NA = 0.6, Mounted Aspheric Lens, ARC: 350 - 700 nm) =>  coupling lens AC254-040-B-ML
 
@@ -49,7 +54,7 @@ you can also use prealigned fiber collimators: F110FC-532  (f=6.09mm and aligned
 * TR1  Ø1/2" Optical Post, SS, 8-32 Setscrew, 1/4"-20 Tap, L = 1"
 * UPH1  Ø1/2" Universal Post Holder, Spring-Loaded Locking Thumbscrew, L = 1" 
 
-
+## Let's do it:
 
 ====
 
