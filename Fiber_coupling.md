@@ -13,19 +13,9 @@ For the coupling we will need :
 
 ![Photo_FiberCoupling](https://user-images.githubusercontent.com/38736127/177211832-9b103593-d3d3-4efb-b24c-df840a2f0456.png)
 
-For efficient optical coupling and suppression of higher laser modes the width of the laser focus projected onto the fiber input side has to match the mode field diameter of the fiber. Or in other words the opening angle of the focused laser beam has to match the numerical apperture of the fiber. In our case the fiber has a low numerical apperture of 0.02. The numercial apperture of the coupling system is NA = D / (2 f), with diameter of the collimated beam, D, at the position of the coupling lens and the focal length, f, of the coupling lens. The laser company normally gives the beam width and the beam divergent angle. At the position were one can place the couping unit after the laser output the beam divergence angle determines the beam width. If you do not have the exact values of the beam divergence than you can also measure the beam diamter at the position where you want ot position the coupling lens. For this you can use the knif technique that is explained here( add ink )At the position where we had place on the optical table to place the fiber coupling unit the laser had a diameter of 1.6mm. The optimal coupling lens diameter is f = D / (2*NA) = 40mm. Use this formula to adapt the coupling lens to your conditions. You can measure the diameter of the laser either with a beam profiler (Thorlabs BC207VIS/M) or with the moving knif techniqe
+For efficient optical coupling and suppression of higher laser modes the width of the laser focus projected onto the fiber input side has to match the mode field diameter of the fiber. Or in other words the opening angle of the focused laser beam has to match the numerical apperture of the fiber. In our case the fiber has a low numerical apperture of 0.02. The numercial apperture of the coupling system is NA = D / (2 f), with diameter of the collimated beam, D, at the position of the coupling lens and the focal length, f, of the coupling lens. The laser company normally gives the beam width and the beam divergent angle. At the position were one can place the couping unit after the laser output the beam divergence angle determines the beam width. You can measure the diameter of the laser either with a beam profiler (Thorlabs BC207VIS/M) or with the moving knif technique. In our case we measured a beam diameter of 1.6mm and that choose a coupling lens with focal length f = D/(2 NA) = 1.6mm/(2 * 0.02) = 40mm. 
 
-
-mode field diameter was ??? um (measured at 1/e^2 and given by the spec sheet => add link). When a lens focuses a Gaussian beam the width of the beam, w_0, in the focus is given by $w_0 = \lambda / (\pi NA) = (\lambda 2 f)/(\pi n D)$ with D the diameter of the collimated beam on the lens and f the focal distance of the lens.  (make a drawing).
-
-
-For optimal coupling you should use an objective as coupling lens, e.g. the Olympus LMPLN5xIR/0.10. 
-
-*How to choose the coupling lens ?* 
-
-MaiTai specs:
-* Beam Divergence < 1 mrad
-* Beam Diameter at ( 1 /e 2 ) < 1.2 mm
+We got reasonalbe coupling with the achromatic coupling lens. If you want to further optimize the coupling you can use an objective as coupling lens, e.g. the Olympus LMPLN5xIR/0.10. 
 
 To measure the beam width you can use the moving knif technique:
 https://www.researchgate.net/profile/Emerson-Lima-2/publication/23771279_Measurement_of_Gaussian_laser_beam_radius_using_the_knife-edge_technique_Improvement_on_data_analysis/links/00b7d533ec8470fe22000000/Measurement-of-Gaussian-laser-beam-radius-using-the-knife-edge-technique-Improvement-on-data-analysis.pdf?origin=publication_detail
