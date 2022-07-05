@@ -8,6 +8,8 @@ For the coupling we will need :
 *	a dichroic that is transparent for the infrared laser but reflexs the visible spectrum . This will allow coupling in addition a visible laser into the same fiber. Alternatively, you can also use a dichroic transparent for the visible laser and reflecting the infrared light. Both configurations will work.
 *	Two coupling mirrors to align the visible laser into the fiber.
 
+A possible configuration of the fiber coupling optical setup that we used is shown in the following figure.
+
 ![Photo_FiberCoupling](https://user-images.githubusercontent.com/38736127/177211832-9b103593-d3d3-4efb-b24c-df840a2f0456.png)
 
 For efficient optical coupling and suppression of higher laser modes the width of the laser focus projected onto the fiber input side has to match the mode field diameter of the fiber. Or in other words the opening angle of the focused laser beam has to match the numerical apperture of the fiber. The numercial apperture of the coupling system is given by NA = D / (2 f), with D the diameter of the laser beam at the position of the coupling lens, and f the coupling lens' focal length. The laser company normally gives the beam width and the beam divergent angle. At the position were one can place the coulping unit after the laser output the beam divergence angle determines the beam width. You can measure the diameter of the laser either with a beam profiler (Thorlabs BC207VIS/M) or with the moving knif technique. In our case we measured a beam diameter of 1.6mm and thus chose a coupling lens with focal length f = D/(2 NA) = 1.6mm/(2 * 0.02) = 40mm. 
