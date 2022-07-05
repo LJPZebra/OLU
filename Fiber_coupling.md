@@ -1,8 +1,5 @@
 # Let's couple the pulsed two-photon laser into the hollowo core fiber
 
-
-Due to the very low fibers numerical aperture coupling a laser into the fiber is not trivial but can easily be accomplished with the following protocol.  
-
 For the coupling we will need :
 *	a coupling lens to focus the laser into the fiber (Thorlabs AC254-040-B-ML)
 *	eventually a telescope to adjust the beam diameter for optimal coupling
