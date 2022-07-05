@@ -12,24 +12,27 @@ A possible configuration of the fiber coupling optical setup that we used is sho
 
 ![Photo_FiberCoupling](https://user-images.githubusercontent.com/38736127/177211832-9b103593-d3d3-4efb-b24c-df840a2f0456.png)
 
-For efficient optical coupling and suppression of higher laser modes the width of the laser focus projected onto the fiber input side has to match the mode field diameter of the fiber. Or in other words the opening angle of the focused laser beam has to match the numerical apperture of the fiber. The numercial apperture of the coupling system is given by NA = D / (2 f), with D the diameter of the laser beam at the position of the coupling lens, and f the coupling lens' focal length. The laser company normally gives the beam width and the beam divergent angle. At the position were one can place the coulping unit after the laser output the beam divergence angle determines the beam width. You can measure the diameter of the laser either with a beam profiler (Thorlabs BC207VIS/M) or with the moving knif technique. In our case we measured a beam diameter of 1.6mm and thus chose a coupling lens with focal length f = D/(2 NA) = 1.6mm/(2 * 0.02) = 40mm. 
+For efficient optical coupling and suppression of higher laser modes the width of the laser focus projected onto the fiber input side has to match the mode field diameter of the fiber. Or in other words the opening angle of the focused laser beam has to match the numerical apperture of the fiber. Our fiber has a numerical apperture of 0.02 (see spec sheet: Spec sheet of the fiber:
+[PMC-C-K9005 B2_delivered_2019-01-16.pdf](https://github.com/vbormuth/OLU/files/9039097/PMC-C-K9005.B2_delivered_2019-01-16.pdf))
+
+The numercial apperture of the coupling system is given by NA = D / (2 f), with D the diameter of the laser beam at the position of the coupling lens, and f the coupling lens' focal length. The laser company normally gives the beam width and the beam divergent angle. At the position were one can place the coulping unit after the laser output the beam divergence angle determines the beam width. You can measure the diameter of the laser either with a beam profiler (Thorlabs BC207VIS/M) or with the moving knif technique. In our case we measured a beam diameter of 1.6mm and thus chose a coupling lens with focal length f = D/(2 NA) = 1.6mm/(2 * 0.02) = 40mm. 
 
 We got reasonalbe coupling with the achromatic coupling lens from Thorlabs (Thorlabs AC254-040-B-ML). If you want to further optimize the coupling you can use an objective as coupling lens, e.g. the Olympus LMPLN5xIR/0.10. 
 
-Once you have positioned the optics you have to align them. Here you find an excellent youtube tutorial that explains the procedure. The video explains a first prealignment step based on backpropagation of a laser in the reverse direction. To use this trick first connect a standard single mode fiber to the coupling unit. Use a fiber tester to inject a visible laser through the fiber. Then follow the steps as in the tutorial. Once the alignment laser and the IR laser are align disconnect the fiber and connect the hollow core fiber. If the first step was well done you should have direcly transmission through the fiber enough to optimize the futher fiber coupling as described in the tutorial. 
+Once you have positioned the optics you have to align them. Here you find an excellent youtube tutorial that explains the procedure. 
 
-You could also use the broadband hollow core fiber in the prealignment step. In this case you can connect via a fiber-to-fiber connector the fiber coupled 488nm laser to the fiber outlet. We did this and it works very well. But we do not recommend this. The hollow core fibers are not protected and cannot be easily polished as you can do for single mode fibers. If you get some dusk on the fiber outlet you can damage the fiber. Also never try to clean the fiber outlet with ethanol or acethon because these solutions will enter the fiber by kapillary forces and you cannot use them anymore. 
 
 [<img width="100" alt="Test" src="https://user-images.githubusercontent.com/38736127/176673048-5717d417-f3cd-4252-8551-5a9e17c1132f.png">](https://www.youtube.com/watch?v=kQvhbJbDG0M)
 
-GLO-photonics manual for fiber coupling:
+The video explains a first prealignment step based on backpropagation of a laser in the reverse direction. To use this trick first connect a standard single mode fiber to the coupling unit. Use a fiber tester to inject a visible laser through the fiber. Then follow the steps as in the tutorial. Once the alignment laser and the IR laser are align disconnect the fiber and connect the hollow core fiber. If the first step was well done you should have direcly transmission through the fiber enough to optimize the futher fiber coupling as described in the tutorial. 
+
+You could also use the broadband hollow core fiber in the prealignment step. In this case you can connect via a fiber-to-fiber connector the fiber coupled 488nm laser to the fiber outlet. We did this and it works very well. But we do not recommend this. The hollow core fibers are not protected and cannot be easily polished as you can do for single mode fibers. If you get some dusk on the fiber outlet you can damage the fiber. Also never try to clean the fiber outlet with ethanol or acethon because these solutions will enter the fiber by kapillary forces and you cannot use them anymore. 
+
+Further tips for the fiber coupling can be found in the GLO-photonics manual :
 
 [PIP_PMC-OEM.pdf](https://github.com/vbormuth/OLU/files/9039094/PIP_PMC-OEM.pdf)
 
-Spec sheet of the fiber:
-
-[PMC-C-K9005 B2_delivered_2019-01-16.pdf](https://github.com/vbormuth/OLU/files/9039097/PMC-C-K9005.B2_delivered_2019-01-16.pdf)
-
+======
 
 Coupling the 488nm laser 
 Fiber P1-460B-FC-2  (3mm jacket, NA1 = 0.1-0.14) => collimation lens C171TMD-A (f = 6.2 mm, NA = 0.6, Mounted Aspheric Lens, ARC: 350 - 700 nm) =>  coupling lens AC254-040-B-ML
