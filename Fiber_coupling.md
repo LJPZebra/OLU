@@ -12,8 +12,7 @@ A possible configuration of the fiber coupling optical setup that we used is sho
 
 <img width="400" alt="Test" src="https://user-images.githubusercontent.com/38736127/177211832-9b103593-d3d3-4efb-b24c-df840a2f0456.png">
 
-For efficient optical coupling and suppression of higher laser modes the width of the laser focus projected onto the fiber input side has to match the mode field diameter of the fiber. Or in other words the opening angle of the focused laser beam has to match the numerical apperture of the fiber. Our fiber has a numerical apperture of 0.02 (see spec sheet:
-[PMC-C-K9005 B2.pdf](https://github.com/vbormuth/OLU/files/9039097/PMC-C-K9005.B2_delivered_2019-01-16.pdf))
+For efficient optical coupling and suppression of higher laser modes the width of the laser focus projected onto the fiber input side has to match the mode field diameter of the fiber. Or in other words the opening angle of the focused laser beam has to match the numerical apperture of the fiber. Our fiber has a numerical apperture of 0.02 (see [spec sheet](https://github.com/vbormuth/OLU/files/9039097/PMC-C-K9005.B2_delivered_2019-01-16.pdf))
 
 The numercial apperture of the coupling system is given by NA = D / (2 f), with D the diameter of the laser beam at the position of the coupling lens, and f the coupling lens' focal length. The laser company normally gives the beam width and the beam divergent angle. At the position were one can place the coulping unit after the laser output the beam divergence angle determines the beam width. You can measure the diameter of the laser either with a beam profiler (Thorlabs BC207VIS/M) or with the moving knif technique. In our case we measured a beam diameter of 1.6mm and thus chose a coupling lens with focal length f = D/(2 NA) = 1.6mm/(2 * 0.02) = 40mm. 
 
@@ -28,7 +27,7 @@ The video explains a first prealignment step based on backpropagation of a laser
 
 You could also use the broadband hollow core fiber in the prealignment step. In this case you can connect via a fiber-to-fiber connector the fiber coupled 488nm laser to the fiber outlet. We did this and it works very well. But we do not recommend this. The hollow core fibers are not protected and cannot be easily polished as you can do for single mode fibers. If you get some dusk on the fiber outlet you can damage the fiber. Also never try to clean the fiber outlet with ethanol or acethon because these solutions will enter the fiber by kapillary forces and you cannot use them anymore. 
 
-Further tips for the fiber coupling can be found in the [manual from GLO-photonics](https://github.com/vbormuth/OLU/files/9039094/PIP_PMC-OEM.pdf)
+Further tips for the fiber coupling can be found in the [manual from GLO-photonics](https://github.com/vbormuth/OLU/files/9039094/PIP_PMC-OEM.pdf).
 
 ======
 
