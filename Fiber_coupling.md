@@ -28,9 +28,7 @@ The video explains a first prealignment step based on backpropagation of a laser
 
 You could also use the broadband hollow core fiber in the prealignment step. In this case you can connect via a fiber-to-fiber connector the fiber coupled 488nm laser to the fiber outlet. We did this and it works very well. But we do not recommend this. The hollow core fibers are not protected and cannot be easily polished as you can do for single mode fibers. If you get some dusk on the fiber outlet you can damage the fiber. Also never try to clean the fiber outlet with ethanol or acethon because these solutions will enter the fiber by kapillary forces and you cannot use them anymore. 
 
-Further tips for the fiber coupling can be found in the manual from GLO-photonics :
-
-[GLO_manual.pdf](https://github.com/vbormuth/OLU/files/9039094/PIP_PMC-OEM.pdf)
+Further tips for the fiber coupling can be found in the [manual from GLO-photonics](https://github.com/vbormuth/OLU/files/9039094/PIP_PMC-OEM.pdf)
 
 ======
 
