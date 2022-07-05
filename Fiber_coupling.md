@@ -8,7 +8,7 @@ For the coupling we will need :
 *	a dichroic that is transparent for the infrared laser but reflexs the visible spectrum . This will allow coupling in addition a visible laser into the same fiber. Alternatively, you can also use a dichroic transparent for the visible laser and reflecting the infrared light. Both configurations will work.
 *	Two coupling mirrors to align the visible laser into the fiber.
 
-A possible configuration of the fiber coupling optical setup that we used is shown in the following figure.
+A possible configuration of the fiber coupling optical setup that we used is shown in the following figure:
 
 ![Photo_FiberCoupling](https://user-images.githubusercontent.com/38736127/177211832-9b103593-d3d3-4efb-b24c-df840a2f0456.png)
 
