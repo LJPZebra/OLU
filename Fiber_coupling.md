@@ -1,9 +1,9 @@
 # Let's couple the pulsed two-photon laser into the hollowo core fiber
 
 For the coupling we will need :
-*	a coupling lens to focus the laser into the fiber (Thorlabs AC254-040-B-ML)
+*	a coupling lens to focus the laser into the fiber ([AC254-040-B-ML](https://www.thorlabs.com/thorproduct.cfm?partnumber=AC254-040-B-ML))
 *	eventually a telescope to adjust the beam diameter for optimal coupling
-*	a differential xyz-translation stage (Thorlabs MAX355D/M) to position the fiber outlet precisely into the focal point of the coupling lens. 
+*	a differential xyz-translation stage ([MAX355D/M](https://www.thorlabs.com/thorproduct.cfm?partnumber=MAX355D/M)) to position the fiber outlet precisely into the focal point of the coupling lens. 
 *	Two coupling mirrors to align the laser with the fiber axis. 
 *	a dichroic that is transparent for the infrared laser but reflexs the visible spectrum . This will allow coupling in addition a visible laser into the same fiber. Alternatively, you can also use a dichroic transparent for the visible laser and reflecting the infrared light. Both configurations will work.
 *	Two coupling mirrors to align the visible laser into the fiber.
@@ -16,7 +16,7 @@ For efficient optical coupling and suppression of higher laser modes the width o
 
 The numercial apperture of the coupling system is given by $NA = \frac{D}{2 f}$, with *D* the diameter of the laser beam at the position of the coupling lens, and *f* the coupling lens' focal length. The laser company normally gives the beam width and the beam divergent angle. At the position were one can place the coulping unit after the laser output the beam divergence angle determines the beam width. You can measure the diameter of the laser either with a beam profiler (Thorlabs BC207VIS/M) or with the moving knif technique. In our case we measured a beam diameter of 1.6mm and thus chose a coupling lens with focal length $f = \frac{D}{2 NA} = \frac{1.6mm}{2 * 0.02} = 40mm$. 
 
-We got reasonalbe coupling with the achromatic coupling lens from Thorlabs (Thorlabs [AC254-040-B-ML](https://www.thorlabs.com/thorproduct.cfm?partnumber=AC254-040-B-ML)). If you want to further optimize the coupling you can use an objective as coupling lens, e.g. the Olympus LMPLN5xIR/0.10. 
+We got reasonalbe coupling with the achromatic coupling lens. If you want to further optimize the coupling you can use an objective as coupling lens, e.g. the Olympus LMPLN5xIR/0.10. 
 
 Once you have positioned the optics you have to align them. Here you find an excellent youtube tutorial that explains the procedure. Just click on the snap shoot: 
 
