@@ -14,6 +14,33 @@ For efficient optical coupling and suppression of higher laser modes the width o
 
 We got reasonalbe coupling with the achromatic coupling lens from Thorlabs (Thorlabs AC254-040-B-ML). If you want to further optimize the coupling you can use an objective as coupling lens, e.g. the Olympus LMPLN5xIR/0.10. 
 
+
+[<img width="100" alt="Test" src="https://user-images.githubusercontent.com/38736127/176673048-5717d417-f3cd-4252-8551-5a9e17c1132f.png">](https://www.youtube.com/watch?v=kQvhbJbDG0M)
+
+GLO-photonics manual for fiber coupling:
+
+[PIP_PMC-OEM.pdf](https://github.com/vbormuth/OLU/files/9039094/PIP_PMC-OEM.pdf)
+
+Spec sheet of the fiber:
+
+[PMC-C-K9005 B2_delivered_2019-01-16.pdf](https://github.com/vbormuth/OLU/files/9039097/PMC-C-K9005.B2_delivered_2019-01-16.pdf)
+
+
+Coupling the 488nm laser 
+Fiber P1-460B-FC-2  (3mm jacket, NA1 = 0.1-0.14) => collimation lens C171TMD-A (f = 6.2 mm, NA = 0.6, Mounted Aspheric Lens, ARC: 350 - 700 nm) =>  coupling lens AC254-040-B-ML
+
+We selected the collimation lens focal distance with the formula: f1 = f2*  NA1/NA2 = 40 * 0.02 / 0.13
+
+you can also use prealigned fiber collimators: F110FC-532  (f=6.09mm and aligned for 532nm)
+* mount with adaptor AD11BA
+* KM05/M	Kinematic Mirror Mount for Ø1/2" Optics, M4 Taps
+* TR1  Ø1/2" Optical Post, SS, 8-32 Setscrew, 1/4"-20 Tap, L = 1"
+* UPH1  Ø1/2" Universal Post Holder, Spring-Loaded Locking Thumbscrew, L = 1" 
+
+
+
+====
+
 To measure the beam width you can use the moving knif technique:
 https://www.researchgate.net/profile/Emerson-Lima-2/publication/23771279_Measurement_of_Gaussian_laser_beam_radius_using_the_knife-edge_technique_Improvement_on_data_analysis/links/00b7d533ec8470fe22000000/Measurement-of-Gaussian-laser-beam-radius-using-the-knife-edge-technique-Improvement-on-data-analysis.pdf?origin=publication_detail
 
@@ -37,30 +64,6 @@ Our laser has at the output a width of …. and a divergence of …  (see spec s
 D(x; w_L0)= lambda 2 f/ (\pi n ??? x).
 
 In our case we placed the coupling unit at a distance of 1.5m and we used a coupling lens of ???mm. 
-
-
-
-[<img width="100" alt="Test" src="https://user-images.githubusercontent.com/38736127/176673048-5717d417-f3cd-4252-8551-5a9e17c1132f.png">](https://www.youtube.com/watch?v=kQvhbJbDG0M)
-
-GLO-photonics manual for fiber coupling:
-
-[PIP_PMC-OEM.pdf](https://github.com/vbormuth/OLU/files/9039094/PIP_PMC-OEM.pdf)
-
-Spec sheet of the fiber:
-
-[PMC-C-K9005 B2_delivered_2019-01-16.pdf](https://github.com/vbormuth/OLU/files/9039097/PMC-C-K9005.B2_delivered_2019-01-16.pdf)
-
-
-Coupling the 488nm laser 
-Fiber P1-460B-FC-2  (3mm jacket, NA1 = 0.1-0.14) => collimation lens C171TMD-A (f = 6.2 mm, NA = 0.6, Mounted Aspheric Lens, ARC: 350 - 700 nm) =>  coupling lens AC254-040-B-ML
-
-We selected the collimation lens focal distance with the formula: f1 = f2*  NA1/NA2 = 40 * 0.02 / 0.13
-
-you can also use prealigned fiber collimators: F110FC-532  (f=6.09mm and aligned for 532nm)
-* mount with adaptor AD11BA
-* KM05/M	Kinematic Mirror Mount for Ø1/2" Optics, M4 Taps
-* TR1  Ø1/2" Optical Post, SS, 8-32 Setscrew, 1/4"-20 Tap, L = 1"
-* UPH1  Ø1/2" Universal Post Holder, Spring-Loaded Locking Thumbscrew, L = 1" 
 
 
 
