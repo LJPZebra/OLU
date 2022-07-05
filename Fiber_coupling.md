@@ -7,6 +7,10 @@ For the coupling we will need :
 *	Two coupling mirrors to align the laser with the fiber axis. 
 *	a dichroic that is transparent for the infrared laser but reflexs the visible spectrum . This will allow coupling in addition a visible laser into the same fiber. Alternatively, you can also use a dichroic transparent for the visible laser and reflecting the infrared light. Both configurations will work.
 *	Two coupling mirrors to align the visible laser into the fiber.
+*	[VIS/IR Detector Card](https://www.thorlabs.com/thorproduct.cfm?partnumber=VRC2)
+*	[Laser Safety Glasses: 48% Visible Light Transmission](https://www.thorlabs.com/thorproduct.cfm?partnumber=LG3)
+
+Note: Do the coupling procedure at very low laser power for laser safety and to protect the fiber and to protect the fiber. The fiber has a very high domage threshold but only if the laser is well coupled. 
 
 A possible configuration of the fiber coupling optical setup that we used is shown in the following figure:
 
@@ -30,8 +34,7 @@ You could also use the broadband hollow core fiber in the prealignment step. In 
 Further tips for the fiber coupling can be found in the [manual from GLO-photonics](https://github.com/vbormuth/OLU/files/9039094/PIP_PMC-OEM.pdf).
 
 
-[VIS/IR Detector Card](https://www.thorlabs.com/thorproduct.cfm?partnumber=VRC2)
-[Laser Safety Glasses: 48% Visible Light Transmission](https://www.thorlabs.com/thorproduct.cfm?partnumber=LG3)
+
 
 
 ## Coupling the 488nm laser 
