@@ -29,9 +29,13 @@ You could also use the broadband hollow core fiber in the prealignment step. In 
 
 Further tips for the fiber coupling can be found in the [manual from GLO-photonics](https://github.com/vbormuth/OLU/files/9039094/PIP_PMC-OEM.pdf).
 
-======
 
-Coupling the 488nm laser 
+[VIS/IR Detector Card](https://www.thorlabs.com/thorproduct.cfm?partnumber=VRC2)
+[Laser Safety Glasses: 48% Visible Light Transmission](https://www.thorlabs.com/thorproduct.cfm?partnumber=LG3)
+
+
+## Coupling the 488nm laser 
+Once the pulsed infrared laser is coupled
 Fiber P1-460B-FC-2  (3mm jacket, NA1 = 0.1-0.14) => collimation lens C171TMD-A (f = 6.2 mm, NA = 0.6, Mounted Aspheric Lens, ARC: 350 - 700 nm) =>  coupling lens AC254-040-B-ML
 
 We selected the collimation lens focal distance with the formula: f1 = f2*  NA1/NA2 = 40 * 0.02 / 0.13
