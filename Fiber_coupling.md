@@ -4,20 +4,25 @@
 *	a coupling lens to focus the laser into the fiber ([AC254-040-B-ML](https://www.thorlabs.com/thorproduct.cfm?partnumber=AC254-040-B-ML))
 *	eventually a telescope to adjust the beam diameter for optimal coupling
 *	a differential xyz-translation stage ([MAX355D/M](https://www.thorlabs.com/thorproduct.cfm?partnumber=MAX355D/M)) to position the fiber outlet precisely into the focal point of the coupling lens. 
-*	Two coupling mirrors to align the laser with the fiber axis. 
+*	Two coupling mirrors to align the laser with the fiber axis and their holders. 
 *	a dichroic that is transparent for the infrared laser but reflexs the visible spectrum . This will allow coupling in addition a visible laser into the same fiber. Alternatively, you can also use a dichroic transparent for the visible laser and reflecting the infrared light. Both configurations will work.
-*	[FC/PC Fiber Adapter Plate](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM05FC#ad-image-0)
+*	[FC/PC Fiber Adapter Plate](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM05FC#ad-image-0) to hold the fiber in place
 *	the negative curvature broad band hollow core [fiber](https://github.com/vbormuth/OLU/files/9039097/PMC-C-K9005.B2_delivered_2019-01-16.pdf)
-*	a [Single mode fiber](https://www.thorlabs.com/thorproduct.cfm?partnumber=P1-460B-FC-2) 
-*	a [VIS/IR Detector Card](https://www.thorlabs.com/thorproduct.cfm?partnumber=VRC2)
-*	[Cable Continuity Tester](https://www.flukenetworks.com/datacom-cabling/fiber-testing/VisiFault-Visual-Fault-Locator)  
+*	a [Single mode fiber](https://www.thorlabs.com/thorproduct.cfm?partnumber=P1-460B-FC-2) for prealignment 
+*	a [VIS/IR Detector Card](https://www.thorlabs.com/thorproduct.cfm?partnumber=VRC2) 
+*	[Cable Continuity Tester](https://www.flukenetworks.com/datacom-cabling/fiber-testing/VisiFault-Visual-Fault-Locator)
 *	[Laser Safety Glasses: 48% Visible Light Transmission](https://www.thorlabs.com/thorproduct.cfm?partnumber=LG3)
 *	[Fiber Inspection Scope](https://www.thorlabs.com/thorproduct.cfm?partnumber=FS201)
 *	eventually a [fiber-to-fiber connector](https://www.thorlabs.com/thorproduct.cfm?partnumber=ADAF1) 
 *	[High-Precision Rotation Mount](https://www.thorlabs.com/thorproduct.cfm?partnumber=PRM1/M)
+*	a polarizor
 *	Half-Wave Plate
+*	[Motorized Filter Flip Mounts](https://www.thorlabs.com/thorproduct.cfm?partnumber=MFF101/M)
+*	
 
 Note: Do the coupling procedure at very low laser power for laser safety and to protect the fiber and to protect the fiber. The fiber has a very high domage threshold but only if the laser is well coupled. 
+
+You can regulate the laser intensity with a lambda wave plate and a polarizor. 
 
 ## Let's do it:
 A possible configuration of the fiber coupling optical setup that we used is shown in the following figure:
