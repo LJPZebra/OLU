@@ -10,14 +10,12 @@
 *	Two [protected silver mirrors](https://www.thorlabs.com/thorproduct.cfm?partnumber=PF05-03-P01) mounted in [kinematic mirror mounts](https://www.thorlabs.com/thorproduct.cfm?partnumber=POLARIS-K05#ad-image-0) to align the laser with the fiber axis. Select the length of the [posts](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_ID=9079) compatible with the hight of your laser beam.
 *	a [longpass dichroic mirror](https://www.thorlabs.com/thorproduct.cfm?partnumber=DMLP650R) that is transparent for the infrared laser but reflect the visible spectrum . This will allow coupling in addition a visible laser into the same fiber. Alternatively, you can also use a short pass dichroic (transparent for the visible laser and reflecting the infrared light). Both configurations will work.
 *	a [Single mode fiber](https://www.thorlabs.com/thorproduct.cfm?partnumber=P1-460B-FC-2) for prealignment 
-*	a [VIS/IR Detector Card](https://www.thorlabs.com/thorproduct.cfm?partnumber=VRC2) 
+*	a [VIS/IR Detector Card](https://www.thorlabs.com/thorproduct.cfm?partnumber=VRC2) to visualize the invisible infrared laser
 *	[Cable Continuity Tester](https://www.flukenetworks.com/datacom-cabling/fiber-testing/VisiFault-Visual-Fault-Locator)
-*	[Laser Safety Glasses: 48% Visible Light Transmission](https://www.thorlabs.com/thorproduct.cfm?partnumber=LG3)
+*	[Laser Safety Glasses: 48% Visible Light Transmission](https://www.thorlabs.com/thorproduct.cfm?partnumber=LG3) to protect your eyes!
 *	[Fiber Inspection Scope](https://www.thorlabs.com/thorproduct.cfm?partnumber=FS201)
-*	eventually a [fiber-to-fiber connector](https://www.thorlabs.com/thorproduct.cfm?partnumber=ADAF1) 
-*	[High-Precision Rotation Mount](https://www.thorlabs.com/thorproduct.cfm?partnumber=PRM1/M)
-*	a polarizor
-*	Half-Wave Plate
+*	eventually a [fiber-to-fiber connector](https://www.thorlabs.com/thorproduct.cfm?partnumber=ADAF1) for prealignement 
+*	a half-wave plate mounted in a [high-precision rotation mount](https://www.thorlabs.com/thorproduct.cfm?partnumber=PRM1/M) to adjust the polarization
 *	[Motorized Filter Flip Mounts](https://www.thorlabs.com/thorproduct.cfm?partnumber=MFF101/M)
 *	
 
