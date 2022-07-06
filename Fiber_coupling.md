@@ -21,7 +21,7 @@
 
 Note: Do the coupling procedure at very low laser power for laser safety and to protect the fiber. The fiber has a very high domage threshold but only if the laser is well coupled. 
 
-You can regulate the laser intensity with a lambda wave plate and a [polarizor](https://www.thorlabs.com/thorproduct.cfm?partnumber=CCM1-PBS25-1064-HP). 
+You can regulate the laser intensity with a [lambda wave plate](https://www.newport.com/p/10RP52-2) and a [polarizor]([https://www.thorlabs.com/thorproduct.cfm?partnumber=CCM1-PBS25-1064-HP](https://www.thorlabs.com/thorproduct.cfm?partnumber=CCM1-PBS252/M)). 
 
 ## Let's do it:
 A possible configuration of the fiber coupling optical setup that we used is shown in the following figure:
@@ -41,7 +41,7 @@ Once you have positioned the optics you have to align them. Here you find an exc
 
 The video explains a first prealignment step based on backpropagation of a laser in the reverse direction. To use this trick first connect a standard single mode fiber to the coupling unit. Use a fiber tester to inject a visible laser through the fiber. Then follow the steps as in the tutorial. Once the alignment laser and the IR laser are align disconnect the fiber and connect the hollow core fiber. If the first step was well done you should have direcly transmission through the fiber enough to optimize the futher fiber coupling as described in the tutorial. 
 
-You could also use the broadband hollow core fiber in the prealignment step. In this case you can connect via a fiber-to-fiber connector the fiber coupled 488nm laser to the fiber outlet. We did this and it works very well. But we do not recommend this. The hollow core fibers are not protected and cannot be easily polished as you can do for single mode fibers. If you get some dusk on the fiber outlet you can damage the fiber. Also never try to clean the fiber outlet with ethanol or acethon because these solutions will enter the fiber by kapillary forces and you cannot use them anymore. 
+You could also use the broadband hollow core fiber in the prealignment step. In this case you can connect via a fiber-to-fiber connector the fiber coupled 488nm laser to the fiber outlet. We did this and it works very well. But we do not recommend this. The hollow core fibers are not protected and cannot be easily polished as you can do for single mode fibers. If you get some dusk on the fiber outlet you can damage the fiber. Also never try to clean the fiber outlet with ethanol or acethon because these solutions will enter the fiber by capillary forces and you cannot use them anymore. 
 
 After the prealignment step we measured directly sufficient laser transmission at the fiber output to further align the coupling elements until we reached laser transmission of $>$ 90\,$\%$. At 915\,nm wavelength, the central 2P absorption peak of GFP and of its calcium sensitive derivative GCaMP, we delivered through 1,5\,m fiber length 100\,fs laser pulses with 98\% power transmission efficiency  and minute pulse dispersion of 28\,nm (1\,dB/km·nm) that we fully precompensated with the Deepsee element of the MaiTai laser source. At 488\,nm,  the one-photon excitation maximum of GFP and GCaMP, we achieved a transmission efficiency of 75\,\%. 
 
