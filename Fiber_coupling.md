@@ -16,7 +16,7 @@
 *	[Fiber Inspection Scope](https://www.thorlabs.com/thorproduct.cfm?partnumber=FS201)
 *	eventually a [fiber-to-fiber connector](https://www.thorlabs.com/thorproduct.cfm?partnumber=ADAF1) for prealignement 
 *	a half-wave plate mounted in a [high-precision rotation mount](https://www.thorlabs.com/thorproduct.cfm?partnumber=PRM1/M) to adjust the polarization
-*	[Motorized Filter Flip Mounts](https://www.thorlabs.com/thorproduct.cfm?partnumber=MFF101/M)
+*	a [motorized flip mounts](https://www.thorlabs.com/thorproduct.cfm?partnumber=MFF101/M) holding a [protected silver mirrors](https://www.thorlabs.com/thorproduct.cfm?partnumber=PF05-03-P01). This will allow you to remove the mirror out of the laser path when you want to use the laser in the standart system. Alternatively, you can use a [beam splitter](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=6208&pn=BS033) to use the laser source on both setups simultaneously. 
 *	
 
 Note: Do the coupling procedure at very low laser power for laser safety and to protect the fiber and to protect the fiber. The fiber has a very high domage threshold but only if the laser is well coupled. 
