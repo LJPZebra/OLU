@@ -21,7 +21,7 @@
 
 Note: Do the coupling procedure at very low laser power for laser safety and to protect the fiber. The fiber has a very high domage threshold but only if the laser is well coupled. 
 
-You can regulate the laser intensity with a lambda wave plate and a polarizor. 
+You can regulate the laser intensity with a lambda wave plate and a [polarizor](https://www.thorlabs.com/thorproduct.cfm?partnumber=CCM1-PBS25-1064-HP). 
 
 ## Let's do it:
 A possible configuration of the fiber coupling optical setup that we used is shown in the following figure:
