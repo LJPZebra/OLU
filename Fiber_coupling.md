@@ -67,7 +67,7 @@ Further tips for the fiber coupling can be found in the [manual from GLO-photoni
 
 
 
-We selected the collimation lens focal distance with the formula: $f_{collimation} = f_{coupling} *  \frac{NA_{laser fiber}}{NA_{fiber}} = 40mm \frac{0.02}{0.13}$
+We selected the collimation lens focal distance with the formula: $f_{collimation} = f_{coupling} *  \frac{NA_{fiber}}{NA_{laser fiber}} = 40mm * \frac{0.02}{0.13}$
 
 
 
