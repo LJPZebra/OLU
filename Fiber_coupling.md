@@ -3,11 +3,9 @@
 ## For the coupling we will need :
 *	a coupling lens to focus the laser into the fiber ([AC254-040-B-ML](https://www.thorlabs.com/thorproduct.cfm?partnumber=AC254-040-B-ML))
 *	eventually a telescope to adjust the beam diameter for optimal coupling
-*	a differential xyz-translation stage ([MAX313D/M](https://www.thorlabs.com/thorproduct.cfm?partnumber=MAX313D/M#ad-image-0)) to position the fiber outlet precisely into the focal point of the coupling lens. Additional needed assesvoirs are:
-    -	a [Mounting Bracket](https://www.thorlabs.com/thorproduct.cfm?partnumber=AMA009) onto which the lens will be positioned 
-    -	two [SM1-Compatible Flexure Stage Mount](https://www.thorlabs.com/thorproduct.cfm?partnumber=HCS031) one to hold the coupling lens and another to hold the [FC/PC Fiber Adapter Plate with External SM1](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1FC2). 
+*	a differential xyz-translation stage ([MAX313D/M](https://www.thorlabs.com/thorproduct.cfm?partnumber=MAX313D/M#ad-image-0)) to position the fiber outlet precisely into the focal point of the coupling lens. Use the [SM1-Compatible Flexure Stage Mount](https://www.thorlabs.com/thorproduct.cfm?partnumber=HCS031) to mount the [FC/PC Fiber Adapter Plate with External SM1](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1FC2) onto the stage. 
 *	Two [protected silver mirror](https://www.thorlabs.com/thorproduct.cfm?partnumber=PF05-03-P01) to align the laser with the fiber axis and the suitable [mirro holder](https://www.thorlabs.com/thorproduct.cfm?partnumber=POLARIS-K05#ad-image-0) and the [posts](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_ID=9079) of length that suits your configuration.   
-*	a dichroic that is transparent for the infrared laser but reflexs the visible spectrum . This will allow coupling in addition a visible laser into the same fiber. Alternatively, you can also use a dichroic transparent for the visible laser and reflecting the infrared light. Both configurations will work.
+*	a dichroic that is transparent for the infrared laser but reflect the visible spectrum . This will allow coupling in addition a visible laser into the same fiber. Alternatively, you can also use a dichroic transparent for the visible laser and reflecting the infrared light. Both configurations will work.
 *	[FC/PC Fiber Adapter Plate](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM05FC#ad-image-0) to hold the fiber in place
 *	the negative curvature broad band hollow core [fiber](https://github.com/vbormuth/OLU/files/9039097/PMC-C-K9005.B2_delivered_2019-01-16.pdf)
 *	a [Single mode fiber](https://www.thorlabs.com/thorproduct.cfm?partnumber=P1-460B-FC-2) for prealignment 
