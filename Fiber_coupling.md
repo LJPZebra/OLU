@@ -3,7 +3,7 @@
 ## For the coupling we will need :
 *	a coupling lens to focus the laser into the fiber ([AC254-040-B-ML](https://www.thorlabs.com/thorproduct.cfm?partnumber=AC254-040-B-ML))
 *	eventually a telescope to adjust the beam diameter for optimal coupling
-*	a differential xyz-translation stage ([MAX355D/M](https://www.thorlabs.com/thorproduct.cfm?partnumber=MAX355D/M)) to position the fiber outlet precisely into the focal point of the coupling lens. 
+*	a differential xyz-translation stage ([MAX355D/M](https://www.thorlabs.com/thorproduct.cfm?partnumber=MAX355D/M)) to position the fiber outlet precisely into the focal point of the coupling lens. 	[SM1-Compatible Flexure Stage Mount](https://www.thorlabs.com/thorproduct.cfm?partnumber=HCS031) one to hold the coupling lens and another to hold the FC/PC connector for the fiber. 
 *	Two [protected silver mirror](https://www.thorlabs.com/thorproduct.cfm?partnumber=PF05-03-P01) to align the laser with the fiber axis and the suitable [mirro holder](https://www.thorlabs.com/thorproduct.cfm?partnumber=POLARIS-K05#ad-image-0) and the [posts](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_ID=9079) of length that suits your configuration.   
 *	a dichroic that is transparent for the infrared laser but reflexs the visible spectrum . This will allow coupling in addition a visible laser into the same fiber. Alternatively, you can also use a dichroic transparent for the visible laser and reflecting the infrared light. Both configurations will work.
 *	[FC/PC Fiber Adapter Plate](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM05FC#ad-image-0) to hold the fiber in place
