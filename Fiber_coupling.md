@@ -55,11 +55,11 @@ Further tips for the fiber coupling can be found in the [manual from GLO-photoni
 # Let's add the visible laser
 
 
-## For the coupling we will need 
+## For the coupling you will need 
 
-* a fiber coupled laser or several coupled into one fiber with a fiber combinor
-*	two coupling mirrors to align the visible laser into the fiber
-*	a collimation lens C171TMD-A
+*   a [fiber coupled laser](https://github.com/vbormuth/OLU/files/9057780/WEBSITE-Datasheet-LBX-488.pdf)
+*	Two [protected silver mirrors](https://www.thorlabs.com/thorproduct.cfm?partnumber=PF05-03-P01) mounted in [kinematic mirror mounts](https://www.thorlabs.com/thorproduct.cfm?partnumber=POLARIS-K05#ad-image-0) to align the laser with the fiber axis. Select the length of the [posts](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_ID=9079) compatible with the hight of your laser beam.
+*	a [collimation lens](https://www.thorlabs.com/thorproduct.cfm?partnumber=C171TMD-A)
 
 you can also use prealigned fiber collimators: F110FC-532  (f=6.09mm and aligned for 532nm)
 * mount with adaptor AD11BA
