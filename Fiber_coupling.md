@@ -57,9 +57,9 @@ Further tips for the fiber coupling can be found in the [manual from GLO-photoni
 
 ## For the coupling you will need 
 
-*   a [fiber coupled laser](https://github.com/vbormuth/OLU/files/9057780/WEBSITE-Datasheet-LBX-488.pdf)
-*	Two [protected silver mirrors](https://www.thorlabs.com/thorproduct.cfm?partnumber=PF05-03-P01) mounted in [kinematic mirror mounts](https://www.thorlabs.com/thorproduct.cfm?partnumber=POLARIS-K05#ad-image-0) to align the laser with the fiber axis. Select the length of the [posts](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_ID=9079) compatible with the hight of your laser beam.
-*	a [collimation lens](https://www.thorlabs.com/thorproduct.cfm?partnumber=C171TMD-A). You can also use [prealigned fiber collimators](https://www.thorlabs.com/thorproduct.cfm?partnumber=F110FC-532) that you mount with an [adaptor](https://www.thorlabs.com/thorproduct.cfm?partnumber=AD11BA) that you can mount with a [kinematic mirror mount](https://www.thorlabs.com/thorproduct.cfm?partnumber=KM05/M#ad-image-0) 
+* a [fiber coupled laser](https://github.com/vbormuth/OLU/files/9057780/WEBSITE-Datasheet-LBX-488.pdf)
+* Two [protected silver mirrors](https://www.thorlabs.com/thorproduct.cfm?partnumber=PF05-03-P01) mounted in [kinematic mirror mounts](https://www.thorlabs.com/thorproduct.cfm?partnumber=POLARIS-K05#ad-image-0) to align the laser with the fiber axis. Select the length of the [posts](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_ID=9079) compatible with the hight of your laser beam.
+* a [collimation lens](https://www.thorlabs.com/thorproduct.cfm?partnumber=C171TMD-A). You can also use [prealigned fiber collimators](https://www.thorlabs.com/thorproduct.cfm?partnumber=F110FC-532) that you mount with an [adaptor](https://www.thorlabs.com/thorproduct.cfm?partnumber=AD11BA) that you can mount with a [kinematic mirror mount](https://www.thorlabs.com/thorproduct.cfm?partnumber=KM05/M#ad-image-0) 
 
 * TR1  Ø1/2" Optical Post, SS, 8-32 Setscrew, 1/4"-20 Tap, L = 1"
 * UPH1  Ø1/2" Universal Post Holder, Spring-Loaded Locking Thumbscrew, L = 1" 
