@@ -35,7 +35,7 @@ To measure the laser beam diameter use either a beam profiler (Thorlabs BC207VIS
 
 The measured normalized power as a funciton of knife-edge position,x , can be fitted by $ P_N(x)=0.5(1 + erf\left(\frac{x-x0}{w}\right)) $. The fit paramter w is the beam radius at $e^{-1}$. 
 
-If you do not have a fit software you can also measure $w = 0.5 \Delta X$ , with $\Delta X$ the distance between the positions    where the normalized power has a value between 0.08 and 0.92. Note that the beam diameter relevant to numercial apperture is   measured at ${e^{-2}$. $we2 = we1 * \sqrt(2)$ 
+You can also read w from the graph as half of the distance between the positions where the normalized power has a value between 0.08 and 0.92. Note that the beam diameter relevant to numercial apperture is measured at ${e^{-2}$. $we2 = we1 * \sqrt(2)$ 
 
 ## Now Let's do it 
 
