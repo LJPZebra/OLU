@@ -23,20 +23,20 @@ Note: Do the coupling procedure at very low laser power for laser safety and to 
 
 You can regulate the laser intensity with a [lambda wave plate](https://www.newport.com/p/10RP52-2) and a [polarizor]([https://www.thorlabs.com/thorproduct.cfm?partnumber=CCM1-PBS25-1064-HP](https://www.thorlabs.com/thorproduct.cfm?partnumber=CCM1-PBS252/M)). 
 
-## Let's do it:
-
-<img width="800" alt="Test" src="https://user-images.githubusercontent.com/38736127/177995312-f05bb464-852f-4180-af0d-67d408d3eada.png">
-
+## Some planning to do:
 
 A possible configuration of the fiber coupling optical setup that we used is shown in the following figure:
-
-<img width="400" alt="Test" src="https://user-images.githubusercontent.com/38736127/177211832-9b103593-d3d3-4efb-b24c-df840a2f0456.png">
 
 For efficient optical coupling and suppression of higher laser modes the width of the laser focus projected onto the fiber input side has to match the mode field diameter of the fiber. Or in other words the opening angle of the focused laser beam has to match the numerical apperture of the fiber. Our fiber has a numerical apperture of 0.02 (see [fiber spec sheet](https://github.com/vbormuth/OLU/files/9039097/PMC-C-K9005.B2_delivered_2019-01-16.pdf))
 
 The numercial apperture of the coupling system is given by $NA = \frac{D}{2 f}$, with *D* the diameter of the laser beam at the position of the coupling lens, and *f* the coupling lens' focal length. The laser company normally gives the beam width and the beam divergent angle. At the position were one can place the coulping unit after the laser output the beam divergence angle determines the beam width. You can measure the diameter of the laser either with a beam profiler (Thorlabs BC207VIS/M) or with the [moving knif technique](https://www.researchgate.net/profile/Emerson-Lima-2/publication/23771279_Measurement_of_Gaussian_laser_beam_radius_using_the_knife-edge_technique_Improvement_on_data_analysis/links/00b7d533ec8470fe22000000/Measurement-of-Gaussian-laser-beam-radius-using-the-knife-edge-technique-Improvement-on-data-analysis.pdf?origin=publication_detail). In our case we measured a beam diameter of 1.6mm and thus chose a coupling lens with focal length $f = \frac{D}{2 NA} = \frac{1.6mm}{2 * 0.02} = 40mm$. 
 
 We got reasonalbe coupling with the achromatic coupling lens. If you want to further optimize the coupling you can use an objective as coupling lens, e.g. the Olympus LMPLN5xIR/0.10. 
+
+## Let's setup the optical path:
+
+<img width="800" alt="Test" src="https://user-images.githubusercontent.com/38736127/177995312-f05bb464-852f-4180-af0d-67d408d3eada.png">
+
 
 Once you have positioned the optics you have to align them. Here you find an excellent youtube tutorial that explains the procedure. Just click on the snap shoot: 
 
