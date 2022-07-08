@@ -33,7 +33,14 @@ The numercial apperture of the coupling system is given by $NA = \frac{D}{2 f}$,
 
 We got reasonalbe coupling with the achromatic coupling lens. If you want to further optimize the coupling you can use an objective as coupling lens, e.g. the Olympus LMPLN5xIR/0.10. 
 
-## Let's setup the optical path:
+## Let's build the optical path:
+
+The following schematic shows a possible optical path for the laser coupling. You can adapt the arrangement to the space availability on your setup. 
+* Place the beam splitter or the flip mirror (M1) into the optical path directly after the laser  this will allow you to highcheck parts of the laser power of the full laser power for coupling into the optical fiber. 
+* position the two coupling mirrors M2 and M3 with a spacing between the mirrors of approximataly 20cm
+* install the xyz differential stage at a distance of approimately 20cm from mirror M3
+* Mount the FC/PC connecor
+* Fix the mounting bracket to the stage
 
 <img width="800" alt="Test" src="https://user-images.githubusercontent.com/38736127/177995312-f05bb464-852f-4180-af0d-67d408d3eada.png">
 
