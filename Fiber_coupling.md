@@ -7,6 +7,8 @@ The following schematic shows a possible optical path for the laser coupling. Yo
 
 <img width="400" alt="OpticalPath" src="https://user-images.githubusercontent.com/38736127/178027710-59000f23-4e21-449d-b615-3f9d77ad908b.png">
 
+If you do not have space on your table you can mount easily a platform on top or your IR pulsed laser source. 
+
 We will give a step-by-step explanation of how to built up this optical path and to do the alignment of the optical components. But before we start some preparatory notes and general background:
 
 ### Alignment procedure
@@ -83,11 +85,11 @@ Which boils down to the fact to choose the coupling lens focal distance such tha
 
 At 915nm wavelength, the central two-photon absorption peak of GFP and of its calcium sensitive derivative GCaMP, we delivered through 1.5m fiber length 100fs laser pulses with 98% power transmission efficiency and minute pulse dispersion of 28nm (1dB/km·nm) that we fully precompensated with the Deepsee element of the MaiTai laser source. At 488nm,  the one-photon excitation maximum of GFP and GCaMP, we achieved a transmission efficiency of ~75%. 
 
-### Measure the laser beam diameter with the moving kif technique
+### Measure the laser beam diameter with the moving knif technique
 
-To measure the beam width you can use the [moving knif technique](https://www.researchgate.net/profile/Emerson-Lima-2/publication/23771279_Measurement_of_Gaussian_laser_beam_radius_using_the_knife-edge_technique_Improvement_on_data_analysis/links/00b7d533ec8470fe22000000/Measurement-of-Gaussian-laser-beam-radius-using-the-knife-edge-technique-Improvement-on-data-analysis.pdf?origin=publication_detail).
+To measure the beam width you can use the [moving knif technique](https://www.researchgate.net/profile/Emerson-Lima-2/publication/23771279_Measurement_of_Gaussian_laser_beam_radius_using_the_knife-edge_technique_Improvement_on_data_analysis/links/00b7d533ec8470fe22000000/Measurement-of-Gaussian-laser-beam-radius-using-the-knife-edge-technique-Improvement-on-data-analysis.pdf?origin=publication_detail). Fix a razor plate onto a linear translation stage and move it perpendicular to the laser path out the laser while meauring the laser intensity as a function of the knife-edge position.  
 
-the normalized transmitted power is given by 0.5(1+erf((x-x0)/w))  with w the beam width at 1/e
+The measured normalized power P_N as a funciton of knife-edge position,x , can be fitted by P_N(x) = 0.5*(1+erf((x-x0)/w)),  with w the beam radius at 1/e. 
 
 https://www.researchgate.net/figure/Measurement-of-the-focal-spot-size-by-the-knife-edge-method-The-measured-signal-gray_fig12_8185920
 
