@@ -1,8 +1,8 @@
 
 #### Let's start to assemble
 
-![BuildingInstructions](https://user-images.githubusercontent.com/38736127/176259875-00e95eff-b3b2-4a9b-b127-b309bcc323d5.png)
 
+![BuildingInstructions](https://user-images.githubusercontent.com/38736127/178075149-4b1e094c-851a-4eff-bd80-95e90b93983e.png)
 
 
 (1) Purchase the laser directly fiber coupled.
