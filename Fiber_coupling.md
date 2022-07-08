@@ -3,7 +3,7 @@
 
 ## The optical path
 
-The following schematic shows a possible optical path for the laser coupling. You can adapt the arrangement to the space availability on your setup (mirro, M, lens, L, dichroic, D, wave plate, W, polarizor, P):
+The following schematic shows a possible optical path for the laser coupling. You can adapt the arrangement to the space availability on your setup (mirro, **M**, lens, **L**, dichroic, **D**, wave plate, **W**, polarizor, **P**):
 
 <img width="400" alt="OpticalPath" src="https://user-images.githubusercontent.com/38736127/178027710-59000f23-4e21-449d-b615-3f9d77ad908b.png">
 
@@ -69,7 +69,7 @@ If you do not have a fit software you can also measure w = 0.5 * \Delat X, with 
 *   Position the powermeter before the coupling lens and adjust the power to about ???mW.
 * Install an FC/PC adaptor plate and fix to it the other end of the fiber. Install the powermeter just after the fiber to measure the transmitted laser power.
 * Open again the laser shutter. You should measure laser transmission through the fiber.
-* Now adjust the mirrors M2 and M3 as was discribed in the video until you get > 90% laser transmission. 
+* Now adjust the mirrors **M2** and **M3** as was discribed in the video until you get > 90% laser transmission. 
 * Close the laser shutter
 * Detach the NCF-fiber from the coupling unit.
 
