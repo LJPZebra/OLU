@@ -37,6 +37,12 @@ The following schematic shows a possible optical path for the laser coupling. Yo
 
 
 *	Position a [motorized flip mount](https://www.thorlabs.com/thorproduct.cfm?partnumber=MFF101/M) (**M1**) holding a [protected silver mirrors](https://www.thorlabs.com/thorproduct.cfm?partnumber=PF05-03-P01) directly after the infrared laser output to highcheck laser for coupling into the optical fiber. Alternatively, you can use a [beam splitter](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=6208&pn=BS033) to use the laser source on both setups simultaneously. If this is possible depends on the laser power that you require on the different systems. 
+*	Position the half wave plate and the polarizor
+*   Insure laser safety in the room and wear [laser safety glasses](https://www.thorlabs.com/thorproduct.cfm?partnumber=LG3) to protect your eyes!
+*   Prepare the power meter
+*   Switch on the laser and rotate the wave plate to lower the laser power until you interrupt totally the laser. 
+*   increase again slowly the laser power until you start to see the laser spot onto the IR detection card
+*   Close the laser shutter
 *   Position the two [protected silver mirrors](https://www.thorlabs.com/thorproduct.cfm?partnumber=PF05-03-P01) (**M2 & M3**) mounted in [kinematic mirror mounts](https://www.thorlabs.com/thorproduct.cfm?partnumber=POLARIS-K05#ad-image-0). A good distance between these two mirrors is about 20cm. With these two mirrors you will later align the laser with the fiber axis. Select the length of the [posts](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_ID=9079) that hold the mirrors compatible with the hight of your laser beam.
 *  Install the [longpass dichroic mirror](https://www.thorlabs.com/thorproduct.cfm?partnumber=DMLP650R) that is transparent for the infrared laser but reflects the visible spectrum . This will allow coupling in addition a visible laser into the same fiber. 
 *	Mount the the differential **xyz-translation stage** ([MAX313D/M](https://www.thorlabs.com/thorproduct.cfm?partnumber=MAX313D/M#ad-image-0)) at about 20cm distance of mirror M3. This stage will allow to position the fiber outlet precisely into the focal point of the coupling lens. 
@@ -47,17 +53,34 @@ The following schematic shows a possible optical path for the laser coupling. Yo
 *	attache the [Single mode fiber](https://www.thorlabs.com/thorproduct.cfm?partnumber=P1-460B-FC-2) for prealignment to the FC/PC adaptor plate. 
 *	attache the other side of the fiber to the [cable continuity tester](https://www.flukenetworks.com/datacom-cabling/fiber-testing/VisiFault-Visual-Fault-Locator) for prealigment
 *	Adjust the distance position of the coupling lens (**L1**) relative to the fiber outlet unitl the red laser light from the continouity tester is well collimated by the coupling lens. 
-*	Insure laser safety in the room and wear [laser safety glasses](https://www.thorlabs.com/thorproduct.cfm?partnumber=LG3) to protect your eyes!
+*	Watch this following youtube tutorial on fiber coupling. You will follow the same procedure to adjust the installed optics.
+*	Now where you know how to do it insure laser safety in the room and wear [laser safety glasses](https://www.thorlabs.com/thorproduct.cfm?partnumber=LG3) to protect your eyes!
 *	Prepare a [VIS/IR Detector Card](https://www.thorlabs.com/thorproduct.cfm?partnumber=VRC2) to visualize the invisible infrared laser
-*	And prepare the power meter 
-*   Now switch on the infrared laser at very low laser intensity
+*	And prepare the power meter.
+*   Open again the laser shutter.
+*   Now move the two mirrors **M2** and **M3** to co-align the red laser and the IR laser as was explained in the video.
+*   Switch off the laser shutter
+*   Detach the single mode fiber from the coupling unit
+*   Attach the negative curvature broad band hollow core [fiber](https://github.com/vbormuth/OLU/files/9039097/PMC-C-K9005.B2_delivered_2019-01-16.pdf) to the FC/PC connector on the e xyz-stage.
+*   position the powermeter before the coupling lens and adjust the power to about ???mW
+* Position a FC/PC adaptor plate to hold the fiber outlet to measure the transmitted laser power
+* Open again the laser shutter. You should measure laser transmission through the fiber
+* Now adjust the mirror M2 and M3 as was discribed in the video until you get > 90% laser transmission. 
+* Close the laser shutter
+* detach the NCF-fiber from the coupling unit
+* position mirror M3 and M4 again at a distance of about 20cm between each other and such that mirror M4 is placed about 20cm from the coupling lens
+* attach the fiber splitter to the laser 
+* attach on one output the collimator and hold it with ...
+* attach the other side to the FC/PC connector plate on the xyz-translation stage of the coupling unit. If the fiber is to short you can prolong it with the fiber-to-fiber connector and the single mode fiber that you have used in the previous prealignment step
+* prepare laser satety and switch on the laser at lowerst power possible were you can see with the laser detection card the laser
+* Now use the mirror M3 and M4 to co-align the two laser beams that traval in revers direction through the system. 
+* Switch off the laser and replace the fiber with the negative curvature fiber
+* Switch the laser again on
+* You should detect with the powermeter a transmission through the fiber
+* Adjust mirror M3 and M4 until you have more than 75% percent of transmission
 
-*   
 
 
-
-
-*	the negative curvature broad band hollow core [fiber](https://github.com/vbormuth/OLU/files/9039097/PMC-C-K9005.B2_delivered_2019-01-16.pdf) with FC/PC connectors.
 *	eventually a telescope to adjust the beam diameter for optimal coupling
 *	a [fiber inspection scope](https://www.thorlabs.com/thorproduct.cfm?partnumber=FS201) to inspect the fiber core
 *	eventually a [fiber-to-fiber connector](https://www.thorlabs.com/thorproduct.cfm?partnumber=ADAF1) for prealignement 
