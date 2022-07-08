@@ -1,24 +1,23 @@
-# Let's couple the pulsed two-photon laser and a visible laser into the hollowo core fiber
+# Coupling of the pulsed two-photon laser and a visible laser into the hollowo core fiber
 
 
-### The optical path
+## The optical path
 
-The following schematic shows a possible optical path for the laser coupling. You can adapt the arrangement to the space availability on your setup:
+The following schematic shows a possible optical path for the laser coupling. You can adapt the arrangement to the space availability on your setup (mirro, M, lens, L, dichroic, D, wave plate, W, polarizor, P):
 
 <img width="400" alt="OpticalPath" src="https://user-images.githubusercontent.com/38736127/178027710-59000f23-4e21-449d-b615-3f9d77ad908b.png">
 
-### The alignment procedure
-In the following we will give a step-by-step explanation of how to built up the optical path and to do the alignment of the optical components. For the alignment we will follow a protocol well explained in an excellent youtube tutorial that you find here and that we advice you to watch carefull before starting. The video explains a first prealignment step based on backpropagation of a laser in the reverse direction. To use this trick first connect a standard single mode fiber to the coupling unit. Use a fiber tester to inject a visible laser through the fiber. Then follow the steps as in the tutorial. Once the alignment laser and the IR laser are align disconnect the fiber and connect the hollow core fiber. If the first step was well done you should have direcly transmission through the fiber enough to optimize the futher fiber coupling as described in the tutorial. To watch the video just click on the snap shoot: 
+In the following we will give a step-by-step explanation of how to built up the optical path and to do the alignment of the optical components. But before we start some preparatory notes and general background:
+
+### Alignment procedure
+For the alignment we will follow a protocol well explained in an excellent youtube tutorial that you find here and that we advice you to watch carefull before starting. The video explains a first prealignment step based on backpropagation of a laser in the reverse direction. To use this trick first connect a standard single mode fiber to the coupling unit. Use a fiber tester to inject a visible laser through the fiber. Then follow the steps as in the tutorial. Once the alignment laser and the IR laser are align disconnect the fiber and connect the hollow core fiber. If the first step was well done you should have direcly transmission through the fiber enough to optimize the futher fiber coupling as described in the tutorial. To watch the video just click on the snap shoot: 
 
 [<img width="400" alt="AlignmentTutorial" src="https://user-images.githubusercontent.com/38736127/176673048-5717d417-f3cd-4252-8551-5a9e17c1132f.png">](https://www.youtube.com/watch?v=kQvhbJbDG0M)
 
-Note: Do the coupling procedure at very low laser power for laser safety and to protect the fiber. The fiber has a very high domage threshold but only if the laser is well coupled. We will regulate the laser intensity with a [lambda wave plate](https://www.newport.com/p/10RP52-2) and a [polarizor]([https://www.thorlabs.com/thorproduct.cfm?partnumber=CCM1-PBS25-1064-HP](https://www.thorlabs.com/thorproduct.cfm?partnumber=CCM1-PBS252/M)). 
-
-
-## Some planning to do:
-
 ## Handling of the hollow core fiber
-The hollow core fibers are not protected and cannot be easily polished as you can do for single mode fibers. If you get some dusk on the fiber outlet you can damage the fiber. Also never try to clean the fiber outlet with ethanol or acethon because these solutions will enter the fiber by capillary forces and you cannot use them anymore. You can use the inspection scope to varify that the fiber is clean and in good shape.
+* The hollow core fibers are not protected and cannot be easily polished as you can do for single mode fibers. If you get some dusk on the fiber outlet you can damage the fiber. Also never try to clean the fiber outlet with ethanol or acethon because these solutions will enter the fiber by capillary forces and you cannot use them anymore. You can use the inspection scope to varify that the fiber is clean and in good shape.
+
+* The fiber has a very high domage threshold but only if the laser is well coupled. So the alignemnt procedure has to be done at low laser power. We will regulate the laser intensity with a [lambda wave plate](https://www.newport.com/p/10RP52-2) and a [polarizor]([https://www.thorlabs.com/thorproduct.cfm?partnumber=CCM1-PBS25-1064-HP](https://www.thorlabs.com/thorproduct.cfm?partnumber=CCM1-PBS252/M)). 
 
 
 ### Selection of the coupling lens
@@ -29,7 +28,7 @@ The numercial apperture of the coupling system is given by $NA = \frac{D}{2 f}$,
 We got reasonalbe coupling with the achromatic coupling lens. If you want to further optimize the coupling you can use an objective as coupling lens, e.g. the Olympus LMPLN5xIR/0.10. 
 Further tips for the fiber coupling can be found in the [manual from GLO-photonics](https://github.com/vbormuth/OLU/files/9039094/PIP_PMC-OEM.pdf).
 
-## Let's do it
+## Now Let's do it 
 
 *	Position a [motorized flip mount](https://www.thorlabs.com/thorproduct.cfm?partnumber=MFF101/M) (**M1**) holding a [protected silver mirrors](https://www.thorlabs.com/thorproduct.cfm?partnumber=PF05-03-P01) directly after the infrared laser output to highcheck laser for coupling into the optical fiber. Alternatively, you can use a [beam splitter](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=6208&pn=BS033) to use the laser source on both setups simultaneously. If this is possible depends on the laser power that you require on the different systems. 
 *	Position the [lambda wave plate](https://www.newport.com/p/10RP52-2) and a [polarizor]([https://www.thorlabs.com/thorproduct.cfm?partnumber=CCM1-PBS25-1064-HP](https://www.thorlabs.com/thorproduct.cfm?partnumber=CCM1-PBS252/M)) to regulate the laser intensity
