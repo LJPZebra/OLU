@@ -85,22 +85,7 @@ After the prealignment step we measured directly sufficient laser transmission a
 *	eventually a [fiber-to-fiber connector](https://www.thorlabs.com/thorproduct.cfm?partnumber=ADAF1) for prealignement 
 
 
-
-
-
-
-<img width="800" alt="OpticalPath" src="https://user-images.githubusercontent.com/38736127/177995312-f05bb464-852f-4180-af0d-67d408d3eada.png">
-
-
-
 You could also use the broadband hollow core fiber in the prealignment step. In this case you can connect via a fiber-to-fiber connector the fiber coupled 488nm laser to the fiber outlet. We did this and it works very well. But we do not recommend this. 
-
-
-
-
-
-
-
 
 
 
