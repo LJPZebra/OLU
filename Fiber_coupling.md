@@ -59,7 +59,7 @@ Further tips for the fiber coupling can be found in the [manual from GLO-photoni
 *   Now move the two mirrors **M2** and **M3** to co-align the red laser and the IR laser as was explained in the video.
 *   Switch off the laser shutter
 *   Detach the single mode fiber from the coupling unit
-*   Attach the negative curvature broad band hollow core [fiber](https://github.com/vbormuth/OLU/files/9039097/PMC-C-K9005.B2_delivered_2019-01-16.pdf) to the coupling unit.
+*   Attach the [negative curvature broad band hollow core fiber](https://github.com/vbormuth/OLU/files/9039097/PMC-C-K9005.B2_delivered_2019-01-16.pdf) to the coupling unit.
 *   Position the powermeter before the coupling lens and adjust the power to about ???mW.
 * Install an FC/PC adaptor plate and fix to it the other end of the fiber. Install the powermeter just after the fiber to measure the transmitted laser power.
 * Open again the laser shutter. You should measure laser transmission through the fiber.
