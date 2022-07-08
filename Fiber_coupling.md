@@ -109,46 +109,13 @@ D(x; w_L0)= lambda 2 f/ (\pi n ??? x).
 In our case we placed the coupling unit at a distance of 1.5m and we used a coupling lens of ???mm. 
 
 
-
-========
-
-=====
-
-
-
-
-
-
 * a [collimation lens](https://www.thorlabs.com/thorproduct.cfm?partnumber=C171TMD-A). 
-
-
 
 
 We coupled the femtosecond pulsed Ti:Sapphire laser (MaiTai, Coherent, USA) with a mirror, a dichroic and a coupling lens (f=40mm, Thorlabs, AC254-040-B-ML) into the fiber that was hold by a differential xyz-translation stage. The coupling mirror was placed on a magnetic precision stand so that it could be temporally removed to use the laser on the standard microscope setup.
 
 
-## For the coupling we will need :
-*	the negative curvature broad band hollow core [fiber](https://github.com/vbormuth/OLU/files/9039097/PMC-C-K9005.B2_delivered_2019-01-16.pdf) with FC/PC connectors.
-*	a coupling lens to focus the laser into the fiber ([AC254-040-B-ML](https://www.thorlabs.com/thorproduct.cfm?partnumber=AC254-040-B-ML))
-*	eventually a telescope to adjust the beam diameter for optimal coupling
-*	a differential xyz-translation stage ([MAX313D/M](https://www.thorlabs.com/thorproduct.cfm?partnumber=MAX313D/M#ad-image-0)) to position the fiber outlet precisely into the focal point of the coupling lens. You might have to mount this stage on a platform to match the beam hight (**CAD drawing here for compatibility with a MaiTai laser**). Alternativeley you can lower the beam path with a [periscope](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=883).  
-    - Use the [SM1-Compatible Flexure Stage Mount](https://www.thorlabs.com/thorproduct.cfm?partnumber=HCS031) to mount a [FC/PC Fiber Adapter Plate with External SM1 threading](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1FC2) onto this stage. To this FC/PC adapter you will later connect the optical fiber.
-    - Use the  [Mounting Bracket](https://www.thorlabs.com/thorproduct.cfm?partnumber=AMA009) and a [SM1-Compatible Flexure Stage Mount](https://www.thorlabs.com/thorproduct.cfm?partnumber=HCS031) to position and hold the coupling lens in front of the fiber. 
-*	Two [protected silver mirrors](https://www.thorlabs.com/thorproduct.cfm?partnumber=PF05-03-P01) mounted in [kinematic mirror mounts](https://www.thorlabs.com/thorproduct.cfm?partnumber=POLARIS-K05#ad-image-0) to align the laser with the fiber axis. Select the length of the [posts](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_ID=9079) compatible with the hight of your laser beam.
-*	a [longpass dichroic mirror](https://www.thorlabs.com/thorproduct.cfm?partnumber=DMLP650R) that is transparent for the infrared laser but reflects the visible spectrum . This will allow coupling in addition a visible laser into the same fiber. Alternatively, you can also use a short pass dichroic (transparent for the visible laser and reflecting the infrared light). Both configurations will work.
-*	a [Single mode fiber](https://www.thorlabs.com/thorproduct.cfm?partnumber=P1-460B-FC-2) for prealignment 
-*	a [VIS/IR Detector Card](https://www.thorlabs.com/thorproduct.cfm?partnumber=VRC2) to visualize the invisible infrared laser
-*	a [cable continuity tester](https://www.flukenetworks.com/datacom-cabling/fiber-testing/VisiFault-Visual-Fault-Locator) for prealigment
-*	[laser safety glasses](https://www.thorlabs.com/thorproduct.cfm?partnumber=LG3) to protect your eyes!
-*	a [fiber inspection scope](https://www.thorlabs.com/thorproduct.cfm?partnumber=FS201) to inspect the fiber core
-*	eventually a [fiber-to-fiber connector](https://www.thorlabs.com/thorproduct.cfm?partnumber=ADAF1) for prealignement 
-*	a half-wave plate mounted in a [high-precision rotation mount](https://www.thorlabs.com/thorproduct.cfm?partnumber=PRM1/M) to adjust the polarization
-*	a [motorized flip mount](https://www.thorlabs.com/thorproduct.cfm?partnumber=MFF101/M) holding a [protected silver mirrors](https://www.thorlabs.com/thorproduct.cfm?partnumber=PF05-03-P01) to remove the mirror out of the laser path when you want to use the laser in the standart system. Alternatively, you can use a [beam splitter](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=6208&pn=BS033) to use the laser source on both setups simultaneously. 
 
- For efficient optical coupling and suppression of higher laser modes the width of the laser focus projected onto the fiber input side had to match the mode field diameter of the fiber. For the femtosecond laser we placed the coupling unit at a distance to the laser source where the slightly diverging laser beam reaches the desired beam diameter necessary to match the mode field diameter in combination with the chosen coupling lens; for the blue laser we used a beam expander. 
-
-
-Our system is : fiber - collimation lens - coupling lens - hollow core fiber. In Gaussian optics the beam waist after a lens is given by $w_o = \lambda / (\pi NA) = (\lambda 2 f)/(\pi n D)$ with D the diameter of the beam on the lens and f the focal distance of the lens. We find that the ratio of the laser waist in the two fiber appertures is $ w_{o1} / w_{o2} = f_1 / f_2  =>  f_1 = f_2 ( w_{o1} / w_{o2} ) = 25mm * (3\mu m / 23\mu m) $ . So we used a collimation lens after the blue single mode fiber with a focal distance $f_1 \approx 3$mm in order to match the mode field diameter of the hollow core fiber when we use a coupling lens with 25mm focal distance.
 
 
 
