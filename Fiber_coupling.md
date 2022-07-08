@@ -37,7 +37,7 @@ The measured normalized power as a funciton of knife-edge position,x , can be fi
 
 You can also read w from the graph as half of the distance between the positions where the normalized power has a value between 0.08 and 0.92. Note that the beam diameter relevant to numercial apperture is measured at $e^{-2}$ . 
 
-$w_{e^{-2}} = \sqrt{2} w_{e^{-1}}$ 
+$D = 2 \cdot w_{e^{-2}} = 2 \cdot \sqrt{2} w_{e^{-1}}$ 
 
 
 
