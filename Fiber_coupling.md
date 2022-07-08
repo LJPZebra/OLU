@@ -89,9 +89,9 @@ At 915nm wavelength, the central two-photon absorption peak of GFP and of its ca
 
 To measure the beam width you can use the [moving knif technique](https://www.researchgate.net/profile/Emerson-Lima-2/publication/23771279_Measurement_of_Gaussian_laser_beam_radius_using_the_knife-edge_technique_Improvement_on_data_analysis/links/00b7d533ec8470fe22000000/Measurement-of-Gaussian-laser-beam-radius-using-the-knife-edge-technique-Improvement-on-data-analysis.pdf?origin=publication_detail). Fix a razor plate onto a [linear translation stage](https://www.thorlabs.com/thorproduct.cfm?partnumber=XRN25C/M) and move it perpendicular to the laser path out the laser while meauring the laser intensity as a function of the knife-edge position.  
 
-The measured normalized power P_N as a funciton of knife-edge position,x , can be fitted by P_N(x) = 0.5*(1+erf((x-x0)/w)),  with w the beam radius at 1/e. 
+The measured normalized power P_N as a funciton of knife-edge position,x , can be fitted by P_N(x) = 0.5*(1+erf((x-x0)/w)). The fit paramter w is the beam radius at 1/e. 
 
-If you do not have a fit software you can also measure \Delat X between the point where the normalized power is between 0.08  0.92. The beam diameter relevant to numercial apperture is measured at 1/e^2. we2 = we1 * \sqrt(2)
+If you do not have a fit software you can also measure w = 0.5 * \Delat X, with \Delat X the distance between the positions where the normalized power has a value between 0.08 and 0.92. Note that the beam diameter relevant to numercial apperture is measured at 1/e^2. we2 = we1 * \sqrt(2)
 
 
 using a [thin plate holder](https://www.thorlabs.com/thorproduct.cfm?partnumber=PC2/M) mounted horizontally via [Mounts Two Ø1/2" Posts at a Fixed 90° Angl](https://www.thorlabs.com/thorproduct.cfm?partnumber=RA90).
