@@ -46,10 +46,13 @@ The following schematic shows a possible optical path for the laser coupling. Yo
 *  Mount the [SM1-Compatible Flexure Stage Mount](https://www.thorlabs.com/thorproduct.cfm?partnumber=HCS031) onto the moving platform of the xyz-stage and screw into this mount the a [FC/PC Fiber Adapter Plate with External SM1 threading](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1FC2). To this FC/PC adapter you will later connect the optical fiber.
 *	attache the [Single mode fiber](https://www.thorlabs.com/thorproduct.cfm?partnumber=P1-460B-FC-2) for prealignment to the FC/PC adaptor plate. 
 *	attache the other side of the fiber to the [cable continuity tester](https://www.flukenetworks.com/datacom-cabling/fiber-testing/VisiFault-Visual-Fault-Locator) for prealigment
-
+*	Adjust the distance position of the coupling lens (**L1**) relative to the fiber outlet unitl the red laser light from the continouity tester is well collimated by the coupling lens. 
 *	Insure laser safety in the room and wear [laser safety glasses](https://www.thorlabs.com/thorproduct.cfm?partnumber=LG3) to protect your eyes!
 *	Prepare a [VIS/IR Detector Card](https://www.thorlabs.com/thorproduct.cfm?partnumber=VRC2) to visualize the invisible infrared laser
+*	And prepare the power meter 
 *   Now switch on the infrared laser at very low laser intensity
+
+*   
 
 
 
