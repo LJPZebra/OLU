@@ -5,7 +5,7 @@
 
 The following schematic shows a possible optical path for the laser coupling. You can adapt the arrangement to the space availability on your setup:
 
-<img width="800" alt="OpticalPath" src="https://user-images.githubusercontent.com/38736127/177995312-f05bb464-852f-4180-af0d-67d408d3eada.png">
+<img width="400" alt="OpticalPath" src="https://user-images.githubusercontent.com/38736127/178027710-59000f23-4e21-449d-b615-3f9d77ad908b.png">
 
 ### The alignment procedure
 In the following we will give a step-by-step explanation of how to built up the optical path and to do the alignment of the optical components. For the alignment we will follow a protocol well explained in an excellent youtube tutorial that you find here and that we advice you to watch carefull before starting. The video explains a first prealignment step based on backpropagation of a laser in the reverse direction. To use this trick first connect a standard single mode fiber to the coupling unit. Use a fiber tester to inject a visible laser through the fiber. Then follow the steps as in the tutorial. Once the alignment laser and the IR laser are align disconnect the fiber and connect the hollow core fiber. If the first step was well done you should have direcly transmission through the fiber enough to optimize the futher fiber coupling as described in the tutorial. To watch the video just click on the snap shoot: 
