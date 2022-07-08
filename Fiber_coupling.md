@@ -15,7 +15,7 @@ For the alignment we will follow a protocol well explained in an excellent youtu
 [<img width="400" alt="AlignmentTutorial" src="https://user-images.githubusercontent.com/38736127/176673048-5717d417-f3cd-4252-8551-5a9e17c1132f.png">](https://www.youtube.com/watch?v=kQvhbJbDG0M)
 
 ### Handling of the hollow core fiber
-*  The hollow core fiber front face is not protected and cannot be easily polished, which is standart for conventional single mode fibers. Also never try to clean the fiber outlet with ethanol or acethon because these solutions will enter the fiber core by capillary forces making the fiber unusalbe. You can use an inspection scope to varify that the fiber is clean and in good shape.
+*  The hollow core fiber front face is not protected and cannot be easily polished, which is standart for conventional single mode fibers. Also never try to clean the fiber outlet with ethanol or acethon because these solutions will enter the fiber core by capillary forces making the fiber unusalbe. You can use an [fiber inspection scope](https://www.thorlabs.com/thorproduct.cfm?partnumber=FS201) to inspect the fiber core.
 
 * The fiber has a very high domage threshold but only if the laser is well coupled. So it is adviced to do the alignemnt procedure at low laser power. This improves also laser safety. We will regulate the laser intensity with a rotatable [lambda wave plate](https://www.newport.com/p/10RP52-2) installed in series with a [polarizor]([https://www.thorlabs.com/thorproduct.cfm?partnumber=CCM1-PBS25-1064-HP](https://www.thorlabs.com/thorproduct.cfm?partnumber=CCM1-PBS252/M)). 
 
@@ -23,9 +23,9 @@ For the alignment we will follow a protocol well explained in an excellent youtu
 ### Selection of the coupling lens
 For efficient optical coupling and suppression of higher laser modes the width of the laser focus projected onto the fiber input side has to match the mode field diameter of the fiber. Or in other words the opening angle of the focused laser beam has to match the numerical apperture of the fiber. Our fiber has a numerical apperture of 0.02 (see [fiber spec sheet](https://github.com/vbormuth/OLU/files/9039097/PMC-C-K9005.B2_delivered_2019-01-16.pdf))
 
-The numercial apperture of the coupling system is given by $NA = \frac{D}{2 f}$, with *D* the diameter of the laser beam at the position of the coupling lens, and *f* the coupling lens' focal length. The laser company normally gives the beam width and the beam divergent angle. At the position were one can place the coulping unit after the laser output the beam divergence angle determines the beam width. You can measure the diameter of the laser either with a beam profiler (Thorlabs BC207VIS/M) or with the [moving knif technique](https://www.researchgate.net/profile/Emerson-Lima-2/publication/23771279_Measurement_of_Gaussian_laser_beam_radius_using_the_knife-edge_technique_Improvement_on_data_analysis/links/00b7d533ec8470fe22000000/Measurement-of-Gaussian-laser-beam-radius-using-the-knife-edge-technique-Improvement-on-data-analysis.pdf?origin=publication_detail). In our case we measured a beam diameter of 1.6mm at the position where we decided to install the coupling unit and we thus chose a coupling lens with focal length $f = \frac{D}{2 NA} = \frac{1.6mm}{2 * 0.02} = 40mm$. 
+The numercial apperture of the coupling system is given by $NA = \frac{D}{2 f}$, with *D* the diameter of the laser beam at the position of the coupling lens, and *f* the coupling lens' focal length. The laser company normally gives the beam width and the beam divergent angle. At the position were one can place the coulping unit after the laser output the beam divergence angle determines the beam width. You can measure the diameter of the laser either with a beam profiler (Thorlabs BC207VIS/M) or with the [moving knif technique](https://www.researchgate.net/profile/Emerson-Lima-2/publication/23771279_Measurement_of_Gaussian_laser_beam_radius_using_the_knife-edge_technique_Improvement_on_data_analysis/links/00b7d533ec8470fe22000000/Measurement-of-Gaussian-laser-beam-radius-using-the-knife-edge-technique-Improvement-on-data-analysis.pdf?origin=publication_detail). In our case, with a Ti:Sapphire laser (MaiTai, Coherent, USA), we measured a beam diameter of 1.6mm at the position where we decided to install the coupling unit and we thus chose a coupling lens with focal length $f = \frac{D}{2 NA} = \frac{1.6mm}{2 * 0.02} = 40mm$. 
 
-We got reasonalbe coupling with the achromatic coupling lens. If you want to further optimize the coupling you can use an objective as coupling lens, e.g. the Olympus LMPLN5xIR/0.10. 
+We got reasonalbe coupling with the achromatic coupling lens. If you want to further optimize the coupling you can use an objective as coupling lens, e.g. the Olympus LMPLN5xIR/0.10. You can install a telescope to adjust the beam diameter to match the fiber numerical apperture with the choosen coupling lens focal distance.  
 
 Further tips for the fiber coupling can be found in the [manual from GLO-photonics](https://github.com/vbormuth/OLU/files/9039094/PIP_PMC-OEM.pdf).
 
@@ -58,7 +58,7 @@ Further tips for the fiber coupling can be found in the [manual from GLO-photoni
 *   Switch off the laser shutter
 *   Detach the single mode fiber from the coupling unit
 *   Attach the negative curvature broad band hollow core [fiber](https://github.com/vbormuth/OLU/files/9039097/PMC-C-K9005.B2_delivered_2019-01-16.pdf) to the coupling unit.
-*   position the powermeter before the coupling lens and adjust the power to about ???mW.
+*   Position the powermeter before the coupling lens and adjust the power to about ???mW.
 * Install an FC/PC adaptor plate and fix to it the other end of the fiber. Install the powermeter just after the fiber to measure the transmitted laser power.
 * Open again the laser shutter. You should measure laser transmission through the fiber.
 * Now adjust the mirrors M2 and M3 as was discribed in the video until you get > 90% laser transmission. 
@@ -66,59 +66,24 @@ Further tips for the fiber coupling can be found in the [manual from GLO-photoni
 * Detach the NCF-fiber from the coupling unit.
 
 ### Coupling the visible laser
-* Position mirror **M3** and **M4** with a distance of about 20cm between each other and such that mirror M4 is placed about 20cm from the coupling lens
+* Fix the [fiber coupled laser](https://github.com/vbormuth/OLU/files/9057780/WEBSITE-Datasheet-LBX-488.pdf) onto the table.
+* Position mirror **M3** and **M4** with a distance of about 20cm between each other and such that mirror M4 is placed about 20cm from the coupling lens. As mirrors choose again [protected silver mirrors](https://www.thorlabs.com/thorproduct.cfm?partnumber=PF05-03-P01) mounted in [kinematic mirror mounts](https://www.thorlabs.com/thorproduct.cfm?partnumber=POLARIS-K05#ad-image-0) to align the laser with the fiber axis. Select the length of the [posts](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_ID=9079) compatible with the hight of your laser beam.
 * Attach the fiber splitter to the laser that you purchases with prealigned fiber coupler.
-* Install the prealigned collimator lens. 
+* Install a [prealigned fiber collimators](https://www.thorlabs.com/thorproduct.cfm?partnumber=F110FC-532) that you mount into a [kinematic mirror mount](https://www.thorlabs.com/thorproduct.cfm?partnumber=KM05/M#ad-image-0) using an [adaptor](https://www.thorlabs.com/thorproduct.cfm?partnumber=AD11BA) and positioned onto the adequat [posts](https://www.thorlabs.com/thorproduct.cfm?partnumber=TR1) and its [universal post holder](https://www.thorlabs.com/thorproduct.cfm?partnumber=UPH1).
+     * We selected the collimation lens focal distance with the formula: $f_{collimation} = f_{coupling} *  \frac{NA_{fiber}}{NA_{laser fiber}} = 40mm * \frac{0.02}{0.13}$
+Which boils down to the fact to choose the coupling lens focal distance such that the collimated laser beam diameter is matches the diameter of the infrared beam that we previously coupled into the fiber using the choosen coupling lens. 
 * Attach one of the outputs of the fiber coupler to this collimator lens. 
-* Attach the other side to the FC/PC connector plate on the xyz-translation stage of the coupling unit. If the fiber is to short you can prolong it with a fiber-to-fiber connector and the single mode fiber that you have used in the previous prealignment step.
-* prepare laser satety and switch on the laser at lowerst power possible were you can see with the laser detection card the laser.
+* Attach the other side to the FC/PC connector plate on the xyz-translation stage of the coupling unit. If the fiber is to short you can extend it with a [fiber-to-fiber connector](https://www.thorlabs.com/thorproduct.cfm?partnumber=ADAF1) and the single mode fiber that you have used in the previous prealignment step.
+* prepare laser satety and switch on the laser at lowerst power possible were you can see with the [VIS/IR Detector Card](https://www.thorlabs.com/thorproduct.cfm?partnumber=VRC2) the laser.
 * Now use the mirror **M3** and **M4** to co-align the two laser beams that traval in revers direction through the system as explained in the alignment youtube tutorial. 
-* Switch off the laser and replace the fiber that is connected to the coupling unit with the negative curvature fiber
+* Switch off the laser and replace the single mode fiber that is connected to the coupling unit with the negative curvature fiber.
 * Switch the laser again on.
 * You should detect with the powermeter a transmission through the fiber.
-* Adjust mirror M3 and M4 until you have more than 75% percent of transmission
+* Adjust mirror **M3** and **M4** until you have more than 75% percent of transmission
 
 At 915nm wavelength, the central two-photon absorption peak of GFP and of its calcium sensitive derivative GCaMP, we delivered through 1.5m fiber length 100fs laser pulses with 98% power transmission efficiency and minute pulse dispersion of 28nm (1dB/km·nm) that we fully precompensated with the Deepsee element of the MaiTai laser source. At 488nm,  the one-photon excitation maximum of GFP and GCaMP, we achieved a transmission efficiency of ~75%. 
 
-
-
-=====
-
-
-*	eventually a telescope to adjust the beam diameter for optimal coupling
-*	a [fiber inspection scope](https://www.thorlabs.com/thorproduct.cfm?partnumber=FS201) to inspect the fiber core
-*	eventually a [fiber-to-fiber connector](https://www.thorlabs.com/thorproduct.cfm?partnumber=ADAF1) for prealignement 
-
-
-You could also use the broadband hollow core fiber in the prealignment step. In this case you can connect via a fiber-to-fiber connector the fiber coupled 488nm laser to the fiber outlet. We did this and it works very well. But we do not recommend this. 
-
-
-
-# Let's add the visible laser
-
-
-## For the coupling you will need 
-
-* a [fiber coupled laser](https://github.com/vbormuth/OLU/files/9057780/WEBSITE-Datasheet-LBX-488.pdf)
-* Two [protected silver mirrors](https://www.thorlabs.com/thorproduct.cfm?partnumber=PF05-03-P01) mounted in [kinematic mirror mounts](https://www.thorlabs.com/thorproduct.cfm?partnumber=POLARIS-K05#ad-image-0) to align the laser with the fiber axis. Select the length of the [posts](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_ID=9079) compatible with the hight of your laser beam.
-* a [collimation lens](https://www.thorlabs.com/thorproduct.cfm?partnumber=C171TMD-A). You can also use [prealigned fiber collimators](https://www.thorlabs.com/thorproduct.cfm?partnumber=F110FC-532) that you mount with an [adaptor](https://www.thorlabs.com/thorproduct.cfm?partnumber=AD11BA) that you can mount with a [kinematic mirror mount](https://www.thorlabs.com/thorproduct.cfm?partnumber=KM05/M#ad-image-0) 
-
-* TR1  Ø1/2" Optical Post, SS, 8-32 Setscrew, 1/4"-20 Tap, L = 1"
-* UPH1  Ø1/2" Universal Post Holder, Spring-Loaded Locking Thumbscrew, L = 1" 
-
-
-
-
-We selected the collimation lens focal distance with the formula: $f_{collimation} = f_{coupling} *  \frac{NA_{fiber}}{NA_{laser fiber}} = 40mm * \frac{0.02}{0.13}$
-
-Which boils down to the fact to choose the coupling lens focal distance such that the collimated laser beam diameter is matches the diameter of the infrared beam that we previously coupled into the fiber using the choosen coupling lens. 
-
-## Let's do it:
-
-The continuous blue laser (488\,nm, Oxxius, France) was coupled into the same fiber through the aforementioned dichroic with two additional mirrors. 
-At 488\,nm,  the one-photon excitation maximum of GFP and GCaMP, we achieved a transmission efficiency of 75\,\%. 
-
-====
+### Measure the laser beam diameter with the moving kif technique
 
 To measure the beam width you can use the [moving knif technique](https://www.researchgate.net/profile/Emerson-Lima-2/publication/23771279_Measurement_of_Gaussian_laser_beam_radius_using_the_knife-edge_technique_Improvement_on_data_analysis/links/00b7d533ec8470fe22000000/Measurement-of-Gaussian-laser-beam-radius-using-the-knife-edge-technique-Improvement-on-data-analysis.pdf?origin=publication_detail).
 
@@ -147,13 +112,20 @@ In our case we placed the coupling unit at a distance of 1.5m and we used a coup
 
 ========
 
+=====
+
+
+
+
+
+
+* a [collimation lens](https://www.thorlabs.com/thorproduct.cfm?partnumber=C171TMD-A). 
+
+
+
 
 We coupled the femtosecond pulsed Ti:Sapphire laser (MaiTai, Coherent, USA) with a mirror, a dichroic and a coupling lens (f=40mm, Thorlabs, AC254-040-B-ML) into the fiber that was hold by a differential xyz-translation stage. The coupling mirror was placed on a magnetic precision stand so that it could be temporally removed to use the laser on the standard microscope setup.
 
-
-Due to the very low fibers numerical aperture coupling a laser into the fiber is not trivial but can easily be accomplished with the following pre-alignment protocol.  We first injected a fiber coupled visible laser through a fiber-to-fiber connector (Thorlabs, ADAF1) from the other side of the hollow core fiber. This was easily accomplished thanks to the FC/PC-connectorization of our hollow core fiber. In this configuration the visible laser traveled through the coupling optics in reverse order. We pre-align the optical components such that the laser was collimated by the coupling lens and projected onto both lasers output apertures. After the prealignment step the fiber of the visible laser was disconnected from the fiber end, a power meter was placed after the fiber outlet and the femtosecond laser was started at low power in order not to damage the fiber during further alignment. We measured directly sufficient laser transmission at the fiber output to further align the coupling elements until we reached laser transmission of $>$ 90\,$\%$. At 915\,nm wavelength, the central 2P absorption peak of GFP and of its calcium sensitive derivative GCaMP, we delivered through 1,5\,m fiber length 100\,fs laser pulses with 98\% power transmission efficiency  and minute pulse dispersion of 28\,nm (1\,dB/km·nm) that we fully precompensated with the Deepsee element of the MaiTai laser source. 
-
-======
 
 ## For the coupling we will need :
 *	the negative curvature broad band hollow core [fiber](https://github.com/vbormuth/OLU/files/9039097/PMC-C-K9005.B2_delivered_2019-01-16.pdf) with FC/PC connectors.
