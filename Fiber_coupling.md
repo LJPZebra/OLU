@@ -85,32 +85,15 @@ Which boils down to the fact to choose the coupling lens focal distance such tha
 
 At 915nm wavelength, the central two-photon absorption peak of GFP and of its calcium sensitive derivative GCaMP, we delivered through 1.5m fiber length 100fs laser pulses with 98% power transmission efficiency and minute pulse dispersion of 28nm (1dB/km·nm) that we fully precompensated with the Deepsee element of the MaiTai laser source. At 488nm,  the one-photon excitation maximum of GFP and GCaMP, we achieved a transmission efficiency of ~75%. 
 
-### Measure the laser beam diameter with the moving knif technique
 
-To measure the beam width you can use the [moving knif technique](https://www.researchgate.net/profile/Emerson-Lima-2/publication/23771279_Measurement_of_Gaussian_laser_beam_radius_using_the_knife-edge_technique_Improvement_on_data_analysis/links/00b7d533ec8470fe22000000/Measurement-of-Gaussian-laser-beam-radius-using-the-knife-edge-technique-Improvement-on-data-analysis.pdf?origin=publication_detail). Fix a razor plate onto a [linear translation stage](https://www.thorlabs.com/thorproduct.cfm?partnumber=XRN25C/M) and move it perpendicular to the laser path out the laser while meauring the laser intensity as a function of the knife-edge position.  
+### Measure the laser beam diameter with the moving knife technique
+
+To measure the beam width you can use the [moving knif technique](https://www.researchgate.net/profile/Emerson-Lima-2/publication/23771279_Measurement_of_Gaussian_laser_beam_radius_using_the_knife-edge_technique_Improvement_on_data_analysis/links/00b7d533ec8470fe22000000/Measurement-of-Gaussian-laser-beam-radius-using-the-knife-edge-technique-Improvement-on-data-analysis.pdf?origin=publication_detail). Fix a razor plate onto a [linear translation stage](https://www.thorlabs.com/thorproduct.cfm?partnumber=XRN25C/M) via a [thin plate holder](https://www.thorlabs.com/thorproduct.cfm?partnumber=PC2/M) mounted horizontally via [Mounts Two Ø1/2" Posts at a Fixed 90° Angl](https://www.thorlabs.com/thorproduct.cfm?partnumber=RA90) and move it perpendicular to the laser path out the laser while meauring the laser intensity as a function of the knife-edge position.  
 
 The measured normalized power P_N as a funciton of knife-edge position,x , can be fitted by P_N(x) = 0.5*(1+erf((x-x0)/w)). The fit paramter w is the beam radius at 1/e. 
 
-If you do not have a fit software you can also measure w = 0.5 * \Delat X, with \Delat X the distance between the positions where the normalized power has a value between 0.08 and 0.92. Note that the beam diameter relevant to numercial apperture is measured at 1/e^2. we2 = we1 * \sqrt(2)
+If you do not have a fit software you can also measure w = 0.5 * \Delat X, with \Delat X the distance between the positions    where the normalized power has a value between 0.08 and 0.92. Note that the beam diameter relevant to numercial apperture is   measured at 1/e^2. we2 = we1 * \sqrt(2) 
 
-
-using a [thin plate holder](https://www.thorlabs.com/thorproduct.cfm?partnumber=PC2/M) mounted horizontally via [Mounts Two Ø1/2" Posts at a Fixed 90° Angl](https://www.thorlabs.com/thorproduct.cfm?partnumber=RA90).
-
-
-
-To match the mode field diameter, you have the laser diameter and the coupling lens focal distance to play with. A Gaussian beam is never perfectly collimated.
-
-Our laser has at the output a width of …. and a divergence of …  (see spec sheet). 
-
-D(x; w_L0)= lambda 2 f/ (\pi n ??? x).
-
-In our case we placed the coupling unit at a distance of 1.5m and we used a coupling lens of ???mm. 
-
-
-* a [collimation lens](https://www.thorlabs.com/thorproduct.cfm?partnumber=C171TMD-A). 
-
-
-We coupled the femtosecond pulsed Ti:Sapphire laser (MaiTai, Coherent, USA) with a mirror, a dichroic and a coupling lens (f=40mm, Thorlabs, AC254-040-B-ML) into the fiber that was hold by a differential xyz-translation stage. The coupling mirror was placed on a magnetic precision stand so that it could be temporally removed to use the laser on the standard microscope setup.
 
 
 
