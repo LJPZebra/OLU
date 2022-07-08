@@ -25,11 +25,17 @@ For the alignment we will follow a protocol well explained in an excellent youtu
 ### Selection of the coupling lens
 For efficient optical coupling and suppression of higher laser modes the width of the laser focus projected onto the fiber input side has to match the mode field diameter of the fiber. Or in other words the opening angle of the focused laser beam has to match the numerical apperture of the fiber. Our fiber has a numerical apperture of 0.02 (see [fiber spec sheet](https://github.com/vbormuth/OLU/files/9039097/PMC-C-K9005.B2_delivered_2019-01-16.pdf))
 
-The numercial apperture of the coupling system is given by $NA = \frac{D}{2 f}$, with *D* the diameter of the laser beam at the position of the coupling lens, and *f* the coupling lens' focal length. The laser company normally gives the beam width and the beam divergent angle. At the position were one can place the coulping unit after the laser output the beam divergence angle determines the beam width. You can measure the diameter of the laser either with a beam profiler (Thorlabs BC207VIS/M) or with the [moving knif technique](https://www.researchgate.net/profile/Emerson-Lima-2/publication/23771279_Measurement_of_Gaussian_laser_beam_radius_using_the_knife-edge_technique_Improvement_on_data_analysis/links/00b7d533ec8470fe22000000/Measurement-of-Gaussian-laser-beam-radius-using-the-knife-edge-technique-Improvement-on-data-analysis.pdf?origin=publication_detail). In our case, with a Ti:Sapphire laser (MaiTai, Coherent, USA), we measured a beam diameter of 1.6mm at the position where we decided to install the coupling unit and we thus chose a coupling lens with focal length $f = \frac{D}{2 NA} = \frac{1.6mm}{2 * 0.02} = 40mm$. 
+The numercial apperture of the coupling system is given by $NA = \frac{D}{2 f}$, with *D* the diameter of the laser beam at the position of the coupling lens, and *f* the coupling lens' focal length. The laser company normally gives the beam width and the beam divergent angle. In our case the Ti:Sapphire laser (MaiTai, Coherent, USA) has an output beam waiste <1.2mm and an divergent angle of < 0.001mrad. We measured a beam diameter of 1.6mm at the position where we decided to install the coupling unit and we thus chose a coupling lens with focal length $f = \frac{D}{2 NA} = \frac{1.6mm}{2 * 0.02} = 40mm$. 
 
 We got reasonalbe coupling with the achromatic coupling lens. If you want to further optimize the coupling you can use an objective as coupling lens, e.g. the Olympus LMPLN5xIR/0.10. You can install a telescope to adjust the beam diameter to match the fiber numerical apperture with the choosen coupling lens focal distance.  
 
 Further tips for the fiber coupling can be found in the [manual from GLO-photonics](https://github.com/vbormuth/OLU/files/9039094/PIP_PMC-OEM.pdf).
+
+To measure the laser beam diameter use either a beam profiler (Thorlabs BC207VIS/M) or use the [moving knif technique](https://www.researchgate.net/profile/Emerson-Lima-2/publication/23771279_Measurement_of_Gaussian_laser_beam_radius_using_the_knife-edge_technique_Improvement_on_data_analysis/links/00b7d533ec8470fe22000000/Measurement-of-Gaussian-laser-beam-radius-using-the-knife-edge-technique-Improvement-on-data-analysis.pdf?origin=publication_detail). For the latter case, fix a razor plate onto a [linear translation stage](https://www.thorlabs.com/thorproduct.cfm?partnumber=XRN25C/M) via a [thin plate holder](https://www.thorlabs.com/thorproduct.cfm?partnumber=PC2/M) mounted horizontally via [Mounts Two Ø1/2" Posts at a Fixed 90° Angl](https://www.thorlabs.com/thorproduct.cfm?partnumber=RA90) and move it perpendicular to the laser path out the laser while meauring the laser intensity as a function of the knife-edge position.  
+
+The measured normalized power P_N as a funciton of knife-edge position,x , can be fitted by P_N(x) = 0.5*(1+erf((x-x0)/w)). The fit paramter w is the beam radius at 1/e. 
+
+If you do not have a fit software you can also measure w = 0.5 * \Delat X, with \Delat X the distance between the positions    where the normalized power has a value between 0.08 and 0.92. Note that the beam diameter relevant to numercial apperture is   measured at 1/e^2. we2 = we1 * \sqrt(2) 
 
 ## Now Let's do it 
 
@@ -86,13 +92,6 @@ Which boils down to the fact to choose the coupling lens focal distance such tha
 At 915nm wavelength, the central two-photon absorption peak of GFP and of its calcium sensitive derivative GCaMP, we delivered through 1.5m fiber length 100fs laser pulses with 98% power transmission efficiency and minute pulse dispersion of 28nm (1dB/km·nm) that we fully precompensated with the Deepsee element of the MaiTai laser source. At 488nm,  the one-photon excitation maximum of GFP and GCaMP, we achieved a transmission efficiency of ~75%. 
 
 
-### Measure the laser beam diameter with the moving knife technique
-
-To measure the beam width you can use the [moving knif technique](https://www.researchgate.net/profile/Emerson-Lima-2/publication/23771279_Measurement_of_Gaussian_laser_beam_radius_using_the_knife-edge_technique_Improvement_on_data_analysis/links/00b7d533ec8470fe22000000/Measurement-of-Gaussian-laser-beam-radius-using-the-knife-edge-technique-Improvement-on-data-analysis.pdf?origin=publication_detail). Fix a razor plate onto a [linear translation stage](https://www.thorlabs.com/thorproduct.cfm?partnumber=XRN25C/M) via a [thin plate holder](https://www.thorlabs.com/thorproduct.cfm?partnumber=PC2/M) mounted horizontally via [Mounts Two Ø1/2" Posts at a Fixed 90° Angl](https://www.thorlabs.com/thorproduct.cfm?partnumber=RA90) and move it perpendicular to the laser path out the laser while meauring the laser intensity as a function of the knife-edge position.  
-
-The measured normalized power P_N as a funciton of knife-edge position,x , can be fitted by P_N(x) = 0.5*(1+erf((x-x0)/w)). The fit paramter w is the beam radius at 1/e. 
-
-If you do not have a fit software you can also measure w = 0.5 * \Delat X, with \Delat X the distance between the positions    where the normalized power has a value between 0.08 and 0.92. Note that the beam diameter relevant to numercial apperture is   measured at 1/e^2. we2 = we1 * \sqrt(2) 
 
 
 
