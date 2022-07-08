@@ -1,23 +1,4 @@
-# Let's couple the pulsed two-photon laser into the hollowo core fiber
-
-## For the coupling we will need :
-*	the negative curvature broad band hollow core [fiber](https://github.com/vbormuth/OLU/files/9039097/PMC-C-K9005.B2_delivered_2019-01-16.pdf) with FC/PC connectors.
-*	a coupling lens to focus the laser into the fiber ([AC254-040-B-ML](https://www.thorlabs.com/thorproduct.cfm?partnumber=AC254-040-B-ML))
-*	eventually a telescope to adjust the beam diameter for optimal coupling
-*	a differential xyz-translation stage ([MAX313D/M](https://www.thorlabs.com/thorproduct.cfm?partnumber=MAX313D/M#ad-image-0)) to position the fiber outlet precisely into the focal point of the coupling lens. You might have to mount this stage on a platform to match the beam hight (**CAD drawing here for compatibility with a MaiTai laser**). Alternativeley you can lower the beam path with a [periscope](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=883).  
-    - Use the [SM1-Compatible Flexure Stage Mount](https://www.thorlabs.com/thorproduct.cfm?partnumber=HCS031) to mount a [FC/PC Fiber Adapter Plate with External SM1 threading](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1FC2) onto this stage. To this FC/PC adapter you will later connect the optical fiber.
-    - Use the  [Mounting Bracket](https://www.thorlabs.com/thorproduct.cfm?partnumber=AMA009) and a [SM1-Compatible Flexure Stage Mount](https://www.thorlabs.com/thorproduct.cfm?partnumber=HCS031) to position and hold the coupling lens in front of the fiber. 
-*	Two [protected silver mirrors](https://www.thorlabs.com/thorproduct.cfm?partnumber=PF05-03-P01) mounted in [kinematic mirror mounts](https://www.thorlabs.com/thorproduct.cfm?partnumber=POLARIS-K05#ad-image-0) to align the laser with the fiber axis. Select the length of the [posts](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_ID=9079) compatible with the hight of your laser beam.
-*	a [longpass dichroic mirror](https://www.thorlabs.com/thorproduct.cfm?partnumber=DMLP650R) that is transparent for the infrared laser but reflects the visible spectrum . This will allow coupling in addition a visible laser into the same fiber. Alternatively, you can also use a short pass dichroic (transparent for the visible laser and reflecting the infrared light). Both configurations will work.
-*	a [Single mode fiber](https://www.thorlabs.com/thorproduct.cfm?partnumber=P1-460B-FC-2) for prealignment 
-*	a [VIS/IR Detector Card](https://www.thorlabs.com/thorproduct.cfm?partnumber=VRC2) to visualize the invisible infrared laser
-*	a [cable continuity tester](https://www.flukenetworks.com/datacom-cabling/fiber-testing/VisiFault-Visual-Fault-Locator) for prealigment
-*	[laser safety glasses](https://www.thorlabs.com/thorproduct.cfm?partnumber=LG3) to protect your eyes!
-*	a [fiber inspection scope](https://www.thorlabs.com/thorproduct.cfm?partnumber=FS201) to inspect the fiber core
-*	eventually a [fiber-to-fiber connector](https://www.thorlabs.com/thorproduct.cfm?partnumber=ADAF1) for prealignement 
-*	a half-wave plate mounted in a [high-precision rotation mount](https://www.thorlabs.com/thorproduct.cfm?partnumber=PRM1/M) to adjust the polarization
-*	a [motorized flip mount](https://www.thorlabs.com/thorproduct.cfm?partnumber=MFF101/M) holding a [protected silver mirrors](https://www.thorlabs.com/thorproduct.cfm?partnumber=PF05-03-P01) to remove the mirror out of the laser path when you want to use the laser in the standart system. Alternatively, you can use a [beam splitter](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=6208&pn=BS033) to use the laser source on both setups simultaneously. 
-
+# Let's couple the pulsed two-photon laser and a visible laser into the hollowo core fiber
 
 Note: Do the coupling procedure at very low laser power for laser safety and to protect the fiber. The fiber has a very high domage threshold but only if the laser is well coupled. 
 
@@ -38,11 +19,9 @@ The following schematic shows a possible optical path for the laser coupling. Yo
 
 <img width="800" alt="OpticalPath" src="https://user-images.githubusercontent.com/38736127/177995312-f05bb464-852f-4180-af0d-67d408d3eada.png">
 
-In the following we will give a step-by-step explanation of how to built up the optical path and to do the alignment of the optical components. For the alignment we will follow a protocol well explained in an excellent youtube tutorial that you find here and that we advice you to watch carefull before starting. Just click on the snap shoot: 
+In the following we will give a step-by-step explanation of how to built up the optical path and to do the alignment of the optical components. For the alignment we will follow a protocol well explained in an excellent youtube tutorial that you find here and that we advice you to watch carefull before starting. The video explains a first prealignment step based on backpropagation of a laser in the reverse direction. To use this trick first connect a standard single mode fiber to the coupling unit. Use a fiber tester to inject a visible laser through the fiber. Then follow the steps as in the tutorial. Once the alignment laser and the IR laser are align disconnect the fiber and connect the hollow core fiber. If the first step was well done you should have direcly transmission through the fiber enough to optimize the futher fiber coupling as described in the tutorial. To watch the video just click on the snap shoot: 
 
 [<img width="400" alt="AlignmentTutorial" src="https://user-images.githubusercontent.com/38736127/176673048-5717d417-f3cd-4252-8551-5a9e17c1132f.png">](https://www.youtube.com/watch?v=kQvhbJbDG0M)
-
-The video explains a first prealignment step based on backpropagation of a laser in the reverse direction. To use this trick first connect a standard single mode fiber to the coupling unit. Use a fiber tester to inject a visible laser through the fiber. Then follow the steps as in the tutorial. Once the alignment laser and the IR laser are align disconnect the fiber and connect the hollow core fiber. If the first step was well done you should have direcly transmission through the fiber enough to optimize the futher fiber coupling as described in the tutorial. 
 
 The hollow core fibers are not protected and cannot be easily polished as you can do for single mode fibers. If you get some dusk on the fiber outlet you can damage the fiber. Also never try to clean the fiber outlet with ethanol or acethon because these solutions will enter the fiber by capillary forces and you cannot use them anymore. You can use the inspection scope to varify that the fiber is clean and in good shape.
 
@@ -183,7 +162,25 @@ We coupled the femtosecond pulsed Ti:Sapphire laser (MaiTai, Coherent, USA) with
 
 Due to the very low fibers numerical aperture coupling a laser into the fiber is not trivial but can easily be accomplished with the following pre-alignment protocol.  We first injected a fiber coupled visible laser through a fiber-to-fiber connector (Thorlabs, ADAF1) from the other side of the hollow core fiber. This was easily accomplished thanks to the FC/PC-connectorization of our hollow core fiber. In this configuration the visible laser traveled through the coupling optics in reverse order. We pre-align the optical components such that the laser was collimated by the coupling lens and projected onto both lasers output apertures. After the prealignment step the fiber of the visible laser was disconnected from the fiber end, a power meter was placed after the fiber outlet and the femtosecond laser was started at low power in order not to damage the fiber during further alignment. We measured directly sufficient laser transmission at the fiber output to further align the coupling elements until we reached laser transmission of $>$ 90\,$\%$. At 915\,nm wavelength, the central 2P absorption peak of GFP and of its calcium sensitive derivative GCaMP, we delivered through 1,5\,m fiber length 100\,fs laser pulses with 98\% power transmission efficiency  and minute pulse dispersion of 28\,nm (1\,dB/km·nm) that we fully precompensated with the Deepsee element of the MaiTai laser source. 
 
+======
 
+## For the coupling we will need :
+*	the negative curvature broad band hollow core [fiber](https://github.com/vbormuth/OLU/files/9039097/PMC-C-K9005.B2_delivered_2019-01-16.pdf) with FC/PC connectors.
+*	a coupling lens to focus the laser into the fiber ([AC254-040-B-ML](https://www.thorlabs.com/thorproduct.cfm?partnumber=AC254-040-B-ML))
+*	eventually a telescope to adjust the beam diameter for optimal coupling
+*	a differential xyz-translation stage ([MAX313D/M](https://www.thorlabs.com/thorproduct.cfm?partnumber=MAX313D/M#ad-image-0)) to position the fiber outlet precisely into the focal point of the coupling lens. You might have to mount this stage on a platform to match the beam hight (**CAD drawing here for compatibility with a MaiTai laser**). Alternativeley you can lower the beam path with a [periscope](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=883).  
+    - Use the [SM1-Compatible Flexure Stage Mount](https://www.thorlabs.com/thorproduct.cfm?partnumber=HCS031) to mount a [FC/PC Fiber Adapter Plate with External SM1 threading](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM1FC2) onto this stage. To this FC/PC adapter you will later connect the optical fiber.
+    - Use the  [Mounting Bracket](https://www.thorlabs.com/thorproduct.cfm?partnumber=AMA009) and a [SM1-Compatible Flexure Stage Mount](https://www.thorlabs.com/thorproduct.cfm?partnumber=HCS031) to position and hold the coupling lens in front of the fiber. 
+*	Two [protected silver mirrors](https://www.thorlabs.com/thorproduct.cfm?partnumber=PF05-03-P01) mounted in [kinematic mirror mounts](https://www.thorlabs.com/thorproduct.cfm?partnumber=POLARIS-K05#ad-image-0) to align the laser with the fiber axis. Select the length of the [posts](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_ID=9079) compatible with the hight of your laser beam.
+*	a [longpass dichroic mirror](https://www.thorlabs.com/thorproduct.cfm?partnumber=DMLP650R) that is transparent for the infrared laser but reflects the visible spectrum . This will allow coupling in addition a visible laser into the same fiber. Alternatively, you can also use a short pass dichroic (transparent for the visible laser and reflecting the infrared light). Both configurations will work.
+*	a [Single mode fiber](https://www.thorlabs.com/thorproduct.cfm?partnumber=P1-460B-FC-2) for prealignment 
+*	a [VIS/IR Detector Card](https://www.thorlabs.com/thorproduct.cfm?partnumber=VRC2) to visualize the invisible infrared laser
+*	a [cable continuity tester](https://www.flukenetworks.com/datacom-cabling/fiber-testing/VisiFault-Visual-Fault-Locator) for prealigment
+*	[laser safety glasses](https://www.thorlabs.com/thorproduct.cfm?partnumber=LG3) to protect your eyes!
+*	a [fiber inspection scope](https://www.thorlabs.com/thorproduct.cfm?partnumber=FS201) to inspect the fiber core
+*	eventually a [fiber-to-fiber connector](https://www.thorlabs.com/thorproduct.cfm?partnumber=ADAF1) for prealignement 
+*	a half-wave plate mounted in a [high-precision rotation mount](https://www.thorlabs.com/thorproduct.cfm?partnumber=PRM1/M) to adjust the polarization
+*	a [motorized flip mount](https://www.thorlabs.com/thorproduct.cfm?partnumber=MFF101/M) holding a [protected silver mirrors](https://www.thorlabs.com/thorproduct.cfm?partnumber=PF05-03-P01) to remove the mirror out of the laser path when you want to use the laser in the standart system. Alternatively, you can use a [beam splitter](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=6208&pn=BS033) to use the laser source on both setups simultaneously. 
 
  For efficient optical coupling and suppression of higher laser modes the width of the laser focus projected onto the fiber input side had to match the mode field diameter of the fiber. For the femtosecond laser we placed the coupling unit at a distance to the laser source where the slightly diverging laser beam reaches the desired beam diameter necessary to match the mode field diameter in combination with the chosen coupling lens; for the blue laser we used a beam expander. 
 
