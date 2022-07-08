@@ -25,7 +25,7 @@ You can regulate the laser intensity with a [lambda wave plate](https://www.newp
 
 ## Let's do it:
 
-<img width="400" alt="Test" src="https://user-images.githubusercontent.com/38736127/177995312-f05bb464-852f-4180-af0d-67d408d3eada.png">
+<img width="800" alt="Test" src="https://user-images.githubusercontent.com/38736127/177995312-f05bb464-852f-4180-af0d-67d408d3eada.png">
 
 
 A possible configuration of the fiber coupling optical setup that we used is shown in the following figure:
