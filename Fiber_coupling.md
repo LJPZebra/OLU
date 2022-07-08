@@ -25,16 +25,30 @@ You can regulate the laser intensity with a [lambda wave plate](https://www.newp
 
 ## Some planning to do:
 
+### Selection of the coupling lens
 For efficient optical coupling and suppression of higher laser modes the width of the laser focus projected onto the fiber input side has to match the mode field diameter of the fiber. Or in other words the opening angle of the focused laser beam has to match the numerical apperture of the fiber. Our fiber has a numerical apperture of 0.02 (see [fiber spec sheet](https://github.com/vbormuth/OLU/files/9039097/PMC-C-K9005.B2_delivered_2019-01-16.pdf))
 
 The numercial apperture of the coupling system is given by $NA = \frac{D}{2 f}$, with *D* the diameter of the laser beam at the position of the coupling lens, and *f* the coupling lens' focal length. The laser company normally gives the beam width and the beam divergent angle. At the position were one can place the coulping unit after the laser output the beam divergence angle determines the beam width. You can measure the diameter of the laser either with a beam profiler (Thorlabs BC207VIS/M) or with the [moving knif technique](https://www.researchgate.net/profile/Emerson-Lima-2/publication/23771279_Measurement_of_Gaussian_laser_beam_radius_using_the_knife-edge_technique_Improvement_on_data_analysis/links/00b7d533ec8470fe22000000/Measurement-of-Gaussian-laser-beam-radius-using-the-knife-edge-technique-Improvement-on-data-analysis.pdf?origin=publication_detail). In our case we measured a beam diameter of 1.6mm and thus chose a coupling lens with focal length $f = \frac{D}{2 NA} = \frac{1.6mm}{2 * 0.02} = 40mm$. 
 
 We got reasonalbe coupling with the achromatic coupling lens. If you want to further optimize the coupling you can use an objective as coupling lens, e.g. the Olympus LMPLN5xIR/0.10. 
 
-## Let's build the optical path:
+### Selection the optical path and the alignment procedure 
 
-The following schematic shows a possible optical path for the laser coupling. You can adapt the arrangement to the space availability on your setup. 
+The following schematic shows a possible optical path for the laser coupling. You can adapt the arrangement to the space availability on your setup:
 
+<img width="800" alt="OpticalPath" src="https://user-images.githubusercontent.com/38736127/177995312-f05bb464-852f-4180-af0d-67d408d3eada.png">
+
+In the following we will give a step-by-step explanation of how to built up the optical path and to do the alignment of the optical components. For the alignment we will follow a protocol well explained in an excellent youtube tutorial that you find here and that we advice you to watch carefull before starting. Just click on the snap shoot: 
+
+[<img width="400" alt="AlignmentTutorial" src="https://user-images.githubusercontent.com/38736127/176673048-5717d417-f3cd-4252-8551-5a9e17c1132f.png">](https://www.youtube.com/watch?v=kQvhbJbDG0M)
+
+The video explains a first prealignment step based on backpropagation of a laser in the reverse direction. To use this trick first connect a standard single mode fiber to the coupling unit. Use a fiber tester to inject a visible laser through the fiber. Then follow the steps as in the tutorial. Once the alignment laser and the IR laser are align disconnect the fiber and connect the hollow core fiber. If the first step was well done you should have direcly transmission through the fiber enough to optimize the futher fiber coupling as described in the tutorial. 
+
+The hollow core fibers are not protected and cannot be easily polished as you can do for single mode fibers. If you get some dusk on the fiber outlet you can damage the fiber. Also never try to clean the fiber outlet with ethanol or acethon because these solutions will enter the fiber by capillary forces and you cannot use them anymore. You can use the inspection scope to varify that the fiber is clean and in good shape.
+
+Further tips for the fiber coupling can be found in the [manual from GLO-photonics](https://github.com/vbormuth/OLU/files/9039094/PIP_PMC-OEM.pdf).
+
+## Let's do it
 
 *	Position a [motorized flip mount](https://www.thorlabs.com/thorproduct.cfm?partnumber=MFF101/M) (**M1**) holding a [protected silver mirrors](https://www.thorlabs.com/thorproduct.cfm?partnumber=PF05-03-P01) directly after the infrared laser output to highcheck laser for coupling into the optical fiber. Alternatively, you can use a [beam splitter](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=6208&pn=BS033) to use the laser source on both setups simultaneously. If this is possible depends on the laser power that you require on the different systems. 
 *	Position the half wave plate and the polarizor
@@ -79,6 +93,11 @@ The following schematic shows a possible optical path for the laser coupling. Yo
 * You should detect with the powermeter a transmission through the fiber
 * Adjust mirror M3 and M4 until you have more than 75% percent of transmission
 
+After the prealignment step we measured directly sufficient laser transmission at the fiber output to further align the coupling elements until we reached laser transmission of >90%. At 915nm wavelength, the central 2P absorption peak of GFP and of its calcium sensitive derivative GCaMP, we delivered through 1.5m fiber length 100fs laser pulses with 98% power transmission efficiency  and minute pulse dispersion of 28nm (1dB/km·nm) that we fully precompensated with the Deepsee element of the MaiTai laser source. At 488nm,  the one-photon excitation maximum of GFP and GCaMP, we achieved a transmission efficiency of 75%. 
+
+
+
+=====
 
 
 *	eventually a telescope to adjust the beam diameter for optimal coupling
@@ -90,36 +109,16 @@ The following schematic shows a possible optical path for the laser coupling. Yo
 
 
 
+<img width="800" alt="OpticalPath" src="https://user-images.githubusercontent.com/38736127/177995312-f05bb464-852f-4180-af0d-67d408d3eada.png">
+
+
+
+You could also use the broadband hollow core fiber in the prealignment step. In this case you can connect via a fiber-to-fiber connector the fiber coupled 488nm laser to the fiber outlet. We did this and it works very well. But we do not recommend this. 
 
 
 
 
 
-
-
-=======
-* Place the beam splitter or the flip mirror (M1) into the optical path directly after the laser  this will allow you to highcheck parts of the laser power or the full laser power for coupling into the optical fiber. 
-* position the two coupling mirrors M2 and M3 with a spacing between the mirrors of approximataly 20cm
-* install the xyz differential stage at a distance of approimately 20cm from the mirror M3
-* Mount the FC/PC connecor
-* Fix the mounting bracket to the stage
-
-<img width="800" alt="Test" src="https://user-images.githubusercontent.com/38736127/177995312-f05bb464-852f-4180-af0d-67d408d3eada.png">
-
-
-Once you have positioned the optics you have to align them. Here you find an excellent youtube tutorial that explains the procedure. Just click on the snap shoot: 
-
-
-[<img width="400" alt="Test" src="https://user-images.githubusercontent.com/38736127/176673048-5717d417-f3cd-4252-8551-5a9e17c1132f.png">](https://www.youtube.com/watch?v=kQvhbJbDG0M)
-
-The video explains a first prealignment step based on backpropagation of a laser in the reverse direction. To use this trick first connect a standard single mode fiber to the coupling unit. Use a fiber tester to inject a visible laser through the fiber. Then follow the steps as in the tutorial. Once the alignment laser and the IR laser are align disconnect the fiber and connect the hollow core fiber. If the first step was well done you should have direcly transmission through the fiber enough to optimize the futher fiber coupling as described in the tutorial. 
-
-You could also use the broadband hollow core fiber in the prealignment step. In this case you can connect via a fiber-to-fiber connector the fiber coupled 488nm laser to the fiber outlet. We did this and it works very well. But we do not recommend this. The hollow core fibers are not protected and cannot be easily polished as you can do for single mode fibers. If you get some dusk on the fiber outlet you can damage the fiber. Also never try to clean the fiber outlet with ethanol or acethon because these solutions will enter the fiber by capillary forces and you cannot use them anymore. 
-
-After the prealignment step we measured directly sufficient laser transmission at the fiber output to further align the coupling elements until we reached laser transmission of >90%. At 915nm wavelength, the central 2P absorption peak of GFP and of its calcium sensitive derivative GCaMP, we delivered through 1.5m fiber length 100fs laser pulses with 98% power transmission efficiency  and minute pulse dispersion of 28nm (1dB/km·nm) that we fully precompensated with the Deepsee element of the MaiTai laser source. At 488nm,  the one-photon excitation maximum of GFP and GCaMP, we achieved a transmission efficiency of 75%. 
-
-
-Further tips for the fiber coupling can be found in the [manual from GLO-photonics](https://github.com/vbormuth/OLU/files/9039094/PIP_PMC-OEM.pdf).
 
 
 
