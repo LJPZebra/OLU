@@ -33,11 +33,11 @@ Further tips for the fiber coupling can be found in the [manual from GLO-photoni
 
 To measure the laser beam diameter use either a beam profiler (Thorlabs BC207VIS/M) or use the [moving knife technique](https://www.researchgate.net/profile/Emerson-Lima-2/publication/23771279_Measurement_of_Gaussian_laser_beam_radius_using_the_knife-edge_technique_Improvement_on_data_analysis/links/00b7d533ec8470fe22000000/Measurement-of-Gaussian-laser-beam-radius-using-the-knife-edge-technique-Improvement-on-data-analysis.pdf?origin=publication_detail). For the moving knife technique fix a razor plate onto a [linear translation stage](https://www.thorlabs.com/thorproduct.cfm?partnumber=XRN25C/M) via a [thin plate holder](https://www.thorlabs.com/thorproduct.cfm?partnumber=PC2/M) mounted horizontally via [Mounts Two Ø1/2" Posts at a Fixed 90° Angl](https://www.thorlabs.com/thorproduct.cfm?partnumber=RA90) and move it perpendicular to the laser path out the laser while meauring the laser intensity as a function of the knife-edge position.  
 
-The measured normalized power as a funciton of knife-edge position,x , can be fitted by $ P_N(x)=0.5(1 + erf\left(\frac{x-x0}{w}\right)) $. The fit paramter w is the beam radius at $e^{-1}$. 
+The measured normalized power as a funciton of knife-edge position,x , can be fitted by  $ P_N(x)=0.5\left[1 + erf\left(\frac{x-x0}{w}\right)\right] $. The fit paramter w is the beam radius at $e^{-1}$. 
 
 You can also read w from the graph as half of the distance between the positions where the normalized power has a value between 0.08 and 0.92. Note that the beam diameter relevant to numercial apperture is measured at $e^{-2}$ . 
 
-$we2 = we1 * \sqrt(2)$ 
+$w_{e^{-2}} = \sqrt{2} w_{e^{-1}}$ 
 
 
 
