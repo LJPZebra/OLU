@@ -14,7 +14,7 @@ For the alignment we will follow a protocol well explained in an excellent youtu
 
 [<img width="400" alt="AlignmentTutorial" src="https://user-images.githubusercontent.com/38736127/176673048-5717d417-f3cd-4252-8551-5a9e17c1132f.png">](https://www.youtube.com/watch?v=kQvhbJbDG0M)
 
-## Handling of the hollow core fiber
+### Handling of the hollow core fiber
 * The hollow core fibers are not protected and cannot be easily polished as you can do for single mode fibers. If you get some dusk on the fiber outlet you can damage the fiber. Also never try to clean the fiber outlet with ethanol or acethon because these solutions will enter the fiber by capillary forces and you cannot use them anymore. You can use the inspection scope to varify that the fiber is clean and in good shape.
 
 * The fiber has a very high domage threshold but only if the laser is well coupled. So the alignemnt procedure has to be done at low laser power. We will regulate the laser intensity with a [lambda wave plate](https://www.newport.com/p/10RP52-2) and a [polarizor]([https://www.thorlabs.com/thorproduct.cfm?partnumber=CCM1-PBS25-1064-HP](https://www.thorlabs.com/thorproduct.cfm?partnumber=CCM1-PBS252/M)). 
