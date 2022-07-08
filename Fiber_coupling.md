@@ -24,6 +24,10 @@ Note: Do the coupling procedure at very low laser power for laser safety and to 
 You can regulate the laser intensity with a [lambda wave plate](https://www.newport.com/p/10RP52-2) and a [polarizor]([https://www.thorlabs.com/thorproduct.cfm?partnumber=CCM1-PBS25-1064-HP](https://www.thorlabs.com/thorproduct.cfm?partnumber=CCM1-PBS252/M)). 
 
 ## Let's do it:
+
+<img width="400" alt="Test" src="https://user-images.githubusercontent.com/38736127/177995312-f05bb464-852f-4180-af0d-67d408d3eada.png">
+
+
 A possible configuration of the fiber coupling optical setup that we used is shown in the following figure:
 
 <img width="400" alt="Test" src="https://user-images.githubusercontent.com/38736127/177211832-9b103593-d3d3-4efb-b24c-df840a2f0456.png">
