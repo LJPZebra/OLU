@@ -14,11 +14,11 @@
 
 * Fix the [collimation objective](https://www.micro-shop.zeiss.com/en/us/shop/objectives/420330-9901-000/Objective-EC-Plan-Neofluar-5x-0.16-M27) to the cube. 
 
-* Fix the piezocrystal to the cube (dark gray). 
+* Fix the [piezocrystal (PZ 400 SG OEM)](https://www.piezosystem.com/product/pz-400-oem/) to the cube (dark gray). 
 
 (4) Fix the fiber holder to the piezo crystal (red).
 
-(5-7) Fix the fiber to the FC/PC connector and screw the connector into the cyclinder (black) but not too far so that you can easily attach and detach the fiber. 
+(5-7) Fix one of the output fibers of the fiber optic coupler to the [FC/PC connector](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM05FC#ad-image-0) and screw the connector into the cyclinder (black) but not too far so that you can easily attach and detach the fiber. 
 
 (8) Fix the fiber via the cylinder to the ligh-sheet unit.
 
