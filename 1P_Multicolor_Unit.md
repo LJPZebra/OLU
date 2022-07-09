@@ -1,3 +1,6 @@
+## Purchase list
+
+## Pieces to send for milling
 
 #### Let's start to assemble
 
