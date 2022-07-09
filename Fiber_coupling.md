@@ -8,7 +8,7 @@ The following schematic shows a possible optical path for the laser coupling. Yo
 <img width="400" alt="OpticalPath" src="https://user-images.githubusercontent.com/38736127/178073728-e55b142f-e37f-4267-9c27-1f29199aaddd.png">
 
 
-If you do not have space on your table you can mount easily a platform on top or your IR pulsed laser source and bring the laser beam with a [periscope](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=883) up to the platform. 
+If you do not have space on your table you can mount easily a platform on top of your IR pulsed laser source and bring the laser beam with a [periscope](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=883) up to the platform. 
 
 We will give a step-by-step explanation for building this optical path and to align the optical components for optimal fiber coupling. But before we start we will give some preparatory notes and general background:
 
