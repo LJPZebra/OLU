@@ -87,6 +87,8 @@ We start with the building instructions for a one-photon multicolor system.
 
 [CAD models](CAD_models)
 
+[cube](CAD_models/cube.stl)
+
 [1P&2P_Assembly](CAD_models/1P&2P_Assembly.stl)
 
 [Light-Sheet_Holder](CAD_models/Light-Sheet_Holder_Assembly_v3.stl)
