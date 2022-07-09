@@ -8,7 +8,7 @@
 (1) Purchase the laser directly fiber coupled.
 
 (2) 
-* Prepare the main cube (green) of the light-sheet unit. It is  milled out of an aluminium block. If you do not have a mechanical workshop in house then you can download the 3D model, e.g. as a step file, and send it to an online milling service (e.g. https://xometry.eu/fr/usinage-cnc-fraisage-cnc/). 
+* Prepare the main cube (green) of the light-sheet unit. It is  milled out of an aluminium block. If you do not have a mechanical workshop in house then you can download the [3D model](CAD_models/cube.stl), e.g. as a step file, and send it to an online milling service (e.g. https://xometry.eu/fr/usinage-cnc-fraisage-cnc/). 
 
 * Fix the collimation objective to the cube. 
 
