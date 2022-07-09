@@ -5,14 +5,16 @@
 ![BuildingInstructions](https://user-images.githubusercontent.com/38736127/178075149-4b1e094c-851a-4eff-bd80-95e90b93983e.png)
 
 
-(1) Purchase the laser directly fiber coupled.
+(1) Purchase a blue 488nm and a green 5??nm [laser with prealigned fiber coupler](https://github.com/vbormuth/OLU/files/9057780/WEBSITE-Datasheet-LBX-488.pdf)
 
-(2) 
+(2) To combine the two lasers into a single mode fiber attach the two inputs of the [fiber optic coupler](https://www.thorlabs.com/thorproduct.cfm?partnumber=TW470R5F2) to the FC/PC connector of each laser. The blue and the green lasers will be combined and are available at both output fiber ports. 
+
+(3) 
 * Prepare the main cube (green) of the light-sheet unit. It is  milled out of an aluminium block. If you do not have a mechanical workshop in house then you can download the [3D model](CAD_models/Cube.stl), e.g. as a step file, and send it to an online milling service (e.g. https://xometry.eu/fr/usinage-cnc-fraisage-cnc/). 
 
 * Fix the [collimation objective](https://www.micro-shop.zeiss.com/en/us/shop/objectives/420330-9901-000/Objective-EC-Plan-Neofluar-5x-0.16-M27) to the cube. 
 
-(3) Fix the piezocrystal to the cube (dark gray). 
+* Fix the piezocrystal to the cube (dark gray). 
 
 (4) Fix the fiber holder to the piezo crystal (red).
 
@@ -27,9 +29,7 @@
 (11) Detach the fiber to prevent to domage it and fix the ligh-sheet holder onto the motorized stage of the microscpe body.
 
 (12) Fix the illumination objective to the light-sheet unit and attach again the fiber. Now you can attach the imaging objective to the microscope. 
-
-
-
+ 
 
 ![LightSheetUnit_different_Views](https://user-images.githubusercontent.com/38736127/175005382-7465c87b-a4d5-4bc8-8349-bc513ecaa548.png)
 
