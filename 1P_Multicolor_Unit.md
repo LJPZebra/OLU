@@ -33,3 +33,12 @@
 
 ![LightSheetUnit_different_Views](https://user-images.githubusercontent.com/38736127/175005382-7465c87b-a4d5-4bc8-8349-bc513ecaa548.png)
 
+
+
+### Detection path
+
+* fix the detection objectives and insert the filters (?,?,?) in to the filter holders. Attach the Hamamatsu camera to the camera port. 
+* We used a Olympus 20x objective with a custom tube lens of 150mm focal lenth. 
+
+
+### Sample holder
