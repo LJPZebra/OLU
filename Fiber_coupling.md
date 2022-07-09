@@ -74,7 +74,10 @@ You can also read $w_{e^{-1}}$ from the graph as half of the distance between th
 * Open again the laser shutter. You should measure laser transmission through the fiber.
 * Now adjust the mirrors **M2** and **M3** as was discribed in the video until you get > 90% laser transmission. 
 * Close the laser shutter
-* Detach the NCF-fiber from the coupling unit.
+
+### Install and adjust the NA expander
+*
+*
 
 ### Coupling the visible laser
 * Fix the [fiber coupled laser](https://github.com/vbormuth/OLU/files/9057780/WEBSITE-Datasheet-LBX-488.pdf) onto the table.
