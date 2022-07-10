@@ -44,7 +44,7 @@
 * Install the filters
      * a [notch filter to block the 488nm laser line](https://www.thorlabs.com/thorproduct.cfm?partnumber=NF488-15)
      * a [GFP Emission Filter](https://www.thorlabs.com/thorproduct.cfm?partnumber=MF525-39). 
-* Attach the camera to the camera port. We used the [Hamamatsu ORCA-Flash4.0 V3 camera]([https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/documents/99_SALES_LIBRARY/sys/SCAS0134E_C13440-20CU_tec.pdf](https://www.hamamatsu.com/eu/en/product/cameras/cmos-cameras/C13440-20CU.html))
+* Attach the camera to the camera port. We used the [Hamamatsu ORCA-Flash4.0 V3 camera](https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/documents/99_SALES_LIBRARY/sys/SCAS0134E_C13440-20CU_tec.pdf)
 
 
 
