@@ -13,7 +13,7 @@
 (2) To combine the two lasers into a single mode fiber attach the two inputs of the [fiber optic coupler](https://www.thorlabs.com/thorproduct.cfm?partnumber=TW470R5F2) to the FC/PC connector of each laser. The blue and the green lasers will be combined and are available at both output fiber ports. 
 
 (3) 
-* Prepare the main [cube (green)](CAD_models/Cube.stl) of the light-sheet unit. You can download the [CAD model as a step file type](CAD_models/Cube.stp). It is  milled out of an aluminium block. If you do not have a mechanical workshop in house then you can send it to an online milling service (e.g. https://xometry.eu/fr/usinage-cnc-fraisage-cnc/). 
+* Prepare the main [cube (green)](CAD_models/Cube.stl) of the light-sheet unit. You can download the [CAD model as a step file type](CAD_models/Cube.stp). It is  milled out of an aluminum block. If you do not have a mechanical workshop in house then you can send it to an online milling service (e.g. https://xometry.eu/fr/usinage-cnc-fraisage-cnc/). 
 
 * Fix the [collimation objective](https://www.micro-shop.zeiss.com/en/us/shop/objectives/420330-9901-000/Objective-EC-Plan-Neofluar-5x-0.16-M27) to the cube. 
 
@@ -21,15 +21,15 @@
 
 (4) Fix the fiber holder to the piezo crystal (red).
 
-(5-7) Fix one of the output fibers of the fiber optic coupler to the [FC/PC connector](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM05FC#ad-image-0) and screw the connector into the cyclinder (black) but not too far so that you can easily attach and detach the fiber. 
+(5-7) Fix one of the output fibers of the fiber optic coupler to the [FC/PC connector](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM05FC#ad-image-0) and screw the connector into the cylinder (black) but not too far so that you can easily attach and detach the fiber. 
 
-(8) Fix the fiber via the cylinder to the ligh-sheet unit.
+(8) Fix the fiber via the cylinder to the light-sheet unit.
 
-(9) Before you switch on the laser prepare laser safety in the room (remove you juwlerie, make sure that nobody is in the laser path and that the laser will not hit any reflecting surfaces. Then switch on the laser at low laser power. Adjust the distance of the fiber relative to the collimation objective until the laser exits the cube well collimated. Switch off the laser again. 
+(9) Before you switch on the laser prepare laser safety in the room (remove you jewelries, make sure that nobody is in the laser path and that the laser will not hit any reflecting surfaces. Then switch on the laser at low laser power. Adjust the distance of the fiber relative to the collimation objective until the laser exits the cube well collimated. Switch off the laser again. 
 
-(10) Insert the [galvometer mirror](https://www.thorlabs.com/thorproduct.cfm?partnumber=GVS011) and rotate it such that the laser will be reflected our of the opening that will hold the illumination objective (45 degree position). Switch on the laser. Carefully center the beam into the opening by fin adjusting the orentation of the galvometer mirror. Once done fix the mirror position with the fixation screw. 
+(10) Insert the [galvometer mirror](https://www.thorlabs.com/thorproduct.cfm?partnumber=GVS011) and rotate it such that the laser will be reflected our of the opening that will hold the illumination objective (45 degree position). Switch on the laser. Carefully center the beam into the opening by fin adjusting the orientation of the galvometer mirror. Once done fix the mirror position with the fixation screw. 
 
-(11) Detach the fiber to prevent to domage it and fix the ligh-sheet holder onto the motorized stage of the microscpe body.
+(11) Detach the fiber to prevent to damage it and fix the ligh-sheet holder onto the motorized stage of the microscope body.
 
 (12) Fix the [illumination objective](https://www.micro-shop.zeiss.com/en/us/shop/objectives/420330-9901-000/Objective-EC-Plan-Neofluar-5x-0.16-M27) to the light-sheet unit and attach again the fiber. Now you can attach the imaging objective to the microscope. 
  
@@ -51,8 +51,8 @@
 
 ### Sample holder
 
-* Install the [sample holder](CAD_models/SampleHolder.stl). This part is milled out of aluminium. You can download the [CAD step file of holder](CAD_models/SampleHolder.stp) here to send it to your milling service.
-* 3D print the [sample chamber](CAD_models/SampleChamber.stl). You can download the [CAD step file of the sample chamber](CAD_models/SampleHolder.stp) here to send it to your 3D printing service. Clue with superclue two glass windows on both side. Place the sample chamber into the predefined opening of the sample holder. 
+* Install the [sample holder](CAD_models/SampleHolder.stl). This part is milled out of aluminum. You can download the [CAD step file of holder](CAD_models/SampleHolder.stp) here to send it to your milling service.
+* 3D print the [sample chamber](CAD_models/SampleChamber.stl). You can download the [CAD step file of the sample chamber](CAD_models/SampleHolder.stp) here to send it to your 3D printing service. Glue with superglue two glass windows on both side. Place the sample chamber into the predefined opening of the sample holder. 
 
 ![SampleHolder](https://user-images.githubusercontent.com/38736127/178137631-2c89b6cf-9c1a-4c7f-b7f9-2d27c1fac82d.png)
 
