@@ -52,7 +52,10 @@
 ### Sample holder
 
 * Install the [sample holder](CAD_models/SampleHolder.stl). This part is milled out of aluminium. You can download the [CAD step file of holder](CAD_models/SampleHolder.stp) here to send it to your milling service.
-* Place the [sample chamber](CAD_models/SampleChamber.stl) into the predefined opening of the sample holder. This part can be 3D printed. You can download the [CAD step file of the sample chamber](CAD_models/SampleHolder.stp) here to send it to your 3D printing service.
+* 3D print the [sample chamber](CAD_models/SampleChamber.stl). You can download the [CAD step file of the sample chamber](CAD_models/SampleHolder.stp) here to send it to your 3D printing service. Clue with superclue two glass windows on both side. Place the sample chamber into the predefined opening of the sample holder. 
 
 ![SampleHolder](https://user-images.githubusercontent.com/38736127/178137631-2c89b6cf-9c1a-4c7f-b7f9-2d27c1fac82d.png)
 
+
+### Now let's align the system
+* add water into the sample chamber
