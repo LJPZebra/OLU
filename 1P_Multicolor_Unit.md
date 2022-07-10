@@ -40,7 +40,10 @@
 
 ### Detection path
 
-* fix the detection objectives and insert the filters (?,?,?) in to the filter holders. Attach the Hamamatsu camera to the camera port. 
+* fix the detection objectives 
+* Install the filters
+     * a [notch filter to block the 488nm laser line](https://www.thorlabs.com/thorproduct.cfm?partnumber=NF488-15)
+     * a GFP bandpass fiber (?,?,?) in to the filter holders. Attach the Hamamatsu camera to the camera port. 
 * We used a Olympus 20x objective with a custom tube lens of 150mm focal lenth. 
 
 
