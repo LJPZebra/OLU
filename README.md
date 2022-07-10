@@ -28,13 +28,15 @@ https://user-images.githubusercontent.com/38736127/174909302-b3901000-2807-471f-
 ## Detailed Building instructions:
 
 
-* [1P Multicolor Unit](1P_Multicolor_Unit.md)
+* [Build first a multicolor one-photon version of the microsope](1P_Multicolor_Unit.md)
 
-* [2P Unit](2P_Unit.md)
+* [Fiber coupling of the pulse infrared laser required for two-photon light-sheet microscopy](Fiber_coupling.md)
 
-* [Fiber coupling](Fiber_coupling.md)
+* [Upgrade the one-photon unit into a two-photon unit](2P_Unit.md)
 
 * [History of hollowcore negative curvature fibers](FiberOpticsReview.md)
+
+* [Control software](software.md)
 
 
 
