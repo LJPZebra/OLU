@@ -25,7 +25,7 @@
 | Objective piezo drive                                         | Piezo Jena           | Mipos 500 SG,Triptics           |
 | Tube lens (f = 150 mm)                                        | Thorlabs             | AC254-150-A                     |
 | GFP filter (525 nm)                                           | Thorlabs             | MF525-39                        |
-|                                                               | Semrock              | FF01-750/SP-25                  |
+| multiphoton short-pass emission filter                        | Semrock              | FF01-750/SP-25                  |
 | Notch filter (488 nm)                                         | Thorlabs             | NF488-15                        |
 | Camera (sCMOS)                                                | Hamamatsu            | C13440 V3                       |
 | Acquisition board                                             | National Instruments | NI PCIe-6363                    |
