@@ -40,12 +40,12 @@
 
 ### Detection path
 
-* fix the detection objectives 
+* fix the [detection objectives](https://www.thorlabs.com/catalogpages/Obsolete/2019/N60XW-PF.pdf) that is best adapted to your application. We used the Olympus 20x objective (thorlabs N20X-PFH) in combination with a lens of 150mm focal length as [tube lens](https://www.thorlabs.com/thorproduct.cfm?partnumber=AC254-150-A) giving a magnification of 16x for the imaging system. 
 * Install the filters
      * a [notch filter to block the 488nm laser line](https://www.thorlabs.com/thorproduct.cfm?partnumber=NF488-15)
-     * a GFP bandpass fiber (?,?,?) in to the filter holders. Attach the Hamamatsu camera to the camera port. 
+     * a [GFP Emission Filter](https://www.thorlabs.com/thorproduct.cfm?partnumber=MF525-39). 
+* Attach the camera to the camera port. We used the [Hamamatsu ORCA-Flash4.0 V3 camera]([https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/documents/99_SALES_LIBRARY/sys/SCAS0134E_C13440-20CU_tec.pdf](https://www.hamamatsu.com/eu/en/product/cameras/cmos-cameras/C13440-20CU.html))
 
-* We used a Olympus 20x objective with a custom tube lens of 150mm focal lenth. 
 
 
 ### Sample holder
