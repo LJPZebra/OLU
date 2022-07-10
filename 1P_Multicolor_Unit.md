@@ -59,3 +59,8 @@
 
 ### Now let's align the system
 * add water into the sample chamber
+
+
+### Example recordings:
+
+
