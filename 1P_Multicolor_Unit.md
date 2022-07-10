@@ -51,5 +51,5 @@
 
 ### Sample holder
 
-![SampleHolder](https://user-images.githubusercontent.com/38736127/178137595-ffe76539-92fb-47a6-94ef-dfe93438fce8.png)
+![SampleHolder](https://user-images.githubusercontent.com/38736127/178137631-2c89b6cf-9c1a-4c7f-b7f9-2d27c1fac82d.png)
 
