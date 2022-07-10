@@ -51,7 +51,8 @@
 
 ### Sample holder
 
-* [3D model](CAD_models/Cube.stl), e.g. as a step file, and send it to an online milling service (e.g. https://xometry.eu/fr/usinage-cnc-fraisage-cnc/). 
+* Install the [sample holder](CAD_models/SampleHolder.stl). This part is milled out of aluminium. You can download the[CAD step file of holder](CAD_models/SampleHolder.stp) here to send it to your milling service.
+* Place the [sample chamber](CAD_models/SampleChamber.stl) into the predefined opening of the sample holder. This part can be 3D printed. You can download the[CAD step file of the sample chamber](CAD_models/SampleHolder.stp) here to send it to your 3D printing service.
 
 ![SampleHolder](https://user-images.githubusercontent.com/38736127/178137631-2c89b6cf-9c1a-4c7f-b7f9-2d27c1fac82d.png)
 
