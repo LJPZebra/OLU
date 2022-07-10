@@ -1,6 +1,11 @@
+
+
 ## Purchase list
 
+
 ## Pieces to send for milling
+* The light-sheet central cube
+* the fiber holder
 
 #### Let's start to assemble
 
