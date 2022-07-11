@@ -24,7 +24,7 @@ For the alignment we will follow a protocol well explained in an excellent YouTu
 
 
 ### Selection of the coupling lens
-For efficient optical coupling and suppression of higher laser modes the width of the laser focus projected onto the fiber input side has to match the mode field diameter of the fiber. Or in other words the opening angle of the focused laser beam has to match the numerical aperture of the fiber. Our fiber has a numerical aperture of 0.02 (see [fiber spec sheet](https://github.com/vbormuth/OLU/files/9039097/PMC-C-K9005.B2_delivered_2019-01-16.pdf))
+For efficient optical coupling and suppression of higher laser modes the width of the laser focus projected onto the fiber input side has to match the mode field diameter of the fiber. Or in other words the opening angle of the focused laser beam has to match the numerical aperture of the fiber. Our fiber has a numerical aperture of 0.02 (see [fiber spec sheet](https://github.com/vbormuth/OLU/files/9039097/PMC-C-K9005.B2_delivered_2019-01-16.pdf)).
 
 The numerical aperture of the coupling system is given by $\textrm{NA} = \frac{D}{2 f}$, with *D* the diameter of the laser beam at the position of the coupling lens, and *f* the coupling lens' focal length. The laser company normally gives the beam width and the beam divergent angle. In our case the Ti:Sapphire laser (MaiTai, Coherent, USA) has an output beam waiste <1.2mm and an divergent angle of < 0.001mrad. We measured a beam diameter of 1.6mm at the position where we decided to install the coupling unit and we thus chose a coupling lens with focal length $f = \frac{D}{2 \textrm{NA}} = \frac{1.6\textrm{mm}}{2 \cdot 0.02} = 40\textrm{mm}$. 
 
