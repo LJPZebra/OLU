@@ -78,6 +78,7 @@ You can also read $w_{e^{-1}}$ from the graph as half of the distance between th
 ### Install and adjust the NA expander
 The collimation and illumination objective form a one-to-one telescope. 
 
+[NA expander lense](https://www.thorlabs.com/thorproduct.cfm?partnumber=C151TMD-B)
 * 
 cite: Focusing of spherical Gaussian beams by Sidney A. Self
 
