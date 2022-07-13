@@ -79,7 +79,7 @@ You can also read $w_{e^{-1}}$ from the graph as half of the distance between th
 The collimation and illumination objective form a one-to-one telescope. 
 
 * 
-*
+cite: Focusing of spherical Gaussian beams by Sidney A. Self
 
 ### Coupling the visible laser
 * Fix the [fiber coupled laser](https://github.com/vbormuth/OLU/files/9057780/WEBSITE-Datasheet-LBX-488.pdf) onto the table.
