@@ -36,7 +36,7 @@ https://user-images.githubusercontent.com/38736127/174909302-b3901000-2807-471f-
 
 * Build first a [multicolor one-photon version of the microsope](1P_Multicolor_Unit.md) with fiber delivery of lasers in the visible spectrum with a standard single mode optical fiber technology.
 
-* [Fiber coupling of the pulse infrared laser required for two-photon light-sheet microscopy](Fiber_coupling.md)
+* [Fiber coupling of the pulsed infrared laser required for two-photon light-sheet microscopy](Fiber_coupling.md)
 
 * [Upgrade the one-photon unit into a two-photon unit](2P-Unit.md)
 
