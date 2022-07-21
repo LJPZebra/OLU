@@ -4,7 +4,7 @@
 
 
 ## Pieces to send for milling
-* The light-sheet central cube
+* The light-sheet unit central cube
 * the fiber holder
 
 #### Let's start to assemble
