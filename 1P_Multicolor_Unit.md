@@ -61,6 +61,8 @@
 
 ![SampleHolder](https://user-images.githubusercontent.com/38736127/178137631-2c89b6cf-9c1a-4c7f-b7f9-2d27c1fac82d.png)
 
+* pistons Wiretrol 25μL (diamètre 0.85mm, longueur 115mm) des capillaires associés (diamètre extérieur 1.47mm, longueur 115mm).
+
 
 ### Now let's align the system
 * add water into the sample chamber
