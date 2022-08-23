@@ -19,5 +19,7 @@ Pieces delivered by Scientifica :
 Custom pieces :
 - [ ] adaptor plates
 - [ ] fiber holder (red)
+- [ ] add the threads to the CAD models
+- [ ] export plans including threads
 
 
