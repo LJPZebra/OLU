@@ -73,9 +73,13 @@ These pieces are  milled out of an aluminum. If you do not have a mechanical wor
 
 
 ### Now let's align the system
-* add water into the sample chamber and a drop of ????mM fluorescein to visualize the laser
+* Fill the sample chamber with water and add a drop of ????mM fluorescein to visualize the laser. Switch-on the laser at low power until you can see the fluorescence laser profile. Becareful not to look directly into the laser!
 
 <img width="200" alt="Picture of laser" src="https://user-images.githubusercontent.com/38736127/186088660-4590242d-2d1e-4357-8bcd-4d5d63d3d97d.jpg">
+
+* Align the laser waist under the detection objective by moving the entire light-sheet forming unit with the x-translation stage
+* Switch on the camera and align the laser into the focal plane of the detection objective by moving the light-sheet forming unit with the z-translation stage unti you see a sharp image of the laser with the camera. If you do not see the laser move the galvometer mirror to bring the laser into the field of view.
+* 
 
 ### Example recordings:
 
