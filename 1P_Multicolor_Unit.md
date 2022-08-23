@@ -74,8 +74,8 @@ These pieces are  milled out of an aluminum. If you do not have a mechanical wor
 
 ### Now let's align the system
 * add water into the sample chamber and a drop of ????mM fluorescein to visualize the laser
-![Sheet-of-light_rot](https://user-images.githubusercontent.com/38736127/186088660-4590242d-2d1e-4357-8bcd-4d5d63d3d97d.jpg)
 
+<img width="200" alt="Picture of laser" src="https://user-images.githubusercontent.com/38736127/186088660-4590242d-2d1e-4357-8bcd-4d5d63d3d97d.jpg">
 
 ### Example recordings:
 
