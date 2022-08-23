@@ -66,15 +66,13 @@ To configure the detection path you use the standard ports and configuration of 
 ### Sample chamber holder and sample chamber
 
 * Install the [sample holder](CAD_models/SampleHolder.stl). This part is milled out of aluminum. You can download the [CAD step file of holder](CAD_models/SampleHolder.stp) here to send it to your milling service.
-* 3D print the [sample chamber](CAD_models/SampleChamber.stl). You can download the [CAD step file of the sample chamber](CAD_models/SampleHolder.stp) here to send it to your 3D printing service. Glue with superglue two glass windows on both side (??????) as well as an [O-ring](https://www.oring.fr/joint-torique/22-1.html?search_query=&results=45) (ref and link ?????) into the hole on the short side which will allow you later to hold a capillary with the sample for the imaging sessions. As glue we use a UV glue (????) but you can also use standard superglue. Place the sample chamber into the predefined opening of the sample holder. 
+* 3D print the [sample chamber](CAD_models/SampleChamber.stl). You can download the [CAD step file of the sample chamber](CAD_models/SampleHolder.stp) here to send it to your 3D printing service. Glue with superglue two glass windows on both side (??????) as well as an [O-ring](https://www.oring.fr/joint-torique/22-1.html?search_query=&results=45) into the hole on the short side which will allow you later to hold and position the sample via a [capillary](https://www.alphalabs.co.uk/5-000-2050) (inner diameter 0.85mm, outer diamter 1.47mm, length 115mm) for the imaging sessions. As glue we use a UV glue (????) but you can also use standard superglue. Place the sample chamber into the predefined opening of the sample holder. 
 
 ![SampleHolder](https://user-images.githubusercontent.com/38736127/178137631-2c89b6cf-9c1a-4c7f-b7f9-2d27c1fac82d.png)
 
-* Pistons Wiretrol 25μL (diamètre 0.85mm, longueur 115mm) des capillaires associés (diamètre extérieur 1.47mm, longueur 115mm).
 
-https://www.alphalabs.co.uk/5-000-2050
 
-https://www.fishersci.fi/shop/products/plunger-acura-capillary-micropipettes/p-8481034
+<!--- https://www.fishersci.fi/shop/products/plunger-acura-capillary-micropipettes/p-8481034 --->
 
 
 
