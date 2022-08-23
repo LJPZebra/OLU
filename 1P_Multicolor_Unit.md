@@ -36,7 +36,7 @@ These pieces are  milled out of an aluminum. If you do not have a mechanical wor
 
 (9) Before you switch on the laser prepare laser safety in the room (remove you jewelries, make sure that nobody is in the laser path and that the laser will not hit any reflecting surfaces. Then switch on the laser at low laser power. Adjust the distance of the fiber relative to the collimation objective until the laser exits the cube well collimated. Switch off the laser again. 
 
-(10) Insert the [galvometer mirror](https://www.thorlabs.com/thorproduct.cfm?partnumber=GVS011) and rotate it such that the laser will be reflected our of the opening that will hold the illumination objective (45 degree position). Switch on the laser. Carefully center the beam into the opening by fin adjusting the orientation of the galvometer mirror. Once done fix the mirror position with the fixation screw. 
+(10) Insert the [galvometer mirror](https://www.thorlabs.com/thorproduct.cfm?partnumber=GVS011) and switch it on. Rotate the galvosystem such that the laser will be reflected our of the opening that will hold the illumination objective (45 degree position). Switch on the laser. Carefully center the beam into the opening by fin adjusting the orientation of the galvometer mirror. Once done fix the mirror position with the fixation screw. 
 
 (11-14) Screw the x-translation stage onto the z-translation stage and fix onto the assembly the two adaptor plates (blue).
 
