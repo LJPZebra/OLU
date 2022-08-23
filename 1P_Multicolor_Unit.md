@@ -36,11 +36,13 @@ These pieces are  milled out of an aluminum. If you do not have a mechanical wor
 
 (10) Insert the [galvometer mirror](https://www.thorlabs.com/thorproduct.cfm?partnumber=GVS011) and rotate it such that the laser will be reflected our of the opening that will hold the illumination objective (45 degree position). Switch on the laser. Carefully center the beam into the opening by fin adjusting the orientation of the galvometer mirror. Once done fix the mirror position with the fixation screw. 
 
-(11-14) Screw the x-translation stage onto the z-translation stage and fix to them the two adaptor pieces (blue) and then screw the light-sheet cube onto the x-tranlastion stage. 
+(11-14) Screw the x-translation stage onto the z-translation stage and fix onto the assembly the two adaptor plates (blue).
 
-(16) Detach the fiber to prevent to damage it and fix the ligh-sheet holder onto the motorized stage of the microscope body.
+(15) Screw the light-sheet cube onto the x-tranlastion stage. 
 
-(17) Fix the [illumination objective](https://www.micro-shop.zeiss.com/en/us/shop/objectives/420330-9901-000/Objective-EC-Plan-Neofluar-5x-0.16-M27) to the light-sheet unit and attach again the fiber. Now you can attach the imaging objective to the microscope. 
+(16) Fix the ligh-sheet cube via the adaptor plate onto the motorized stage of the microscope body. (?????? Do we have to drill holes into the micoscope parte first ????? )
+
+(17) Fix the [illumination objective](https://www.micro-shop.zeiss.com/en/us/shop/objectives/420330-9901-000/Objective-EC-Plan-Neofluar-5x-0.16-M27) to the light-sheet unit and attach againe the optical fiber and fix the illumination objective onto the light-sheet cube. 
  
 
 ![LightSheetUnit_different_Views](https://user-images.githubusercontent.com/38736127/175005382-7465c87b-a4d5-4bc8-8349-bc513ecaa548.png)
