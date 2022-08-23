@@ -83,6 +83,8 @@ To configure the detection path you use the standard ports and configuration of 
 * Switch on the camera and align the laser into the focal plane of the detection objective by moving the light-sheet forming unit with the z-translation stage unti you see a sharp image of the laser with the camera. If you do not see the laser move the galvometer mirror to bring the laser into the field of view.
 * Fine align the laser waist into the center of the field of view using the x-translation stage
 * Now drive the galvometer with a saw tooth pattern via a function generator or the coomputer software to generate the light-sheet. Adjust the amplitude of the movement such that the light-sheet covers exactly the field of view. 
+* Trouble shooting: 
+ -- ** Your image is not sharp homogeneously accross the field of view: The light-sheet might be tilted with respect to the focal plane of the detection objective.  In this case you can correct this by tilting slighly the entire unit. For this unscrew slighly screws that fix the unit via the adapter plate to the microscope translation stage. Insert a thin paper partly between the adapter plate and the stage such that the unit gets tiltited in the correct direction once you refix the screws. Repeat this procedure until your image is in focus accross the entire field of view. 
 
 ### Example recordings:
 
