@@ -1,6 +1,9 @@
 - [ ] Did we drill holes into the motorized stage of the Scientifica scope?
 - [ ] prepare purchase list with pricing and total estimation of cost
 
+## 1P-Multicolor unit
+- [ ] Add image of an aligned and unaligned laser
+
 ## Missing references
 - [ ] reference superglue
 - [ ] reference of coverglasses used to assemble the sample chamber
