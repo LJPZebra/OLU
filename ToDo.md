@@ -1,7 +1,10 @@
 - [ ] Did we drill holes into the motorized stage of the Scientifica scope?
 - [ ] prepare purchase list with pricing and total estimation of cost
-- [ ] superglue reference
+
+## Missing references
+- [ ] reference superglue
 - [ ] reference of coverglasses used to assemble the sample chamber
+- [ ] reference of O-rings used for sample chamber
 
 ## CAD models
 
