@@ -1,4 +1,4 @@
-
+- [ ] Did we drill holes into the motorized stage of the Scientifica scope?
 
 ## CAD models
 
