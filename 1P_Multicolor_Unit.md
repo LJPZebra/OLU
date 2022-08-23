@@ -28,9 +28,9 @@ These pieces are  milled out of an aluminum. If you do not have a mechanical wor
 
 (4) Fix the fiber holder to the piezo crystal (red).
 
-(5-7) Fix one of the output fibers of the fiber optic coupler to the [FC/PC connector](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM05FC#ad-image-0) and screw the connector into the cylinder (black) but not too far so that you can easily attach and detach the fiber. 
+(5-7) Take the [FC/PC connector](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM05FC#ad-image-0) which will later hold the optical fiber that delivers the laser. Screw the connector into the cylinder (black) but not too far so that you can easily attach and detach the optical fiber.
 
-(8) Fix the fiber via the cylinder to the light-sheet unit.
+(8) Fix the cylinder to the light-sheet unit via the optical fiber holder (red) and attach one of the output fibers of the fiber optic coupler to the connector. 
 
 (9) Before you switch on the laser prepare laser safety in the room (remove you jewelries, make sure that nobody is in the laser path and that the laser will not hit any reflecting surfaces. Then switch on the laser at low laser power. Adjust the distance of the fiber relative to the collimation objective until the laser exits the cube well collimated. Switch off the laser again. 
 
