@@ -8,6 +8,8 @@ These pieces are  milled out of an aluminum. If you do not have a mechanical wor
 * [The light-sheet unit central cube](CAD_models/Cube.stl). Download the [CAD model as a step file](CAD_models/Cube.stp) here.
 * [The fiber holder  ?????](CAD_models/FiberHolder.stl). Download the [????? CAD model as a step file](CAD_models/FiberHolder.stp) here.
 * Two adaptor plates: [part1 ????](CAD_models/AdaptorPlate1.stl) and [part1 ????](CAD_models/AdaptorPlate1.stl)
+* Sample chamber holder ???
+* Sample chamber ???
 
 
 #### Let's start to assemble
