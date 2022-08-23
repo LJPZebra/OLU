@@ -52,6 +52,8 @@ These pieces are  milled out of an aluminum. If you do not have a mechanical wor
 
 ### Detection path
 
+To configure the detection path you use the standard ports and configuration of the Scientifica scope. 
+
 * Fix the [detection objectives](https://www.thorlabs.com/catalogpages/Obsolete/2019/N60XW-PF.pdf) that is best adapted to your application. We used the Olympus 20x objective (thorlabs N20X-PFH) in combination with a custom lens of 150mm focal length as [tube lens](https://www.thorlabs.com/thorproduct.cfm?partnumber=AC254-150-A) to reduce the magnification to 16x for the imaging system. 
 * Install the filters
      * a [notch filter to block the 488nm laser line](https://www.thorlabs.com/thorproduct.cfm?partnumber=NF488-15)
@@ -85,6 +87,7 @@ These pieces are  milled out of an aluminum. If you do not have a mechanical wor
 ### Example recordings:
 
 Using the green laser. Shown is a high resolution recording of a zebrafish brain (6dpf) with a pan-neuronally expressed red calcium indicator (elav3-jRGECO): 
+
 https://user-images.githubusercontent.com/38736127/186108000-6d6c7374-28b0-485f-a63a-da5b19ce9631.mp4
 
 Using the blue laser. Shown is a high resolution recording of a zebrafish brain (6dpf) with a pan-neuronally expressed green calcium indicator (elav3-GCaMP6f): 
