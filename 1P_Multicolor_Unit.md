@@ -2,6 +2,8 @@
 
 ## Purchase list
 
+[List of parts](Partlist.md)
+
 
 ## Pieces to send for milling
 These pieces are  milled out of an aluminum. If you do not have a mechanical workshop in house then you can send them to an online milling service (e.g. https://xometry.eu/fr/usinage-cnc-fraisage-cnc/). 
