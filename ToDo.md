@@ -1,4 +1,4 @@
-- [ ] Did we drill holes into the motorized stage of the Scientifica scope?
+- [ ] Did we drill holes into the motorized stage of the Scientifica scope? If yes give the code to send to a machine workshop including the thread.
 - [ ] prepare purchase list with pricing and total estimation of cost
 
 ## 1P-Multicolor unit
