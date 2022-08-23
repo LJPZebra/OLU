@@ -5,5 +5,5 @@ The two-photon unit is basically identical in its design to the 1P-Multiphoton l
 (3) As collimination and illumination objectives  we use the [Olympus LMPLN5xIR/0.1](https://www.olympus-lifescience.com/modules/pdfgen/pdfmaker/en_pdf-export_objectives.7efd53eb1e8b4d509bc1bbe2184a7e28/LMPLN5XIR.pdf?rev=1615725199) objective optimized for near infrared transmission. Eventhough not optimized for visible wavelength we can use the same objective also for one-photon imaging later. To screw it into the light-sheet cube use the this [adaptor](https://punchout.webdev02.thorlabs.com/thorproduct.cfm?partnumber=RMSA3).
 
 
-Filter set:
-     * a [multiphoton short-pass emission filter](https://www.semrock.com/filterdetails.aspx?id=ff01-750/sp-25)
+## Detection path
+Install in addition the [multiphoton short-pass emission filter](https://www.semrock.com/filterdetails.aspx?id=ff01-750/sp-25) to block also the pulsed infrared laser source.
