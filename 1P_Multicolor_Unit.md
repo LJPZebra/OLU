@@ -4,8 +4,10 @@
 
 
 ## Pieces to send for milling
-* The light-sheet unit central cube
-* the fiber holder
+These pieces are  milled out of an aluminum. If you do not have a mechanical workshop in house then you can send them to an online milling service (e.g. https://xometry.eu/fr/usinage-cnc-fraisage-cnc/). 
+* [The light-sheet unit central cube](CAD_models/Cube.stl). Download the [CAD model as a step file](CAD_models/Cube.stp) here.
+* [The fiber holder  ?????](CAD_models/FiberHolder.stl). Download the [????? CAD model as a step file](CAD_models/FiberHolder.stp) here.
+
 
 #### Let's start to assemble
 
