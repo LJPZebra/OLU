@@ -1,4 +1,5 @@
 - [ ] Did we drill holes into the motorized stage of the Scientifica scope?
+- [ ] prepare purchase list with pricing and total estimation of cost
 
 ## CAD models
 
