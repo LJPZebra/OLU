@@ -92,7 +92,7 @@ Using the green laser. Shown is a high resolution recording of a zebrafish brain
 
 https://user-images.githubusercontent.com/38736127/186108000-6d6c7374-28b0-485f-a63a-da5b19ce9631.mp4
 
-Using the blue laser. Shown is a high resolution recording of a zebrafish brain (6dpf) with a pan-neuronally expressed green calcium indicator (elav3-GCaMP6f): 
+
 
 
 
