@@ -64,11 +64,12 @@ These pieces are  milled out of an aluminum. If you do not have a mechanical wor
 ### Sample holder
 
 * Install the [sample holder](CAD_models/SampleHolder.stl). This part is milled out of aluminum. You can download the [CAD step file of holder](CAD_models/SampleHolder.stp) here to send it to your milling service.
-* 3D print the [sample chamber](CAD_models/SampleChamber.stl). You can download the [CAD step file of the sample chamber](CAD_models/SampleHolder.stp) here to send it to your 3D printing service. Glue with superglue two glass windows on both side. Place the sample chamber into the predefined opening of the sample holder. 
+* 3D print the [sample chamber](CAD_models/SampleChamber.stl). You can download the [CAD step file of the sample chamber](CAD_models/SampleHolder.stp) here to send it to your 3D printing service. Glue with superglue two glass windows on both side (??????). Place the sample chamber into the predefined opening of the sample holder. As glue we use a UV glue (????) but you can also use standard superglue.
 
 ![SampleHolder](https://user-images.githubusercontent.com/38736127/178137631-2c89b6cf-9c1a-4c7f-b7f9-2d27c1fac82d.png)
 
-* pistons Wiretrol 25μL (diamètre 0.85mm, longueur 115mm) des capillaires associés (diamètre extérieur 1.47mm, longueur 115mm).
+* Pistons Wiretrol 25μL (diamètre 0.85mm, longueur 115mm) des capillaires associés (diamètre extérieur 1.47mm, longueur 115mm).
+* O-ring (?????)
 
 
 ### Now let's align the system
