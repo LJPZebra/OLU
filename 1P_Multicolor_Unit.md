@@ -8,8 +8,10 @@ These pieces are  milled out of an aluminum. If you do not have a mechanical wor
 * [The light-sheet unit central cube](CAD_models/Cube.stl). Download the [CAD model as a step file](CAD_models/Cube.stp) here.
 * [The fiber holder  ?????](CAD_models/FiberHolder.stl). Download the [????? CAD model as a step file](CAD_models/FiberHolder.stp) here.
 * Two adaptor plates: [part1 ????](CAD_models/AdaptorPlate1.stl) and [part1 ????](CAD_models/AdaptorPlate1.stl)
-* Sample chamber holder ???
-* Sample chamber ???
+* [Sample holder](CAD_models/SampleHolder.stl). Download the [CAD model as step file](CAD_models/SampleHolder.stp) here.
+
+## Pieces for 3D printing
+* [sample chamber](CAD_models/SampleChamber.stl). You can download the [CAD model as step file](CAD_models/SampleHolder.stp) here to send it to your 3D printing service. 
 
 
 #### Let's start to assemble
