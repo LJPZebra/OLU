@@ -7,6 +7,7 @@
 These pieces are  milled out of an aluminum. If you do not have a mechanical workshop in house then you can send them to an online milling service (e.g. https://xometry.eu/fr/usinage-cnc-fraisage-cnc/). 
 * [The light-sheet unit central cube](CAD_models/Cube.stl). Download the [CAD model as a step file](CAD_models/Cube.stp) here.
 * [The fiber holder  ?????](CAD_models/FiberHolder.stl). Download the [????? CAD model as a step file](CAD_models/FiberHolder.stp) here.
+* Two adaptor plates: [part1 ????](CAD_models/AdaptorPlate1.stl) and [part1 ????](CAD_models/AdaptorPlate1.stl)
 
 
 #### Let's start to assemble
@@ -19,12 +20,9 @@ These pieces are  milled out of an aluminum. If you do not have a mechanical wor
 
 (2) To combine the two lasers into a single mode fiber attach the two inputs of the [fiber optic coupler](https://www.thorlabs.com/thorproduct.cfm?partnumber=TW470R5F2) to the FC/PC connector of each laser. The blue and the green lasers will be combined and are available at both output fiber ports. 
 
-(3) 
-* Prepare the main [cube (green)](CAD_models/Cube.stl) of the light-sheet unit. You can download the [CAD model as a step file type](CAD_models/Cube.stp). It is  milled out of an aluminum block. If you do not have a mechanical workshop in house then you can send it to an online milling service (e.g. https://xometry.eu/fr/usinage-cnc-fraisage-cnc/). 
-
+(3) Start assembling the light-sheet unit
 * Fix the [collimation objective](https://www.micro-shop.zeiss.com/en/us/shop/objectives/420330-9901-000/Objective-EC-Plan-Neofluar-5x-0.16-M27) to the cube. 
-
-* Fix the [piezocrystal (PZ 400 SG OEM)](https://www.piezosystem.com/product/pz-400-oem/) to the cube (dark gray). 
+* Fix the [piezocrystal (PZ 400 SG OEM)](https://www.piezosystem.com/product/pz-400-oem/) to the cube (dark gray).
 
 (4) Fix the fiber holder to the piezo crystal (red).
 
@@ -36,9 +34,11 @@ These pieces are  milled out of an aluminum. If you do not have a mechanical wor
 
 (10) Insert the [galvometer mirror](https://www.thorlabs.com/thorproduct.cfm?partnumber=GVS011) and rotate it such that the laser will be reflected our of the opening that will hold the illumination objective (45 degree position). Switch on the laser. Carefully center the beam into the opening by fin adjusting the orientation of the galvometer mirror. Once done fix the mirror position with the fixation screw. 
 
-(11) Detach the fiber to prevent to damage it and fix the ligh-sheet holder onto the motorized stage of the microscope body.
+(11-14) Screw the x-translation stage onto the z-translation stage and fix to them the two adaptor pieces (blue) and then screw the light-sheet cube onto the x-tranlastion stage. 
 
-(12) Fix the [illumination objective](https://www.micro-shop.zeiss.com/en/us/shop/objectives/420330-9901-000/Objective-EC-Plan-Neofluar-5x-0.16-M27) to the light-sheet unit and attach again the fiber. Now you can attach the imaging objective to the microscope. 
+(16) Detach the fiber to prevent to damage it and fix the ligh-sheet holder onto the motorized stage of the microscope body.
+
+(17) Fix the [illumination objective](https://www.micro-shop.zeiss.com/en/us/shop/objectives/420330-9901-000/Objective-EC-Plan-Neofluar-5x-0.16-M27) to the light-sheet unit and attach again the fiber. Now you can attach the imaging objective to the microscope. 
  
 
 ![LightSheetUnit_different_Views](https://user-images.githubusercontent.com/38736127/175005382-7465c87b-a4d5-4bc8-8349-bc513ecaa548.png)
