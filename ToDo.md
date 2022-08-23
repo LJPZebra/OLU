@@ -3,6 +3,7 @@
 
 ## 1P-Multicolor unit
 - [ ] Add image of an aligned and unaligned laser
+- [ ] prepare an image of the sample chamber with the capillary or the small plastic holder 
 
 ## Missing references
 - [ ] reference superglue
