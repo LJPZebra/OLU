@@ -12,4 +12,9 @@ The two-photon unit is basically identical in its design to the 1P-Multiphoton l
 ## Alignement
 * Perform the alignment in one-photon mode as explained for the [1P-Multiphoton system](1P_Multicolor_Unit.md)
 
-## Example recordings
+## Example high resolution zebrafish brain recordings (elav3:H2B-GCaMP6)
+
+* Left: one-photon mode excited @ 488nm
+* Right:  two-photon mode excited @ 915nm
+
+https://user-images.githubusercontent.com/38736127/178161973-748767bf-004d-487c-9377-4582a705d8d7.mp4
