@@ -1,4 +1,4 @@
-# Add to the 1P-multicolor system the two-photon mode
+# Add to the 1P-Multicolor system the Two-Photon Mode
 
 The two-photon unit is basically identical in its design to the 1P-Multiphoton light-sheet unit. So please follow the detailed instructions given there by taking into account the following modifications: 
 
