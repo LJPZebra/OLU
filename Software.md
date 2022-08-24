@@ -7,4 +7,4 @@ If you use your microscope already with a image aquisition software that allows 
 * Alternatively, you can use:
     *  [ScanImage](https://www.scientifica.uk.com/products/vidrio-technologies-scanimage) the control software provided by Scientifica   
     *  [Micromanager](https://micro-manager.org/) that supports the control of all Scientifica stages as well as of most commen objective scanners from e.g. Physical Instrument or Piezo Jena.
-    *  or the open source pyton software presented here: https://www.frontiersin.org/articles/10.3389/fcell.2022.875044/full
+    *  or the open source python software presented here: https://www.frontiersin.org/articles/10.3389/fcell.2022.875044/full
