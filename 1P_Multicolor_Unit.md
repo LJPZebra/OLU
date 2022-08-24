@@ -28,10 +28,10 @@ These pieces are  milled out of an aluminum. If you do not have a mechanical wor
 (2) To combine the two lasers into a single mode fiber attach the two inputs of the [fiber optic coupler](https://www.thorlabs.com/thorproduct.cfm?partnumber=TW470R5F2) to the FC/PC connector of each laser. The blue and the green lasers will be combined and are available at both output fiber ports. 
 
 (3) Start assembling the light-sheet unit
-* Fix the [collimation objective](https://www.micro-shop.zeiss.com/en/us/shop/objectives/420330-9901-000/Objective-EC-Plan-Neofluar-5x-0.16-M27) to the cube. 
-* Fix the [piezocrystal (PZ 400 SG OEM)](https://www.piezosystem.com/product/pz-400-oem/) to the cube (dark gray). If you 
+* Fix the [collimation objective](https://www.micro-shop.zeiss.com/en/us/shop/objectives/420330-9901-000/Objective-EC-Plan-Neofluar-5x-0.16-M27) to the light-sheet unit central cube (green). 
+* Fix the [piezocrystal (PZ 400 SG OEM)](https://www.piezosystem.com/product/pz-400-oem/) to the cube (dark gray). If you want to start with a simple low cost version that uses only the slow scanning mode then install instead the piezo place holder element. This part is milled out of aluminum. You can download the [CAD step file of the piezo place holder ????](CAD_models/PiezoPlaceHolder.stp) here to send it to your milling service. 
 
-(4) Fix the fiber holder to the piezo crystal (red).
+(4) Fix the fiber holder (red) to the piezo crystal.
 
 (5-7) Take the [FC/PC connector](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM05FC#ad-image-0) which will later hold the optical fiber that delivers the laser. Screw the connector into the cylinder (black) but not too far so that you can easily attach and detach the optical fiber.
 
@@ -58,6 +58,7 @@ These pieces are  milled out of an aluminum. If you do not have a mechanical wor
 To configure the detection path you use the standard ports and configuration of the Scientifica scope. 
 
 * Fix the [detection objectives](https://www.thorlabs.com/catalogpages/Obsolete/2019/N60XW-PF.pdf) that is best adapted to your application. We used the Olympus 20x objective (thorlabs N20X-PFH) in combination with a custom lens of 150mm focal length as [tube lens](https://www.thorlabs.com/thorproduct.cfm?partnumber=AC254-150-A) to reduce the magnification to 16x for the imaging system. 
+* If you want to install the fast z-scan mode then install the objective with an [objective scanning piezo system](https://www.pifrance.fr/fr/produits/platines-de-nanopositionnement-a-structure-deformable/support-objectif-pifoc-et-scanners-pinano-pour-la-microscopie/p-725-pifoc-objective-scanner-with-long-travel-range-200375/).
 * Install the filters
      * a [notch filter to block the 488nm laser line](https://www.thorlabs.com/thorproduct.cfm?partnumber=NF488-15)
      * a [GFP Emission Filter](https://www.thorlabs.com/thorproduct.cfm?partnumber=MF525-39). 
