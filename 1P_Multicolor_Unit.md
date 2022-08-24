@@ -11,6 +11,7 @@ These pieces are  milled out of an aluminum. If you do not have a mechanical wor
 * [The fiber holder  ?????](CAD_models/FiberHolder.stl). Download the [????? CAD model as a step file](CAD_models/FiberHolder.stp) here.
 * Two adaptor plates: [part1 ????](CAD_models/AdaptorPlate1.stl) and [part1 ????](CAD_models/AdaptorPlate1.stl)
 * [Sample holder](CAD_models/SampleHolder.stl). Download the [CAD model as step file](CAD_models/SampleHolder.stp) here.
+* [Piezo place holder ???? ](). Only necessary if you do not want to install the piezo for the fast scan mode.
 
 ## Pieces for 3D printing
 * [sample chamber](CAD_models/SampleChamber.stl). You can download the [CAD model as step file](CAD_models/SampleHolder.stp) here to send it to your 3D printing service. 
@@ -28,7 +29,7 @@ These pieces are  milled out of an aluminum. If you do not have a mechanical wor
 
 (3) Start assembling the light-sheet unit
 * Fix the [collimation objective](https://www.micro-shop.zeiss.com/en/us/shop/objectives/420330-9901-000/Objective-EC-Plan-Neofluar-5x-0.16-M27) to the cube. 
-* Fix the [piezocrystal (PZ 400 SG OEM)](https://www.piezosystem.com/product/pz-400-oem/) to the cube (dark gray).
+* Fix the [piezocrystal (PZ 400 SG OEM)](https://www.piezosystem.com/product/pz-400-oem/) to the cube (dark gray). If you 
 
 (4) Fix the fiber holder to the piezo crystal (red).
 
