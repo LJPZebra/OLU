@@ -67,7 +67,9 @@ The numerical aperture of the coupling system is given by $\textrm{NA} = \frac{D
 * Close the laser shutter
 
 ### Install and adjust the NA expander
-The numerical aperture (NA) of the hollow core fiber is about 5 times smaller than the NA of the collection objective. The collimation and illumination objective form a one-to-one telescope. If we would simply connect the hollow core fiber to the light-sheet unit as we did in the 1P-Multicolor system than the light-sheet thickness would correspond to the mean field diameter of the fiber which is ????um. We would like to have the same resolution as in the one-photon implementation. For this we have to install an extra lens after the fiber to demagnify the laser waist at the fiber out put. 
+The collimation and illumination objective form a one-to-one telescope. If we would simply connect the hollow core fiber to the light-sheet unit as we did in the 1P-Multicolor system than the light-sheet thickness would correspond to the mean field diameter of the fiber which is ????um. To get the same resolution as in the one-photon implementation we have to install an extra lens after the fiber to demagnify the laser waist at the fiber output to about 5um and at the same time to increase the divergence angle of the laser to match the numerical aperture of the collimation objective. The numerical aperture of the fiber is 0.02 and thus a factor 5 times smaller compared to the numerical aperture of the detection objective. 
+
+
 
 
 
