@@ -33,7 +33,7 @@ These pieces are  milled out of an aluminum. If you do not have a mechanical wor
 
 (4) Fix the fiber holder (red) to the piezo crystal.
 
-(5-7) Take the [FC/PC connector](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM05FC#ad-image-0) which will later hold the optical fiber that delivers the laser. Screw the connector into the cylinder (black) but not too far so that you can easily attach and detach the optical fiber.
+(5-7) Take the [FC/PC connector](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM05FC#ad-image-0) which will later hold the optical fiber that delivers the laser. Screw the connector into the [lens tube](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM05M10) (black) but not too far so that you can easily attach and detach the optical fiber. Fix the connector with the two retaining rings.
 
 (8) Fix the cylinder to the light-sheet unit via the optical fiber holder (red) and attach one of the output fibers of the fiber optic coupler to the connector. 
 
