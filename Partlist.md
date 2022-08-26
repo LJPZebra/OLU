@@ -10,7 +10,7 @@
 | NA expander lens (f = 2.00 mm, NA = 0.50, ARC: 600 - 1050 nm) | Thorlabs             | C151TMD-B                       |
 | Adapters for M6 x 0.5 Threaded Aspheres                       | Thorlabs             | S05TM06                         |
 | FC/PC Fiber Adapter Plate with External SM05                  | Thorlabs             | SM05FC                          |
-| Lens tube                                                     | Thorlabs             | SM05L10                         |
+| Lens tube                                                     | Thorlabs             | SM05M10                         |
 | fiber-to-fiber connector                                      | Thorlabs             | ADAF1                           |
 | 50:50 Fiber Optic Couplers                                    | Thorlabs             | TW470R5F2                       |
 | High-Precision Rotation Mount                                 | Thorlabs             | PRM1/M                          |
