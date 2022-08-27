@@ -97,7 +97,7 @@ To configure the detection path you use the standard ports and configuration of 
 ## Advanced version for fast volumetric imaging
 
 * Mount the detection objective via an objective [focus scanner for mikrocope ojektives](https://www.physikinstrumente.de/de/produkte/piezo-nanopositioniertische/pifoc-objektivscanner-pinano-probentische-fuer-die-mikroskopie/p-725xcde2-pifoc-objektivscanner-mit-langem-stellweg-412418521/)
-* install the [piezo crystal to rapidly move the fiber outlet](https://www.piezosystem.com/product/pz-400-oem/)
+* Install the [piezo crystal to rapidly move the fiber outlet](https://www.piezosystem.com/product/pz-400-oem/)
 * Use the monitor signal of the focus scanner as control signal of the piezo crystal that drives the hight of the fiber. Calibrate the voltage with a [potentiometer](add link here ??????)
 
 
