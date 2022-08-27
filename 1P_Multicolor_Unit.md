@@ -15,7 +15,7 @@ These pieces are  milled out of an aluminum. If you do not have a mechanical wor
 * Piezoactuator place holder ????: [View the 3D model](PiezoactuatorPlaceHolder.stl) or [download the CAD model as step file](CAD_models/PiezoactuatorPlaceHolder.stp). This piece is only necessary if you do not want to install the piezoactuator required for the fast scan mode.
 
 ## Pieces for 3D printing
-* [sample chamber](CAD_models/SampleChamber.stl). You can download the [CAD model as step file](CAD_models/SampleHolder.stp) here to send it to your 3D printing service. 
+* [Sample chamber](CAD_models/SampleChamber.stl). You can download the [CAD model as step file](CAD_models/SampleHolder.stp) here to send it to your 3D printing service. 
 
 
 #### Let's start to assemble
