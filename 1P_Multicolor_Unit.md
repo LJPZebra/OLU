@@ -6,12 +6,13 @@
 
 
 ## Pieces to send for milling
-These pieces are  milled out of an aluminum. If you do not have a mechanical workshop in house then you can send them to an online milling service (e.g. https://xometry.eu/fr/usinage-cnc-fraisage-cnc/). 
-* [The light-sheet unit central cube](CAD_models/Cube.stl). Download the [CAD model as a step file](CAD_models/Cube.stp) here.
-* [The fiber holder  ?????](CAD_models/FiberHolder.stl). Download the [????? CAD model as a step file](CAD_models/FiberHolder.stp) here.
-* Two adaptor plates: [part1 ????](CAD_models/AdaptorPlate1.stl) and [part1 ????](CAD_models/AdaptorPlate1.stl)
-* [Sample holder](CAD_models/SampleHolder.stl). Download the [CAD model as step file](CAD_models/SampleHolder.stp) here.
-* [Piezo place holder ???? ](). Only necessary if you do not want to install the piezo for the fast scan mode.
+These pieces are  milled out of an aluminum. If you do not have a mechanical workshop in house then you can send the step files that we provide below to an [online milling service](https://xometry.eu/fr/usinage-cnc-fraisage-cnc/). 
+* The light-sheet unit central cube: [View the 3D model](CAD_models/Cube.stl) or [download the CAD model as a step file](CAD_models/Cube.stp).
+* The fiber holder  ?????: [View the 3D model](CAD_models/FiberHolder.stl) or [download the CAD model as a step file](CAD_models/FiberHolder.stp).
+* Adaptor plate 1: [View the 3D model](CAD_models/AdaptorPlate1.stl) or  [download the CAD model as a step file](CAD_models/AdaptorPlate1.stl).
+* Adaptor plate 2: [View the 3D model](CAD_models/AdaptorPlate2.stl) or  [download the CAD model as a step file](CAD_models/AdaptorPlate2.stl).
+* Sample holder: [View the 3D model](CAD_models/SampleHolder.stl) or [download the CAD model as step file](CAD_models/SampleHolder.stp).
+* Piezoactuator place holder ????: [View the 3D model](PiezoactuatorPlaceHolder.stl) or [download the CAD model as step file](CAD_models/PiezoactuatorPlaceHolder.stp). This piece is only necessary if you do not want to install the piezoactuator required for the fast scan mode.
 
 ## Pieces for 3D printing
 * [sample chamber](CAD_models/SampleChamber.stl). You can download the [CAD model as step file](CAD_models/SampleHolder.stp) here to send it to your 3D printing service. 
