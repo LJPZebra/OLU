@@ -1,6 +1,6 @@
 # Two-photon upgrade
 
-The two-photon system is basically identical in its design to the 1P-Multiphoton light-sheet system. To build the two-photon system follow [the building instruction of the 1P-Multicolor system](1P_Multicolor_Unit.md) by taking into account the following modifications: 
+The two-photon system is basically identical in its design to the 1P-Multiphoton light-sheet system. To build the two-photon system follow [the building instruction of the 1P-Multicolor system](1P_Multicolor_Unit.md) but take into account the following modifications: 
 
 * In addition to step (2) , couple the **two-photon laser** and the **one-photon laser** sources into a single hollow core crystal fiber for combined fiber delivery to the light-sheet unit. Find here a [detailed instruction of the coupling procedure](Fiber_coupling.md) and here some background about [hollow core negative curvature fibers](FiberOpticsReview.md).
 
