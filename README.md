@@ -38,7 +38,7 @@ https://user-images.githubusercontent.com/38736127/174909302-b3901000-2807-471f-
 
 1. Build first a [multicolor one-photon version of the microsope](1P_Multicolor_Unit.md) with fiber delivery of lasers in the visible spectrum with a standard single mode optical fiber technology.
 
-2. Then [fiber the pulsed infrared laser required for two-photon light-sheet microscopy into the hollow core crystal fiber](Fiber_coupling.md)
+2. Then [couple the pulsed infrared laser required for two-photon light-sheet microscopy into the hollow core crystal fiber](Fiber_coupling.md)
 
 3. [Upgrade the one-photon unit into a two-photon unit](2P-Unit.md)
 
