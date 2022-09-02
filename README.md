@@ -38,12 +38,11 @@ https://user-images.githubusercontent.com/38736127/174909302-b3901000-2807-471f-
 
 1. Build first a [multicolor one-photon version of the microsope](1P_Multicolor_Unit.md) with fiber delivery of lasers in the visible spectrum with a standard single mode optical fiber technology.
 
-2. [Upgrade the one-photon unit into a two-photon unit](2P-Unit.md)
-
-5. Automatize the system by installing a [control software](Software.md)
+2. [Upgrade the one-photon unit into a two-photon system](2P-Unit.md)
 
 
-* [History of hollowcore negative curvature fibers](FiberOpticsReview.md)
+
+
 
 
 
