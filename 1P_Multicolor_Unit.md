@@ -1,4 +1,4 @@
-
+# Building instructions
 
 ## Purchase list
 
@@ -23,8 +23,9 @@ These pieces are  milled out of an aluminum block. If you do not have a mechanic
 * [Sample chamber](CAD_models/SampleChamber.stl). You can download the [CAD model as step file](CAD_models/SampleHolder.stp) here to send it to your 3D printing service. 
 
 
-#### Let's start to assemble
+## Let's start to assemble
 
+### The light-sheet unit
 
 ![BuildingInstructions](https://user-images.githubusercontent.com/38736127/178075149-4b1e094c-851a-4eff-bd80-95e90b93983e.png)
 
@@ -60,7 +61,7 @@ These pieces are  milled out of an aluminum block. If you do not have a mechanic
 ![LightSheetUnit_different_Views](https://user-images.githubusercontent.com/38736127/175005382-7465c87b-a4d5-4bc8-8349-bc513ecaa548.png)
 
 
-### Detection path
+### The detection path
 
 To configure the detection path you use the standard ports and configuration of the Scientifica scope. 
 
@@ -74,7 +75,7 @@ To configure the detection path you use the standard ports and configuration of 
 
 
 
-### Sample chamber holder and sample chamber
+### The sample chamber holder and sample chamber
 
 * Install the [sample holder](CAD_models/SampleHolder.stl). This part is milled out of aluminum. You can download the [CAD step file of holder](CAD_models/SampleHolder.stp) here to send it to your milling service.
 * 3D print the [sample chamber](CAD_models/SampleChamber.stl). You can download the [CAD step file of the sample chamber](CAD_models/SampleHolder.stp) here to send it to your 3D printing service. Glue with superglue two glass windows on both side (??????) as well as an [O-ring](https://www.oring.fr/joint-torique/22-1.html?search_query=&results=45) into the hole on the short side which will allow you later to hold and position the sample via a [capillary](https://www.alphalabs.co.uk/5-000-2050) (inner diameter 0.85mm, outer diamter 1.47mm, length 115mm) for the imaging sessions. As glue we use a UV glue (????) but you can also use standard superglue. Place the sample chamber into the predefined opening of the sample holder. 
@@ -100,14 +101,14 @@ To configure the detection path you use the standard ports and configuration of 
 * Trouble shooting: 
     * Your image is not sharp homogeneously accross the field of view: The light-sheet might be tilted with respect to the focal plane of the detection objective.  In this case you can correct this by tilting slighly the entire unit. For this unscrew slighly screws that fix the unit via the adapter plate to the microscope translation stage. Insert a thin paper partly between the adapter plate and the stage such that the unit gets tiltited in the correct direction once you refix the screws. Repeat this procedure until your image is in focus accross the entire field of view. 
 
-## Advanced version for fast volumetric imaging
+### Advanced version for fast volumetric imaging
 
 * Mount the detection objective via an objective [focus scanner for microscope ojektives](https://www.physikinstrumente.de/de/produkte/piezo-nanopositioniertische/pifoc-objektivscanner-pinano-probentische-fuer-die-mikroskopie/p-725xcde2-pifoc-objektivscanner-mit-langem-stellweg-412418521/)
 * Install the [piezo crystal to rapidly move the fiber outlet](https://www.piezosystem.com/product/pz-400-oem/)
 * Use the monitor signal of the focus scanner as control signal of the piezo crystal that drives the hight of the fiber. Calibrate the voltage with a [potentiometer](add link here ??????)
 
 
-### Example recordings:
+## Example recordings:
 
 Using the green laser. Shown is a high resolution recording of a zebrafish brain (6dpf) with a pan-neuronally expressed red calcium indicator (elav3-jRGECO): 
 
