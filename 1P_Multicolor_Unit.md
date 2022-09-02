@@ -42,13 +42,13 @@ These pieces are  milled out of an aluminum block. If you do not have a mechanic
 
 (5-7) Take the [FC/PC connector](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM05FC#ad-image-0) which will later hold the optical fiber that delivers the laser. Screw the connector into the [lens tube](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM05M10) (black) but not too far so that you can easily attach and detach the optical fiber. Fix the connector with the two retaining rings.
 
-(8) Fix the lens tube cylinder that you prepared in set (5-7) to the light-sheet unit via the optical fiber holder (red) and attach one of the output fibers of the fiber optic coupler to the connector. 
+(8) Fix the lens tube cylinder that you prepared in step (5-7) to the light-sheet unit via the optical fiber holder (red) and attach one of the output fibers of the fiber optic coupler to the connector. 
 
 (9) Before you switch on the laser prepare laser safety in the room (remove you jewelries, make sure that nobody is in the laser path and that the laser will not hit any reflecting surfaces. Then switch on the laser at low laser power. Adjust the distance of the fiber relative to the collimation objective until the laser exits the cube well collimated. Switch off the laser again. 
 
-(10) Insert the [galvometer mirror](https://www.thorlabs.com/thorproduct.cfm?partnumber=GVS011) and switch it on. Rotate the galvosystem such that the laser will be reflected our of the opening that will hold the illumination objective (45 degree position). Switch on the laser. Carefully center the beam into the opening by fin adjusting the orientation of the galvometer mirror. Once done fix the mirror position with the fixation screw. 
+(10) Insert the [galvometer mirror](https://www.thorlabs.com/thorproduct.cfm?partnumber=GVS011) and switch it on. Rotate the galvosystem such that the laser will be reflected our of the opening that will hold the illumination objective (45 degree position). Switch on the laser. Carefully center the beam into the opening by carefully adjusting the orientation of the galvometer mirror. Once done fix the mirror position with the fixation screw. 
 
-(11-14) Screw the x-translation stage onto the z-translation stage and fix onto the assembly the two adaptor plates (blue).
+(11-14) Screw the x-translation stage onto the z-translation stage and fix the assembly to the two adaptor plates (blue).
 
 (15) Screw the light-sheet cube onto the x-tranlastion stage. 
 
@@ -102,7 +102,7 @@ To configure the detection path you use the standard ports and configuration of 
 
 ## Advanced version for fast volumetric imaging
 
-* Mount the detection objective via an objective [focus scanner for mikrocope ojektives](https://www.physikinstrumente.de/de/produkte/piezo-nanopositioniertische/pifoc-objektivscanner-pinano-probentische-fuer-die-mikroskopie/p-725xcde2-pifoc-objektivscanner-mit-langem-stellweg-412418521/)
+* Mount the detection objective via an objective [focus scanner for microscope ojektives](https://www.physikinstrumente.de/de/produkte/piezo-nanopositioniertische/pifoc-objektivscanner-pinano-probentische-fuer-die-mikroskopie/p-725xcde2-pifoc-objektivscanner-mit-langem-stellweg-412418521/)
 * Install the [piezo crystal to rapidly move the fiber outlet](https://www.piezosystem.com/product/pz-400-oem/)
 * Use the monitor signal of the focus scanner as control signal of the piezo crystal that drives the hight of the fiber. Calibrate the voltage with a [potentiometer](add link here ??????)
 
