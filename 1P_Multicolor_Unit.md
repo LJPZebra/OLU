@@ -115,7 +115,10 @@ https://user-images.githubusercontent.com/38736127/186108000-6d6c7374-28b0-485f-
 
 
 
-[next](2P-Unit.md)
+## Upgrade the one-photon unit into a two-photon system
+
+
+[Upgrade the one-photon unit into a two-photon system](2P-Unit.md)
 
 
 
