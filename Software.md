@@ -1,3 +1,4 @@
+# Control software
 
 If you use your microscope already with a image aquisition software that allows to aquire z-stacks then 
 
