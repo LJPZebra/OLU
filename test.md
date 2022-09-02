@@ -1,15 +1,25 @@
-<details><summary>stuff with *mark* **down**</summary><p>
+## First Part
+<details><summary></summary><p>
 
-## _formatted_ **heading** with [a](link)
+## Title 1
+    fdsafdas
+    fdsafd
+    safdas
 
----
-{{standard 3-backtick code block omitted from here due to escaping issues}}
----
-
-Collapsible until here.
 </p></details>
 
+## Second Part
+<details><summary>expand</summary><p>
 
+## Title 2
+    fdsa
+    fdsa
+    fdsa
+    
+    
+  
+
+</p></details>
 
 # Coupling of a pulsed two-photon laser and a of visible laser into the hollow core fiber
 
