@@ -9,7 +9,7 @@
 ## Pieces to send for milling
     
     
-These pieces are  milled out of an aluminum block. If you do not have a mechanical workshop in house then you can send the step files that we provide below to an [online milling service](https://xometry.eu/fr/usinage-cnc-fraisage-cnc/). 
+These pieces are  milled out of an aluminum block. If you do not have a mechanical workshop in house then you can send the *.step files that we provide below to an [online milling service](https://xometry.eu/fr/usinage-cnc-fraisage-cnc/). 
 * The light-sheet unit central cube: [View the 3D model](CAD_models/Cube.stl) or [download the CAD model as a step file ????](CAD_models/Cube.stp).
 * The fiber holder  ?????: [View the 3D model????](CAD_models/FiberHolder.stl) or [download the CAD model as a step file ?????](CAD_models/FiberHolder.stp).
 * Adaptor plate 1 ??????: [View the 3D model????](CAD_models/AdaptorPlate1.stl) or  [download the CAD model as a step file ?????](CAD_models/AdaptorPlate1.stl).
