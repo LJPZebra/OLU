@@ -1,10 +1,10 @@
-# Add to the 1P-Multicolor system the Two-Photon Mode
+# Two-photon upgrade
 
-The two-photon unit is basically identical in its design to the 1P-Multiphoton light-sheet unit. So please follow the detailed instructions given there by taking into account the following modifications:
+The two-photon unit is basically identical in its design to the 1P-Multiphoton light-sheet unit. The following modifications are requried for two photon imaging. 
 
 * In addition to step (2) , couple the two-photon laser and the one-photon laser sources into a single hollow core crystal fiber for combined fiber delivery to the light-sheet unit. Find here a [detailed instruction of the coupling procedure](Fiber_coupling.md) and here some background about [hollow core negative curvature fibers](FiberOpticsReview.md).
-*
-* Use in step (3) as collimation and illumination objectives  the [Olympus LMPLN5xIR/0.1](https://www.olympus-lifescience.com/modules/pdfgen/pdfmaker/en_pdf-export_objectives.7efd53eb1e8b4d509bc1bbe2184a7e28/LMPLN5XIR.pdf?rev=1615725199) objective optimized for near infrared transmission. Even though not optimized for visible wavelength one can use the same objective also for one-photon imaging later. To screw it into the light-sheet cube use a [thread adaptor](https://punchout.webdev02.thorlabs.com/thorproduct.cfm?partnumber=RMSA3).
+
+* Use in step (3) as collimation and illumination objectives  the [Olympus LMPLN5xIR/0.1](https://www.olympus-lifescience.com/modules/pdfgen/pdfmaker/en_pdf-export_objectives.7efd53eb1e8b4d509bc1bbe2184a7e28/LMPLN5XIR.pdf?rev=1615725199) objective optimized for near infrared transmission. Even though not optimized for visible wavelength one can use this objective also for one-photon imaging later. To screw it into the light-sheet cube use a [thread adaptor](https://punchout.webdev02.thorlabs.com/thorproduct.cfm?partnumber=RMSA3).
 
 
 ### Install and adjust the NA expander
