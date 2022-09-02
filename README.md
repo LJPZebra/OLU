@@ -3,7 +3,7 @@
 <!---  # An Open Source 1P and 2P miniDSPIM with broadband fiber based laser delivery    --->
 
 ### Abstract
-Two-photon light sheet microscopy has a wide range of applications in biology. Here we report a novel open source design to transform a standard microscopes into a 1P \& 2P light-sheet microscope. A specially designed broadband hollow core fiber shares the expansive pulsed laser source from other setups. The system provides uncompromised image resolution and speed and makes this technology widely accessible at reduced cost.
+Two-photon light sheet microscopy has a wide range of applications in biology. Here we report a novel open source design to transform a standard microscope into a 1P \& 2P light-sheet microscope. A specially designed broadband hollow core fiber shares the expansive pulsed laser source from other setups. The system provides uncompromised image resolution and speed and makes this technology widely accessible at reduced cost.
 
 ![CompilationFigure_v3](https://user-images.githubusercontent.com/38736127/174906572-d85802cc-6171-40a8-a8f5-7138b5235d8f.png)
 
@@ -36,15 +36,9 @@ https://user-images.githubusercontent.com/38736127/174909302-b3901000-2807-471f-
 ## Detailed Building instructions:
 
 
-1. Build first a [multicolor one-photon version of the microsope](1P_Multicolor_Unit.md) with fiber delivery of lasers in the visible spectrum with a standard single mode optical fiber technology.
+1. Build first a [multicolor one-photon version of the microscope](1P_Multicolor_Unit.md) with fiber delivery of lasers in the visible spectrum with a standard single mode optical fiber technology.
 
 2. [Upgrade the one-photon unit into a two-photon system](2P-upgrade.md)
-
-
-
-
-
-
 
 
 
@@ -60,5 +54,7 @@ https://user-images.githubusercontent.com/38736127/174909302-b3901000-2807-471f-
 * [Light-Sheet_Holder](CAD_models/Light-Sheet_Holder_Assembly_v3.stl)
 
 * [Light-Sheet_Unit](CAD_models/Light-Sheet_Unit_Assembly_v6.stl)
+
+
 
 
