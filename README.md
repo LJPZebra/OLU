@@ -36,7 +36,7 @@ https://user-images.githubusercontent.com/38736127/174909302-b3901000-2807-471f-
 ## Detailed Building instructions:
 
 
-1. Build first a [multicolor one-photon version of the microscope](1P_Multicolor_Unit.md) with fiber delivery of lasers in the visible spectrum with a standard single mode optical fiber technology.
+1. Build first a [multicolor one-photon version of the microscope](1P_Multicolor_System.md) with fiber delivery of lasers in the visible spectrum with a standard single mode optical fiber technology.
 
 2. [Upgrade the one-photon unit into a two-photon system](2P-upgrade.md) by exploiting advanced hollow core fiber technology.
 
