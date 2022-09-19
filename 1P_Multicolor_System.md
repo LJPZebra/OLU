@@ -1,5 +1,9 @@
 # Building instructions
 
+<img width="785" alt="BraintegrationSetup" src="https://user-images.githubusercontent.com/38736127/191005334-d6b4648a-3c93-444d-b89d-bb6020adbc93.png">
+
+![Uploading ZoomOnLightsheetUnit.png…]()
+
 ## Purchase list
 
 [List of parts](Partlist.md)
