@@ -55,7 +55,7 @@ These pieces are  milled out of an aluminum block. If you do not have a mechanic
 
 (8) Fix the lens tube cylinder that you prepared in step (5-7) to the light-sheet unit via the optical fiber holder (red) and attach one of the output fibers of the fiber optic coupler to the connector.
 
-(9) Before you switch on the laser, prepare laser safety in the room (remove your jewelry, make sure that nobody is in the laser path and that the laser will not hit any reflecting surfaces. Then switch on the laser at low laser power. Adjust the distance of the fiber relative to the collimation objective until the laser exits the cube well collimated. Switch off the laser again.
+(9) Before you switch on the laser, prepare laser safety in the room (remove your jewelry, make sure that nobody is in the laser path and that the laser will not hit any reflecting surfaces). Then switch on the laser at low laser power. Adjust the distance of the fiber relative to the collimation objective until the laser exits the cube well collimated. Switch off the laser again.
 
 (10) Insert the [galvanometer mirror](https://www.thorlabs.com/thorproduct.cfm?partnumber=GVS011) and switch it on. Rotate the galvo system such that the laser will be reflected out of the opening that will hold the illumination objective (45 degree position). Switch on the laser. Carefully center the beam into the opening by carefully adjusting the orientation of the galvanometer mirror. Once done, fix the mirror position with the fixation screw.
 
