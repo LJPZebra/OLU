@@ -19,13 +19,13 @@
 ## Pieces to send for milling
     
     
-These pieces are  milled out of an aluminum block. If you do not have a mechanical workshop in house then you can send the *.step files that we provide below to an [online milling service](https://xometry.eu/fr/usinage-cnc-fraisage-cnc/).
-* The light-sheet unit central cube: [View the 3D model](CAD_models/Cube.stl) or [download the CAD model as a step file ????](CAD_models/Cube.stp).
-* The fiber holder  ?????: [View the 3D model????](CAD_models/FiberHolder.stl) or [download the CAD model as a step file ?????](CAD_models/FiberHolder.stp).
-* Adaptor plate 1 ??????: [View the 3D model????](CAD_models/AdaptorPlate1.stl) or  [download the CAD model as a step file ?????](CAD_models/AdaptorPlate1.stl).
-* Adaptor plate 2 ???????: [View the 3D model????](CAD_models/AdaptorPlate2.stl) or  [download the CAD model as a step file????](CAD_models/AdaptorPlate2.stl).
-* Sample holder: [View the 3D model](CAD_models/SampleHolder.stl) or [download the CAD model as step file](CAD_models/SampleHolder.stp).
-* Piezoactuator placeholder ????: [View the 3D model????](PiezoactuatorPlaceHolder.stl) or [download the CAD model as step file?????](CAD_models/PiezoactuatorPlaceHolder.stp). This piece is only necessary if you do not want to install the piezo actuator required for the fast scan mode.
+These pieces are  milled out of an aluminum block. If you do not have a mechanical workshop in house then you can send the *.step files that we provide below to an [online milling service](https://xometry.eu/fr/usinage-cnc-fraisage-cnc/). For parts with threaded holes, join the mechanical drawings to the .step file.
+* The light-sheet unit central cube: [View the 3D model](CAD_models/Cube.stl) or [download the CAD model as a step file](CAD_models/Cube.stp) and [mechanical drawings](CAD_models/CubeMechanicalDrawings.pdf).
+* The fiber holder  : [View the 3D model](CAD_models/FiberHolder.stl) or [download the CAD model as a step file](CAD_models/FiberHolder.stp) and [mechanical drawings](CAD_models/FiberHolderMechanicalDrawings.pdf).
+* Adaptor plate 1 : [View the 3D model](CAD_models/AdaptorPlate1.stl) or  [download the CAD model as a step file](CAD_models/AdaptorPlate1.stp) and [mechanical drawings](CAD_models/AdaptorPlate1MechanicalDrawings.pdf).
+* Adaptor plate 2 : [View the 3D model](CAD_models/AdaptorPlate2.stl) or  [download the CAD model as a step file](CAD_models/AdaptorPlate2.stp) and [mechanical drawings](CAD_models/AdaptorPlate2MechanicalDrawings.pdf).
+* Sample holder: [View the 3D model](CAD_models/SampleHolder.stl) or [download the CAD model as step file](CAD_models/SampleHolder.stp) and [mechanical drawings](CAD_models/SampleHolderMechanicalDrawings.pdf).
+* Piezoactuator dummy : [View the 3D model](PiezoDummy.stl) or [download the CAD model as step file](CAD_models/PiezoDummy.stp) and [mechanical drawings](CAD_models/PiezoDummyMechanicalDrawings.pdf). This piece is only necessary if you do not want to install the piezo actuator required for the fast scan mode.
     
 
 
@@ -46,7 +46,7 @@ These pieces are  milled out of an aluminum block. If you do not have a mechanic
 
 (3) Start assembling the light-sheet unit
 * Fix the [collimation objective](https://www.micro-shop.zeiss.com/en/us/shop/objectives/420330-9901-000/Objective-EC-Plan-Neofluar-5x-0.16-M27) to the light-sheet unit central cube (green).
-* Fix the [piezocrystal (PZ 400 SG OEM)](https://www.piezosystem.com/product/pz-400-oem/) to the cube (dark gray). If you want to start with a simple low cost version that uses only the slow scanning mode then install instead the piezo placeholder element. This part is milled out of aluminum. You can download the [CAD step file of the piezo place holder ????](CAD_models/PiezoPlaceHolder.stp) here to send it to your milling service.
+* Fix the [piezocrystal (PZ 400 SG OEM)](https://www.piezosystem.com/product/pz-400-oem/) to the cube (dark gray). If you want to start with a simple low cost version that uses only the slow scanning mode then install instead the piezo dummy element. This part is milled out of aluminum. You can download the [CAD step file of the piezo place holder ????](CAD_models/PiezoDummy.stp) here to send it to your milling service.
 
 (4) Fix the fiber holder (red) to the piezo crystal. The fiber holder is milled out of aluminum. You can download the [fiber holder](CAD_models/FiberHolder.stp) here to send it to your milling service.
 
