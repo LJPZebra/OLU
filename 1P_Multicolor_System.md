@@ -25,7 +25,7 @@ These pieces are  milled out of an aluminum block. If you do not have a mechanic
 * Adaptor plate 1 : [View the 3D model](CAD_models/AdaptorPlate1.stl) or  [download the CAD model as a step file](CAD_models/AdaptorPlate1.stp) and [mechanical drawings](CAD_models/AdaptorPlate1MechanicalDrawings.pdf).
 * Adaptor plate 2 : [View the 3D model](CAD_models/AdaptorPlate2.stl) or  [download the CAD model as a step file](CAD_models/AdaptorPlate2.stp) and [mechanical drawings](CAD_models/AdaptorPlate2MechanicalDrawings.pdf).
 * Sample holder: [View the 3D model](CAD_models/SampleHolder.stl) or [download the CAD model as step file](CAD_models/SampleHolder.stp) and [mechanical drawings](CAD_models/SampleHolderMechanicalDrawings.pdf).
-* Piezoactuator dummy : [View the 3D model](PiezoDummy.stl) or [download the CAD model as step file](CAD_models/PiezoDummy.stp) and [mechanical drawings](CAD_models/PiezoDummyMechanicalDrawings.pdf). This piece is only necessary if you do not want to install the piezo actuator required for the fast scan mode.
+* Piezoactuator dummy : [View the 3D model](CAD_models/PiezoDummy.stl) or [download the CAD model as step file](CAD_models/PiezoDummy.stp) and [mechanical drawings](CAD_models/PiezoDummyMechanicalDrawings.pdf). This piece is only necessary if you do not want to install the piezo actuator required for the fast scan mode.
     
 
 
