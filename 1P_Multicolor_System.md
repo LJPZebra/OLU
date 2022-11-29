@@ -46,7 +46,7 @@ These pieces are  milled out of an aluminum block. If you do not have a mechanic
 
 (3) Start assembling the light-sheet unit
 * Fix the [collimation objective](https://www.micro-shop.zeiss.com/en/us/shop/objectives/420330-9901-000/Objective-EC-Plan-Neofluar-5x-0.16-M27) to the light-sheet unit central cube (green).
-* Fix the [piezocrystal (PZ 400 SG OEM)](https://www.piezosystem.com/product/pz-400-oem/) to the cube (dark gray). If you want to start with a simple low cost version that uses only the slow scanning mode then install instead the piezo dummy element. This part is milled out of aluminum. You can download the [CAD step file of the piezo place holder ????](CAD_models/PiezoDummy.stp) here to send it to your milling service.
+* Fix the [piezocrystal (PZ 400 SG OEM)](https://www.piezosystem.com/product/pz-400-oem/) to the cube (dark gray). If you want to start with a simple low cost version that uses only the slow scanning mode then install instead the piezo dummy element. This part is milled out of aluminum. You can download the [CAD step file of the piezoactuator dummy](CAD_models/PiezoDummy.stp) here to send it to your milling service.
 
 (4) Fix the fiber holder (red) to the piezo crystal. The fiber holder is milled out of aluminum. You can download the [fiber holder](CAD_models/FiberHolder.stp) here to send it to your milling service.
 
