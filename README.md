@@ -1,3 +1,7 @@
+
+
+
+
 # A Versatile and Open Source One- and Multi-Photon Light-Sheet Microscope Design
 
 <!---  # An Open Source 1P and 2P miniDSPIM with broadband fiber based laser delivery    --->
@@ -12,11 +16,15 @@ Two-photon light sheet microscopy has a wide range of applications in biology. H
 
 ### Slow scan mode
 
-https://user-images.githubusercontent.com/38736127/174906036-68fc1be2-bbdf-4325-b8a6-aef145c6db30.mp4
+<!--- https://user-images.githubusercontent.com/38736127/174906036-68fc1be2-bbdf-4325-b8a6-aef145c6db30.mp4 --->
+
+https://user-images.githubusercontent.com/113037893/207926697-6573f5d4-6586-4915-aaef-1366d4b2105a.mp4
 
 ### Fast scan mode
 
-https://user-images.githubusercontent.com/38736127/174905966-ccff40c7-d833-44e5-9909-21d087c44660.mp4
+<!--- https://user-images.githubusercontent.com/38736127/174905966-ccff40c7-d833-44e5-9909-21d087c44660.mp4 --->
+
+https://user-images.githubusercontent.com/113037893/207927665-f9e60bf5-719b-4414-81f9-21bd3844fda7.mp4
 
 ### High resolution zebrafish brain scans (elav3:H2B-GCaMP6)
 
