@@ -9,8 +9,8 @@ FILE_DESCRIPTION(
 /* implementation_level */ '2;1');
 
 FILE_NAME(
-/* name */ 'FiberHolder v2 v1.step',
-/* time_stamp */ '2022-11-25T11:49:42+01:00',
+/* name */ 'FiberHolder.step',
+/* time_stamp */ '2022-12-16T11:50:19+01:00',
 /* author */ (''),
 /* organization */ (''),
 /* preprocessor_version */ 'ST-DEVELOPER v19.2',
@@ -575,17 +575,17 @@ POSITIVE_RATIO_MEASURE(7850.),#398);
 #552=CARTESIAN_POINT('Origin',(-5.,0.,-5.));
 #553=CARTESIAN_POINT('',(-6.666,0.,-5.));
 #554=CARTESIAN_POINT('Origin',(-5.,0.,-5.));
-#555=CARTESIAN_POINT('',(-6.666,6.,-5.));
+#555=CARTESIAN_POINT('',(-6.666,8.,-5.));
 #556=CARTESIAN_POINT('',(-6.666,0.,-5.));
-#557=CARTESIAN_POINT('Origin',(-5.,6.,-5.));
-#558=CARTESIAN_POINT('Origin',(-5.,6.,-5.));
+#557=CARTESIAN_POINT('Origin',(-5.,8.,-5.));
+#558=CARTESIAN_POINT('Origin',(-5.,8.,-5.));
 #559=CARTESIAN_POINT('Origin',(-15.,0.,-5.));
 #560=CARTESIAN_POINT('',(-16.666,0.,-5.));
 #561=CARTESIAN_POINT('Origin',(-15.,0.,-5.));
-#562=CARTESIAN_POINT('',(-16.666,6.,-5.));
+#562=CARTESIAN_POINT('',(-16.666,8.,-5.));
 #563=CARTESIAN_POINT('',(-16.666,0.,-5.));
-#564=CARTESIAN_POINT('Origin',(-15.,6.,-5.));
-#565=CARTESIAN_POINT('Origin',(-15.,6.,-5.));
+#564=CARTESIAN_POINT('Origin',(-15.,8.,-5.));
+#565=CARTESIAN_POINT('Origin',(-15.,8.,-5.));
 #566=CARTESIAN_POINT('Origin',(-22.5,29.,-5.));
 #567=CARTESIAN_POINT('',(-22.5,29.,-7.6));
 #568=CARTESIAN_POINT('Origin',(-22.5,29.,-5.));
