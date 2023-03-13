@@ -89,7 +89,7 @@ To configure the detection path you use the standard ports and configuration of 
 ### The sample chamber holder and sample chamber
 
 * Install the [sample holder](CAD_models/SampleHolder.stl). This part is milled out of aluminum. You can download the [CAD step file of holder](CAD_models/SampleHolder.stp) here to send it to your milling service.
-* 3D print the [sample chamber](CAD_models/SampleChamber.stl). You can download the [CAD step file of the sample chamber](CAD_models/SampleHolder.stp) here to send it to your 3D printing service. Glue with superglue two glass windows on both side (??????) as well as an [O-ring](https://www.oring.fr/joint-torique/22-1.html?search_query=&results=45) into the hole on the short side which will allow you later to hold and position the sample via a [capillary](https://www.alphalabs.co.uk/5-000-2050) (inner diameter 0.85mm, outer diameter 1.47mm, length 115mm) for the imaging sessions. As glue we use a [UV glue](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=196&pn=NOA61) but you can also use standard superglue. Place the sample chamber into the predefined opening of the sample holder.
+* 3D print the [sample chamber](CAD_models/SampleChamber.stl). You can download the [CAD step file of the sample chamber](CAD_models/SampleHolder.stp) here to send it to your 3D printing service. Glue with [cyanoacrylate](https://uk.rs-online.com/web/p/glues/0473455) or [UV-curing adhesive](https://www.thorlabs.com/thorproduct.cfm?partnumber=NOA68) two glass windows on both side as well as an [O-ring](https://www.oring.fr/joint-torique/22-1.html?search_query=&results=45) into the hole on the short side which will allow you later to hold and position the sample via a [capillary](https://www.alphalabs.co.uk/5-000-2050) (inner diameter 0.85mm, outer diameter 1.47mm, length 115mm) for the imaging sessions. (As glue we use a [UV glue](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=196&pn=NOA61) but you can also use standard cyanoacrylate. Place the sample chamber into the predefined opening of the sample holder.)
 
 ![SampleHolder](https://user-images.githubusercontent.com/38736127/178137631-2c89b6cf-9c1a-4c7f-b7f9-2d27c1fac82d.png)
 
@@ -100,7 +100,9 @@ To configure the detection path you use the standard ports and configuration of 
 
 
 ### Now let's align the system
-* Fill the sample chamber with water and add a drop of ????mM fluorescein to visualize the laser. Switch-on the laser at low power until you can see the fluorescence laser profile. Be careful not to look directly into the laser!
+* Fill the sample chamber with water and add a drop of ????mM fluorescein to visualize the laser. Switch-on the laser at low power until you can see the fluorescence laser profile. Be careful not to look directly into the laser and to keep working at low power (<1mW after excitation objective)) for alignment. 
+* The use of fluorescein requires cleaning with ethanol or isopropanol after alignment to remove residual fluorophores that may cause image noise. 
+* It is also possible to use an agarose cylinder and observe the scattered light from laser, to do this remove the filter between the detection objective and the camera and follow the same procedure.
 
 <img width="200" alt="Picture of laser" src="https://user-images.githubusercontent.com/38736127/186088660-4590242d-2d1e-4357-8bcd-4d5d63d3d97d.jpg">
 
@@ -108,7 +110,7 @@ To configure the detection path you use the standard ports and configuration of 
 * Switch on the camera and align the laser into the focal plane of the detection objective by moving the light-sheet forming unit with the z-translation stage until you see a sharp image of the laser with the camera. If you do not see the laser move the galvanometer mirror to bring the laser into the field of view.
 * Fine align the laser waist into the center of the field of view using the x-translation stage
 * Now drive the galvanometer with a saw tooth pattern. You can do this without computer interfacing by using a [function generator]() via a function generator by using an [I/O-card]() and controlled via a dedicated [computer software](Software.md) to generate the light-sheet. Adjust the amplitude of the movement such that the light-sheet covers exactly the field of view.
-* Now you can place your prefered sample into the light-sheet and image it! Move the manual objective focus of the microscope and you can scan in 3D through your sample or record 3D time lapse movies using your microscope control software that synchronizes the objective movement with image acquisition.
+* Now you can place your prefered sample into the light-sheet and image it (*DO NOT* forget to clean if you have used fluorescein)! Move the manual objective focus of the microscope and you can scan in 3D through your sample or record 3D time lapse movies using your microscope control software that synchronizes the objective movement with image acquisition.
 * Troubleshooting:
     * Your image is not sharp homogeneously across the field of view: The light-sheet might be tilted with respect to the focal plane of the detection objective.  In this case you can correct this by tilting slightly the entire unit. For this, unscrew slightly screws that fix the unit via the adapter plate to the microscope translation stage. Insert a thin paper partly between the adapter plate and the stage such that the unit gets tiltited in the correct direction once you refix the screws. Repeat this procedure until your image is in focus across the entire field of view.
 

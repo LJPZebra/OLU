@@ -15,6 +15,7 @@ The two-photon system is basically identical in its design to the 1P-Multiphoton
 
 ![NA_Expander](https://user-images.githubusercontent.com/38736127/187019394-b52607ff-fcc1-4e24-8bec-5c40798f6d06.png)
 
+![NA_Expander2](Figures/Coupling2P_update.png)
 
 [Focusing of spherical Gaussian beams by Sidney A. Self](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.1091.571&rep=rep1&type=pdf)
 
