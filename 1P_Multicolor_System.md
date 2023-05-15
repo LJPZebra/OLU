@@ -8,8 +8,6 @@
 
 
 
-
-
 ## Purchase list
 
 [List of parts](Partlist.md)
@@ -49,8 +47,6 @@ These pieces are  milled out of an aluminum block. If you do not have a mechanic
 
 #### Adapt the Scientifica Scope to receive the light-sheet unit
 
-
-
 (6-7) Attach the top plate (original piece unscrewed from Scientifica Scope) to the [Custom Bracket](CAD_models/CustomBracket.stl) (custom piece) by using the original screws.
 
 (8) Attach [Adapter Plate 1](CAD_models/AdaptorPlate1.stl) (custom piece) with four M4x30 screws
@@ -67,7 +63,7 @@ These pieces are  milled out of an aluminum block. If you do not have a mechanic
 
 (13) Attach the [Light-Sheet Unit Central Cube](CAD_models/Cube.stl) (green, custom piece) to the Vertical Manual stage with four M3x10 screws
 
-(14) Insert the [Galvanometer Mirror]](https://www.thorlabs.com/thorproduct.cfm?partnumber=GVS011), align it at 45° relative to the sides of the Light-sheet Cube and cinch it in place with two M5x30 screws
+(14) Insert the [Galvanometer Mirror]](https://www.thorlabs.com/thorproduct.cfm?partnumber=GVS011) (light blue), align it at 45° relative to the sides of the Light-sheet Cube and cinch it in place with two M5x30 screws
 
 (15) Attach the [Piezocrystal (PZ 400 SG OEM)](https://www.piezosystem.com/product/pz-400-oem/) or if you want to start with a simple low cost version that uses only the slow scanning mode then install instead the [Piezo Dummy](CAD_models/PiezoDummy.stl) (custom piece) to the Light-sheet Cube with two M4x20 screws
 
@@ -80,17 +76,11 @@ These pieces are  milled out of an aluminum block. If you do not have a mechanic
 (19) Attach Adapter Plate 2 to Adapter Plate 1 with three M6x20 screws
 
 #### Laser alignement
-(20) Before you switch on the laser, prepare laser safety in the room (remove your jewelry, make sure that nobody is in the laser path and that the laser will not hit any reflecting surfaces). Switch on the galvanometric mirror and then switch on the laser at low laser power. Adjust the distance of the fiber relative to the collimation objective until the laser exits the cube well collimated. 
 
-(10) Switch on the . Carefully center the beam into the opening by carefully adjusting the orientation of the galvanometer mirror. Once done, fix the mirror position with the fixation screw.
+(20) Before switching on the laser, prepare the room for laser safety (remove any jewellery, make sure no one is in the path of the laser and that the laser does not hit any reflective surfaces). Unscrew the focusing objective (Obj 2) of the light-sheet unit. Switch on the galvanometric mirror and then switch on the laser at low laser power. Adjust the distance of the fibre relative to the collimation lens until the laser exits the cube well collimated. To do this, move the fibre support tube (black) relative to the fibre holder (red).
 
-(11-14) Screw the x-translation stage onto the z-translation stage and fix the assembly to the two adaptor plates (blue).
+(21) Next, carefully centre the beam in the hole where Obj 2 was screwed in by carefully adjusting the orientation of the galvanometer mirror. Once this is done, fix the mirror position with the fixing screw.
 
-(15) Screw the light-sheet cube onto the x-translation stage.
-
-(16) Fix the light-sheet cube via the adapter plate onto the motorized stage of the microscope body. (?????? Do we have to drill holes into the microscope parte first ????? )
-
-(17) Fix the [illumination objective](https://www.micro-shop.zeiss.com/en/us/shop/objectives/420330-9901-000/Objective-EC-Plan-Neofluar-5x-0.16-M27) to the light-sheet unit and attach again the optical fiber and fix the illumination objective onto the light-sheet cube.
 
 
 ![LightSheetUnit_different_Views](https://user-images.githubusercontent.com/38736127/175005382-7465c87b-a4d5-4bc8-8349-bc513ecaa548.png)
