@@ -1,7 +1,7 @@
 # Coupling of a pulsed two-photon laser and a of visible laser into the hollow core fiber
 
 ## The optical path
-The following schematic and 3D model shows a possible optical path for the laser coupling. You can adapt the arrangement to the space availability on your setup (mirror, **M**, lens, **L**, dichroic, **D**, wave plate, **W**, polarizer, **P**):
+The following schematic and [3D model](https://a360.co/3JVrDGn) that you can interactively explore shows a possible optical path for the laser coupling. You can adapt the arrangement to the space availability on your setup (mirror, **M**, lens, **L**, dichroic, **D**, wave plate, **W**, polarizer, **P**):
 
 
 [<img width="400" alt="Schematic_FiberCoupling" src="Figures/Schematic_FiberCoupling.png">]
