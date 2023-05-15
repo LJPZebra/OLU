@@ -51,7 +51,6 @@ https://user-images.githubusercontent.com/38736127/174909302-b3901000-2807-471f-
 3. [Design idea for an alternative implementation](https://user-images.githubusercontent.com/38736127/177863005-d570b9a1-ee6d-4875-a736-51e224426fb9.png)
 
 
-
 ### CAD models
 
 [CAD models](CAD_models)
