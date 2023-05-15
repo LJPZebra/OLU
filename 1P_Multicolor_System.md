@@ -44,14 +44,32 @@ These pieces are  milled out of an aluminum block. If you do not have a mechanic
 
 (2) To combine the two lasers into a single mode fiber attach the two inputs of the [fiber optic coupler](https://www.thorlabs.com/thorproduct.cfm?partnumber=TW470R5F2) to the FC/PC connector of each laser. The blue and the green lasers will be combined and are available at both output fiber ports.
 
-(3) Start assembling the light-sheet unit
+(3-5) Assemble the NA-expander: Take the [FC/PC connector](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM05FC#ad-image-0) which will later hold the optical fiber that delivers the laser. Screw the connector into the [lens tube](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM05M10) (black) but not too far so that you can easily attach and detach the optical fiber. Fix the connector with the two retaining rings.
+
+(6) Start with custom bracket
+(7) Attach top plate with original screws
+(8) Attach Adapter Plate 1 with four M4x30 screws
+(9) Attach assembly to top Z-stage of the microscope with two original screws
+
+(10) Then start from Adapter Plate 2
+(11) Attach the Horizontal Manual Stage to Adapter Plate 2 with four M3 screws included with the stage
+(12) Attach the Vertical Manual Stage to the Horizontal Manual Stage with four M3 screws included with the stage
+(13) Attach the Light-Sheet Cube to the Vertical Manual stage with four M3x10 screws
+(14) Insert the Galvo Mirror, align it at 45° relative to the sides of the Light-sheet Cube and cinch it in place with two M5x30 screws
+(15) Attach the Piezo or Piezo Dummy to the Light-sheet Cube with two M4x20 screws
+(16) Attach the Fiber Holder to the Piezo with two M4x25 screws
+(17) Insert the NA-expander (see points 3-5) into the Fiber Holder and cinch it with one M4x20 screw
+(18) Screw in the 5x objectives
+(19) Attach Adapter Plate 2 to Adapter Plate 1 with three M6x20 screws
+
+(6) Start assembling the light-sheet unit
 * Fix the [collimation objective](https://www.micro-shop.zeiss.com/en/us/shop/objectives/420330-9901-000/Objective-EC-Plan-Neofluar-5x-0.16-M27) to the light-sheet unit central cube (green).
 * Fix the [piezocrystal (PZ 400 SG OEM)](https://www.piezosystem.com/product/pz-400-oem/) to the cube (dark gray). If you want to start with a simple low cost version that uses only the slow scanning mode then install instead the piezo dummy element. This part is milled out of aluminum. You can download the [CAD step file of the piezoactuator dummy](CAD_models/PiezoDummy.stp) here to send it to your milling service.
 
 (4) Fix the fiber holder (red) to the piezo crystal. The fiber holder is milled out of aluminum. You can download the [fiber holder](CAD_models/FiberHolder.stp) here to send it to your milling service.
 
 
-(5-7) Take the [FC/PC connector](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM05FC#ad-image-0) which will later hold the optical fiber that delivers the laser. Screw the connector into the [lens tube](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM05M10) (black) but not too far so that you can easily attach and detach the optical fiber. Fix the connector with the two retaining rings.
+
 
 (8) Fix the lens tube cylinder that you prepared in step (5-7) to the light-sheet unit via the optical fiber holder (red) and attach one of the output fibers of the fiber optic coupler to the connector.
 
