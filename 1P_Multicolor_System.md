@@ -38,8 +38,7 @@ These pieces are  milled out of an aluminum block. If you do not have a mechanic
 
 ### The light-sheet unit
 
-![BuildingInstructions](https://user-images.githubusercontent.com/38736127/178075149-4b1e094c-851a-4eff-bd80-95e90b93983e.png)
-
+![BuildingInstructions](Figures/Assembly_StepByStep.png)
 
 (1) Purchase [continous lasers](https://www.oxxius.com/category-products/continuous-and-modulated-lasers/) of wavelength adapted for your experiments.  We use a blue 488nm and a green 561nm laser. Choose the option with [prealigned fiber coupler](https://github.com/vbormuth/OLU/files/9057780/WEBSITE-Datasheet-LBX-488.pdf).
 
