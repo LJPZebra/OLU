@@ -45,7 +45,7 @@ These pieces are  milled out of an aluminum block. If you do not have a mechanic
 
 (2) To combine the two lasers into a single mode fiber attach the two inputs of the [fiber optic coupler](https://www.thorlabs.com/thorproduct.cfm?partnumber=TW470R5F2) to the FC/PC connector of each laser. The blue and the green lasers will be combined and are available at both output fiber ports.
 
-(3-5) Assemble the NA-expander: Take the [FC/PC connector](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM05FC#ad-image-0) which will later hold the optical fiber that delivers the laser. Screw the connector into the [lens tube](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM05M10) (black) but not too far so that you can easily attach and detach the optical fiber. Fix the connector with the two retaining rings.
+(3-5) Assemble the Fiber support tube: Take the [FC/PC connector](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM05FC#ad-image-0) which will later hold the optical fiber that delivers the laser. Screw the connector into the [lens tube](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM05M10) (black) but not too far so that you can easily attach and detach the optical fiber. Fix the connector with the two retaining rings.
 
 #### Adapt Scientifica Scope to receive light-sheet unit
 
@@ -53,46 +53,36 @@ These pieces are  milled out of an aluminum block. If you do not have a mechanic
 
 (7) Attach top plate with original screws
 
-(8) Attach Adapter Plate 1 with four M4x30 screws
+(8) Attach [Adapter Plate 1](CAD_models/AdaptorPlate1.stl) with four M4x30 screws
 
 (9) Attach assembly to top Z-stage of the microscope with two original screws
 
 #### Assemble the light-sheet unit
 
-(10) Then start from Adapter Plate 2
+(10) Start from [Adapter Plate 2](CAD_models/AdaptorPlate2.stl) (blue, custom piece)
 
 (11) Attach the Horizontal Manual Stage to Adapter Plate 2 with four M3 screws included with the stage
 
 (12) Attach the Vertical Manual Stage to the Horizontal Manual Stage with four M3 screws included with the stage
 
-(13) Attach the Light-Sheet Cube to the Vertical Manual stage with four M3x10 screws
+(13) Attach the [Light-Sheet Unit Central Cube](CAD_models/Cube.stl) (green, custom piece) to the Vertical Manual stage with four M3x10 screws
 
-(14) Insert the Galvo Mirror, align it at 45° relative to the sides of the Light-sheet Cube and cinch it in place with two M5x30 screws
+(14) Insert the [Galvanometer Mirror]](https://www.thorlabs.com/thorproduct.cfm?partnumber=GVS011), align it at 45° relative to the sides of the Light-sheet Cube and cinch it in place with two M5x30 screws
 
-(15) Attach the Piezo or Piezo Dummy to the Light-sheet Cube with two M4x20 screws
+(15) Attach the [Piezocrystal (PZ 400 SG OEM)](https://www.piezosystem.com/product/pz-400-oem/) or if you want to start with a simple low cost version that uses only the slow scanning mode then install instead the [Piezo Dummy](CAD_models/PiezoDummy.stl) (custom piece) to the Light-sheet Cube with two M4x20 screws
 
-(16) Attach the Fiber Holder to the Piezo with two M4x25 screws
+(16) Attach the [Fiber Holder](CAD_models/FiberHolder.stl) (red, custom piece) to the Piezo with two M4x25 screws
 
-(17) Insert the NA-expander (see points 3-5) into the Fiber Holder and cinch it with one M4x20 screw
+(17) Insert the Fiber support tube (see points 3-5) into the Fiber Holder and cinch it with one M4x20 screw and and attach one of the output fibers of the fiber optic coupler to the connector (2).
 
-(18) Screw in the 5x objectives
+(18) Screw in the 5x [Objective](https://www.micro-shop.zeiss.com/en/us/shop/objectives/420330-9901-000/Objective-EC-Plan-Neofluar-5x-0.16-M27)
 
 (19) Attach Adapter Plate 2 to Adapter Plate 1 with three M6x20 screws
 
-(6) Start assembling the light-sheet unit
-* Fix the [collimation objective](https://www.micro-shop.zeiss.com/en/us/shop/objectives/420330-9901-000/Objective-EC-Plan-Neofluar-5x-0.16-M27) to the light-sheet unit central cube (green).
-* Fix the [piezocrystal (PZ 400 SG OEM)](https://www.piezosystem.com/product/pz-400-oem/) to the cube (dark gray). If you want to start with a simple low cost version that uses only the slow scanning mode then install instead the piezo dummy element. This part is milled out of aluminum. You can download the [CAD step file of the piezoactuator dummy](CAD_models/PiezoDummy.stp) here to send it to your milling service.
+#### Laser alignement
+(20) Before you switch on the laser, prepare laser safety in the room (remove your jewelry, make sure that nobody is in the laser path and that the laser will not hit any reflecting surfaces). Then switch on the laser at low laser power. Adjust the distance of the fiber relative to the collimation objective until the laser exits the cube well collimated. Switch off the laser again.
 
-(4) Fix the fiber holder (red) to the piezo crystal. The fiber holder is milled out of aluminum. You can download the [fiber holder](CAD_models/FiberHolder.stp) here to send it to your milling service.
-
-
-
-
-(8) Fix the lens tube cylinder that you prepared in step (5-7) to the light-sheet unit via the optical fiber holder (red) and attach one of the output fibers of the fiber optic coupler to the connector.
-
-(9) Before you switch on the laser, prepare laser safety in the room (remove your jewelry, make sure that nobody is in the laser path and that the laser will not hit any reflecting surfaces). Then switch on the laser at low laser power. Adjust the distance of the fiber relative to the collimation objective until the laser exits the cube well collimated. Switch off the laser again.
-
-(10) Insert the [galvanometer mirror](https://www.thorlabs.com/thorproduct.cfm?partnumber=GVS011) and switch it on. Rotate the galvo system such that the laser will be reflected out of the opening that will hold the illumination objective (45 degree position). Switch on the laser. Carefully center the beam into the opening by carefully adjusting the orientation of the galvanometer mirror. Once done, fix the mirror position with the fixation screw.
+(10) Switch on the laser. Carefully center the beam into the opening by carefully adjusting the orientation of the galvanometer mirror. Once done, fix the mirror position with the fixation screw.
 
 (11-14) Screw the x-translation stage onto the z-translation stage and fix the assembly to the two adaptor plates (blue).
 
