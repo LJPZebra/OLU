@@ -49,31 +49,31 @@ These pieces are  milled out of an aluminum block. If you do not have a mechanic
 
 (6-7) Attach the top plate (original piece unscrewed from Scientifica Scope) to the [Custom Bracket](CAD_models/CustomBracket.stl) (custom piece) by using the original screws.
 
-(8) Attach [Adapter Plate 1](CAD_models/AdaptorPlate1.stl) (custom piece) with four M4x30 screws
+(8) Attach [Adapter Plate 1](CAD_models/AdaptorPlate1.stl) (custom piece) with four M4x30 screws.
 
-(9) Attach assembly to top Z-stage of the microscope with two original screws
+(9) Attach assembly to top Z-stage of the microscope with two original screws.
 
 #### Assemble the light-sheet unit
 
-(10) Start from [Adapter Plate 2](CAD_models/AdaptorPlate2.stl) (blue, custom piece)
+(10) Start from [Adapter Plate 2](CAD_models/AdaptorPlate2.stl) (blue, custom piece).
 
-(11) Attach the Horizontal Manual Stage to Adapter Plate 2 with four M3 screws included with the stage
+(11) Attach the Horizontal Manual Stage to Adapter Plate 2 with four M3 screws included with the stage.
 
-(12) Attach the Vertical Manual Stage to the Horizontal Manual Stage with four M3 screws included with the stage
+(12) Attach the Vertical Manual Stage to the Horizontal Manual Stage with four M3 screws included with the stage.
 
-(13) Attach the [Light-Sheet Unit Central Cube](CAD_models/Cube.stl) (green, custom piece) to the Vertical Manual stage with four M3x10 screws
+(13) Attach the [Light-Sheet Unit Central Cube](CAD_models/Cube.stl) (green, custom piece) to the Vertical Manual stage with four M3x10 screws.
 
-(14) Insert the [Galvanometer Mirror]](https://www.thorlabs.com/thorproduct.cfm?partnumber=GVS011) (light blue), align it at 45° relative to the sides of the Light-sheet Cube and cinch it in place with two M5x30 screws
+(14) Insert the [Galvanometer Mirror]](https://www.thorlabs.com/thorproduct.cfm?partnumber=GVS011) (light blue), align it at 45° relative to the sides of the Light-sheet Cube and cinch it in place with two M5x30 screws.
 
-(15) Attach the [Piezocrystal (PZ 400 SG OEM)](https://www.piezosystem.com/product/pz-400-oem/) or if you want to start with a simple low cost version that uses only the slow scanning mode then install instead the [Piezo Dummy](CAD_models/PiezoDummy.stl) (custom piece) to the Light-sheet Cube with two M4x20 screws
+(15) Attach the [Piezocrystal (PZ 400 SG OEM)](https://www.piezosystem.com/product/pz-400-oem/) or if you want to start with a simple low cost version that uses only the slow scanning mode then install instead the [Piezo Dummy](CAD_models/PiezoDummy.stl) (custom piece) to the Light-sheet Cube with two M4x20 screws.
 
-(16) Attach the [Fiber Holder](CAD_models/FiberHolder.stl) (red, custom piece) to the Piezo with two M4x25 screws
+(16) Attach the [Fiber Holder](CAD_models/FiberHolder.stl) (red, custom piece) to the Piezo with two M4x25 screws.
 
 (17) Insert the Fiber support tube (see points 3-5) into the Fiber Holder and cinch it with one M4x20 screw and and attach one of the output fibers of the fiber optic coupler to the connector (2).
 
-(18) Screw in the 5x [Objectives](https://www.micro-shop.zeiss.com/en/us/shop/objectives/420330-9901-000/Objective-EC-Plan-Neofluar-5x-0.16-M27)
+(18) Screw in the 5x [Objectives](https://www.micro-shop.zeiss.com/en/us/shop/objectives/420330-9901-000/Objective-EC-Plan-Neofluar-5x-0.16-M27).
 
-(19) Attach Adapter Plate 2 to Adapter Plate 1 with three M6x20 screws
+(19) Fix the Light-sheet Unit to the Scientifica Scope by attaching the Adapter Plate 2 to Adapter Plate 1 with three M6x20 screws.
 
 #### Laser alignement
 
