@@ -3,6 +3,7 @@
 - [x] All figures should have a white background (in dark theme it is not working otherwise).
 
 ## 1P-Multicolor unit
+- [ ] Add to the step-by-step assembly images that shows how to unscrew the bracket and top plate from the Scientifica scope
 - [ ] Add image of an aligned and unaligned laser
 - [ ] prepare an image of the sample chamber with the capillary or the small plastic holder 
 
