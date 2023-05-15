@@ -4,9 +4,7 @@
 The following schematic and 3D model shows a possible optical path for the laser coupling. You can adapt the arrangement to the space availability on your setup (mirror, **M**, lens, **L**, dichroic, **D**, wave plate, **W**, polarizer, **P**):
 
 
-<img width="400" alt="OpticalPath" src="https://user-images.githubusercontent.com/38736127/178073728-e55b142f-e37f-4267-9c27-1f29199aaddd.png">
-
-
+[<img width="400" alt="Schematic_FiberCoupling" src="Figures/Schematic_FiberCoupling.png">]
 [<img width="400" alt="AlignmentTutorial" src="Figures/2P_laser_injection_3D-Model.png">](https://a360.co/3JVrDGn)
 
 
