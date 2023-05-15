@@ -6,7 +6,8 @@ The following schematic and 3D model shows a possible optical path for the laser
 
 <img width="400" alt="OpticalPath" src="https://user-images.githubusercontent.com/38736127/178073728-e55b142f-e37f-4267-9c27-1f29199aaddd.png">
 
-![2P_laser_injection_3D-Model](Figures/2P_laser_injection_3D-Model.png)
+
+[<img width="400" alt="AlignmentTutorial" src="Figures/2P_laser_injection_3D-Model.png">](https://a360.co/3JVrDGn)
 
 
 If you do not have space on your table you can mount a platform on top of your IR pulsed laser source and bring the laser beam with a [periscope](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=883) up to the platform. 
