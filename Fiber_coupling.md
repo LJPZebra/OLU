@@ -1,13 +1,15 @@
 # Coupling of a pulsed two-photon laser and a of visible laser into the hollow core fiber
 
 ## The optical path
-The following schematic shows a possible optical path for the laser coupling. You can adapt the arrangement to the space availability on your setup (mirror, **M**, lens, **L**, dichroic, **D**, wave plate, **W**, polarizer, **P**):
+The following schematic and 3D model shows a possible optical path for the laser coupling. You can adapt the arrangement to the space availability on your setup (mirror, **M**, lens, **L**, dichroic, **D**, wave plate, **W**, polarizer, **P**):
 
 
 <img width="400" alt="OpticalPath" src="https://user-images.githubusercontent.com/38736127/178073728-e55b142f-e37f-4267-9c27-1f29199aaddd.png">
 
+![2P_laser_injection_3D-Model](Figures/2P_laser_injection_3D-Model.png)
 
-If you do not have space on your table you can mount easily a platform on top of your IR pulsed laser source and bring the laser beam with a [periscope](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=883) up to the platform. 
+
+If you do not have space on your table you can mount a platform on top of your IR pulsed laser source and bring the laser beam with a [periscope](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=883) up to the platform. 
 
 We will give a step-by-step explanation that describes how to build this optical path and how to align the optical components to achieve optimal fiber coupling. But before we begin, we will give some preparatory notes and general background:
 
