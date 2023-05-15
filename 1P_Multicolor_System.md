@@ -49,11 +49,11 @@ These pieces are  milled out of an aluminum block. If you do not have a mechanic
 
 #### Adapt Scientifica Scope to receive light-sheet unit
 
-(6) Start with [Custom Bracket](CAD_models/CustomBracket.stl)
+(6) Start with [Custom Bracket](CAD_models/CustomBracket.stl) (custom piece)
 
-(7) Attach top plate with original screws
+(7) Attach top plate (original piece from Scientifica) with original screws
 
-(8) Attach [Adapter Plate 1](CAD_models/AdaptorPlate1.stl) with four M4x30 screws
+(8) Attach [Adapter Plate 1](CAD_models/AdaptorPlate1.stl) (custom piece) with four M4x30 screws
 
 (9) Attach assembly to top Z-stage of the microscope with two original screws
 
