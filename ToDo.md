@@ -8,6 +8,9 @@
 - [ ] Add image of an aligned and unaligned laser
 - [ ] prepare an image of the sample chamber with the capillary or the small plastic holder 
 
+## Fiber Coupling
+- [ ] Add lambda half waveplate to 3D model
+
 ## FiberOpticsReview
 - [ ] Make the document readable
 
