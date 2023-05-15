@@ -47,11 +47,11 @@ These pieces are  milled out of an aluminum block. If you do not have a mechanic
 
 (3-5) Assemble the Fiber support tube: Take the [FC/PC connector](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM05FC#ad-image-0) which will later hold the optical fiber that delivers the laser. Screw the connector into the [lens tube](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM05M10) (black) but not too far so that you can easily attach and detach the optical fiber. Fix the connector with the two retaining rings.
 
-#### Adapt Scientifica Scope to receive light-sheet unit
+#### Adapt the Scientifica Scope to receive the light-sheet unit
 
-(6) Start with [Custom Bracket](CAD_models/CustomBracket.stl) (custom piece)
 
-(7) Attach top plate (original piece from Scientifica) with original screws
+
+(6-7) Attach the top plate (original piece unscrewed from Scientifica Scope) to the [Custom Bracket](CAD_models/CustomBracket.stl) (custom piece) by using the original screws.
 
 (8) Attach [Adapter Plate 1](CAD_models/AdaptorPlate1.stl) (custom piece) with four M4x30 screws
 
