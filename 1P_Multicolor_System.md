@@ -40,26 +40,43 @@ These pieces are  milled out of an aluminum block. If you do not have a mechanic
 
 ![BuildingInstructions](Figures/Assembly_StepByStep.png)
 
+#### Laser and fiber coupling
 (1) Purchase [continous lasers](https://www.oxxius.com/category-products/continuous-and-modulated-lasers/) of wavelength adapted for your experiments.  We use a blue 488nm and a green 561nm laser. Choose the option with [prealigned fiber coupler](https://github.com/vbormuth/OLU/files/9057780/WEBSITE-Datasheet-LBX-488.pdf).
 
 (2) To combine the two lasers into a single mode fiber attach the two inputs of the [fiber optic coupler](https://www.thorlabs.com/thorproduct.cfm?partnumber=TW470R5F2) to the FC/PC connector of each laser. The blue and the green lasers will be combined and are available at both output fiber ports.
 
 (3-5) Assemble the NA-expander: Take the [FC/PC connector](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM05FC#ad-image-0) which will later hold the optical fiber that delivers the laser. Screw the connector into the [lens tube](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM05M10) (black) but not too far so that you can easily attach and detach the optical fiber. Fix the connector with the two retaining rings.
 
-(6) Start with custom bracket
+#### Adapt Scientifica Scope to receive light-sheet unit
+
+(6) Start with [Custom Bracket](CAD_models/CustomBracket.stl)
+
 (7) Attach top plate with original screws
+
 (8) Attach Adapter Plate 1 with four M4x30 screws
+
 (9) Attach assembly to top Z-stage of the microscope with two original screws
 
+#### Assemble the light-sheet unit
+
 (10) Then start from Adapter Plate 2
+
 (11) Attach the Horizontal Manual Stage to Adapter Plate 2 with four M3 screws included with the stage
+
 (12) Attach the Vertical Manual Stage to the Horizontal Manual Stage with four M3 screws included with the stage
+
 (13) Attach the Light-Sheet Cube to the Vertical Manual stage with four M3x10 screws
+
 (14) Insert the Galvo Mirror, align it at 45° relative to the sides of the Light-sheet Cube and cinch it in place with two M5x30 screws
+
 (15) Attach the Piezo or Piezo Dummy to the Light-sheet Cube with two M4x20 screws
+
 (16) Attach the Fiber Holder to the Piezo with two M4x25 screws
+
 (17) Insert the NA-expander (see points 3-5) into the Fiber Holder and cinch it with one M4x20 screw
+
 (18) Screw in the 5x objectives
+
 (19) Attach Adapter Plate 2 to Adapter Plate 1 with three M6x20 screws
 
 (6) Start assembling the light-sheet unit
