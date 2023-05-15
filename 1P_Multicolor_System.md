@@ -75,14 +75,14 @@ These pieces are  milled out of an aluminum block. If you do not have a mechanic
 
 (17) Insert the Fiber support tube (see points 3-5) into the Fiber Holder and cinch it with one M4x20 screw and and attach one of the output fibers of the fiber optic coupler to the connector (2).
 
-(18) Screw in the 5x [Objective](https://www.micro-shop.zeiss.com/en/us/shop/objectives/420330-9901-000/Objective-EC-Plan-Neofluar-5x-0.16-M27)
+(18) Screw in the 5x [Objectives](https://www.micro-shop.zeiss.com/en/us/shop/objectives/420330-9901-000/Objective-EC-Plan-Neofluar-5x-0.16-M27)
 
 (19) Attach Adapter Plate 2 to Adapter Plate 1 with three M6x20 screws
 
 #### Laser alignement
-(20) Before you switch on the laser, prepare laser safety in the room (remove your jewelry, make sure that nobody is in the laser path and that the laser will not hit any reflecting surfaces). Then switch on the laser at low laser power. Adjust the distance of the fiber relative to the collimation objective until the laser exits the cube well collimated. Switch off the laser again.
+(20) Before you switch on the laser, prepare laser safety in the room (remove your jewelry, make sure that nobody is in the laser path and that the laser will not hit any reflecting surfaces). Switch on the galvanometric mirror and then switch on the laser at low laser power. Adjust the distance of the fiber relative to the collimation objective until the laser exits the cube well collimated. 
 
-(10) Switch on the laser. Carefully center the beam into the opening by carefully adjusting the orientation of the galvanometer mirror. Once done, fix the mirror position with the fixation screw.
+(10) Switch on the . Carefully center the beam into the opening by carefully adjusting the orientation of the galvanometer mirror. Once done, fix the mirror position with the fixation screw.
 
 (11-14) Screw the x-translation stage onto the z-translation stage and fix the assembly to the two adaptor plates (blue).
 
