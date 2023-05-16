@@ -80,9 +80,13 @@ These pieces are  milled out of an aluminum block. If you do not have a mechanic
 
 (21) Next, carefully centre the beam in the opening where Obj 2 was screwed in by carefully adjusting the orientation of the galvanometer mirror. Once this is done, fix the mirror position with the fixing screw.
 
-![LightSheetUnit_different_Views](Figures/LU_different_views.png)
+
 
 ### The detection path
+
+[<img width="400" alt="FullSetup" src="Figures/FullSetup.png">](Figures/FullSetup.png)
+
+
 
 To configure the detection path you use the standard ports and configuration of the Scientifica scope.
 
