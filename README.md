@@ -13,6 +13,9 @@ Two-photon light sheet microscopy has a wide range of applications in biology. H
 
 (a) 3D model of the 1P- \& 2P-light-sheet forming unit. (b) 3D design model showing how the one- and two-photon light-sheet unit is mounted on the Scientifica scope. The unit is attached to the motorized stage of the system that moves the objective. (c) Attenuation and dispersion spectrum of the hollow-core negative curvature fiber with two transmission bands (loss $<$ 300dB/km) highlighted in yellow. Inset left: Schematic of the cross section of the hypocycloid fiber with 8 cladding tubes. Inset right: EM cross section image of the fiber (scale bar $10\mu m$). (d) Near and far field profile of the fiber output at 515nm and 1030nm laser wavelength. (e) Schematic of the fiber with its FC/PC connectorization and the lens to increase the numerical aperture (NA) to match the NA of the collimation objective (Obj1 in a). (f) Measured light-sheet profile. (g) Single layers of a volumetric brain scan recorded in one- and two-photon mode of a 6dpf old zebrafish larva expressing pan-neuronally GCaMP6f and localized to the cell nucleus (Elav3-H2B-GCaMP6f).
 
+### Explorable 3D model of the full system
+
+[<img width="600" alt="FullSystem_3D-Model" src="Figures/FullSystem.png">](https://a360.co/41PexBK)
 
 ### Slow scan mode
 
