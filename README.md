@@ -15,7 +15,9 @@ Two-photon light sheet microscopy has a wide range of applications in biology. H
 
 ### Explorable 3D model of the full system
 
-[<img width="600" alt="FullSystem_3D-Model" src="Figures/FullSystem.png">](https://a360.co/41PexBK)
+[<img width="600" alt="FullSystem_3D-Model" src="Figures/FullSystem_3D-Model.png">](https://a360.co/41PexBK)
+
+Click the image to open the [model browser](https://a360.co/41PexBK).
 
 ### Slow scan mode
 
