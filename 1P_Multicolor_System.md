@@ -80,10 +80,7 @@ These pieces are  milled out of an aluminum block. If you do not have a mechanic
 
 (21) Next, carefully centre the beam in the opening where Obj 2 was screwed in by carefully adjusting the orientation of the galvanometer mirror. Once this is done, fix the mirror position with the fixing screw.
 
-
-
-![LightSheetUnit_different_Views](https://user-images.githubusercontent.com/38736127/175005382-7465c87b-a4d5-4bc8-8349-bc513ecaa548.png)
-
+![LightSheetUnit_different_Views](Figures/LU_different_views.png)
 
 ### The detection path
 
