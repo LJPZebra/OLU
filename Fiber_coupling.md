@@ -4,8 +4,9 @@
 The following schematic and [3D model](https://a360.co/3JVrDGn) that you can interactively explore in 3D shows a possible optical path for the laser coupling. You can adapt the arrangement to the space availability on your setup (mirror, **M**, lens, **L**, dichroic, **D**, wave plate, **W**, polarizer, **P**):
 
 
-[<img width="400" alt="Schematic_FiberCoupling" src="Figures/Schematic_FiberCoupling.png">]
+[<img width="400" alt="Schematic_FiberCoupling" src="Figures/Schematic_FiberCoupling.png">](Figures/Schematic_FiberCoupling.png)
 [<img width="400" alt="AlignmentTutorial" src="Figures/2P_laser_injection_3D-Model.png">](https://a360.co/3JVrDGn)
+
 
 
 If you do not have space on your table you can mount a platform on top of your IR pulsed laser source and bring the laser beam with a [periscope](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=883) up to the platform. 
