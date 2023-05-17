@@ -97,7 +97,11 @@ To configure the detection path you use the standard ports and configuration of 
      * a [GFP Emission Filter](https://www.thorlabs.com/thorproduct.cfm?partnumber=MF525-39).
 * Attach the camera to the camera port. We used the [Hamamatsu ORCA-Flash4.0 V3 camera](https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/documents/99_SALES_LIBRARY/sys/SCAS0134E_C13440-20CU_tec.pdf)
 
+### Advanced version for fast volumetric imaging
 
+If you have installed the imaging objective and the fiber with a piezoactuator then you can drive both piezos with the same control signa. 
+
+* Use the monitor signal of the focus scanner as the control signal of the piezo crystal that drives the height of the fiber. Calibrate the voltage with a [potentiometer](add link here ??????)
 
 
 ### The sample chamber holder and sample chamber
@@ -131,11 +135,7 @@ To configure the detection path you use the standard ports and configuration of 
 * Troubleshooting:
     * Your image is not sharp homogeneously across the field of view: The light-sheet might be tilted with respect to the focal plane of the detection objective.  In this case you can correct this by tilting slightly the entire unit. For this, unscrew slightly screws that fix the unit via the adapter plate to the microscope translation stage. Insert a thin paper partly between the adapter plate and the stage such that the unit gets tiltited in the correct direction once you refix the screws. Repeat this procedure until your image is in focus across the entire field of view.
 
-### Advanced version for fast volumetric imaging
 
-* Mount the detection objective via an objective [focus scanner for microscope ojektives](https://www.physikinstrumente.de/de/produkte/piezo-nanopositioniertische/pifoc-objektivscanner-pinano-probentische-fuer-die-mikroskopie/p-725xcde2-pifoc-objektivscanner-mit-langem-stellweg-412418521/)
-* Install the [piezo crystal to rapidly move the fiber outlet](https://www.piezosystem.com/product/pz-400-oem/)
-* Use the monitor signal of the focus scanner as the control signal of the piezo crystal that drives the height of the fiber. Calibrate the voltage with a [potentiometer](add link here ??????)
 
 
 ## Example recordings:
