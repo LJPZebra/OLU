@@ -119,10 +119,10 @@ If you have installed the imaging objective and the fiber with a piezoactuator t
 
 
 
+https://github.com/vbormuth/OLU/assets/38736127/339b0a1c-8ea3-4ab0-ac4e-e25d764b4bd9
 
 
-
-[<img width="400" alt="AssembleSampleChamber" src="Figures/Tank_Exploded.png">](https://github.com/vbormuth/OLU/assets/38736127/339b0a1c-8ea3-4ab0-ac4e-e25d764b4bd9))
+[<img width="400" alt="AssembleSampleChamber" src="Figures/Tank_Exploded.png">](https://github.com/vbormuth/OLU/assets/38736127/339b0a1c-8ea3-4ab0-ac4e-e25d764b4bd9)
 
 *   Glue with [cyanoacrylate](https://uk.rs-online.com/web/p/glues/0473455) or [UV-curing adhesive](https://www.thorlabs.com/thorproduct.cfm?partnumber=NOA68) two glass windows on both side as well as an [O-ring](https://www.oring.fr/joint-torique/22-1.html?search_query=&results=45) into the hole on the short side which will allow you later to hold and position the sample via a [capillary](https://www.alphalabs.co.uk/5-000-2050) (inner diameter 0.85mm, outer diameter 1.47mm, length 115mm) for the imaging sessions. (As glue we use a [UV glue](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=196&pn=NOA61) but you can also use standard cyanoacrylate. Place the sample chamber into the predefined opening of the sample holder.)
 
