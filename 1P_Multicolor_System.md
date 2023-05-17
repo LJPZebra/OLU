@@ -127,7 +127,9 @@ https://github.com/vbormuth/OLU/assets/38736127/339b0a1c-8ea3-4ab0-ac4e-e25d764b
 
 <!--- https://www.fishersci.fi/shop/products/plunger-acura-capillary-micropipettes/p-8481034 --->
 
+### Asure laser savety
 
+![BeamTrapForLaserSavety](Figures/BeamTrap_ForLaserSavety.png)
 
 ### Now let's align the system
 * Fill the sample chamber with water and add a drop of ????mM fluorescein to visualize the laser. Switch-on the laser at low power until you can see the fluorescence laser profile. Be careful not to look directly into the laser and to keep working at low power (<1mW after excitation objective) for alignment. 
