@@ -7,6 +7,8 @@
 - [ ] Add to the step-by-step assembly images that shows how to unscrew the bracket and top plate from the Scientifica scope
 - [ ] Add image of an aligned and unaligned laser
 - [ ] prepare an image of the sample chamber with the capillary or the small plastic holder 
+- [ ] movies of waist movement during alignement with and without sample
+- [ ] change scale bar of brain stack
 
 ## Fiber Coupling
 - [ ] Add lambda half waveplate to 3D model
