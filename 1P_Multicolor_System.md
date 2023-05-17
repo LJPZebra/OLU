@@ -31,7 +31,20 @@ These pieces are  milled out of an aluminum block. If you do not have a mechanic
 * [Sample chamber](CAD_models/SampleChamber.stl). You can download the [CAD model as step file](CAD_models/SampleChamber.step) here to send it to your 3D printing service.
 
 ## Screw kit
-[Srew kit](https://www.amazon.fr/huruirui-hexagonales-int%C3%A9rieures-inoxydable-rangement/dp/B0BNC63J21/ref=sr_1_21?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3MCQH28G0NEHV&keywords=vis%2BM3%2BM4%2BM5%2BM6%2B10%2F20%2F25%2F30&qid=1684324658&s=industrial&sprefix=vis%2Bm3%2Bm4%2Bm5%2Bm6%2B10%2F20%2F25%2F30%2Cindustrial%2C58&sr=1-21&th=1)
+You will neet Hex Head Socket Cap metric screws:
+
+| type          | length (cm)   | amount |
+| ------------- | ------------- | ------ |
+| M3            | 10            | 4      |
+| M4            | 30            | 4      |
+| M4            | 25            | 2      |
+| M4            | 20            | 3      |
+| M4            | 20            | 3      |
+| M5            | 30            | 2      |
+| M6            | 20            | 3      |
+
+
+E.g. this [Srew kit](https://www.amazon.fr/huruirui-hexagonales-int%C3%A9rieures-inoxydable-rangement/dp/B0BNC63J21/ref=sr_1_21?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3MCQH28G0NEHV&keywords=vis%2BM3%2BM4%2BM5%2BM6%2B10%2F20%2F25%2F30&qid=1684324658&s=industrial&sprefix=vis%2Bm3%2Bm4%2Bm5%2Bm6%2B10%2F20%2F25%2F30%2Cindustrial%2C58&sr=1-21&th=1) will do it. 
 
 
 ## Let's start to assemble
