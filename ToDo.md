@@ -1,4 +1,4 @@
-- [ ] Did we drill holes into the motorized stage of the Scientifica scope? If yes give the code to send to a machine workshop including the thread.
+- [X] Did we drill holes into the motorized stage of the Scientifica scope? If yes give the code to send to a machine workshop including the thread.
 - [ ] prepare purchase list with pricing and total estimation of cost
 - [ ] Add link to a box of screws that can be ordered from Thorlabs
 - [x] All figures should have a white background (in dark theme it is not working otherwise).
