@@ -62,6 +62,11 @@ E.g. this [Srew kit](https://www.amazon.fr/huruirui-hexagonales-int%C3%A9rieures
 
 #### Adapt the Scientifica Scope to receive the light-sheet unit
 
+You will need to unscrew the bracket that holds the objective support plate from the original Scientifica setup. This bracket will then be replaced with a custom bracket that has holes to allow the light sheet unit to be attached to the Scientifica system in the next steps. 
+
+https://github.com/vbormuth/OLU/assets/38736127/91e1834d-1bab-4ee8-8b95-717004b15446
+
+
 (6-7) Attach the top plate (original piece unscrewed from Scientifica Scope) to the [Custom Bracket](CAD_models/CustomBracket.stl) (custom piece) by using the original screws.
 
 (8) Attach [Adapter Plate 1](CAD_models/AdaptorPlate1.stl) (custom piece) with four M4x30 screws.
