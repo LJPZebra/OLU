@@ -9,6 +9,8 @@
 - [ ] prepare an image of the sample chamber with the capillary or the small plastic holder 
 - [ ] movies of waist movement during alignement with and without sample
 - [ ] change scale bar of brain stack
+- [ ] add link to NA I/O card
+- [ ] add link to poteniometer and show an image of the cabeling 
 
 ## Fiber Coupling
 - [ ] Add lambda half waveplate to 3D model
