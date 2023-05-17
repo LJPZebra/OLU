@@ -25,13 +25,13 @@
 ## CAD models
 
 Pieces delivered by Scientifica :
-- [ ] column that holds the sample chamber plate
-- [ ] the Olympus parts
+- [X] column that holds the sample chamber plate
+- [X] the Olympus parts
 
 Custom pieces :
-- [ ] adaptor plates
-- [ ] fiber holder (red)
-- [ ] add the threads to the CAD models
-- [ ] export plans including threads
+- [X] adaptor plates
+- [X] fiber holder (red)
+- [X] add the threads to the CAD models
+- [X] export plans including threads
 
 
