@@ -12,6 +12,7 @@
 
 ## Fiber Coupling
 - [ ] Add lambda half waveplate to 3D model
+- [ ] add thorlabs link to waveplate W2 and W3
 
 ## FiberOpticsReview
 - [ ] Make the document readable
