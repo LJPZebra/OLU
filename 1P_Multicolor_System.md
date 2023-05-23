@@ -83,7 +83,7 @@ https://github.com/vbormuth/OLU/assets/38736127/91e1834d-1bab-4ee8-8b95-717004b1
 
 (13) Attach the [Light-Sheet Unit Central Cube](CAD_models/Cube.stl) (green, custom piece) to the Vertical Manual stage with four M3x10 screws.
 
-(14) Insert the [Galvanometer Mirror]](https://www.thorlabs.com/thorproduct.cfm?partnumber=GVS011) (light blue), align it at 45° relative to the sides of the Light-sheet Cube and cinch it in place with two M5x30 screws.
+(14) Insert the [Galvanometer Mirror](https://www.thorlabs.com/thorproduct.cfm?partnumber=GVS011) (light blue), align it at 45° relative to the sides of the Light-sheet Cube and cinch it in place with two M5x30 screws.
 
 (15) Attach the [Piezocrystal (PZ 400 SG OEM)](https://www.piezosystem.com/product/pz-400-oem/) or if you want to start with a simple low cost version that uses only the slow scanning mode then install instead the [Piezo Dummy](CAD_models/PiezoDummy.stl) (custom piece) to the Light-sheet Cube with two M4x20 screws.
 
@@ -147,6 +147,7 @@ https://github.com/vbormuth/OLU/assets/38736127/339b0a1c-8ea3-4ab0-ac4e-e25d764b
 
 ### Asure laser savety
 
+Protect the experimenter from the laser by installing a 
 [<img width="400" alt="BeamTrap_ForLaserSavety" src="Figures/BeamTrap_ForLaserSavety.png">](Figures/BeamTrap_ForLaserSavety.png)
 
 
