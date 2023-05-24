@@ -1,6 +1,6 @@
 # Control software
 
-If you use your microscope already with a image aquisition software that allows to aquire z-stacks then 
+If you use your microscope already with an image aquisition software that allows to aquire z-stacks then 
 
 
 * To control the light-sheet volumetric scanning you can use our [custom developped control software](https://github.com/LaboJeanPerrin/Lightsheet) written in Matlab. Via a national instrument card [PCIe-6363](https://www.ni.com/fr-fr/support/model.pcie-6363.html) this software controls the galvomirror and the objective piezo scanner. The software is open source. 
