@@ -39,8 +39,7 @@ You will neet Hex Head Socket Cap metric screws:
 | M3            | 10            | 4      |
 | M4            | 30            | 4      |
 | M4            | 25            | 2      |
-| M4            | 20            | 3      |
-| M4            | 20            | 3      |
+| M4            | 20            | 5      |
 | M4            | 12            | 2      |
 | M5            | 30            | 2      |
 | M6            | 20            | 3      |
