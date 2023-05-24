@@ -53,7 +53,8 @@ E.g. this [Srew kit](https://www.amazon.fr/huruirui-hexagonales-int%C3%A9rieures
 
 #### Laser and fiber coupling
 
-![LaserCombining](Figures/LaserCombining.png)
+[<img width="700" alt="DetectionPath" src="Figures/LaserCombining.png">](Figures/LaserCombining.png)
+
 
 
 (1) Purchase [continous lasers](https://www.oxxius.com/category-products/continuous-and-modulated-lasers/) of wavelength adapted for your experiments.  We use a blue 488nm and a green 561nm laser. Choose the option with [prealigned fiber coupler](https://github.com/vbormuth/OLU/files/9057780/WEBSITE-Datasheet-LBX-488.pdf).
@@ -67,15 +68,13 @@ E.g. this [Srew kit](https://www.amazon.fr/huruirui-hexagonales-int%C3%A9rieures
 You will need to unscrew the bracket that holds the objective support plate from the original Scientifica setup.
 
 
-https://github.com/vbormuth/OLU/assets/38736127/91e1834d-1bab-4ee8-8b95-717004b15446
-
-<img src="https://github.com/vbormuth/OLU/assets/38736127/91e1834d-1bab-4ee8-8b95-717004b15446" width="200">
-
-
+https://github.com/vbormuth/OLU/assets/38736127/1621d6e4-738a-451f-a1b0-d2df6d79b820
 
 This bracket will then be replaced with a custom bracket that has holes to allow the light sheet unit to be attached to the Scientifica system in the next steps. 
 
-![LaserCombining](Figures/AdaptScientificaScope.png)
+
+[<img width="500" alt="DetectionPath" src="Figures/AdaptScientificaScope.png">](Figures/AdaptScientificaScope.png)
+
 
 
 (1-2) Attach the top plate (original piece unscrewed from Scientifica Scope) to the [Custom Bracket](CAD_models/CustomBracket.stl) (custom piece) by using the original screws.
@@ -86,7 +85,7 @@ This bracket will then be replaced with a custom bracket that has holes to allow
 
 #### Assemble the light-sheet unit
 
-![LaserCombining](Figures/Light-sheet-unit_assembly.png)
+[<img width="700" alt="DetectionPath" src="Figures/Light-sheet-unit_assembly.png">](Figures/Light-sheet-unit_assembly.png)
 
 
 (1) Start from [Adapter Plate 2](CAD_models/AdaptorPlate2.stl) (blue, custom piece).
