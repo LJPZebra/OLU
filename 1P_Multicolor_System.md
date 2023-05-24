@@ -69,6 +69,9 @@ You will need to unscrew the bracket that holds the objective support plate from
 
 https://github.com/vbormuth/OLU/assets/38736127/91e1834d-1bab-4ee8-8b95-717004b15446
 
+<img src="https://github.com/vbormuth/OLU/assets/38736127/91e1834d-1bab-4ee8-8b95-717004b15446" width="200">
+
+
 
 This bracket will then be replaced with a custom bracket that has holes to allow the light sheet unit to be attached to the Scientifica system in the next steps. 
 
