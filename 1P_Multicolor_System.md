@@ -23,6 +23,7 @@ These pieces are  milled out of an aluminum block. If you do not have a mechanic
 * Adaptor plate 2 : [View the 3D model](CAD_models/AdaptorPlate2.stl) or  [download the CAD model as a step file](CAD_models/AdaptorPlate2.step) and [mechanical drawings](CAD_models/AdaptorPlate2MechanicalDrawings.pdf).
 * Custom bracket : [View the 3D model](CAD_models/CustomBracket.stl) or  [download the CAD model as a step file](CAD_models/CustomBracket.step) and [mechanical drawings](CAD_models/CustomBracketMechanicalDrawings.pdf).
 * Sample holder: [View the 3D model](CAD_models/SampleHolder.stl) or [download the CAD model as step file](CAD_models/SampleHolder.step) and [mechanical drawings](CAD_models/SampleHolderMechanicalDrawings.pdf).
+* T-bracket to hold the beam trap : [View the 3D model](CAD_models/TBracket.stl) or [download the CAD model as step file](CAD_models/TBracket.step) and [mechanical drawings](CAD_models/TBracketMechanicalDrawings.pdf).
 * Piezoactuator dummy : [View the 3D model](CAD_models/PiezoDummy.stl) or [download the CAD model as step file](CAD_models/PiezoDummy.step) and [mechanical drawings](CAD_models/PiezoDummyMechanicalDrawings.pdf). This piece is only necessary if you do not want to install the piezo actuator required for the fast scan mode.
     
 
@@ -146,7 +147,7 @@ If you have installed the imaging objective and the fiber with a piezoactuator t
 [<img width="400" alt="SampleHolder" src="Figures/FullSetupWithSampleHolder.png">](Figures/FullSetupWithSampleHolder.png)
 
 
-* Install the [sample chamber support plate](CAD_models/SampleHolder.stl). This part is milled out of aluminum. You can download the [CAD step file of holder](CAD_models/SampleHolder.stp) here to send it to your milling service.
+* Install the [sample chamber support plate](CAD_models/SampleHolder.stl). This part is milled out of aluminum. You can download the [CAD step file](CAD_models/SampleHolder.stp) here to send it to your milling service.
 * 3D print the [sample chamber](CAD_models/SampleChamber.stl). You can download the [CAD step file of the sample chamber](CAD_models/SampleHolder.stp) here to send it to your 3D printing service.
 
 https://github.com/vbormuth/OLU/assets/38736127/12681a4f-9d83-438b-acc0-6e80867b9052
