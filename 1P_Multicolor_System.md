@@ -22,7 +22,7 @@ These pieces are  milled out of an aluminum block. If you do not have a mechanic
 * Adaptor plate 1 : [View the 3D model](CAD_models/AdaptorPlate1.stl) or  [download the CAD model as a step file](CAD_models/AdaptorPlate1.step) and [mechanical drawings](CAD_models/AdaptorPlate1MechanicalDrawings.pdf).
 * Adaptor plate 2 : [View the 3D model](CAD_models/AdaptorPlate2.stl) or  [download the CAD model as a step file](CAD_models/AdaptorPlate2.step) and [mechanical drawings](CAD_models/AdaptorPlate2MechanicalDrawings.pdf).
 * Custom bracket : [View the 3D model](CAD_models/CustomBracket.stl) or  [download the CAD model as a step file](CAD_models/CustomBracket.step) and [mechanical drawings](CAD_models/CustomBracketMechanicalDrawings.pdf).
-* Sample holder: [View the 3D model](CAD_models/SampleHolder.stl) or [download the CAD model as step file](CAD_models/SampleHolder.step) and [mechanical drawings](CAD_models/SampleHolderMechanicalDrawings.pdf).
+* Sample chamber holder : [View the 3D model](CAD_models/SampleChamberHolder.stl) or [download the CAD model as step file](CAD_models/SampleChamberHolder.step) and [mechanical drawings](CAD_models/SampleChamberHolderMechanicalDrawings.pdf).
 * T-bracket to hold the beam trap : [View the 3D model](CAD_models/TBracket.stl) or [download the CAD model as step file](CAD_models/TBracket.step) and [mechanical drawings](CAD_models/TBracketMechanicalDrawings.pdf).
 * Piezoactuator dummy : [View the 3D model](CAD_models/PiezoDummy.stl) or [download the CAD model as step file](CAD_models/PiezoDummy.step) and [mechanical drawings](CAD_models/PiezoDummyMechanicalDrawings.pdf). This piece is only necessary if you do not want to install the piezo actuator required for the fast scan mode.
     
@@ -156,8 +156,8 @@ https://github.com/vbormuth/OLU/assets/38736127/12681a4f-9d83-438b-acc0-6e80867b
 
 *  Place the sample chamber into the predefined opening of the sample holder.)
 
-![SampleHolder](https://user-images.githubusercontent.com/38736127/178137631-2c89b6cf-9c1a-4c7f-b7f9-2d27c1fac82d.png)
 
+[<img width="400" src="https://user-images.githubusercontent.com/38736127/178137631-2c89b6cf-9c1a-4c7f-b7f9-2d27c1fac82d.png">](https://user-images.githubusercontent.com/38736127/178137631-2c89b6cf-9c1a-4c7f-b7f9-2d27c1fac82d.png)
 
 
 <!--- https://www.fishersci.fi/shop/products/plunger-acura-capillary-micropipettes/p-8481034 --->
