@@ -166,7 +166,7 @@ https://github.com/vbormuth/OLU/assets/38736127/12681a4f-9d83-438b-acc0-6e80867b
 
 Protect the experimenter from the laser by installing a [beam blocker](https://www.thorlabs.com/thorproduct.cfm?partnumber=LB2) in front of the sample chamber. 
 
-[<img width="400" alt="BeamTrap_ForLaserSavety" src="Figures/BeamTrap_ForLaserSavety.png">](Figures/BeamTrap_ForLaserSafety.png)
+[<img width="400" alt="BeamTrap_ForLaserSafety" src="Figures/BeamTrap_ForLaserSafety.png">](Figures/BeamTrap_ForLaserSafety.png)
 
 
 ### Now let's align the system
