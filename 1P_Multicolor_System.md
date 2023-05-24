@@ -164,7 +164,7 @@ https://github.com/vbormuth/OLU/assets/38736127/12681a4f-9d83-438b-acc0-6e80867b
 
 ### Ensuring laser safety
 
-Protect the experimenter from the laser by installing a [beam blocker](https://www.thorlabs.com/thorproduct.cfm?partnumber=LB2) in front of the sample chamber. For this thix the beam blocker with the [T-bracket](Figures/TBracket.stl) (custom piece) to the [sample chamber holder](Figures/SampleChamberHolder.stl) with four M? screws.  
+Protect the experimenter from the laser by installing a [beam blocker](https://www.thorlabs.com/thorproduct.cfm?partnumber=LB2) in front of the sample chamber. For this thix the beam blocker with the [T-bracket](CAD_models/TBracket.stl) (custom piece) to the [sample chamber holder](CAD_models/SampleChamberHolder.stl) with four M? screws.  
 
 [<img width="400" alt="BeamTrap_ForLaserSafety" src="Figures/BeamTrap_ForLaserSafety.png">](Figures/BeamTrap_ForLaserSafety.png)
 
