@@ -40,7 +40,7 @@ You will neet Hex Head Socket Cap metric screws:
 | M4            | 30            | 4      |
 | M4            | 25            | 2      |
 | M4            | 20            | 5      |
-| M4            | 12            | 2      |
+| M4            | 10            | 2      |
 | M5            | 30            | 2      |
 | M6            | 20            | 3      |
 
@@ -164,7 +164,7 @@ https://github.com/vbormuth/OLU/assets/38736127/12681a4f-9d83-438b-acc0-6e80867b
 
 ### Ensuring laser safety
 
-Protect the experimenter from the laser by installing a [beam blocker](https://www.thorlabs.com/thorproduct.cfm?partnumber=LB2) in front of the sample chamber. Fix the [T-bracket](CAD_models/TBracket.stl) (custom piece) with two M4x20 screws to the [sample chamber holder](CAD_models/SampleChamberHolder.stl) and then fix the beam blocker with two M4x12 screws to the T-bracket. 
+Protect the experimenter from the laser by installing a [beam blocker](https://www.thorlabs.com/thorproduct.cfm?partnumber=LB2) in front of the sample chamber. Fix the [T-bracket](CAD_models/TBracket.stl) (custom piece) with two M4x20 screws to the [sample chamber holder](CAD_models/SampleChamberHolder.stl) and then fix the beam blocker with two M4x10 screws to the T-bracket. 
 
 [<img width="400" alt="BeamTrap_ForLaserSafety" src="Figures/BeamTrap_ForLaserSafety.png">](Figures/BeamTrap_ForLaserSafety.png)
 
