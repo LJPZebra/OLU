@@ -143,28 +143,31 @@ The light-sheet unit can be operated in two modes:
 
 Drive the galvanometer with a function generator. A low tech [function generator](https://www.amazon.com/Generator-Precision-Dual-Channel-Arbitrary-Frequency/dp/B07H8CF2WV/ref=sr_1_3?crid=BMHYRYNELBAO&keywords=function+generator+JDS6600&qid=1685005539&sprefix=function+generator+jds6600%2Caps%2C273&sr=8-3) will be fully sufficient. Drive the the mirror at about 400Hz with a triangular or sawtooth waveform.
 
+If you use your microscope already with an image aquisition software that allows to aquire z-stacks either by controlling the motorized stage of the z-focus or by controlling the piezo objective scanner then you can operate the unit in two modes
+
+
+Slow scan mode: 
 You can perform volumetric recordings also if you did not install the ojective piezo scanner nor the piezocrystal to move the optical fiber. Just control the objective movement via the motorized stage of the scientifica scope as you would do during a standard epifluorescence recording. Because the light-sheet unit is attached to the same stage as the objective it will move with the objective such that the light-sheet illuminates always the focal plane. 
 
-
-
-
-If you did In this mode you can perform volumetric light-sheet recordings as if you would do a normal epifluorescence acquisition.
-
-
-#### Mode 2: A computer controlled light-sheet scanner
-
-Option 1: 
- 
-
-
-Option 2: Fast 3D scanning mode
+Fast scan mode: 
 In this mode the fiber and the imaging objective are moved by high precision piezocrystals. 
-
-
 If you have installed the imaging objective and the fiber with a piezoactuator then you can drive both piezos with the same control signal. 
 
 * Use the monitor signal of the focus scanner as the control signal of the piezo crystal that drives the height of the fiber. Calibrate the voltage with a [potentiometer???LINK??????](add link here ??????)
 
+
+
+#### Mode 2: A computer controlled light-sheet scanner
+
+* To control the light-sheet volumetric scanning you can use our [custom developped control software](https://github.com/LaboJeanPerrin/Lightsheet) written in Matlab. Via a national instrument card [PCIe-6363](https://www.ni.com/fr-fr/support/model.pcie-6363.html) this software controls the galvomirror and the objective piezo scanner. The software is open source. 
+
+![Screen1](https://user-images.githubusercontent.com/38736127/188240052-591e071c-c2ae-4251-a0e8-cf1be3b949b5.PNG)
+![Screen2](https://user-images.githubusercontent.com/38736127/188240063-00330c47-2eac-4d3f-bd4d-2ac0d1c1b25f.PNG)
+
+* Alternatively, you can use:
+    *  [ScanImage](https://www.scientifica.uk.com/products/vidrio-technologies-scanimage) the control software provided by Scientifica   
+    *  [Micromanager](https://micro-manager.org/) that supports the control of all Scientifica stages as well as of most commen objective scanners from e.g. Physical Instrument or Piezo Jena.
+    *  or the open source python software presented here: https://www.frontiersin.org/articles/10.3389/fcell.2022.875044/full
 
 ### The sample chamber holder and sample chamber
 
@@ -210,20 +213,7 @@ Protect the experimenter from the laser by installing a [beam blocker](https://w
 * Troubleshooting:
     * Your image is not sharp homogeneously across the field of view: The light-sheet might be tilted with respect to the focal plane of the detection objective.  In this case you can correct this by tilting slightly the entire unit. For this, unscrew slightly screws that fix the unit via the adapter plate to the microscope translation stage. Insert a thin paper partly between the adapter plate and the stage such that the unit gets tiltited in the correct direction once you refix the screws. Repeat this procedure until your image is in focus across the entire field of view.
 
-### Computer interfacing and Control software
 
-If you use your microscope already with an image aquisition software that allows to aquire z-stacks then 
-
-
-* To control the light-sheet volumetric scanning you can use our [custom developped control software](https://github.com/LaboJeanPerrin/Lightsheet) written in Matlab. Via a national instrument card [PCIe-6363](https://www.ni.com/fr-fr/support/model.pcie-6363.html) this software controls the galvomirror and the objective piezo scanner. The software is open source. 
-
-![Screen1](https://user-images.githubusercontent.com/38736127/188240052-591e071c-c2ae-4251-a0e8-cf1be3b949b5.PNG)
-![Screen2](https://user-images.githubusercontent.com/38736127/188240063-00330c47-2eac-4d3f-bd4d-2ac0d1c1b25f.PNG)
-
-* Alternatively, you can use:
-    *  [ScanImage](https://www.scientifica.uk.com/products/vidrio-technologies-scanimage) the control software provided by Scientifica   
-    *  [Micromanager](https://micro-manager.org/) that supports the control of all Scientifica stages as well as of most commen objective scanners from e.g. Physical Instrument or Piezo Jena.
-    *  or the open source python software presented here: https://www.frontiersin.org/articles/10.3389/fcell.2022.875044/full
 
 
 
