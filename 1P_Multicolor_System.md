@@ -135,7 +135,21 @@ To configure the detection path you use the standard ports and configuration of 
      * a [GFP Emission Filter](https://www.thorlabs.com/thorproduct.cfm?partnumber=MF525-39).
 * Attach the camera to the camera port. We used the [Hamamatsu ORCA-Flash4.0 V3 camera](https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/documents/99_SALES_LIBRARY/sys/SCAS0134E_C13440-20CU_tec.pdf)
 
-### Advanced version for fast volumetric imaging
+### Driving the light-sheet unit 
+
+The light-sheet unit can be operated in two modes:
+(1) As a stand-alone light-sheet source without the need additional computer interfacing
+(2) As a computer controlled light-sheet scanner
+
+Option 1: 
+Drive the galvanometer with a [function generator](https://www.amazon.com/Generator-Precision-Dual-Channel-Arbitrary-Frequency/dp/B07H8CF2WV/ref=sr_1_3?crid=BMHYRYNELBAO&keywords=function+generator+JDS6600&qid=1685005539&sprefix=function+generator+jds6600%2Caps%2C273&sr=8-3). A low tech function generator will be fully sufficient. Drive the the mirror at about 400Hz with a triangular or sawtooth waveform. 
+
+In this mode you can perform volumetric light-sheet recordings as if you would do a normal epifluorescence acquisition. 
+
+
+Option 2: Fast 3D scanning mode
+In this mode the fiber and the imaging objective are moved by high precision piezocrystals. 
+
 
 If you have installed the imaging objective and the fiber with a piezoactuator then you can drive both piezos with the same control signal. 
 
