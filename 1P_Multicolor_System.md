@@ -135,19 +135,20 @@ To configure the detection path you use the standard ports and configuration of 
      * a [GFP Emission Filter](https://www.thorlabs.com/thorproduct.cfm?partnumber=MF525-39).
 * Attach the camera to the camera port. We used the [Hamamatsu ORCA-Flash4.0 V3 camera](https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/documents/99_SALES_LIBRARY/sys/SCAS0134E_C13440-20CU_tec.pdf)
 
-### Driving the light-sheet unit 
+### Driving the light-sheet unit
 
 The light-sheet unit can be operated in two modes:
+Mode 1: Stand-alone light-sheet source without the need for additional computer interfacing
 
-#### Mode 1: A stand-alone light-sheet source without the need of additional computer interfacing
+To drive the galvanometer, a simple and affordable [function generator](https://www.amazon.com/Generator-Precision-Dual-Channel-Arbitrary-Frequency/dp/B07H8CF2WV/ref=sr_1_3?crid=BMHYRYNELBAO&keywords=function+generator+JDS6600&qid=1685005539&sprefix=function+generator+jds6600%2Caps%2C273&sr=8-3) will suffice. Set the mirror to oscillate at approximately 400Hz with a triangular or sawtooth waveform.
 
-Drive the galvanometer with a function generator. A low tech [function generator](https://www.amazon.com/Generator-Precision-Dual-Channel-Arbitrary-Frequency/dp/B07H8CF2WV/ref=sr_1_3?crid=BMHYRYNELBAO&keywords=function+generator+JDS6600&qid=1685005539&sprefix=function+generator+jds6600%2Caps%2C273&sr=8-3) will be fully sufficient. Drive the the mirror at about 400Hz with a triangular or sawtooth waveform.
+If you already use your microscope with an image acquisition software that allows for acquiring z-stacks by controlling either the motorized stage of the z-focus or the piezo objective scanner, then you can operate the light-sheet unit in two modes.
 
-If you use your microscope already with an image aquisition software that allows to aquire z-stacks either by controlling the motorized stage of the z-focus or by controlling the piezo objective scanner then you can operate the unit in two modes
+#### Slow scan mode:
+
+Even if you haven't installed the objective piezo scanner or the piezocrystal for moving the optical fiber, you can still perform volumetric recordings. Simply control the movement of the objective using the motorized stage of the scientifica scope, similar to a standard epifluorescence recording. Since the light-sheet unit is attached to the same stage as the objective, it will move along with the objective, ensuring that the light-sheet always illuminates the focal plane.
 
 
-Slow scan mode: 
-You can perform volumetric recordings also if you did not install the ojective piezo scanner nor the piezocrystal to move the optical fiber. Just control the objective movement via the motorized stage of the scientifica scope as you would do during a standard epifluorescence recording. Because the light-sheet unit is attached to the same stage as the objective it will move with the objective such that the light-sheet illuminates always the focal plane. 
 
 Fast scan mode: 
 In this mode the fiber and the imaging objective are moved by high precision piezocrystals. 
