@@ -128,7 +128,7 @@ This bracket will then be replaced with a custom bracket that has holes to allow
 
 To configure the detection path you use the standard ports and configuration of the Scientifica scope.
 
-* Use a detection objective that is best adapted to your application. If you want to install the fast z-scan mode then install the objective with an [objective scanning piezo system](https://www.pifrance.fr/fr/produits/platines-de-nanopositionnement-a-structure-deformable/support-objectif-pifoc-et-scanners-pinano-pour-la-microscopie/p-725-pifoc-objective-scanner-with-long-travel-range-200375/).
+* Use a detection objective that is best adapted to your application. If you want to install the fast z-scan mode then install the objective with an [objective scanning piezo system](https://www.pifrance.fr/fr/produits/platines-de-nanopositionnement-a-structure-deformable/support-objectif-pifoc-et-scanners-pinano-pour-la-microscopie/p-725-pifoc-objective-scanner-with-long-travel-range-200375/). Slow 
 <!--- We used an [Olympus 20x objective](https://www.thorlabs.com/catalogpages/Obsolete/2019/N60XW-PF.pdf) in combination with a lens of 150mm focal length as [tube lens](https://www.thorlabs.com/thorproduct.cfm?partnumber=AC254-150-A) to reduce the magnification to 16x for the imaging system. --->
 * Install the filters into the filter wheel
      * a [notch filter to block the 488nm laser line](https://www.thorlabs.com/thorproduct.cfm?partnumber=NF488-15)
@@ -141,7 +141,12 @@ The light-sheet unit can be operated in two modes:
 
 #### Mode 1: A stand-alone light-sheet source without the need of additional computer interfacing
 
-Drive the galvanometer with a function generator. A low tech [function generator](https://www.amazon.com/Generator-Precision-Dual-Channel-Arbitrary-Frequency/dp/B07H8CF2WV/ref=sr_1_3?crid=BMHYRYNELBAO&keywords=function+generator+JDS6600&qid=1685005539&sprefix=function+generator+jds6600%2Caps%2C273&sr=8-3) will be fully sufficient. Drive the the mirror at about 400Hz with a triangular or sawtooth waveform. 
+Drive the galvanometer with a function generator. A low tech [function generator](https://www.amazon.com/Generator-Precision-Dual-Channel-Arbitrary-Frequency/dp/B07H8CF2WV/ref=sr_1_3?crid=BMHYRYNELBAO&keywords=function+generator+JDS6600&qid=1685005539&sprefix=function+generator+jds6600%2Caps%2C273&sr=8-3) will be fully sufficient. Drive the the mirror at about 400Hz with a triangular or sawtooth waveform.
+
+You can perform volumetric recordings also if you did not install the ojective piezo scanner nor the piezocrystal to move the optical fiber. Just control the objective movement via the motorized stage of the scientifica scope as you would do during a standard epifluorescence recording. Because the light-sheet unit is attached to the same stage as the objective it will move with the objective such that the light-sheet illuminates always the focal plane. 
+
+
+
 
 If you did In this mode you can perform volumetric light-sheet recordings as if you would do a normal epifluorescence acquisition.
 
