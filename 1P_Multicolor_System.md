@@ -138,19 +138,21 @@ To configure the detection path you use the standard ports and configuration of 
 ### Driving the light-sheet unit
 
 The light-sheet unit can be operated in two modes:
-Mode 1: Stand-alone light-sheet source without the need for additional computer interfacing
+
+#### Mode 1: Stand-alone light-sheet source without the need for additional computer interfacing
 
 To drive the galvanometer, a simple and affordable [function generator](https://www.amazon.com/Generator-Precision-Dual-Channel-Arbitrary-Frequency/dp/B07H8CF2WV/ref=sr_1_3?crid=BMHYRYNELBAO&keywords=function+generator+JDS6600&qid=1685005539&sprefix=function+generator+jds6600%2Caps%2C273&sr=8-3) will suffice. Set the mirror to oscillate at approximately 400Hz with a triangular or sawtooth waveform.
 
 If you already use your microscope with an image acquisition software that allows for acquiring z-stacks by controlling either the motorized stage of the z-focus or the piezo objective scanner, then you can operate the light-sheet unit in two modes.
 
-#### Slow scan mode:
+**Slow scan mode:**
 
 Even if you haven't installed the objective piezo scanner or the piezocrystal for moving the optical fiber, you can still perform volumetric recordings. Simply control the movement of the objective using the motorized stage of the scientifica scope, similar to a standard epifluorescence recording. Since the light-sheet unit is attached to the same stage as the objective, it will move along with the objective, ensuring that the light-sheet always illuminates the focal plane.
 
 
 
-Fast scan mode: 
+**Fast scan mode:**
+
 In this mode the fiber and the imaging objective are moved by high precision piezocrystals. 
 If you have installed the imaging objective and the fiber with a piezoactuator then you can drive both piezos with the same control signal. 
 
