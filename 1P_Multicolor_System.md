@@ -138,13 +138,18 @@ To configure the detection path you use the standard ports and configuration of 
 ### Driving the light-sheet unit 
 
 The light-sheet unit can be operated in two modes:
-(1) As a stand-alone light-sheet source without the need additional computer interfacing
-(2) As a computer controlled light-sheet scanner
+
+#### Mode 1: A stand-alone light-sheet source without the need of additional computer interfacing
+
+Drive the galvanometer with a function generator. A low tech [function generator](https://www.amazon.com/Generator-Precision-Dual-Channel-Arbitrary-Frequency/dp/B07H8CF2WV/ref=sr_1_3?crid=BMHYRYNELBAO&keywords=function+generator+JDS6600&qid=1685005539&sprefix=function+generator+jds6600%2Caps%2C273&sr=8-3) will be fully sufficient. Drive the the mirror at about 400Hz with a triangular or sawtooth waveform. 
+
+If you did In this mode you can perform volumetric light-sheet recordings as if you would do a normal epifluorescence acquisition.
+
+
+#### Mode 2: A computer controlled light-sheet scanner
 
 Option 1: 
-Drive the galvanometer with a [function generator](https://www.amazon.com/Generator-Precision-Dual-Channel-Arbitrary-Frequency/dp/B07H8CF2WV/ref=sr_1_3?crid=BMHYRYNELBAO&keywords=function+generator+JDS6600&qid=1685005539&sprefix=function+generator+jds6600%2Caps%2C273&sr=8-3). A low tech function generator will be fully sufficient. Drive the the mirror at about 400Hz with a triangular or sawtooth waveform. 
-
-In this mode you can perform volumetric light-sheet recordings as if you would do a normal epifluorescence acquisition. 
+ 
 
 
 Option 2: Fast 3D scanning mode
