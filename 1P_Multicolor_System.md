@@ -153,10 +153,10 @@ Even if you haven't installed the objective piezo scanner or the piezocrystal fo
 
 **Fast scan mode:**
 
-In this mode the fiber and the imaging objective are moved by high precision piezocrystals. 
-If you have installed the imaging objective and the fiber with a piezoactuator then you can drive both piezos with the same control signal. 
+If you have installed a piezoactuator for both the imaging objective and the fiber, you can achieve high precision and fast volumetric recordings. Synchronizing the movement of the fiber with that of the objective is crucial to ensure that the light-sheet remains in the focal plane of the objective throughout the volumetric acquisition.
 
-* Use the monitor signal of the focus scanner as the control signal of the piezo crystal that drives the height of the fiber. Calibrate the voltage with a [potentiometer???LINK??????](add link here ??????)
+To achieve this synchronization, utilize your microscope control software to drive the objective scanner, and control the piezocrystal responsible for moving the fiber using the monitor signal from the controller of the focus scanner.
+Calibrate the voltage with a [potentiometer???LINK??????](add link here ??????)
 
 
 
