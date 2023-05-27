@@ -149,8 +149,9 @@ If you already use your microscope with an image acquisition software that allow
 
 Even if you haven't installed the objective piezo scanner and the piezocrystal for moving the optical fiber, you can still perform volumetric recordings. Simply control the movement of the objective using the motorized stage of the scientifica scope, similar to a standard epifluorescence recording. Since the light-sheet unit is attached to the same stage as the objective, it will move along with the objective, ensuring that the light-sheet always illuminates the focal plane.
 
-https://user-images.githubusercontent.com/113037893/207926697-6573f5d4-6586-4915-aaef-1366d4b2105a.mp4
 
+
+https://github.com/vbormuth/OLU/assets/38736127/971596a3-8630-45aa-8d89-9b84befc338a
 
 
 
@@ -158,6 +159,9 @@ https://user-images.githubusercontent.com/113037893/207926697-6573f5d4-6586-4915
 **Fast scan mode:**
 
 If you have installed a piezoactuator for both the imaging objective and the fiber, you can achieve high precision and fast volumetric recordings. Synchronizing the movement of the fiber with that of the objective is crucial to ensure that the light-sheet remains in the focal plane of the objective throughout the volumetric acquisition.
+
+https://github.com/vbormuth/OLU/assets/38736127/8b75b67d-e0e4-44ea-af6d-0a4d4e075307
+
 
 To achieve this synchronization, utilize your microscope control software to drive the objective scanner, and control the piezocrystal responsible for moving the fiber using the monitor signal from the controller of the focus scanner.
 Calibrate the voltage with a [potentiometer???LINK??????](add link here ??????)
