@@ -35,7 +35,7 @@ Using the fiber, we successfully transferered the broad spectrum of the espensiv
 
 Your paragraph goes here.
 It will be commented out and won't be rendered.
--->
+
 
 
  We developed a HC-NCF fiber whose  optical characteristics appear to be ideally suited for laser delivery in the context of one- and two-photon light-sheet microscopy (Figure \ref{fig:Compilation}). 
@@ -44,7 +44,7 @@ It will be commented out and won't be rendered.
  The small core diameter compared to the large infrared wavelength further ensures near single-mode guidance.
  Gaussian beam properties of the laser are also well preserved at the fiber output with M$^2$ values of 1.23 and 1.18 that we measured at 1030\,nm and 515\,nm laser wavelength. The near field and far field profiles are symmetric with minimal ellipticity of 97.25\,\% and 85.57\,\%. The mode field diameters at 1/$e^2$ are 23 $\pm$ 1 \,$\mu$m and 26 $\pm$ 1 \,$\mu$m respectively, which corresponded to a fibers numerical aperture of NA$\approx$0.02. Due to negligible interactions between the light and the fiber material the fiber exhibits a very high damage threshold: We could not observe any fiber damage up to the maximal tested peak powers of 40\,$\mu$J at 1030\,nm and 10\,$\mu$J at 515\,nm for 400\,fs pulses corresponding to an average laser power of 20W and 4W respectively. These characteristics demonstrate that high-quality Gaussian beams can be delivered with this fiber across a broad spectral range with high transmission and low dispersion, a prerequisite for its application in high resolution microscopy. 
  
- 
+ -->
  
 ===
 
