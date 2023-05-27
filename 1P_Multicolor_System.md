@@ -213,12 +213,8 @@ Protect the experimenter from the laser by installing a [beam blocker](https://w
 * Remov the fluorscein solution from the sample chamber and clean it. 
 * Now you can place your prefered sample into the light-sheet and image it. Fine tune the z-position of the light-sheet until you get the sharpest image as possible.
 
-
-
-https://github.com/vbormuth/OLU/assets/38736127/12902311-85de-42b4-96a9-163a3aaff29e
-https://github.com/vbormuth/OLU/assets/38736127/1a781ffc-6fdb-4c67-860f-5f4d6372fe33
-
-
+https://github.com/vbormuth/OLU/assets/38736127/a1ec581d-8022-41e5-bffa-b81bc8f1b462
+https://github.com/vbormuth/OLU/assets/38736127/597ea417-c125-4dbb-acaa-2d7d1b02d45f
 
 * Now you can make 3D scannes of your sampel by manually moving the objective focus of the microscope or by recording 3D time lapse movies using your microscope control software. 
 * Troubleshooting:
