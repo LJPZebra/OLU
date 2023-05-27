@@ -199,24 +199,20 @@ https://github.com/vbormuth/OLU/assets/38736127/12681a4f-9d83-438b-acc0-6e80867b
 ### Ensuring laser safety
 
 Protect the experimenter from the laser by installing a [beam blocker](https://www.thorlabs.com/thorproduct.cfm?partnumber=LB2) in front of the sample chamber. Fix the [T-bracket](CAD_models/TBracket.stl) (custom piece) with two M4x20 screws to the [sample chamber holder](CAD_models/SampleChamberHolder.stl) and then fix the beam blocker with two M4x10 screws to the T-bracket. 
-
 [<img width="400" alt="BeamTrap_ForLaserSafety" src="Figures/BeamTrap_ForLaserSafety.png">](Figures/BeamTrap_ForLaserSafety.png)
 
 
 ### Now let's align the system
 * Fill the sample chamber with water and add a drop fluorescein (0.02\% of a saturated solution) to visualize the laser. Switch-on the laser at low power until you can see the fluorescence laser profile. Be careful not to look directly into the laser and to keep working at low power (<1mW after excitation objective) for alignment. 
-
-<img width="200" alt="Picture of laser" src="https://user-images.githubusercontent.com/38736127/186088660-4590242d-2d1e-4357-8bcd-4d5d63d3d97d.jpg">
-
 * The use of fluorescein requires cleaning with ethanol or isopropanol after alignment to remove residual fluorophores that may cause image noise. 
 * It is also possible to use an agarose cylinder and observe the scattered light from the laser, to do this remove the filter between the detection objective and the camera and follow the same procedure.
-
-
 * Align the laser waist under the detection objective by moving the entire light-sheet forming unit with the x-translation stage
 * Switch on the camera and align the laser into the focal plane of the detection objective by moving the light-sheet forming unit with the z-translation stage until you see a sharp image of the laser with the camera. If you do not see the laser move the galvanometer mirror to bring the laser into the field of view.
 * Fine align the laser waist into the center of the field of view using the x-translation stage
-* Now drive the galvanometer with a saw tooth pattern. You can do this without computer interfacing by using a [function generator????LINK??????](???????) via a function generator by using an [I/O-card????????LINK???????](?????????) and controlled via a dedicated [computer software](Software.md) to generate the light-sheet. Adjust the amplitude of the movement such that the light-sheet covers exactly the field of view.
-* Now you can place your prefered sample into the light-sheet and image it (*DO NOT* forget to clean if you have used fluorescein)! Move the manual objective focus of the microscope and you can scan in 3D through your sample or record 3D time lapse movies using your microscope control software that synchronizes the objective movement with image acquisition.
+* Now generate the light-sheet by driving the galvanometer with a saw tooth pattern either with a function generator or via the control softward (see above). Adjust the amplitude of the movement such that the light-sheet covers exactly the field of view.
+* Remov the fluorscein solution from the sample chamber and clean it. 
+* Now you can place your prefered sample into the light-sheet and image it. Fine tune the z-position of the light-sheet until you get the sharpest image as possible.
+* Now you can make 3D scannes of your sampel by manually moving the objective focus of the microscope or by recording 3D time lapse movies using your microscope control software. 
 * Troubleshooting:
     * Your image is not sharp homogeneously across the field of view: The light-sheet might be tilted with respect to the focal plane of the detection objective.  In this case you can correct this by tilting slightly the entire unit. For this, unscrew slightly screws that fix the unit via the adapter plate to the microscope translation stage. Insert a thin paper partly between the adapter plate and the stage such that the unit gets tiltited in the correct direction once you refix the screws. Repeat this procedure until your image is in focus across the entire field of view.
 
