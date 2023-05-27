@@ -166,8 +166,8 @@ Calibrate the voltage with a [potentiometer???LINK??????](add link here ??????)
 * To control the light-sheet volumetric scanning you can use our [custom developped control software](https://github.com/LaboJeanPerrin/Lightsheet) written in Matlab. Via a national instrument card [PCIe-6363](https://www.ni.com/fr-fr/support/model.pcie-6363.html) this software controls the the objective piezo scanner, the galvomirror and the piezo that moves the fiber to scan the light-sheet through the sample. The software is open source. 
 
 
-[<img width="400" alt="Light-sheet_Screen1" src="Figures/Light-sheet_Screen1.png">](Figures/Light-sheet_Screen1.png)
-[<img width="400" alt="Light-sheet_Screen2" src="Figures/Light-sheet_Screen2.png">](Figures/Light-sheet_Screen2.png)
+[<img width="500" alt="Light-sheet_Screen1" src="Figures/Light-sheet_Screen1.png">](Figures/Light-sheet_Screen1.png)
+[<img width="500" alt="Light-sheet_Screen2" src="Figures/Light-sheet_Screen2.png">](Figures/Light-sheet_Screen2.png)
 
 
 
