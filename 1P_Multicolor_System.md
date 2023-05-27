@@ -165,8 +165,11 @@ Calibrate the voltage with a [potentiometer???LINK??????](add link here ??????)
 
 * To control the light-sheet volumetric scanning you can use our [custom developped control software](https://github.com/LaboJeanPerrin/Lightsheet) written in Matlab. Via a national instrument card [PCIe-6363](https://www.ni.com/fr-fr/support/model.pcie-6363.html) this software controls the galvomirror and the objective piezo scanner. The software is open source. 
 
-![Screen1](https://user-images.githubusercontent.com/38736127/188240052-591e071c-c2ae-4251-a0e8-cf1be3b949b5.PNG)
-![Screen2](https://user-images.githubusercontent.com/38736127/188240063-00330c47-2eac-4d3f-bd4d-2ac0d1c1b25f.PNG)
+
+[<img width="400" alt="Light-sheet_Screen1" src="Figures/Light-sheet_Screen1.png">](Figures/Light-sheet_Screen1.png)
+[<img width="400" alt="Light-sheet_Screen2" src="Figures/Light-sheet_Screen2.png">](Figures/Light-sheet_Screen2.png)
+
+
 
 * Alternatively, you can use:
     *  [ScanImage](https://www.scientifica.uk.com/products/vidrio-technologies-scanimage) the control software provided by Scientifica   
