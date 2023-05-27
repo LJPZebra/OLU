@@ -152,6 +152,9 @@ Even if you haven't installed the objective piezo scanner and the piezocrystal f
 https://user-images.githubusercontent.com/113037893/207926697-6573f5d4-6586-4915-aaef-1366d4b2105a.mp4
 
 
+
+
+
 **Fast scan mode:**
 
 If you have installed a piezoactuator for both the imaging objective and the fiber, you can achieve high precision and fast volumetric recordings. Synchronizing the movement of the fiber with that of the objective is crucial to ensure that the light-sheet remains in the focal plane of the objective throughout the volumetric acquisition.
