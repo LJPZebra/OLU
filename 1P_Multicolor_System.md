@@ -208,14 +208,19 @@ Protect the experimenter from the laser by installing a [beam blocker](https://w
 * It is also possible to use an agarose cylinder and observe the scattered light from the laser, to do this remove the filter between the detection objective and the camera and follow the same procedure.
 * Align the laser waist under the detection objective by moving the entire light-sheet forming unit with the x-translation stage
 * Switch on the camera and align the laser into the focal plane of the detection objective by moving the light-sheet forming unit with the z-translation stage until you see a sharp image of the laser with the camera. If you do not see the laser move the galvanometer mirror to bring the laser into the field of view.
+
+https://github.com/vbormuth/OLU/assets/38736127/597ea417-c125-4dbb-acaa-2d7d1b02d45f
+
 * Fine align the laser waist into the center of the field of view using the x-translation stage
+
+https://github.com/vbormuth/OLU/assets/38736127/a1ec581d-8022-41e5-bffa-b81bc8f1b462
+
 * Now generate the light-sheet by driving the galvanometer with a saw tooth pattern either with a function generator or via the control softward (see above). Adjust the amplitude of the movement such that the light-sheet covers exactly the field of view.
 * Remov the fluorscein solution from the sample chamber and clean it. 
 * Now you can place your prefered sample into the light-sheet and image it. Fine tune the z-position of the light-sheet until you get the sharpest image as possible.
 
-https://github.com/vbormuth/OLU/assets/38736127/a1ec581d-8022-41e5-bffa-b81bc8f1b462
 
-https://github.com/vbormuth/OLU/assets/38736127/597ea417-c125-4dbb-acaa-2d7d1b02d45f
+
 
 * Now you can make 3D scannes of your sampel by manually moving the objective focus of the microscope or by recording 3D time lapse movies using your microscope control software. 
 * Troubleshooting:
