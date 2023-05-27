@@ -212,6 +212,14 @@ Protect the experimenter from the laser by installing a [beam blocker](https://w
 * Now generate the light-sheet by driving the galvanometer with a saw tooth pattern either with a function generator or via the control softward (see above). Adjust the amplitude of the movement such that the light-sheet covers exactly the field of view.
 * Remov the fluorscein solution from the sample chamber and clean it. 
 * Now you can place your prefered sample into the light-sheet and image it. Fine tune the z-position of the light-sheet until you get the sharpest image as possible.
+
+
+
+https://github.com/vbormuth/OLU/assets/38736127/12902311-85de-42b4-96a9-163a3aaff29e
+https://github.com/vbormuth/OLU/assets/38736127/1a781ffc-6fdb-4c67-860f-5f4d6372fe33
+
+
+
 * Now you can make 3D scannes of your sampel by manually moving the objective focus of the microscope or by recording 3D time lapse movies using your microscope control software. 
 * Troubleshooting:
     * Your image is not sharp homogeneously across the field of view: The light-sheet might be tilted with respect to the focal plane of the detection objective.  In this case you can correct this by tilting slightly the entire unit. For this, unscrew slightly screws that fix the unit via the adapter plate to the microscope translation stage. Insert a thin paper partly between the adapter plate and the stage such that the unit gets tiltited in the correct direction once you refix the screws. Repeat this procedure until your image is in focus across the entire field of view.
