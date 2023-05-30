@@ -25,7 +25,10 @@ The two-photon system is basically identical in its design to the 1P-Multiphoton
 * Install in addition the [multiphoton short-pass emission filter](https://www.semrock.com/filterdetails.aspx?id=ff01-750/sp-25) to block also the pulsed infrared laser source.
 
 ## Alignement
-* Perform the alignment in one-photon mode as explained for the [1P-Multiphoton system](1P_Multicolor_System.md)
+
+* Align the system in one-photon mode following the instructions provided for the [1P-Multiphoton system](1P_Multicolor_System.md). This alignment procedure will also align the two-photon pathway.
+
+* Align the polarization of the two-photon laser within the light-sheet plane. Visualize the two-photon laser using a fluorescein solution. Rotate wave plate W2, which is installed in front of the xyz-translation stage in the fiber coupling optical pathway. Continue rotating the wave plate until the fluorescence signal is maximized, indicating the optimal position.
 
 ## Example high resolution zebrafish brain recordings (elav3:H2B-GCaMP6)
 
