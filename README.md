@@ -19,8 +19,8 @@ Two-photon light sheet microscopy has a wide range of applications in biology. H
 1. [Build first a multicolor one-photon version of the microscope](1P_Multicolor_System.md) with fiber delivery of lasers in the visible spectrum with a standard single mode optical fiber technology.
 
 2. [Upgrade the one-photon unit into a two-photon system](2P-upgrade.md) by exploiting advanced hollow core fiber technology.
-
-3. [Coupling of a pulsed two-photon laser and a of visible laser into a hollow core fiber](Fiber_coupling.md)
+2.1. [The hollow negative curvature fiber](Update FiberOpticsReview.md)
+2.2. [Coupling of a pulsed two-photon laser and a of visible laser into a hollow core fiber](Fiber_coupling.md)
 
 4. [Design idea for an alternative implementation](https://user-images.githubusercontent.com/38736127/177863005-d570b9a1-ee6d-4875-a736-51e224426fb9.png)
 
