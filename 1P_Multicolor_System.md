@@ -155,6 +155,7 @@ https://github.com/vbormuth/OLU/assets/38736127/971596a3-8630-45aa-8d89-9b84befc
 
 
 
+#### Mode 2: A computer controlled light-sheet scanner
 
 **Fast scan mode:**
 
@@ -163,12 +164,12 @@ If you have installed a piezoactuator for both the imaging objective and the fib
 https://github.com/vbormuth/OLU/assets/38736127/8b75b67d-e0e4-44ea-af6d-0a4d4e075307
 
 
-To achieve this synchronization, utilize your microscope control software to drive the objective scanner, and control the piezocrystal responsible for moving the fiber using the monitor signal from the controller of the focus scanner.
-Calibrate the voltage with a [potentiometer???LINK??????](add link here ??????)
+<!--- To achieve this synchronization, utilize your microscope control software to drive the objective scanner, and control the piezocrystal responsible for moving the fiber using the monitor signal from the controller of the focus scanner.
+Calibrate the voltage with a [potentiometer???LINK??????](add link here ??????) --->
 
 
 
-#### Mode 2: A computer controlled light-sheet scanner
+
 
 * To control the light-sheet volumetric scanning you can use our [custom developped control software](https://github.com/LaboJeanPerrin/Lightsheet) written in Matlab. Via a national instrument card [PCIe-6363](https://www.ni.com/fr-fr/support/model.pcie-6363.html) this software controls the the objective piezo scanner, the galvomirror and the piezo that moves the fiber to scan the light-sheet through the sample. The software is open source. 
 
