@@ -22,7 +22,7 @@
 ## Missing references
 - [x] reference superglue 
 - [ ] reference of coverglasses used to assemble the sample chamber
-- [ ] reference of O-rings used for sample chamber
+- [x] reference of O-rings used for sample chamber
 
 ## CAD models
 
