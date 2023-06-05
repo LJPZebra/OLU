@@ -1,3 +1,5 @@
+# The Multicolor One-Photon Design
+
 # Table of Content
 
 - [Building instructions](#building-instructions)
