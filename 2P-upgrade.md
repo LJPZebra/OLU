@@ -1,4 +1,6 @@
-# Table of Content
+# Two-photon upgrade
+
+## Table of Content
 - [Two-photon upgrade](#two-photon-upgrade)
   * [Part Liste](#part-liste)
   * [Building Instructions](#building-instructions)
@@ -14,7 +16,7 @@
 
 
 
-# Two-photon upgrade
+
 
 ## Part Liste
 
