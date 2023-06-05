@@ -44,7 +44,7 @@ The development of single-mode photonic bandgap fibers, in which the light trave
 
 Broadband fiber delivery spanning the visible and the near-infrared spectrum is possible with negative curvature hollow-core photonic crystal fibers (NCF), which do not rely on an optical bandgap for light-confinement ([Yu et al., 2016](https://opg.optica.org/abstract.cfm?URI=oe-24-12-12969), [Pryamikov et al., 2011](https://opg.optica.org/abstract.cfm?URI=oe-19-2-1441), [Yu et al., 2012](https://doi.org/10.1364/OE.20.011153)). The simplest cross-sectional geometry of an NCF is based on a ring of touching or non-touching tubes surrounding the core ([Pryamikov et al., 2011](https://opg.optica.org/abstract.cfm?URI=oe-19-2-1441)). Core diameter, tube diameter, inter-tube distance, and tube wall thickness together control the spectral transmission bands, the attenuation level, the quality of higher-order mode suppression, and the sensitivity of the optical properties to bending. Attenuation levels < 0.07 dB/km and bending loss < 0.03 dB/m are reported ([Debord et al., 2017](https://doi.org/10.1364/OPTICA.4.000209)). Due to the minimal lattice structure and the reduced light interaction with the cladding structure, these fibers have very high damage thresholds and can even be used for very high laser energy delivery of up to 100 $\mu\textrm{J}$ peak power when the core is vacuum pumped to reduce nonlinear effects at these high powers ([Li et al., 2019](https://doi.org/10.1016/j.ijleo.2019.163093)). Negative curvature fibers are on the verge of being used in several applications such as laser micromachining and laser surgery. A recent study demonstrated the successful use of a custom HC-NCF with a transmission band of 600 – 830 nm at < 0.3 dB/m attenuation in the design of a handheld two-photon microscopy scanner for human skin autofluorescence ([Sherlock et al., 2016](https://doi.org/10.1002/jbio.201500290)).
 
-### The Negative Curvature Hollowcore Crystal Fiber
+### Introducing Our Developed Negative Curvature Hollow Core Crystal Fiber
 
 Together with [GLO Photonics](https://www.glophotonics.fr/), we selected a HC-NCF fiber whose optical characteristics appear to be ideally suited for laser delivery in the context of combined one- and two-photon light-sheet microscopy (![Figure 1](link_to_figure)). 
 
@@ -56,7 +56,7 @@ The Gaussian beam properties of the laser are also well preserved at the fiber o
 
 
 
-### The Optical Path
+### The Optical Path for Laser-to-Fiber Coupling
 The following schematic and [3D model that you can interactively explore in 3D](https://a360.co/434IdMt) shows a possible optical path for the laser coupling. You can adapt the arrangement to the space availability on your setup (mirror, **M**, lens, **L**, dichroic, **D**, wave plate, **W**, polarizer, **P**, beam trap, **BT**):
 
 
