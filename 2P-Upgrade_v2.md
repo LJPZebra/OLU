@@ -57,7 +57,7 @@ The Gaussian beam properties of the laser are also well preserved at the fiber o
 
 
 
-### Optical path with step-by-step instructions to adchieve efficient fiber coupling
+### Step-by-step instructions to adchieve efficient fiber coupling
 #### The optical path
 The following schematic and [3D model that you can interactively explore in 3D](https://a360.co/434IdMt) shows a possible optical path for the laser coupling. You can adapt the arrangement to the space availability on your setup (mirror, **M**, lens, **L**, dichroic, **D**, wave plate, **W**, polarizer, **P**, beam trap, **BT**):
 
