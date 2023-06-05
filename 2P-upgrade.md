@@ -1,6 +1,9 @@
 # Table of Content
-
 - [Two-photon upgrade](#two-photon-upgrade)
+  * [Part Liste](#part-liste)
+  * [Building Instructions](#building-instructions)
+    + [Multiphoton Light-sheet unit](#multiphoton-light-sheet-unit)
+    + [Fiber coupling of the pulsed femtosecond laser](#fiber-coupling-of-the-pulsed-femtosecond-laser)
     + [Install and adjust the NA expander](#install-and-adjust-the-na-expander)
   * [Detection path](#detection-path)
   * [Alignement](#alignement)
@@ -13,12 +16,18 @@
 
 # Two-photon upgrade
 
-The two-photon system is basically identical in its design to the 1P-Multiphoton light-sheet system. To build the two-photon system follow [the building instruction of the 1P-Multicolor system](1P_Multicolor_System.md) but take into account the following modifications: 
+## Part Liste
 
-* In addition to step (2) , couple the **two-photon laser** and the **one-photon laser** sources into a single hollow core crystal fiber for combined fiber delivery to the light-sheet unit. Find here a [detailed instruction of the coupling procedure](Fiber_coupling.md) and here some background about [hollow core negative curvature fibers](FiberOpticsReview.md).
+## Building Instructions
+
+### Multiphoton Light-sheet unit
+
+The two-photon system is basically identical in its design to the 1P-Multiphoton light-sheet system. To build the two-photon system follow [the building instruction of the 1P-Multicolor system](1P_Multicolor_System.md) but take into account the following modifications: 
 
 * Use in step (3) as collimation and illumination objectives  the [Olympus LMPLN5xIR/0.1](https://www.olympus-lifescience.com/modules/pdfgen/pdfmaker/en_pdf-export_objectives.7efd53eb1e8b4d509bc1bbe2184a7e28/LMPLN5XIR.pdf?rev=1615725199) objective optimized for near infrared transmission. Even though not optimized for visible wavelength one can use this objective also for one-photon imaging later. To screw it into the light-sheet cube use a [thread adaptor](https://punchout.webdev02.thorlabs.com/thorproduct.cfm?partnumber=RMSA3).
 
+### Fiber coupling of the pulsed femtosecond laser
+* In addition to step (2) , couple the **two-photon laser** and the **one-photon laser** sources into a single hollow core crystal fiber for combined fiber delivery to the light-sheet unit. Find here a [detailed instruction of the coupling procedure](Fiber_coupling.md) and here some background about [hollow core negative curvature fibers](FiberOpticsReview.md).
 
 ### Install and adjust the NA expander
 
