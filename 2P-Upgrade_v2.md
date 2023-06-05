@@ -1,7 +1,5 @@
 # Two-photon upgrade
 
-The multiphoton light-sheet system is essentially identical in design to the one-photon multicolor design. However, certain optical components need to be optimized for near-infrared transmission. This includes the optical fiber, to enable efficient and dispersion-free transmission of the near-infrared laser pulses used in two-photon fluorescence microscopy. Additionally, measures must be taken to block the infrared laser in the detection path. In the following sections, we provide a detailed step-by-step tutorial on how to implement the necessary modifications required to enable the two-photon upgrade of the system.
-
 - [Part Liste](#part-liste)
 - [Building Instructions](#building-instructions)
   * [Multiphoton Light-sheet unit](#multiphoton-light-sheet-unit)
@@ -9,12 +7,20 @@ The multiphoton light-sheet system is essentially identical in design to the one
     + [Historical background](#historical-background)
     + [The used fiber](#the-used-fiber)
     + [Optical path with step-by-step instructions to adchieve efficient fiber coupling](#optical-path-with-step-by-step-instructions-to-adchieve-efficient-fiber-coupling)
-    + [Adapt the fiber output](#adapt-the-fiber-output)
-  * [The Detection path](#the-detection-path)
-- [Alignement](#alignement)
-- [Example high resolution zebrafish brain recordings (elav3:H2B-GCaMP6)](#example-high-resolution-zebrafish-brain-recordings--elav3-h2b-gcamp6-)
+      - [The optical path](#the-optical-path)
+      - [Alignment procedure](#alignment-procedure)
+      - [Handling of the hollow core fiber](#handling-of-the-hollow-core-fiber)
+      - [Selection of the coupling lens](#selection-of-the-coupling-lens)
+      - [Now Let's build it](#now-let-s-build-it)
+        * [Coupling the IR laser](#coupling-the-ir-laser)
+        * [Coupling the visible laser](#coupling-the-visible-laser)
+      - [Make the fiber output compatible with the light-sheet unit](#make-the-fiber-output-compatible-with-the-light-sheet-unit)
+    + [The Detection path](#the-detection-path)
+  * [Alignement](#alignement)
+  * [Example high resolution zebrafish brain recordings (elav3:H2B-GCaMP6)](#example-high-resolution-zebrafish-brain-recordings--elav3-h2b-gcamp6-)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
 
 
 
