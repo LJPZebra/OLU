@@ -30,22 +30,22 @@
 
 # Building Instructions
 
-## Multiphoton Light-sheet unit
+## Multiphoton Light-Sheet Unit
 
 The multiphoton light-sheet unit is basically identical in its design to the one photon multicolor desing. To build the two-photon system follow [the building instruction of the 1P-Multicolor system](1P_Multicolor_System.md) but take into account the following modification: 
 
 Use in step (3) as collimation and illumination objectives  the [Olympus LMPLN5xIR/0.1](https://www.olympus-lifescience.com/modules/pdfgen/pdfmaker/en_pdf-export_objectives.7efd53eb1e8b4d509bc1bbe2184a7e28/LMPLN5XIR.pdf?rev=1615725199) objective optimized for near infrared transmission. Even though not optimized for visible wavelength one can use this objective also for one-photon imaging later. To screw it into the light-sheet cube use a [thread adaptor](https://punchout.webdev02.thorlabs.com/thorproduct.cfm?partnumber=RMSA3).
 
-## Fiber coupling of the pulsed femtosecond laser
+## Fiber Coupling of the Pulsed Femtosecond Laser
 
-### Historical background
+### Historical Background
 Efficient, dispersion-free, and broadband fiber coupling of a two-photon laser source is a long-standing challenge in the field of two-photon microscopy ([Helmchen et al., 2011](http://cshprotocols.cshlp.org/content/2013/10/pdb.top078147.long)) and of fiber optics design ([Wang et al., 2013](https://www.cambridge.org/core/journals/high-power-laser-science-and-engineering/article/hollowcore-photonic-crystal-fibre-for-high-power-laser-beam-delivery/8D2851845D043DA937A93F431D9F9D9C)). The difficulty arises from the fact that standard single-mode optical glass fibers are associated with strong linear and non-linear pulse dispersion, which reduces the two-photon efficiency. Pre-compensation methods are only efficient at low laser powers and are therefore impractical in the context of fast volumetric two-photon imaging, which requires high photonic fluxes. 
 
 The development of single-mode photonic bandgap fibers, in which the light travels through an air filled hollow core, dramatically reduce dispersion and nonlinear effects and achieve transmission ratios greater than 50% ([Wang et al., 2013](https://www.cambridge.org/core/journals/high-power-laser-science-and-engineering/article/hollowcore-photonic-crystal-fibre-for-high-power-laser-beam-delivery/8D2851845D043DA937A93F431D9F9D9C), [Cregan et al., 1999](https://www.science.org/doi/10.1126/science.285.5433.1537)). These fibers have been successfully used for pulsed laser delivery in the context of multiphoton imaging ([Tai et al., 2004](https://opg.optica.org/abstract.cfm?URI=oe-12-25-6122), [Flusberg et al., 2005](https://opg.optica.org/abstract.cfm?URI=ol-30-17-2272), [Engelbrecht et al., 2008](https://opg.optica.org/abstract.cfm?URI=oe-16-8-5556), [Piyawattanametha et al,. 2009](https://opg.optica.org/abstract.cfm?&uri=ol-34-15-2309), [Choi et al., 2014](https://www.nature.com/articles/srep06626)). However, as the light guiding mechanism is based on the creation of an optical bandgap, these fibers only allow single wavelength transmission and are currently only commercially available for laser wavelengths of 800 nm or 1064 nm (NTK photonics). However, with the rapidly growing collections of genetically encoded actuators and sensors, broadband fiber delivery of the near infrared spectrum and optimally extended to visible wavelengths, is a prerequisite to take full advantage of 2P-LSFM in all possible applications while enabling laser source sharing between different setups.
 
 Broadband fiber delivery spanning the visible and the near-infrared spectrum is possible with negative curvature hollow-core photonic crystal fibers (NCF), which do not rely on an optical bandgap for light-confinement ([Yu et al., 2016](https://opg.optica.org/abstract.cfm?URI=oe-24-12-12969), [Pryamikov et al., 2011](https://opg.optica.org/abstract.cfm?URI=oe-19-2-1441), [Yu et al., 2012](https://doi.org/10.1364/OE.20.011153)). The simplest cross-sectional geometry of an NCF is based on a ring of touching or non-touching tubes surrounding the core ([Pryamikov et al., 2011](https://opg.optica.org/abstract.cfm?URI=oe-19-2-1441)). Core diameter, tube diameter, inter-tube distance, and tube wall thickness together control the spectral transmission bands, the attenuation level, the quality of higher-order mode suppression, and the sensitivity of the optical properties to bending. Attenuation levels < 0.07 dB/km and bending loss < 0.03 dB/m are reported ([Debord et al., 2017](https://doi.org/10.1364/OPTICA.4.000209)). Due to the minimal lattice structure and the reduced light interaction with the cladding structure, these fibers have very high damage thresholds and can even be used for very high laser energy delivery of up to 100 $\mu\textrm{J}$ peak power when the core is vacuum pumped to reduce nonlinear effects at these high powers ([Li et al., 2019](https://doi.org/10.1016/j.ijleo.2019.163093)). Negative curvature fibers are on the verge of being used in several applications such as laser micromachining and laser surgery. A recent study demonstrated the successful use of a custom HC-NCF with a transmission band of 600 – 830 nm at < 0.3 dB/m attenuation in the design of a handheld two-photon microscopy scanner for human skin autofluorescence ([Sherlock et al., 2016](https://doi.org/10.1002/jbio.201500290)).
 
-### The used fiber
+### The Negative Curvature Hollowcore Crystal Fiber
 
 Together with [GLO Photonics](https://www.glophotonics.fr/), we selected a HC-NCF fiber whose optical characteristics appear to be ideally suited for laser delivery in the context of combined one- and two-photon light-sheet microscopy (![Figure 1](link_to_figure)). 
 
@@ -57,8 +57,8 @@ The Gaussian beam properties of the laser are also well preserved at the fiber o
 
 
 
-### Step-by-step instructions to adchieve efficient fiber coupling
-#### The optical path
+### A Comprehensive Guide to Building and Achieving Efficient Fiber Coupling: Step-by-Step Instructions
+#### The Optical Path
 The following schematic and [3D model that you can interactively explore in 3D](https://a360.co/434IdMt) shows a possible optical path for the laser coupling. You can adapt the arrangement to the space availability on your setup (mirror, **M**, lens, **L**, dichroic, **D**, wave plate, **W**, polarizer, **P**, beam trap, **BT**):
 
 
@@ -88,7 +88,7 @@ For the alignment we will follow a protocol well explained in an excellent YouTu
 * To measure the laser beam diameter use either a beam profiler (Thorlabs BC207VIS/M) or use the [moving knife technique](https://www.researchgate.net/profile/Emerson-Lima-2/publication/23771279_Measurement_of_Gaussian_laser_beam_radius_using_the_knife-edge_technique_Improvement_on_data_analysis/links/00b7d533ec8470fe22000000/Measurement-of-Gaussian-laser-beam-radius-using-the-knife-edge-technique-Improvement-on-data-analysis.pdf?origin=publication_detail). For the moving knife technique, fix a razor plate on a [linear translation stage](https://www.thorlabs.com/thorproduct.cfm?partnumber=XRN25C/M). For this use a [thin plate holder](https://www.thorlabs.com/thorproduct.cfm?partnumber=PC2/M), a [right angle clamp](https://www.thorlabs.com/thorproduct.cfm?partnumber=RA90) and a [post system](https://www.thorlabs.com/navigation.cfm?guide_id=52). Then move the knife perpendicular to the laser path step-by-step out of the laser beam while measuring the laser intensity as a function of the knife-edge position. The measured normalized power as a function of knife-edge position,  $x$  , can be fitted by  $P_N(x)=0.5\left[1 + erf \left(\frac{x-x0}{w_{e^{-1}}}\right)\right]$. The fit parameter $w_{e^{-1}}$ is the beam radius at $e^{-1}$. You can also read $w_{e^{-1}}$ from the graph as half of the distance between the positions where the normalized power has a value between 0.08 and 0.92. Note that the beam diameter, $D$ ,relevant to calculate the numerical aperture is measured at $e^{-2}$ and is thus given by  $D = 2 \cdot w_{e^{-2}} = 2 \cdot \sqrt{2} w_{e^{-1}}$ <br> <br>
 
 
-#### Now Let's Build It
+#### Let's Get Started: Building the System
 
 ##### Coupling the IR Laser
 *	Position the [motorized flip mount](https://www.thorlabs.com/thorproduct.cfm?partnumber=MFF101/M) (**FM**) holding a [protected silver mirrors](https://www.thorlabs.com/thorproduct.cfm?partnumber=PF05-03-P01) directly after the infrared laser output to hijack the laser for coupling into the optical fiber. Flipping the mirror allows to select the setup into which you want to direct the laser. Alternatively, you can use a [beam splitter](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=6208&pn=BS033) to use the laser source on both setups simultaneously. The pertinence of the latter solution depends on the  laser power that you need in both setups for your experiments. For a standard scanning two-photon system you need in average < 100mW. The MaiTai laser has an average output power of 1.8mw at 915nm wavelength. With a 90:10% beam splitter and assuming 50% loss of laser power until the sample you can perform light-sheet microscopy with an average laser power of 400mW and two-photon scanning on the standard system with a mean power of 90mW. 
