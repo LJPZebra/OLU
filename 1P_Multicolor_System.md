@@ -29,17 +29,17 @@
 
 
 
-# Building instructions
+# Building Instructions
 
 
-## Purchase list
+## Purchase List
 
 [List of parts](Partlist.md)
 
 
+## Custom Parts
 
-## Pieces to send for milling
-    
+### Pieces to Send for Milling
     
 These pieces are  milled out of an aluminum block. If you do not have a mechanical workshop in house then you can send the *.step files that we provide below to an [online milling service](https://xometry.eu/fr/usinage-cnc-fraisage-cnc/). For parts with threaded holes, join the mechanical drawings to the .step file.
 * The light-sheet unit central cube: [View the 3D model](CAD_models/Cube.stl) or [download the CAD model as a step file](CAD_models/Cube.step) and [mechanical drawings](CAD_models/CubeMechanicalDrawings.pdf).
@@ -53,7 +53,7 @@ These pieces are  milled out of an aluminum block. If you do not have a mechanic
     
 
 
-## Pieces for 3D printing
+### Pieces for 3D Printing
 * [Sample chamber](CAD_models/SampleChamber.stl). You can download the [CAD model as step file](CAD_models/SampleChamber.step) here to send it to your 3D printing service.
 
 ## Screw kit
@@ -73,11 +73,11 @@ You will neet Hex Head Socket Cap metric screws:
 E.g. this [Srew kit](https://www.amazon.fr/huruirui-hexagonales-int%C3%A9rieures-inoxydable-rangement/dp/B0BNC63J21/ref=sr_1_21?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=3MCQH28G0NEHV&keywords=vis%2BM3%2BM4%2BM5%2BM6%2B10%2F20%2F25%2F30&qid=1684324658&s=industrial&sprefix=vis%2Bm3%2Bm4%2Bm5%2Bm6%2B10%2F20%2F25%2F30%2Cindustrial%2C58&sr=1-21&th=1) will do it. 
 
 
-## Let's start to assemble
+## Let's Start to Assemble
 
-### The light-sheet unit
+### The Light-Sheet Unit
 
-#### Laser and fiber coupling
+#### Laser and Fiber Coupling
 
 [<img width="700" alt="DetectionPath" src="Figures/LaserCombining.png">](Figures/LaserCombining.png)
 
@@ -137,7 +137,7 @@ This bracket will then be replaced with a custom bracket that has holes to allow
 
 (10) Fix the Light-sheet Unit to the Scientifica Scope by attaching the Adapter Plate 2 to Adapter Plate 1 with three M6x20 screws.
 
-#### Laser alignement
+#### Laser Alignement
 
 (20) Before switching on the laser, prepare the room for laser safety (remove any jewellery, make sure no one is in the path of the laser and that the laser does not hit any reflective surfaces). Unscrew the focusing objective (Obj 2) of the light-sheet unit. Switch on the galvanometric mirror and then switch on the laser at low laser power. Adjust the distance of the fibre relative to the collimation lens until the laser exits the cube well collimated. To do this, move the fibre support tube (black) relative to the fibre holder (red).
 
@@ -145,7 +145,7 @@ This bracket will then be replaced with a custom bracket that has holes to allow
 
 
 
-### The detection path
+### The Detection Path
 
 [<img width="400" alt="DetectionPath" src="Figures/DetectionPath.png">](Figures/DetectionPath.png)
 
@@ -160,17 +160,17 @@ To configure the detection path you use the standard ports and configuration of 
      * a [GFP Emission Filter](https://www.thorlabs.com/thorproduct.cfm?partnumber=MF525-39).
 * Attach the camera to the camera port. We used the [Hamamatsu ORCA-Flash4.0 V3 camera](https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/documents/99_SALES_LIBRARY/sys/SCAS0134E_C13440-20CU_tec.pdf)
 
-### Driving the light-sheet unit
+### Driving the Light-Sheet Unit
 
 The light-sheet unit can be operated in two modes:
 
-#### Mode 1: Stand-alone light-sheet source without the need for additional computer interfacing
+#### Mode 1: Stand-Alone Light-Sheet Source Without the Need for Additional Computer Interfacing
 
 To drive the galvanometer, a simple and affordable [function generator](https://www.amazon.com/Generator-Precision-Dual-Channel-Arbitrary-Frequency/dp/B07H8CF2WV/ref=sr_1_3?crid=BMHYRYNELBAO&keywords=function+generator+JDS6600&qid=1685005539&sprefix=function+generator+jds6600%2Caps%2C273&sr=8-3) will suffice. Set the mirror to oscillate at approximately 400Hz with a triangular or sawtooth waveform.
 
 If you already use your microscope with an image acquisition software that allows for acquiring z-stacks by controlling either the motorized stage of the z-focus or the piezo objective scanner, then you can operate the light-sheet unit in two modes.
 
-**Slow scan mode:**
+**Slow Scan Mode:**
 
 Even if you haven't installed the objective piezo scanner and the piezocrystal for moving the optical fiber, you can still perform volumetric recordings. Simply control the movement of the objective using the motorized stage of the scientifica scope, similar to a standard epifluorescence recording. Since the light-sheet unit is attached to the same stage as the objective, it will move along with the objective, ensuring that the light-sheet always illuminates the focal plane.
 
@@ -180,9 +180,9 @@ https://github.com/vbormuth/OLU/assets/38736127/971596a3-8630-45aa-8d89-9b84befc
 
 
 
-#### Mode 2: A computer controlled light-sheet scanner
+#### Mode 2: A Computer Controlled Light-Sheet Scanner
 
-**Fast scan mode:**
+**Fast Scan Mode:**
 
 If you have installed a piezoactuator for both the imaging objective and the fiber, you can achieve high precision and fast volumetric recordings. Synchronizing the movement of the fiber with that of the objective is crucial to ensure that the light-sheet remains in the focal plane of the objective throughout the volumetric acquisition.
 
@@ -209,7 +209,7 @@ Calibrate the voltage with a [potentiometer???LINK??????](add link here ??????) 
     *  [Micromanager](https://micro-manager.org/) that supports the control of all Scientifica stages as well as of most commen objective scanners from e.g. Physical Instrument or Piezo Jena.
     *  or the open source python software presented here: https://www.frontiersin.org/articles/10.3389/fcell.2022.875044/full
 
-### The sample chamber holder and sample chamber
+### The Sample Chamber Holder and Sample Chamber
 
 [<img width="400" alt="SampleHolder" src="Figures/FullSetupWithSampleHolder.png">](Figures/FullSetupWithSampleHolder.png)
 
@@ -229,13 +229,13 @@ https://github.com/vbormuth/OLU/assets/38736127/12681a4f-9d83-438b-acc0-6e80867b
 
 <!--- https://www.fishersci.fi/shop/products/plunger-acura-capillary-micropipettes/p-8481034 --->
 
-### Ensuring laser safety
+### Ensuring Laser Safety
 
 Protect the experimenter from the laser by installing a [beam blocker](https://www.thorlabs.com/thorproduct.cfm?partnumber=LB2) in front of the sample chamber. Fix the [T-bracket](CAD_models/TBracket.stl) (custom piece) with two M4x20 screws to the [sample chamber holder](CAD_models/SampleChamberHolder.stl) and then fix the beam blocker with two M4x10 screws to the T-bracket. 
 [<img width="400" alt="BeamTrap_ForLaserSafety" src="Figures/BeamTrap_ForLaserSafety.png">](Figures/BeamTrap_ForLaserSafety.png)
 
 
-### Now let's align the system
+### Now Let's Align the System
 * Fill the sample chamber with water and add a view drops of a 1.5mM fluorescein solution into the water filled sample chamber to visualize the laser. Switch-on the laser at low power until you can see the fluorescence laser profile. Be careful not to look directly into the laser and to keep working at low power (<1mW after excitation objective) for alignment. 
 * The use of fluorescein requires cleaning with ethanol or isopropanol after alignment to remove residual fluorophores that may cause image noise. 
 * It is also possible to use an agarose cylinder and observe the scattered light from the laser, to do this remove the filter between the detection objective and the camera and follow the same procedure.
@@ -259,26 +259,26 @@ https://github.com/vbormuth/OLU/assets/38736127/a1ec581d-8022-41e5-bffa-b81bc8f1
 * Troubleshooting:
     * Your image is not sharp homogeneously across the field of view: The light-sheet might be tilted with respect to the focal plane of the detection objective.  In this case you can correct this by tilting slightly the entire unit. For this, unscrew slightly screws that fix the unit via the adapter plate to the microscope translation stage. Insert a thin paper partly between the adapter plate and the stage such that the unit gets tiltited in the correct direction once you refix the screws. Repeat this procedure until your image is in focus across the entire field of view.
 
-## Photos of the system in combination with an electrophysiolgy system:
+## Photos of the System in Combination with an Electrophysiolgy System:
 
 <img width="200" alt="BraintegrationSetup" src="https://user-images.githubusercontent.com/38736127/191005334-d6b4648a-3c93-444d-b89d-bb6020adbc93.png">
 
 <img width="200" alt="ZoomOnLightsheetUnit" src="https://user-images.githubusercontent.com/38736127/191005465-878de37b-74be-4a11-a2f8-290c814e2811.png">
 
 
-## Example recordings:
+## Example Recordings:
 
 Using the green laser. Shown is a high resolution recording of a zebrafish brain (6dpf) with a pan-neuronally expressed red calcium indicator (elav3-jRGECO):
 
 https://user-images.githubusercontent.com/38736127/186108000-6d6c7374-28b0-485f-a63a-da5b19ce9631.mp4
 
 
-## A conference talk presenting the system:
+## A Conference Talk Presenting the System:
 
 [<img width="400" alt="AlignmentTutorial" src="https://user-images.githubusercontent.com/38736127/191006948-0e3d6564-67da-4839-9c7a-1fb6fe2ec224.png">](https://www.youtube.com/watch?v=7h87vXg7FHM)
 
 
-## Upgrade the one-photon unit into a two-photon system by using a hollowcore crystal fiber
+## Upgrade the One-Photon Unit into a Two-Photon System by using a Hollowcore Crystal Fiber
 
 
 [Click here for detailed instructions](2P-upgrade.md)
