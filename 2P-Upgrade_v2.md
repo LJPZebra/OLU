@@ -1,5 +1,6 @@
 # Two-photon upgrade
 
+The multiphoton light-sheet unit is basically identical in its design to the one-photon multicolor desing. However, the optical components have to be optimized for transmission in the near infrared. This includes the optical fiber to allow for high efficient 
 
 - [Part Liste](#part-liste)
 - [Building Instructions](#building-instructions)
