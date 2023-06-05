@@ -1,6 +1,8 @@
 # The Multicolor One-Photon Light-Sheet Design
 
-In this comprehensive guide, we provide detailed instructions on building the one-photon light-sheet system. Even if your ultimate goal is to construct the two-photon system, we highly recommend starting with the installation of the one-photon system before proceeding with the two-photon upgrade. By following this sequential approach, you will gain a solid foundation and better understanding of the system's components and functionality, facilitating a smoother transition to the advanced two-photon configuration. 
+In this comprehensive guide, we provide detailed instructions on building the one-photon light-sheet system. Whether your ultimate goal is to construct the two-photon system or utilize the one-photon configuration, we highly recommend starting with the installation of the one-photon system. This sequential approach allows you to gain a solid foundation and a better understanding of the system's components and functionality, which will facilitate a smoother transition to the advanced two-photon configuration if desired.
+
+The construction of the system can be done in two levels. In the first level, you can use the light-sheet unit as a standalone light source. This basic setup will enable you to perform one-photon imaging experiments effectively. In the second level, you have the option to computer-control the system and perform fast, high-precision volumetric scans. This advanced level of control opens up additional capabilities and enhances the versatility of the light-sheet unit for various imaging applications.
 
 # Table of Content
 
