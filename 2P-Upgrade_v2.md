@@ -162,10 +162,10 @@ At 915nm wavelength, the central two-photon absorption peak of GFP and of its ca
 
 
 
-### The Detection path
+## The fluorescence detection path
 * Install in addition the [multiphoton short-pass emission filter](https://www.semrock.com/filterdetails.aspx?id=ff01-750/sp-25) to block also the pulsed infrared laser source.
 
-## Alignement
+## Alignement of the setup
 
 * Align the system in one-photon mode following the instructions provided for the [1P-Multiphoton system](1P_Multicolor_System.md). This alignment procedure will also align the two-photon pathway.
 
