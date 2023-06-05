@@ -1,4 +1,4 @@
-# The Multicolor One-Photon Design
+# The Multicolor One-Photon Light-Sheet Design
 
 # Table of Content
 
