@@ -1,5 +1,7 @@
 # The Multicolor One-Photon Light-Sheet Design
 
+In this comprehensive guide, we provide detailed instructions on building the one-photon light-sheet system. Even if your ultimate goal is to construct the two-photon system, we highly recommend starting with the installation of the one-photon system before proceeding with the two-photon upgrade. By following this sequential approach, you will gain a solid foundation and better understanding of the system's components and functionality, facilitating a smoother transition to the advanced two-photon configuration. 
+
 # Table of Content
 
 - [Building Instructions](#building-instructions)
