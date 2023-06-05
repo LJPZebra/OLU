@@ -2,35 +2,35 @@
 
 # Table of Content
 
-- [Building instructions](#building-instructions)
-  * [Purchase list](#purchase-list)
-  * [Pieces to send for milling](#pieces-to-send-for-milling)
-  * [Pieces for 3D printing](#pieces-for-3d-printing)
+- [Building Instructions](#building-instructions)
+  * [Purchase List](#purchase-list)
+  * [Custom Parts](#custom-parts)
+    + [Pieces to Send for Milling](#pieces-to-send-for-milling)
+    + [Pieces for 3D Printing](#pieces-for-3d-printing)
   * [Screw kit](#screw-kit)
-  * [Let's start to assemble](#let-s-start-to-assemble)
-    + [The light-sheet unit](#the-light-sheet-unit)
-      - [Laser and fiber coupling](#laser-and-fiber-coupling)
+  * [Let's Start to Assemble](#let-s-start-to-assemble)
+    + [The Light-Sheet Unit](#the-light-sheet-unit)
+      - [Laser and Fiber Coupling](#laser-and-fiber-coupling)
       - [Adapt the Scientifica Scope to receive the light-sheet unit](#adapt-the-scientifica-scope-to-receive-the-light-sheet-unit)
       - [Assemble the light-sheet unit](#assemble-the-light-sheet-unit)
-      - [Laser alignement](#laser-alignement)
-    + [The detection path](#the-detection-path)
-    + [Driving the light-sheet unit](#driving-the-light-sheet-unit)
-      - [Mode 1: Stand-alone light-sheet source without the need for additional computer interfacing](#mode-1--stand-alone-light-sheet-source-without-the-need-for-additional-computer-interfacing)
-      - [Mode 2: A computer controlled light-sheet scanner](#mode-2--a-computer-controlled-light-sheet-scanner)
-    + [The sample chamber holder and sample chamber](#the-sample-chamber-holder-and-sample-chamber)
-    + [Ensuring laser safety](#ensuring-laser-safety)
-    + [Now let's align the system](#now-let-s-align-the-system)
-  * [Photos of the system in combination with an electrophysiolgy system:](#photos-of-the-system-in-combination-with-an-electrophysiolgy-system-)
-  * [Example recordings:](#example-recordings-)
-  * [A conference talk presenting the system:](#a-conference-talk-presenting-the-system-)
-  * [Upgrade the one-photon unit into a two-photon system by using a hollowcore crystal fiber](#upgrade-the-one-photon-unit-into-a-two-photon-system-by-using-a-hollowcore-crystal-fiber)
+      - [Laser Alignement](#laser-alignement)
+    + [The Detection Path](#the-detection-path)
+    + [Driving the Light-Sheet Unit](#driving-the-light-sheet-unit)
+      - [Mode 1: Stand-Alone Light-Sheet Source Without the Need for Additional Computer Interfacing](#mode-1--stand-alone-light-sheet-source-without-the-need-for-additional-computer-interfacing)
+      - [Mode 2: A Computer Controlled Light-Sheet Scanner](#mode-2--a-computer-controlled-light-sheet-scanner)
+    + [The Sample Chamber Holder and Sample Chamber](#the-sample-chamber-holder-and-sample-chamber)
+    + [Ensuring Laser Safety](#ensuring-laser-safety)
+    + [Now Let's Align the System](#now-let-s-align-the-system)
+  * [Photos of the System in Combination with an Electrophysiolgy System:](#photos-of-the-system-in-combination-with-an-electrophysiolgy-system-)
+  * [Example Recordings:](#example-recordings-)
+  * [A Conference Talk Presenting the System:](#a-conference-talk-presenting-the-system-)
+  * [Upgrade the One-Photon Unit into a Two-Photon System by using a Hollowcore Crystal Fiber](#upgrade-the-one-photon-unit-into-a-two-photon-system-by-using-a-hollowcore-crystal-fiber)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 
 
 # Building Instructions
-
 
 ## Purchase List
 
