@@ -1,3 +1,32 @@
+# Table of Content
+
+- [Building instructions](#building-instructions)
+  * [Purchase list](#purchase-list)
+  * [Pieces to send for milling](#pieces-to-send-for-milling)
+  * [Pieces for 3D printing](#pieces-for-3d-printing)
+  * [Screw kit](#screw-kit)
+  * [Let's start to assemble](#let-s-start-to-assemble)
+    + [The light-sheet unit](#the-light-sheet-unit)
+      - [Laser and fiber coupling](#laser-and-fiber-coupling)
+      - [Adapt the Scientifica Scope to receive the light-sheet unit](#adapt-the-scientifica-scope-to-receive-the-light-sheet-unit)
+      - [Assemble the light-sheet unit](#assemble-the-light-sheet-unit)
+      - [Laser alignement](#laser-alignement)
+    + [The detection path](#the-detection-path)
+    + [Driving the light-sheet unit](#driving-the-light-sheet-unit)
+      - [Mode 1: Stand-alone light-sheet source without the need for additional computer interfacing](#mode-1--stand-alone-light-sheet-source-without-the-need-for-additional-computer-interfacing)
+      - [Mode 2: A computer controlled light-sheet scanner](#mode-2--a-computer-controlled-light-sheet-scanner)
+    + [The sample chamber holder and sample chamber](#the-sample-chamber-holder-and-sample-chamber)
+    + [Ensuring laser safety](#ensuring-laser-safety)
+    + [Now let's align the system](#now-let-s-align-the-system)
+  * [Photos of the system in combination with an electrophysiolgy system:](#photos-of-the-system-in-combination-with-an-electrophysiolgy-system-)
+  * [Example recordings:](#example-recordings-)
+  * [A conference talk presenting the system:](#a-conference-talk-presenting-the-system-)
+  * [Upgrade the one-photon unit into a two-photon system by using a hollowcore crystal fiber](#upgrade-the-one-photon-unit-into-a-two-photon-system-by-using-a-hollowcore-crystal-fiber)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
+
 # Building instructions
 
 
