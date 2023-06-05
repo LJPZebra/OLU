@@ -1,18 +1,19 @@
 # Two-photon upgrade
 
-## Table of Content
-- [Two-photon upgrade](#two-photon-upgrade)
-  * [Part Liste](#part-liste)
-  * [Building Instructions](#building-instructions)
-    + [Multiphoton Light-sheet unit](#multiphoton-light-sheet-unit)
-    + [Fiber coupling of the pulsed femtosecond laser](#fiber-coupling-of-the-pulsed-femtosecond-laser)
-    + [Install and adjust the NA expander](#install-and-adjust-the-na-expander)
-  * [Detection path](#detection-path)
-  * [Alignement](#alignement)
-  * [Example high resolution zebrafish brain recordings (elav3:H2B-GCaMP6)](#example-high-resolution-zebrafish-brain-recordings--elav3-h2b-gcamp6-)
+
+- [Part Liste](#part-liste)
+- [Building Instructions](#building-instructions)
+  * [Multiphoton Light-sheet unit](#multiphoton-light-sheet-unit)
+  * [Fiber coupling of the pulsed femtosecond laser](#fiber-coupling-of-the-pulsed-femtosecond-laser)
+    + [Historical background](#historical-background)
+    + [The used fiber](#the-used-fiber)
+    + [Optical path with step-by-step instructions to adchieve efficient fiber coupling](#optical-path-with-step-by-step-instructions-to-adchieve-efficient-fiber-coupling)
+    + [Adapt the fiber output](#adapt-the-fiber-output)
+  * [The Detection path](#the-detection-path)
+- [Alignement](#alignement)
+- [Example high resolution zebrafish brain recordings (elav3:H2B-GCaMP6)](#example-high-resolution-zebrafish-brain-recordings--elav3-h2b-gcamp6-)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
 
 
 
