@@ -12,6 +12,12 @@
 - [x] add link to NA I/O card
 - [ ] add link to poteniometer and show an image of the cabeling 
 
+
+## 2P-upgrade
+- [ ] Figure of fiber transmission spectrum
+- [ ] 
+
+
 ## Fiber Coupling
 - [ ] Add lambda half waveplate to 3D model
 - [ ] add thorlabs link to waveplate W2 and W3
