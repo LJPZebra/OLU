@@ -70,18 +70,18 @@ If you do not have space on your table you can mount a platform on top of your I
 
 We will give a step-by-step explanation that describes how to build this optical path and how to align the optical components to achieve optimal fiber coupling. But before we begin, we will give some preparatory notes and general background:
 
-### Tips and Techniques for Laser Coupling into an Optical Fiber
+### Tips and Techniques for Laser Coupling into the Broadband Hollowcore Crystal Fiber
 For the alignment we will follow a protocol well explained in an excellent YouTube tutorial that you find here and that we advise you to watch carefully before starting. The video explains a first prealignment step based on backpropagation of a laser in the reverse direction. To use this trick first connect a standard single mode fiber to the coupling unit. Use a fiber tester to inject a visible laser through the fiber. Then follow the steps as in the tutorial to co-align the alignment laser and the IR laser. Then disconnect the fiber and connect the hollow core fiber. If the first step was well done you should have directly transmission through the fiber enough to optimize the further fiber coupling as described in the tutorial. To watch the video just click on the snap shoot: 
 
 [<img width="400" alt="AlignmentTutorial" src="https://user-images.githubusercontent.com/38736127/176673048-5717d417-f3cd-4252-8551-5a9e17c1132f.png">](https://www.youtube.com/watch?v=kQvhbJbDG0M)
 
-### Handling of the Hollow Core Fiber
+### Mastering the Handling of Hollow Core Fibers: Tips and Techniques
 * Here you find the [fiber spec sheet](https://github.com/vbormuth/OLU/files/9039097/PMC-C-K9005.B2_delivered_2019-01-16.pdf) of our hollow core negative curvature fiber 
 * The hollow core fiber front face is not protected and cannot be easily polished, which is a standard procedure used for conventional single mode fibers. Also never try to clean the fiber outlet with ethanol or acetone because these solutions will enter the fiber core by capillary forces making the fiber unusable. You can use an [fiber inspection scope](https://www.thorlabs.com/thorproduct.cfm?partnumber=FS201) to inspect the fiber core.
 
 * The fiber has a very high damage threshold but only if the laser is well coupled. So it is advice to do the alignment procedure at low laser power. This improves also laser safety. We will regulate the laser intensity with a rotatable [lambda wave plate](https://www.newport.com/p/10RP52-2) installed in series with a [polarizor]([https://www.thorlabs.com/thorproduct.cfm?partnumber=CCM1-PBS25-1064-HP](https://www.thorlabs.com/thorproduct.cfm?partnumber=CCM1-PBS252/M)). 
 
-### Selection of the Coupling Lens
+### Selecting the Optimal Coupling Lens: Criteria and Considerations
 
 * For efficient optical coupling and suppression of higher laser modes the width of the laser focus projected onto the fiber input side has to [match the mode field diameter of the fiber](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=14203). Or in other words the opening angle of the focused laser beam has to match the numerical aperture of the fiber. Our fiber has a numerical aperture of 0.02 (see [fiber spec sheet](https://github.com/vbormuth/OLU/files/9039097/PMC-C-K9005.B2_delivered_2019-01-16.pdf)). The numerical aperture of the coupling system is given by $\textrm{NA} = \frac{D}{2 f}$, with $D$ the diameter of the laser beam at the position of the coupling lens, and $f$ the coupling lens' focal length.  The laser company normally gives the beam width and the beam divergent angle. In our case the Ti:Sapphire laser (MaiTai, Coherent, USA) has an output beam waist $<1.2\textrm{mm}$ and an divergent angle of $<0.001\textrm{mrad}$. We measured a beam diameter of 1.6mm at the position where we decided to install the coupling unit and we thus chose a coupling lens with focal length $f = \frac{D}{2\textrm{NA}} = \frac{1.6\textrm{mm}}{2\cdot 0.02} = 40\textrm{mm}$. We got reasonable coupling with the achromatic coupling lens. If you want to further optimize the coupling you can use an [objective](https://www.olympus-lifescience.com/modules/pdfgen/pdfmaker/en_pdf-export_objectives.7efd53eb1e8b4d509bc1bbe2184a7e28/LMPLN5XIR.pdf?rev=1615725199) as coupling lens. And you can install a telescope to adjust the beam diameter to match the fiber numerical aperture with the chosen coupling lens focal distance. Further tips for the fiber coupling can be found in the [manual from GLO-photonics](https://github.com/vbormuth/OLU/files/9039094/PIP_PMC-OEM.pdf).
 * To measure the laser beam diameter use either a beam profiler (Thorlabs BC207VIS/M) or use the [moving knife technique](https://www.researchgate.net/profile/Emerson-Lima-2/publication/23771279_Measurement_of_Gaussian_laser_beam_radius_using_the_knife-edge_technique_Improvement_on_data_analysis/links/00b7d533ec8470fe22000000/Measurement-of-Gaussian-laser-beam-radius-using-the-knife-edge-technique-Improvement-on-data-analysis.pdf?origin=publication_detail). For the moving knife technique, fix a razor plate on a [linear translation stage](https://www.thorlabs.com/thorproduct.cfm?partnumber=XRN25C/M). For this use a [thin plate holder](https://www.thorlabs.com/thorproduct.cfm?partnumber=PC2/M), a [right angle clamp](https://www.thorlabs.com/thorproduct.cfm?partnumber=RA90) and a [post system](https://www.thorlabs.com/navigation.cfm?guide_id=52). Then move the knife perpendicular to the laser path step-by-step out of the laser beam while measuring the laser intensity as a function of the knife-edge position. The measured normalized power as a function of knife-edge position,  $x$  , can be fitted by  $P_N(x)=0.5\left[1 + erf \left(\frac{x-x0}{w_{e^{-1}}}\right)\right]$. The fit parameter $w_{e^{-1}}$ is the beam radius at $e^{-1}$. You can also read $w_{e^{-1}}$ from the graph as half of the distance between the positions where the normalized power has a value between 0.08 and 0.92. Note that the beam diameter, $D$ ,relevant to calculate the numerical aperture is measured at $e^{-2}$ and is thus given by  $D = 2 \cdot w_{e^{-2}} = 2 \cdot \sqrt{2} w_{e^{-1}}$ <br> <br>
@@ -89,7 +89,7 @@ For the alignment we will follow a protocol well explained in an excellent YouTu
 
 ### Let's Get Started: Building the System
 
-#### Coupling the IR Laser
+#### Coupling the IR Laser into the Broadband Fiber
 *	Position the [motorized flip mount](https://www.thorlabs.com/thorproduct.cfm?partnumber=MFF101/M) (**FM**) holding a [protected silver mirrors](https://www.thorlabs.com/thorproduct.cfm?partnumber=PF05-03-P01) directly after the infrared laser output to hijack the laser for coupling into the optical fiber. Flipping the mirror allows to select the setup into which you want to direct the laser. Alternatively, you can use a [beam splitter](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=6208&pn=BS033) to use the laser source on both setups simultaneously. The pertinence of the latter solution depends on the  laser power that you need in both setups for your experiments. For a standard scanning two-photon system you need in average < 100mW. The MaiTai laser has an average output power of 1.8mw at 915nm wavelength. With a 90:10% beam splitter and assuming 50% loss of laser power until the sample you can perform light-sheet microscopy with an average laser power of 400mW and two-photon scanning on the standard system with a mean power of 90mW. 
 *	Next install the optics to control the laser intensity. Position the [lambda wave plate](https://www.newport.com/p/10RP52-2) and the [polarizor]([https://www.thorlabs.com/thorproduct.cfm?partnumber=CCM1-PBS25-1064-HP](https://www.thorlabs.com/thorproduct.cfm?partnumber=CCM1-PBS252/M)) in series. 
 *   Before switching on the laser prepare for laser safety in the room and wear [laser safety glasses](https://www.thorlabs.com/thorproduct.cfm?partnumber=LG3) to protect your eyes!
@@ -123,7 +123,7 @@ For the alignment we will follow a protocol well explained in an excellent YouTu
 * Close the laser shutter 
 
 
-#### Coupling the Visible Laser
+#### Coupling the Visible Laser into the Broadband Fiber
 * Fix the [fiber coupled laser](https://github.com/vbormuth/OLU/files/9057780/WEBSITE-Datasheet-LBX-488.pdf) onto the table.
 * Position mirror **M3** and **M4** with a distance of about 20cm between each other and such that mirror **M4** is placed about 20cm from the coupling lens. As mirrors choose again [protected silver mirrors](https://www.thorlabs.com/thorproduct.cfm?partnumber=PF05-03-P01) mounted in [kinematic mirror mounts](https://www.thorlabs.com/thorproduct.cfm?partnumber=POLARIS-K05#ad-image-0) to align the laser with the fiber axis. Select the length of the [posts](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_ID=9079) compatible with the hight of your laser beam.
 * Attach the fiber splitter to the laser that you purchases with prealigned fiber coupler.
@@ -147,7 +147,8 @@ At 915nm wavelength, the central two-photon absorption peak of GFP and of its ca
 
 
 [Go back to the main page](README.md)
-## Make the Fiber Output Compatible with the Light-Sheet Unit
+
+## Increasing the Fiber Numerical Aperture for Compatibility with the Light-Sheet Unit
 
 * The collimation and illumination objective form a one-to-one telescope. If we would simply connect the hollow core fiber to the light-sheet unit as we did in the 1P-Multicolor system then the light-sheet thickness would correspond to the mean field diameter of the hollow core fiber which is $23\mu m$ ([fiber spec sheet](https://github.com/vbormuth/OLU/files/9039097/PMC-C-K9005.B2_delivered_2019-01-16.pdf)). To get the same resolution as in the one-photon implementation we have to install an extra lens after the fiber to demagnify the laser waist from the fiber output to about $5\mu m$ and at the same time to increase the divergence angle of the laser to match the numerical aperture of the collimation objective. The numerical aperture of the fiber is 0.02 and thus a factor 5 times smaller compared to the numerical aperture of the detection objective.
 * With a [lens](https://www.thorlabs.com/thorproduct.cfm?partnumber=C151TMD-B) with a focal distance of f = 2mm and a numerical aperture of 0.5 you can demagnify the laser output from the fiber by a magnification of m = 0.2. Mount this lens via an [adaptor](https://www.thorlabs.com/thorproduct.cfm?partnumber=S05TM06) into the the [lens tube](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM05M10) which you prepared in step (5-7) of the [manual of the 1P-Multicolor unit](1P_Multicolor_System.md).  
@@ -161,7 +162,7 @@ At 915nm wavelength, the central two-photon absorption peak of GFP and of its ca
 
 
 
-## The Fluorescence Detection Path
+## Modifying the Fluorescence Detection Path to Block Infrared Illumination
 * Install in addition the [multiphoton short-pass emission filter](https://www.semrock.com/filterdetails.aspx?id=ff01-750/sp-25) to block also the pulsed infrared laser source.
 
 ## Alignement of the setup
