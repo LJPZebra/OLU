@@ -1,6 +1,6 @@
 # Two-photon upgrade
 
-The multiphoton light-sheet unit is basically identical in its design to the one-photon multicolor desing. However, the optical components have to be optimized for transmission in the near infrared. This includes the optical fiber to allow for high efficient 
+The multiphoton light-sheet system is essentially identical in design to the one-photon multicolor design. However, certain optical components need to be optimized for near-infrared transmission. This includes the optical fiber, to enable efficient and dispersion-free transmission of the near-infrared laser pulses used in two-photon fluorescence microscopy. Additionally, measures must be taken to block the infrared laser in the detection path. In the following sections, we provide a detailed step-by-step tutorial on how to implement the necessary modifications required to enable the two-photon upgrade of the system.
 
 - [Part Liste](#part-liste)
 - [Building Instructions](#building-instructions)
