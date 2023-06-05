@@ -2,22 +2,21 @@
 
 - [Part Liste](#part-liste)
 - [Building Instructions](#building-instructions)
-  * [Multiphoton Light-sheet unit](#multiphoton-light-sheet-unit)
-  * [Fiber coupling of the pulsed femtosecond laser](#fiber-coupling-of-the-pulsed-femtosecond-laser)
-    + [Historical background](#historical-background)
-    + [The used fiber](#the-used-fiber)
-    + [Optical path with step-by-step instructions to adchieve efficient fiber coupling](#optical-path-with-step-by-step-instructions-to-adchieve-efficient-fiber-coupling)
-      - [The optical path](#the-optical-path)
-      - [Alignment procedure](#alignment-procedure)
-      - [Handling of the hollow core fiber](#handling-of-the-hollow-core-fiber)
-      - [Selection of the coupling lens](#selection-of-the-coupling-lens)
-      - [Now Let's build it](#now-let-s-build-it)
-        * [Coupling the IR laser](#coupling-the-ir-laser)
-        * [Coupling the visible laser](#coupling-the-visible-laser)
-      - [Make the fiber output compatible with the light-sheet unit](#make-the-fiber-output-compatible-with-the-light-sheet-unit)
-    + [The Detection path](#the-detection-path)
-  * [Alignement](#alignement)
-  * [Example high resolution zebrafish brain recordings (elav3:H2B-GCaMP6)](#example-high-resolution-zebrafish-brain-recordings--elav3-h2b-gcamp6-)
+  * [Multiphoton Light-Sheet Unit](#multiphoton-light-sheet-unit)
+  * [A Comprehensive Guide for Achieving Efficient Fiber Coupling of the Femtosecond Two-Photon Laser](#a-comprehensive-guide-for-achieving-efficient-fiber-coupling-of-the-femtosecond-two-photon-laser)
+    + [Historical Background](#historical-background)
+    + [The Negative Curvature Hollowcore Crystal Fiber](#the-negative-curvature-hollowcore-crystal-fiber)
+    + [The Optical Path](#the-optical-path)
+    + [Tips and Techniques for Laser Coupling into the Broadband Hollowcore Crystal Fiber](#tips-and-techniques-for-laser-coupling-into-the-broadband-hollowcore-crystal-fiber)
+    + [Mastering the Handling of Hollow Core Fibers: Tips and Techniques](#mastering-the-handling-of-hollow-core-fibers--tips-and-techniques)
+    + [Selecting the Optimal Coupling Lens: Criteria and Considerations](#selecting-the-optimal-coupling-lens--criteria-and-considerations)
+    + [Let's Get Started: Building the System](#let-s-get-started--building-the-system)
+      - [Coupling the IR Laser into the Broadband Fiber](#coupling-the-ir-laser-into-the-broadband-fiber)
+      - [Coupling the Visible Laser into the Broadband Fiber](#coupling-the-visible-laser-into-the-broadband-fiber)
+  * [Increasing the Fiber Numerical Aperture for Compatibility with the Light-Sheet Unit](#increasing-the-fiber-numerical-aperture-for-compatibility-with-the-light-sheet-unit)
+  * [Modifying the Fluorescence Detection Path to Block Infrared Illumination](#modifying-the-fluorescence-detection-path-to-block-infrared-illumination)
+  * [Alignement of the setup](#alignement-of-the-setup)
+  * [Example of High Resolution Zebrafish Brain Recordings in One- and Two-Photon Mode (elav3:H2B-GCaMP6)](#example-of-high-resolution-zebrafish-brain-recordings-in-one--and-two-photon-mode--elav3-h2b-gcamp6-)
 
 <small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
@@ -36,7 +35,7 @@ The multiphoton light-sheet unit is basically identical in its design to the one
 
 Use in step (3) as collimation and illumination objectives  the [Olympus LMPLN5xIR/0.1](https://www.olympus-lifescience.com/modules/pdfgen/pdfmaker/en_pdf-export_objectives.7efd53eb1e8b4d509bc1bbe2184a7e28/LMPLN5XIR.pdf?rev=1615725199) objective optimized for near infrared transmission. Even though not optimized for visible wavelength one can use this objective also for one-photon imaging later. To screw it into the light-sheet cube use a [thread adaptor](https://punchout.webdev02.thorlabs.com/thorproduct.cfm?partnumber=RMSA3).
 
-## A Comprehensive Guide for Achieving Efficient Fiber Coupling of a Femtosecond Laser: Step-by-Step Instructions
+## A Comprehensive Guide for Achieving Efficient Fiber Coupling of the Femtosecond Two-Photon Laser
 
 ### Historical Background
 Efficient, dispersion-free, and broadband fiber coupling of a two-photon laser source is a long-standing challenge in the field of two-photon microscopy ([Helmchen et al., 2011](http://cshprotocols.cshlp.org/content/2013/10/pdb.top078147.long)) and of fiber optics design ([Wang et al., 2013](https://www.cambridge.org/core/journals/high-power-laser-science-and-engineering/article/hollowcore-photonic-crystal-fibre-for-high-power-laser-beam-delivery/8D2851845D043DA937A93F431D9F9D9C)). The difficulty arises from the fact that standard single-mode optical glass fibers are associated with strong linear and non-linear pulse dispersion, which reduces the two-photon efficiency. Pre-compensation methods are only efficient at low laser powers and are therefore impractical in the context of fast volumetric two-photon imaging, which requires high photonic fluxes. 
