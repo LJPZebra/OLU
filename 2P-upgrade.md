@@ -1,3 +1,16 @@
+#Table of Content
+
+- [Two-photon upgrade](#two-photon-upgrade)
+    + [Install and adjust the NA expander](#install-and-adjust-the-na-expander)
+  * [Detection path](#detection-path)
+  * [Alignement](#alignement)
+  * [Example high resolution zebrafish brain recordings (elav3:H2B-GCaMP6)](#example-high-resolution-zebrafish-brain-recordings--elav3-h2b-gcamp6-)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
+
+
 # Two-photon upgrade
 
 The two-photon system is basically identical in its design to the 1P-Multiphoton light-sheet system. To build the two-photon system follow [the building instruction of the 1P-Multicolor system](1P_Multicolor_System.md) but take into account the following modifications: 
