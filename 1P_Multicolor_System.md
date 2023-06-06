@@ -2,7 +2,10 @@
 
 In this comprehensive guide, we provide detailed instructions on building the one-photon light-sheet system. Whether your ultimate goal is to construct the two-photon system or utilize the one-photon configuration, we highly recommend starting with the installation of the one-photon system. This sequential approach allows you to gain a solid foundation and a better understanding of the system's components and functionality, which will facilitate a smoother transition to the advanced two-photon configuration if desired.
 
-The construction of the system can be done in two levels. In the first level, you can use the light-sheet unit as a standalone light source. This basic setup will enable you to perform one-photon imaging experiments effectively. In the second level, you have the option to computer-control the system and perform fast, high-precision volumetric scans. This advanced level of control opens up additional capabilities and enhances the versatility of the light-sheet unit for various imaging applications.
+The construction of the system can be done in two levels. In the first level, you can use the light-sheet unit as a standalone light source. This basic setup will enable you to perform one-photon imaging experiments effectively in the same manner as you would normally acquire epifluorecence images or stacks. In the second level, you have the option to computer-control the system and perform fast, high-precision volumetric scans. This advanced level of control opens up additional capabilities and enhances the versatility of the light-sheet unit for various imaging applications.
+
+If your ultimate goal is to set up the two-photon version, you have the option to directly use optics optimized for infrared transmission in the initial one-photon installation. This strategic choice ensures compatibility and paves the way for a seamless transition to the two-photon configuration at minimal cost by avoiding the need for component replacements when upgrading to the two-photon version.
+
 
 # Table of Content
 
