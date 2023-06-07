@@ -1,5 +1,7 @@
 # Two-photon upgrade
 
+In this comprehensive guide, we provide detailed instructions for upgrading the system to the two-photon configuration. Assuming that you have already built the one-photon version of the system, the upgrade primarily involves two main steps. First, you need to fiber couple a two-photon femtosecond pulsed laser into a negative hollow core optical fiber. Additionally, the fiber's numerical aperture at the output side should be increased for compatibility with the light-sheet unit. Secondly, if not already implemented, the objectives used in the light-sheet unit must be replaced with objectives optimized for near-infrared transmission. Finally, a filter needs to be installed in the detection path to block the infrared laser. These modifications will enable efficient two-photon imaging with the system.
+
 - [Part Liste](#part-liste)
 - [Building Instructions](#building-instructions)
   * [Multiphoton Light-Sheet Unit](#multiphoton-light-sheet-unit)
