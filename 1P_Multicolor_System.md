@@ -291,7 +291,7 @@ https://user-images.githubusercontent.com/38736127/186108000-6d6c7374-28b0-485f-
 ## Upgrade the One-Photon Unit into a Two-Photon System by using a Hollowcore Crystal Fiber
 
 
-[Click here for detailed instructions](2P-upgrade.md)
+[Click here for detailed instructions](2P-Upgrade.md)
 
 
 
