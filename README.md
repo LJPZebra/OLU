@@ -15,6 +15,7 @@ Two-photon light sheet microscopy has a wide range of applications in biology. H
 
 ## BUILDING INSTRUCTIONS:
 
+We provide here a comprehensive online tutorial that features step-by-step builtding instructions with 3D animations, illustrations of the construction process, detailed information on the underlying physical principles, and rationale for component selection. This tutorial, combined with the availability of the commercially connectorized broadband optical fiber, aims to enhance the accessibility and affordability of multiphoton light-sheet microscopy. 
 
 1. [Build first a multicolor one-photon version of the microscope](1P_Multicolor_System.md) with fiber delivery of lasers in the visible spectrum with a standard single mode optical fiber technology.
 
