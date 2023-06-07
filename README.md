@@ -13,9 +13,11 @@ Two-photon light sheet microscopy has a wide range of applications in biology. H
 
 (a) 3D model of the 1P- \& 2P-light-sheet forming unit. (b) 3D design model showing how the one- and two-photon light-sheet unit is mounted on the Scientifica scope. The unit is attached to the motorized stage of the system that moves the objective. (c) Attenuation and dispersion spectrum of the hollow-core negative curvature fiber with two transmission bands (loss $<$ 300dB/km) highlighted in yellow. Inset left: Schematic of the cross section of the hypocycloid fiber with 8 cladding tubes. Inset right: EM cross section image of the fiber (scale bar $10\mu m$). (d) Near and far field profile of the fiber output at 515nm and 1030nm laser wavelength. (e) Schematic of the fiber with its FC/PC connectorization and the lens to increase the numerical aperture (NA) to match the NA of the collimation objective (Obj1 in a). (f) Measured light-sheet profile. (g) Single layers of a volumetric brain scan recorded in one- and two-photon mode of a 6dpf old zebrafish larva expressing pan-neuronally GCaMP6f and localized to the cell nucleus (Elav3-H2B-GCaMP6f).
 
+
+
 ## BUILDING INSTRUCTIONS:
 
-We provide here a comprehensive online tutorial that features step-by-step builtding instructions with 3D animations, illustrations of the construction process, detailed information on the underlying physical principles, and rationale for component selection. This tutorial, combined with the availability of the commercially connectorized broadband optical fiber, aims to enhance the accessibility and affordability of multiphoton light-sheet microscopy. The following two links give access to this online materia:
+We provide here a comprehensive online tutorial that features step-by-step building instructions along with 3D animations, illustrations of the construction process, detailed information on the underlying physical principles, and rationale for component selection. In conjunction with the availability of commercially accessible and connectorized broadband optical fiber, our aim is to promote greater accessibility and affordability in the field of multiphoton light-sheet microscopy. To access this invaluable online resource, please follow the links provided below: 
 
 1. [Build first a multicolor one-photon version of the microscope](1P_Multicolor_System.md) with fiber delivery of lasers in the visible spectrum with a standard single mode optical fiber technology.
 
