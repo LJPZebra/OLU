@@ -1,30 +1,27 @@
 # One-Photon Multicolor System: Parts List
 
-| PART                                                          | SOURCE               | REFERENCE                       |
-|---------------------------------------------------------------|----------------------|---------------------------------|
-| Continuous laser at 488 nm	with fiber coupler                | Oxxius               | LBX-488-50-CSB-PP               |
-| Optical fiber (single mode)                                   | Thorlabs             | P1-460-FC-2                     |
-| 50:50 Fiber Optic Couplers                                    | Thorlabs             | TW470R5F2                       |
-| Adapters for M6 x 0.5 Threaded Aspheres                       | Thorlabs             | S05TM06                         |
-| FC/PC Fiber Adapter Plate with External SM05                  | Thorlabs             | SM05FC                          |
-| Lens tube                                                     | Thorlabs             | SM05M10                         |
-
-| z-piezo nanopositioner                                        | Piezo Jena           | PZ 400 OEM SG                   |
-| Galvanometer mirror                                           | Thorlabs             | GVS011                          |
-| Power supply for Galvo mirro                                  | elc                  | ALR3206D                        |
-| Function generator                                            | Agilent              | 33210A                          |
-| Microscope body                                               | Scientifica          | Scientifica SliceScope Pro 6000 |
-| Objective piezo drive                                         | Piezo Jena           | Mipos 500 SG,Triptics           |
-| Acquisition board                                             | National Instruments | NI PCIe-6363                    |
-
-| Detection objective (NA 0.95, 25x)                            | Leica                | HC FLUOTAR W VISIR              |
-| Tube lens (f = 150 mm)                                        | Thorlabs             | AC254-150-A                     |
-| GFP filter (525 nm)                                           | Thorlabs             | MF525-39                        |
-| Notch filter (488 nm)                                         | Thorlabs             | NF488-15                        |
-| Camera (sCMOS)                                                | Hamamatsu            | C13440 V3                       |
-
-| Capillary + pistons                                           | alphalabs            | 5-000-2050                      |
-| O-rings                                                       | www.oring.fr         | 101300                          |
+|       | PART                                                          | SOURCE               | REFERENCE                       |
+|-------|---------------------------------------------------------------|----------------------|---------------------------------|
+| Laser & Fiber | Continuous laser at 488 nm	with fiber coupler                | Oxxius               | LBX-488-50-CSB-PP               |
+|               | Optical fiber (single mode)                                   | Thorlabs             | P1-460-FC-2                     |
+|               | 50:50 Fiber Optic Couplers                                    | Thorlabs             | TW470R5F2                       |
+|               | Adapters for M6 x 0.5 Threaded Aspheres                       | Thorlabs             | S05TM06                         |
+|               | FC/PC Fiber Adapter Plate with External SM05                  | Thorlabs             | SM05FC                          |
+|               | Lens tube                                                     | Thorlabs             | SM05M10                         |
+| Light-sheet Unit | z-piezo nanopositioner                                        | Piezo Jena           | PZ 400 OEM SG                   |
+|                  | Galvanometer mirror                                           | Thorlabs             | GVS011                          |
+|                  | Power supply for Galvo mirro                                  | elc                  | ALR3206D                        |
+|                  | Function generator                                            | Agilent              | 33210A                          |
+|                  | Microscope body                                               | Scientifica          | Scientifica SliceScope Pro 6000 |
+|                  | Objective piezo drive                                         | Piezo Jena           | Mipos 500 SG,Triptics           |
+|                  | Acquisition board                                             | National Instruments | NI PCIe-6363                    |
+| Detection Path   | Detection objective (NA 0.95, 25x)                            | Leica                | HC FLUOTAR W VISIR              |
+|                  | Tube lens (f = 150 mm)                                        | Thorlabs             | AC254-150-A                     |
+|                  | GFP filter (525 nm)                                           | Thorlabs             | MF525-39                        |
+|                  | Notch filter (488 nm)                                         | Thorlabs             | NF488-15                        |
+|                  | Camera (sCMOS)                                                | Hamamatsu            | C13440 V3                       |
+| Sample Chamber   | Capillary + pistons                                           | alphalabs            | 5-000-2050                      |
+|                  | O-rings                                                       | www.oring.fr         | 101300                          |
 
 # Two-Photon Upgrade: Parts List
 
@@ -50,6 +47,7 @@
 | Long, Fixed Mounting Bracket, 56 mm Long                      | Thorlabs             | AMA009                          |        | 
 | Half-Wave Plate                                               | Newport              | 10RP52-2B                       |  2     |
 | Injection lens (40 mm)                                        | Thorlabs             | AC254-040-B-ML                  |        |
+| 3-Axis NanoMax Stage, Differential Drives                     | Thorlabs             | MAX313D/M                       |        | 
 | IR Detector Card, 700 - 1400 nm                               | Thorlabs             | VRC5                            |        |
 | Power meter                                                   | Thorlabs             | PM130D                          |        |
 | Fiber Inspection Scope                                        | Thorlabs             | FS201                           |        |
