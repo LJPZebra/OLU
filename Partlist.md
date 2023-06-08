@@ -8,18 +8,21 @@
 | Adapters for M6 x 0.5 Threaded Aspheres                       | Thorlabs             | S05TM06                         |
 | FC/PC Fiber Adapter Plate with External SM05                  | Thorlabs             | SM05FC                          |
 | Lens tube                                                     | Thorlabs             | SM05M10                         |
+
 | z-piezo nanopositioner                                        | Piezo Jena           | PZ 400 OEM SG                   |
 | Galvanometer mirror                                           | Thorlabs             | GVS011                          |
 | Power supply for Galvo mirro                                  | elc                  | ALR3206D                        |
 | Function generator                                            | Agilent              | 33210A                          |
 | Microscope body                                               | Scientifica          | Scientifica SliceScope Pro 6000 |
 | Objective piezo drive                                         | Piezo Jena           | Mipos 500 SG,Triptics           |
-| Detection objective (NA 1.0, 20x)                             | Olympus              | XLUMPLFLN20x                    |
+| Acquisition board                                             | National Instruments | NI PCIe-6363                    |
+
+| Detection objective (NA 0.95, 25x)                            | Leica                | HC FLUOTAR W VISIR              |
 | Tube lens (f = 150 mm)                                        | Thorlabs             | AC254-150-A                     |
 | GFP filter (525 nm)                                           | Thorlabs             | MF525-39                        |
 | Notch filter (488 nm)                                         | Thorlabs             | NF488-15                        |
 | Camera (sCMOS)                                                | Hamamatsu            | C13440 V3                       |
-| Acquisition board                                             | National Instruments | NI PCIe-6363                    |
+
 | Capillary + pistons                                           | alphalabs            | 5-000-2050                      |
 | O-rings                                                       | www.oring.fr         | 101300                          |
 
@@ -56,6 +59,7 @@
 
 | Collimation objective (NA 0.1, 5x)                            | Olympus              | LMPLN5xIR/0.10                  |        |
 | Illumination objective (NA 0.1, 5x)                           | Olympus              | LMPLN5xIR/0.10                  |        |
+
 | multiphoton short-pass emission filter                        | Semrock              | FF01-750/SP-25                  |        |
 
 
