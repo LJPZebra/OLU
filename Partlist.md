@@ -1,3 +1,5 @@
+Parts to built the one-photon multicolr system:
+
 | PART                                                          | SOURCE               | REFERENCE                       |
 |---------------------------------------------------------------|----------------------|---------------------------------|
 | Continuous laser at 488 nm	with fiber coupler                | Oxxius               | LBX-488-50-CSB-PP               |
@@ -21,6 +23,10 @@
 | Capillary + pistons                                           | alphalabs            | 5-000-2050                      |
 | O-rings                                                       | www.oring.fr         | 101300                          |
 
+Parts for the two-photon upgrade:
+
+| PART                                                          | SOURCE               | REFERENCE                       |
+|---------------------------------------------------------------|----------------------|---------------------------------|
 | Femtosecond tunable laser                                     | Spectra-Physics      | MaiTai 90077043                 |
 | Precompensator                                                | Spectra-Physics      | Deep See                        |
 | Negative curvature fiber                                      | Glophotonics         | PMC-C-9005 B2                   |
