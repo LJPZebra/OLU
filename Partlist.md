@@ -54,7 +54,7 @@
 |                         | Laser safety glasses                                          | Thorlabs             | LG3                             |  1     |
 | Light-Sheet Unit        | Collimation objective (NA 0.1, 5x)                            | Olympus              | LMPLN5xIR/0.10                  |  1     |
 |                         | Illumination objective (NA 0.1, 5x)                           | Olympus              | LMPLN5xIR/0.10                  |  1     |
-| Detection Path          | multiphoton short-pass emission filter                        | Semrock              | FF01-750/SP-25                  |  1     |
+| Detection Path          | Multiphoton short-pass emission filter                        | Semrock              | FF01-750/SP-25                  |  1     |
 
 
 
