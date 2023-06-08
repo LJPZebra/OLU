@@ -33,6 +33,14 @@ In this comprehensive guide, we provide detailed instructions for upgrading the 
 
 [List of parts](Partlist.md)
 
+## Custom Parts
+
+### Pieces to Send for Milling
+    
+These pieces are  milled out of an aluminum block. If you do not have a mechanical workshop in house then you can send the *.step files that we provide below to an [online milling service](https://xometry.eu/fr/usinage-cnc-fraisage-cnc/). For parts with threaded holes, join the mechanical drawings to the .step file.
+* Custom piece for compatibility with a MaiTai laser: [View the 3D model](CAD_models/NanoMax_Pedestal.stl) or [download the CAD model as a step file](CAD_models/NanoMax_Pedestal.step) and the [Mechanical drawing](CAD_models/NanoMax_Pedestal.pdf).
+
+
 # Building Instructions
 
 ## Multiphoton Light-Sheet Unit
