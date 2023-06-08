@@ -29,7 +29,12 @@ We provide here a comprehensive online tutorial that features step-by-step build
 
 [<img width="600" alt="FullSystem_3D-Model" src="Figures/FullSystem_3D-Model.png">](https://a360.co/41PexBK)
 
-Click the image to open the [model browser](https://a360.co/41PexBK).
+[<img width="600" alt="2P_laser_injection_3D-Model" src="Figures/2P_laser_injection_3D-Model.png">](https://a360.co/3JVrDGn)
+
+
+
+
+Click the images to open the model browser.
 
 ## 3D Animation of the functionality of the system
 
