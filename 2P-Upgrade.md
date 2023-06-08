@@ -31,6 +31,8 @@ In this comprehensive guide, we provide detailed instructions for upgrading the 
 
 # Part Liste
 
+[List of parts](Partlist.md)
+
 # Building Instructions
 
 ## Multiphoton Light-Sheet Unit
