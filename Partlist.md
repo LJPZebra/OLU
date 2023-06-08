@@ -44,7 +44,7 @@
 |                         | Injection lens (40 mm)                                        | Thorlabs             | AC254-040-B-ML                  |        |
 |                         | NA expander lens (f = 2.00 mm, NA = 0.50, ARC: 600 - 1050 nm) | Thorlabs             | C151TMD-B                       |        |
 |                         | fiber-to-fiber connector                                      | Thorlabs             | ADAF1                           |        |
-| Accessory               | IR Detector Card, 700 - 1400 nm                               | Thorlabs             | VRC5                            |        |
+| Accessorie              | IR Detector Card, 700 - 1400 nm                               | Thorlabs             | VRC5                            |        |
 |                         | Power meter                                                   | Thorlabs             | PM130D                          |        |
 |                         | Fiber Inspection Scope                                        | Thorlabs             | FS201                           |        |
 |                         | Cable Continuity Tester                                       | Fluke Networks       | VisiFault                       |        |
