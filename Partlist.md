@@ -34,6 +34,7 @@
 |                         | High-Precision Rotation Mount                                 | Thorlabs             | PRM1/M                          |  2     |
 |                         | Half-Wave Plate                                               | Newport              | 10RP52-2B                       |  2     |
 |                         | Polarizing Beamsplitter Cube                                  | Thorlabs             | CCM5-PBS202/M                   |  1     |
+|                         | Beam Trap                                                     | Thorlabs             | BT610/M                         |  1     |
 |                         | Protected Silver Mirrors                                      | Thorlabs             | PF05-03-P01 - Ø1/2"             |  5     | 
 |                         | Mirror Mount                                                  | Thorlabs             | POLARIS-K05 - Polaris® Ø1/2"    |  5     | 
 |                         | Hex Key Adjusters  (4 per pack)                               | Thorlabs             | HKTS-5/64                       |  1     |
