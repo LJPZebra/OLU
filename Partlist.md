@@ -33,7 +33,7 @@
 | Single Mode Fiber Launch                                      | Thorlabs             | MAX355D/M                       |        |
 | NA expander lens (f = 2.00 mm, NA = 0.50, ARC: 600 - 1050 nm) | Thorlabs             | C151TMD-B                       |        |
 | fiber-to-fiber connector                                      | Thorlabs             | ADAF1                           |        |
-| High-Precision Rotation Mount                                 | Thorlabs             | PRM1/M                          |        |
+| High-Precision Rotation Mount                                 | Thorlabs             | PRM1/M                          |  2     |
 | Half-Wave Plate                                               | Newport              | 10RP52-2B                       |  2     |
 | Collimation objective (NA 0.1, 5x)                            | Olympus              | LMPLN5xIR/0.10                  |        |
 | Illumination objective (NA 0.1, 5x)                           | Olympus              | LMPLN5xIR/0.10                  |        |
