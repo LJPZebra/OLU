@@ -26,7 +26,7 @@
 # Two-Photon Upgrade: Parts List
 
 |                         |PART                                                           | SOURCE               | REFERENCE                       | Amount |
-|-----------------------------------------------------------------------------------------|----------------------|---------------------------------|--------|
+|-------------------------|---------------------------------------------------------------|----------------------|---------------------------------|--------|
 | Laser & Fiber           | Femtosecond tunable laser                                     | Spectra-Physics      | MaiTai 90077043                 |        |
 |                         | Precompensator                                                | Spectra-Physics      | Deep See                        |        |
 |                         | Negative curvature fiber                                      | Glophotonics         | PMC-C-9005 B2                   |        |
