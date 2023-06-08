@@ -6,6 +6,9 @@ The construction of the system can be done in two levels. In the first level, yo
 
 If your ultimate goal is to set up the two-photon version, you have the option to directly use optics optimized for infrared transmission in the initial one-photon installation. This strategic choice ensures compatibility and paves the way for a seamless transition to the two-photon configuration at minimal cost by avoiding the need for component replacements when upgrading to the two-photon version.
 
+[<img width="600" alt="FullSystem_3D-Model" src="Figures/FullSystem_3D-Model.png">](https://a360.co/41PexBK)
+
+
 
 # Table of Content
 
