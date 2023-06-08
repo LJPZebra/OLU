@@ -8,6 +8,7 @@
 
 ## 2P-upgrade
 - [ ] Figure of fiber transmission spectrum
+- [ ] Position the power meter before the coupling lens and adjust the power to about ???mW.
 
 
 
