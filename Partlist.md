@@ -45,9 +45,13 @@
 | Injection lens (40 mm)                                        | Thorlabs             | AC254-040-B-ML                  |        |
 | Laser safety glasses                                          | Thorlabs             | LG3                             |	      |
 | Protected Silver Mirrors   protected silver mirrors           | Thorlabs             | PF05-03-P01 - Ø1/2"             |  5     | 
-| Mirror Mount                                                  | Thorlabs             | POLARIS-K05 - Polaris® Ø1/2"    |  5     |     
+| Mirror Mount                                                  | Thorlabs             | POLARIS-K05 - Polaris® Ø1/2"    |  5     | 
+| Optical Post                                                  | Thorlabs             | TR75/M                          |  5     |
+| Universal Post Holder                                         | Thorlabs             | UPH50/M                         |  5     |
 
-
+| FC/PC Fiber Adapter Plate with External SM1                   | Thorlabs             | SM1FC2                          |        |  
+| SM1-Compatible Flexure Stage Mount                            | Thorlabs             | HCS031                          |        |
+| Long, Fixed Mounting Bracket, 56 mm Long                      | Thorlabs             | AMA009                          |        | 
 
 
 
