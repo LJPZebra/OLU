@@ -22,6 +22,7 @@
 |                         | Camera (sCMOS)                                                | Hamamatsu            | C13440 V3                       |  1     |
 | Sample Chamber          | Capillary + pistons                                           | alphalabs            | 5-000-2050                      |  1     |
 |                         | O-rings                                                       | www.oring.fr         | 101300                          |  1     |
+|                         | Beam Block                                                    | Thorlabs             | LB2                             |  1     |          
 
 # Two-Photon Upgrade: Parts List
 
