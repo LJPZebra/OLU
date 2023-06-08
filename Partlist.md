@@ -36,7 +36,7 @@
 | High-Precision Rotation Mount                                 | Thorlabs             | PRM1/M                          |
 | Half-Wave Plate      (two are needed !)                       | Newport              | 10RP52-2B                       |
 | Collimation objective (NA 0.1, 5x)                            | Olympus              | LMPLN5xIR/0.10                  |
-| Illumination objective (NA 0.1, 5x)                           | Olympus              | Olympus LMPLN5xIR/0.10          |
+| Illumination objective (NA 0.1, 5x)                           | Olympus              | LMPLN5xIR/0.10          |
 | multiphoton short-pass emission filter                        | Semrock              | FF01-750/SP-25                  |
 | IR Detector Card, 700 - 1400 nm                               | Thorlabs             | VRC5                            |
 | Power meter                                                   | Thorlabs             | PM130D                          |
