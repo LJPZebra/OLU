@@ -1,4 +1,4 @@
-# Parts List of the One-Photon Multicolor System
+# One-Photon Multicolor System: Parts List
 
 | PART                                                          | SOURCE               | REFERENCE                       |
 |---------------------------------------------------------------|----------------------|---------------------------------|
@@ -23,7 +23,7 @@
 | Capillary + pistons                                           | alphalabs            | 5-000-2050                      |
 | O-rings                                                       | www.oring.fr         | 101300                          |
 
-# Parts List of the Two-Photon Upgrade
+# Two-Photon Upgrade: Parts List
 
 | PART                                                          | SOURCE               | REFERENCE                       |
 |---------------------------------------------------------------|----------------------|---------------------------------|
