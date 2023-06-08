@@ -8,6 +8,8 @@ If your ultimate goal is to set up the two-photon version, you have the option t
 
 [<img width="600" alt="FullSystem_3D-Model" src="Figures/FullSystem_3D-Model.png">](https://a360.co/41PexBK)
 
+Click the images to open the model browser.
+
 
 
 # Table of Content
