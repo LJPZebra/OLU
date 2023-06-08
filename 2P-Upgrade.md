@@ -31,7 +31,7 @@ In this comprehensive guide, we provide detailed instructions for upgrading the 
 
 
 
-# Part Liste
+# Part List
 
 [List of parts](Partlist.md)
 
