@@ -4,10 +4,11 @@
 |-------------------------|---------------------------------------------------------------|----------------------|---------------------------------|--------|
 | Laser & Fiber           | Continuous laser at 488 nm	with fiber coupler                | Oxxius               | LBX-488-50-CSB-PP               |  1     |
 |                         | Optical fiber (single mode)                                   | Thorlabs             | P1-460-FC-2                     |  1     |
+|                         | Lens tube                                                     | Thorlabs             | SM05M10                         |  1     |
+|       $Optional$        | Second Continuous laser at other wavelength	with fiber coupler| Oxxius               |                                 |        |
 |                         | fiber-to-fiber connector                                      | Thorlabs             | ADAF1                           |  1     |
 |                         | 50:50 Fiber Optic Couplers                                    | Thorlabs             | TW470R5F2                       |  1     |
 |                         | FC/PC Fiber Adapter Plate with External SM05                  | Thorlabs             | SM05FC                          |  1     |
-|                         | Lens tube                                                     | Thorlabs             | SM05M10                         |  1     |
 | Light-sheet Unit        | z-piezo nanopositioner                                        | Piezo Jena           | PZ 400 OEM SG                   |  1     |
 |                         | Galvanometer mirror                                           | Thorlabs             | GVS011                          |  1     |
 |                         | Power supply for Galvo mirro                                  | elc                  | ALR3206D                        |  1     |
