@@ -44,7 +44,7 @@
 | Cable Continuity Tester                                       | Fluke Networks       | VisiFault                       |        |
 | Injection lens (40 mm)                                        | Thorlabs             | AC254-040-B-ML                  |        |
 | Laser safety glasses                                          | Thorlabs             | LG3                             |	      |
-| Protected Silver Mirrors   protected silver mirrors           | Thorlabs             | PF05-03-P01 - Ø1/2"             |  5     |
+| Protected Silver Mirrors   protected silver mirrors           | Thorlabs             | PF05-03-P01 - Ø1/2"             |  5     | 
 
 
 
