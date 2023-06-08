@@ -45,7 +45,7 @@
 |                         | fiber-to-fiber connector                                      | Thorlabs             | ADAF1                           |  1     |
 | NA-Expander             | NA expander lens (f = 2.00 mm, NA = 0.50, ARC: 600 - 1050 nm) | Thorlabs             | C151TMD-B                       |  1     |
 |                         | Adapters for M6 x 0.5 Threaded Aspheres                       | Thorlabs             | S05TM06                         |  1     |
-| Accessorie              | IR Detector Card, 700 - 1400 nm                               | Thorlabs             | VRC5                            |  1     |
+| Accessories             | IR Detector Card, 700 - 1400 nm                               | Thorlabs             | VRC5                            |  1     |
 |                         | Power meter                                                   | Thorlabs             | PM130D                          |  1     |
 |                         | Fiber Inspection Scope                                        | Thorlabs             | FS201                           |  1     |
 |                         | Cable Continuity Tester                                       | Fluke Networks       | VisiFault                       |  1     |
