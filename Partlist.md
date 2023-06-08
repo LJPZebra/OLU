@@ -30,9 +30,11 @@
 | Laser & Fiber           | Femtosecond tunable laser                                     | Spectra-Physics      | MaiTai 90077043                 |  1     |
 |                         | Precompensator                                                | Spectra-Physics      | Deep See                        |  1     |
 |                         | Negative curvature fiber                                      | Glophotonics         | PMC-C-9005 B2                   |  1     |
-| Laser-to-Fiber Coupling | High-Precision Rotation Mount                                 | Thorlabs             | PRM1/M                          |  2     |
+| Laser-to-Fiber Coupling | Motorized Filter Flip Mount with Ø1" Optic Holder, M4 Tap     | Thorlabs             | MFF101/M                        |  1     |
+|                         | High-Precision Rotation Mount                                 | Thorlabs             | PRM1/M                          |  2     |
 |                         | Half-Wave Plate                                               | Newport              | 10RP52-2B                       |  2     |
-|                         | Protected Silver Mirrors   protected silver mirrors           | Thorlabs             | PF05-03-P01 - Ø1/2"             |  5     | 
+|                         | Polarizing Beamsplitter Cube                                  | Thorlabs             | CCM5-PBS202/M                   |  1     |
+|                         | Protected Silver Mirrors                                      | Thorlabs             | PF05-03-P01 - Ø1/2"             |  5     | 
 |                         | Mirror Mount                                                  | Thorlabs             | POLARIS-K05 - Polaris® Ø1/2"    |  5     | 
 |                         | Hex Key Adjusters  (4 per pack)                               | Thorlabs             | HKTS-5/64                       |  1     |
 |                         | Optical Post                                                  | Thorlabs             | TR75/M                          |  5     |
@@ -52,7 +54,7 @@
 |                         | Laser safety glasses                                          | Thorlabs             | LG3                             |  1     |
 | Light-Sheet Unit        | Collimation objective (NA 0.1, 5x)                            | Olympus              | LMPLN5xIR/0.10                  |  1     |
 |                         | Illumination objective (NA 0.1, 5x)                           | Olympus              | LMPLN5xIR/0.10                  |  1     |
-|                         | multiphoton short-pass emission filter                        | Semrock              | FF01-750/SP-25                  |  1     |
+| Detection Path          | multiphoton short-pass emission filter                        | Semrock              | FF01-750/SP-25                  |  1     |
 
 
 
