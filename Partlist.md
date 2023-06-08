@@ -48,7 +48,6 @@
 | Mirror Mount                                                  | Thorlabs             | POLARIS-K05 - Polaris® Ø1/2"    |  5     | 
 | Optical Post                                                  | Thorlabs             | TR75/M                          |  5     |
 | Universal Post Holder                                         | Thorlabs             | UPH50/M                         |  5     |
-
 | FC/PC Fiber Adapter Plate with External SM1                   | Thorlabs             | SM1FC2                          |        |  
 | SM1-Compatible Flexure Stage Mount                            | Thorlabs             | HCS031                          |        |
 | Long, Fixed Mounting Bracket, 56 mm Long                      | Thorlabs             | AMA009                          |        | 
