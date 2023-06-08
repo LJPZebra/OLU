@@ -4,7 +4,7 @@ In this comprehensive guide, we provide detailed instructions for upgrading the 
 
 # Table of Content
 
-- [Part Liste](#part-liste)
+- [Part List](#part-liste)
   * [Custom Parts to Send for Milling](#custom-parts-to-send-for-milling)
 - [Building Instructions](#building-instructions)
   * [Multiphoton Light-Sheet Unit](#multiphoton-light-sheet-unit)
