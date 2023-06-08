@@ -29,28 +29,34 @@
 |---------------------------------------------------------------|----------------------|---------------------------------|--------|
 | Femtosecond tunable laser                                     | Spectra-Physics      | MaiTai 90077043                 |        |
 | Precompensator                                                | Spectra-Physics      | Deep See                        |        |
+
+
 | Negative curvature fiber                                      | Glophotonics         | PMC-C-9005 B2                   |        |
 | Single Mode Fiber Launch                                      | Thorlabs             | MAX355D/M                       |        |
 | NA expander lens (f = 2.00 mm, NA = 0.50, ARC: 600 - 1050 nm) | Thorlabs             | C151TMD-B                       |        |
 | fiber-to-fiber connector                                      | Thorlabs             | ADAF1                           |        |
+
 | High-Precision Rotation Mount                                 | Thorlabs             | PRM1/M                          |  2     |
-| Half-Wave Plate                                               | Newport              | 10RP52-2B                       |  2     |
-| Collimation objective (NA 0.1, 5x)                            | Olympus              | LMPLN5xIR/0.10                  |        |
-| Illumination objective (NA 0.1, 5x)                           | Olympus              | LMPLN5xIR/0.10                  |        |
-| multiphoton short-pass emission filter                        | Semrock              | FF01-750/SP-25                  |        |
-| IR Detector Card, 700 - 1400 nm                               | Thorlabs             | VRC5                            |        |
-| Power meter                                                   | Thorlabs             | PM130D                          |        |
-| Fiber Inspection Scope                                        | Thorlabs             | FS201                           |        |
-| Cable Continuity Tester                                       | Fluke Networks       | VisiFault                       |        |
-| Injection lens (40 mm)                                        | Thorlabs             | AC254-040-B-ML                  |        |
-| Laser safety glasses                                          | Thorlabs             | LG3                             |	      |
 | Protected Silver Mirrors   protected silver mirrors           | Thorlabs             | PF05-03-P01 - Ø1/2"             |  5     | 
 | Mirror Mount                                                  | Thorlabs             | POLARIS-K05 - Polaris® Ø1/2"    |  5     | 
+| Hex Key Adjusters  (4 per pack)                               | Thorlabs             | HKTS-5/64                       |  1     |
 | Optical Post                                                  | Thorlabs             | TR75/M                          |  5     |
 | Universal Post Holder                                         | Thorlabs             | UPH50/M                         |  5     |
 | FC/PC Fiber Adapter Plate with External SM1                   | Thorlabs             | SM1FC2                          |        |  
 | SM1-Compatible Flexure Stage Mount                            | Thorlabs             | HCS031                          |        |
 | Long, Fixed Mounting Bracket, 56 mm Long                      | Thorlabs             | AMA009                          |        | 
+| Half-Wave Plate                                               | Newport              | 10RP52-2B                       |  2     |
+| Injection lens (40 mm)                                        | Thorlabs             | AC254-040-B-ML                  |        |
+| IR Detector Card, 700 - 1400 nm                               | Thorlabs             | VRC5                            |        |
+| Power meter                                                   | Thorlabs             | PM130D                          |        |
+| Fiber Inspection Scope                                        | Thorlabs             | FS201                           |        |
+| Cable Continuity Tester                                       | Fluke Networks       | VisiFault                       |        |
+| Laser safety glasses                                          | Thorlabs             | LG3                             |	      |
+
+
+| Collimation objective (NA 0.1, 5x)                            | Olympus              | LMPLN5xIR/0.10                  |        |
+| Illumination objective (NA 0.1, 5x)                           | Olympus              | LMPLN5xIR/0.10                  |        |
+| multiphoton short-pass emission filter                        | Semrock              | FF01-750/SP-25                  |        |
 
 
 
