@@ -7,7 +7,7 @@
 
 
 ## 2P-upgrade
-- [ ] Figure of fiber transmission spectrum
+- [ ] Figure of fiber transmission spectrum in section: Introducing Our Developed Negative Curvature Hollow Core Crystal Fiber
 - [ ] Position the power meter before the coupling lens and adjust the power to about ???mW.
 
 
