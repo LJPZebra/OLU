@@ -62,6 +62,9 @@ Broadband fiber delivery spanning the visible and the near-infrared spectrum is 
 
 Together with [GLO Photonics](https://www.glophotonics.fr/), we selected a HC-NCF fiber whose optical characteristics appear to be ideally suited for laser delivery in the context of combined one- and two-photon light-sheet microscopy (![Figure 1](link_to_figure)). 
 
+[<img width="400" alt="NCF" src="Figures/NCF.png">](Figures/NCF.png)
+
+
 The outer fiber diameter is 200 ± 2 μm and the fiber coating diameter is 600 ± 30 μm. The fiber has an air-filled 30 μm-in-diameter core surrounded by a ring of eight non-contacting ~10 μm-in-diameter cladding tubes. In this so-called hypocycloid fiber structure, the negative curvature of the core contour is created by the tubes surrounding the core. Tube diameters, inter-tube distance, tube wall thickness, and core size together control the fiber transmission spectrum. They yield two broad transmission bands that are compatible with 1, 2, and 3P imaging, respectively (see ![Figure 1c](link_to_figure_c)): One in the near infrared from 700 - 1500 nm (I), and another in the visible spectrum from 400 - 535 nm (II). Within these spectral bands, the loss is less than 300 dB/km (corresponding to a transmission efficiency of more than 93% for a one-meter-long fiber), and the pulse dispersion is less than 1 dB/(km·nm) of spectral pulse width. 
 
 The fiber is commercially available as a patch chord cable with standard FC/PC connectors. This proves extremely convenient as it allows one to disconnect and reconnect the fiber to the optical setup without the need for subsequent realignment on either end. The small core diameter compared to the large infrared wavelength further ensures near single-mode guidance.
