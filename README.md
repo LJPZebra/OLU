@@ -44,6 +44,10 @@ https://github.com/vbormuth/OLU/assets/38736127/b96b5086-ad84-4f22-9b26-3674b363
 
 
 
+https://github.com/vbormuth/OLU/assets/38736127/af95fe67-40c8-4dab-be80-82982df7b801
+
+
+
 ## Slow scan mode
 
 https://user-images.githubusercontent.com/113037893/207926697-6573f5d4-6586-4915-aaef-1366d4b2105a.mp4
