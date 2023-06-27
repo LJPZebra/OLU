@@ -38,15 +38,7 @@ Click the images to open the model browser.
 
 ## 3D Animation of the functionality of the system
 
-
-
-https://github.com/vbormuth/OLU/assets/38736127/b96b5086-ad84-4f22-9b26-3674b363cbe3
-
-
-
 https://github.com/vbormuth/OLU/assets/38736127/af95fe67-40c8-4dab-be80-82982df7b801
-
-
 
 ## Slow scan mode
 
