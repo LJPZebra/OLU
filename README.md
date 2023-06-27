@@ -1,10 +1,8 @@
-
-
-
-
 # A Versatile and Open Source One- and Multi-Photon Light-Sheet Microscope Design
 
 <!---  # An Open Source 1P and 2P miniDSPIM with broadband fiber based laser delivery    --->
+
+https://github.com/vbormuth/OLU/assets/38736127/67d65cd2-6dc3-4341-95fa-0ca2030d321e
 
 ## Abstract
 Two-photon light sheet microscopy has a wide range of applications in biology. Here we report a novel open source design to transform a standard microscope into a 1P \& 2P light-sheet microscope. A specially designed broadband hollow core fiber shares the expansive pulsed laser source from other setups. The system provides uncompromised image resolution and speed and makes this technology widely accessible at reduced cost.
