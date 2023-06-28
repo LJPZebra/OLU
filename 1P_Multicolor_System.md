@@ -1,8 +1,8 @@
 # The Multicolor One-Photon Light-Sheet Design
 
-In this comprehensive guide, we provide detailed instructions on building the one-photon light-sheet system. Whether your ultimate goal is to construct the two-photon system or utilize the one-photon configuration, we highly recommend starting with the installation of the one-photon system. This sequential approach allows you to gain a solid foundation and a better understanding of the system's components and functionality, which will facilitate a smoother transition to the advanced two-photon configuration if desired.
+This comprehensive guide provides detailed instructions on building the one-photon light-sheet system. Whether your ultimate goal is to construct the two-photon system or utilize the one-photon configuration, we highly recommend starting with the installation of the one-photon system. This sequential approach allows you to gain a solid foundation and a better understanding of the system's components and functionality, which will facilitate a smoother transition to the advanced two-photon configuration if desired.
 
-The construction of the system can be done in two levels. In the first level, you can use the light-sheet unit as a standalone light source. This basic setup will enable you to perform one-photon imaging experiments effectively in the same manner as you would normally acquire epifluorecence images or stacks. In the second level, you have the option to computer-control the system and perform fast, high-precision volumetric scans. This advanced level of control opens up additional capabilities and enhances the versatility of the light-sheet unit for various imaging applications.
+The construction of the system can be done on two levels. In the first level, you can use the light-sheet unit as a standalone light source. This basic setup will enable you to perform one-photon imaging experiments effectively in the same manner as you would normally acquire epifluorescence images or stacks. In the second level, you have the option to computer-control the system and perform fast, high-precision volumetric scans. This advanced level of control opens up additional capabilities and enhances the versatility of the light-sheet unit for various imaging applications.
 
 If your ultimate goal is to set up the two-photon version, you have the option to directly use optics optimized for infrared transmission in the initial one-photon installation. This strategic choice ensures compatibility and paves the way for a seamless transition to the two-photon configuration at minimal cost by avoiding the need for component replacements when upgrading to the two-photon version.
 
@@ -33,7 +33,7 @@ Click the images to open the model browser.
     + [The Sample Chamber Holder and Sample Chamber](#the-sample-chamber-holder-and-sample-chamber)
     + [Ensuring Laser Safety](#ensuring-laser-safety)
     + [Now Let's Align the System](#now-let-s-align-the-system)
-  * [Photos of the System in Combination with an Electrophysiolgy System:](#photos-of-the-system-in-combination-with-an-electrophysiolgy-system-)
+  * [Photos of the System in Combination with an Electrophysiology System:](#photos-of-the-system-in-combination-with-an-electrophysiolgy-system-)
   * [Example Recordings:](#example-recordings-)
   * [A Conference Talk Presenting the System:](#a-conference-talk-presenting-the-system-)
   * [Upgrade the One-Photon Unit into a Two-Photon System by using a Hollowcore Crystal Fiber](#upgrade-the-one-photon-unit-into-a-two-photon-system-by-using-a-hollowcore-crystal-fiber)
@@ -55,7 +55,7 @@ Click the images to open the model browser.
 
 ### Pieces to Send for Milling
     
-These pieces are  milled out of an aluminum block. If you do not have a mechanical workshop in house then you can send the *.step files that we provide below to an [online milling service](https://xometry.eu/fr/usinage-cnc-fraisage-cnc/). For parts with threaded holes, join the mechanical drawings to the .step file.
+These pieces are  milled out of an aluminum block. If you do not have a mechanical workshop in-house then you can send the *.step files that we provide below to an [online milling service](https://xometry.eu/fr/usinage-cnc-fraisage-cnc/). For parts with threaded holes, join the mechanical drawings to the .step file.
 * The light-sheet unit central cube: [View the 3D model](CAD_models/Cube.stl) or [download the CAD model as a step file](CAD_models/Cube.step) and [mechanical drawings](CAD_models/CubeMechanicalDrawings.pdf).
 * The fiber holder  : [View the 3D model](CAD_models/FiberHolder.stl) or [download the CAD model as a step file](CAD_models/FiberHolder.step) and [mechanical drawings](CAD_models/FiberHolderMechanicalDrawings.pdf).
 * Adaptor plate 1 : [View the 3D model](CAD_models/AdaptorPlate1.stl) or  [download the CAD model as a step file](CAD_models/AdaptorPlate1.step) and [mechanical drawings](CAD_models/AdaptorPlate1MechanicalDrawings.pdf).
@@ -99,7 +99,7 @@ E.g. this [Srew kit](https://www.amazon.fr/huruirui-hexagonales-int%C3%A9rieures
 
 (1) Purchase [continous lasers](https://www.oxxius.com/category-products/continuous-and-modulated-lasers/) of wavelength adapted for your experiments.  We use a blue 488nm and a green 561nm laser. Choose the option with [prealigned fiber coupler](https://github.com/vbormuth/OLU/files/9057780/WEBSITE-Datasheet-LBX-488.pdf).
 
-(2) To combine the two lasers into a single mode fiber attach the two inputs of the [fiber optic coupler](https://www.thorlabs.com/thorproduct.cfm?partnumber=TW470R5F2) to the FC/PC connector of each laser. The blue and the green lasers will be combined and are available at both output fiber ports.
+(2) To combine the two lasers into a single-mode fiber attach the two inputs of the [fiber optic coupler](https://www.thorlabs.com/thorproduct.cfm?partnumber=TW470R5F2) to the FC/PC connector of each laser. The blue and green lasers will be combined and are available at both output fiber ports.
 
 (3-5) Assemble the Fiber support tube: Take the [FC/PC connector](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM05FC#ad-image-0) which will later hold the optical fiber that delivers the laser. Screw the connector into the [lens tube](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM05M10) (black) but not too far so that you can easily attach and detach the optical fiber. Fix the connector with the two retaining rings.
 
@@ -124,7 +124,7 @@ This bracket will then be replaced with a custom bracket that has holes to allow
 
 (3) Attach [Adapter Plate 1](CAD_models/AdaptorPlate1.stl) (custom piece) with four M4x30 screws.
 
-(4) Attach assembly to top Z-stage of the microscope with two original screws.
+(4) Attach the assembly to the top Z-stage of the microscope with two original screws.
 
 #### Assemble the light-sheet unit
 
@@ -139,24 +139,24 @@ This bracket will then be replaced with a custom bracket that has holes to allow
 
 (4) Attach the [Light-Sheet Unit Central Cube](CAD_models/Cube.stl) (green, custom piece) to the Vertical Manual stage with four M3x10 screws.
 
-(5) Insert the [Galvanometer Mirror](https://www.thorlabs.com/thorproduct.cfm?partnumber=GVS011) (light blue), align it at 45° relative to the sides of the Light-sheet Cube and cinch it in place with two M5x30 screws.
+(5) Insert the [Galvanometer Mirror](https://www.thorlabs.com/thorproduct.cfm?partnumber=GVS011) (light blue), align it at 45° relative to the sides of the Light-sheet Cube, and cinch it in place with two M5x30 screws.
 
-(6) Attach the [Piezocrystal (PZ 400 SG OEM)](https://www.piezosystem.com/product/pz-400-oem/) or if you want to start with a simple low cost version that uses only the slow scanning mode then install instead the [Piezo Dummy](CAD_models/PiezoDummy.stl) (custom piece) to the Light-sheet Cube with two M4x20 screws.
+(6) Attach the [Piezocrystal (PZ 400 SG OEM)](https://www.piezosystem.com/product/pz-400-oem/) or if you want to start with a simple low-cost version that uses only the slow scanning mode then install instead the [Piezo Dummy](CAD_models/PiezoDummy.stl) (custom piece) to the Light-sheet Cube with two M4x20 screws.
 
 (7) Attach the [Fiber Holder](CAD_models/FiberHolder.stl) (red, custom piece) to the Piezo with two M4x25 screws.
 
-(8) Insert the Fiber support tube (see points 3-5) into the Fiber Holder and cinch it with one M4x20 screw and and attach one of the output fibers of the fiber optic coupler to the connector (2).
+(8) Insert the Fiber support tube (see points 3-5) into the Fiber Holder and cinch it with one M4x20 screw and attach one of the output fibers of the fiber optic coupler to the connector (2).
 
-(9) Screw in the 5x [Zeiss Plan-Neofluar Objectives (5x/0.16 M27)](https://www.micro-shop.zeiss.com/en/us/shop/objectives/420330-9901-000/Objective-EC-Plan-Neofluar-5x-0.16-M27). If you ultimate goal is to build the two-photon version then install in this step directly the  [Olympus LMPLN5xIR/0.1](https://www.olympus-lifescience.com/modules/pdfgen/pdfmaker/en_pdf-export_objectives.7efd53eb1e8b4d509bc1bbe2184a7e28/LMPLN5XIR.pdf?rev=1615725199) objectives that are optimized for near infrared transmission.
+(9) Screw in the 5x [Zeiss Plan-Neofluar Objectives (5x/0.16 M27)](https://www.micro-shop.zeiss.com/en/us/shop/objectives/420330-9901-000/Objective-EC-Plan-Neofluar-5x-0.16-M27). If your ultimate goal is to build the two-photon version then install in this step directly the  [Olympus LMPLN5xIR/0.1](https://www.olympus-lifescience.com/modules/pdfgen/pdfmaker/en_pdf-export_objectives.7efd53eb1e8b4d509bc1bbe2184a7e28/LMPLN5XIR.pdf?rev=1615725199) objectives that are optimized for near-infrared transmission.
 
-(10) Fix the Light-sheet Unit to the Scientifica Scope by attaching the Adapter Plate 2 to Adapter Plate 1 with three M6x20 screws.
+(10) Fix the Light-sheet Unit to the Scientifica Scope by attaching adapter Plate 2 to Adapter Plate 1 with three M6x20 screws.
 
 
 #### Laser Alignement
 
-(20) Before switching on the laser, prepare the room for laser safety (remove any jewellery, make sure no one is in the path of the laser and that the laser does not hit any reflective surfaces). Unscrew the focusing objective (Obj 2) of the light-sheet unit. Switch on the galvanometric mirror and then switch on the laser at low laser power. Adjust the distance of the fibre relative to the collimation lens until the laser exits the cube well collimated. To do this, move the fibre support tube (black) relative to the fibre holder (red).
+(20) Before switching on the laser, prepare the room for laser safety (remove any jewelry, make sure no one is in the path of the laser, and that the laser does not hit any reflective surfaces). Unscrew the focusing objective (Obj 2) of the light-sheet unit. Switch on the galvanometric mirror and then switch on the laser at low laser power. Adjust the distance of the fiber relative to the collimation lens until the laser exits the cube well collimated. To do this, move the fiber support tube (black) relative to the fiber holder (red).
 
-(21) Next, carefully centre the beam in the opening where Obj 2 was screwed in by carefully adjusting the orientation of the galvanometer mirror. Once this is done, fix the mirror position with the fixing screw.
+(21) Next, carefully center the beam in the opening where Obj 2 was screwed in by carefully adjusting the orientation of the galvanometer mirror. Once this is done, fix the mirror position with the fixing screw.
 
 
 
@@ -187,7 +187,7 @@ If you already use your microscope with an image acquisition software that allow
 
 **Slow Scan Mode:**
 
-Even if you haven't installed the objective piezo scanner and the piezocrystal for moving the optical fiber, you can still perform volumetric recordings. Simply control the movement of the objective using the motorized stage of the scientifica scope, similar to a standard epifluorescence recording. Since the light-sheet unit is attached to the same stage as the objective, it will move along with the objective, ensuring that the light-sheet always illuminates the focal plane.
+Even if you haven't installed the objective piezo scanner and the piezocrystal for moving the optical fiber, you can still perform volumetric recordings. Simply control the movement of the objective using the motorized stage of the Scientifica scope, similar to a standard epifluorescence recording. Since the light-sheet unit is attached to the same stage as the objective, it will move along with the objective, ensuring that the light-sheet always illuminates the focal plane.
 
 
 
@@ -195,11 +195,11 @@ https://github.com/vbormuth/OLU/assets/38736127/971596a3-8630-45aa-8d89-9b84befc
 
 
 
-#### Mode 2: A Computer Controlled Light-Sheet Scanner
+#### Mode 2: A Computer-Controlled Light-Sheet Scanner
 
 **Fast Scan Mode:**
 
-If you have installed a piezoactuator for both the imaging objective and the fiber, you can achieve high precision and fast volumetric recordings. Synchronizing the movement of the fiber with that of the objective is crucial to ensure that the light-sheet remains in the focal plane of the objective throughout the volumetric acquisition.
+If you have installed a piezoactuator for both the imaging objective and the fiber, you can achieve high precision and fast volumetric recordings. Synchronizing the movement of the fiber with that of the objective is crucial to ensure that the light sheet remains in the focal plane of the objective throughout the volumetric acquisition.
 
 https://github.com/vbormuth/OLU/assets/38736127/8b75b67d-e0e4-44ea-af6d-0a4d4e075307
 
@@ -211,7 +211,7 @@ Calibrate the voltage with a [potentiometer???LINK??????](add link here ??????) 
 
 
 
-* To control the light-sheet volumetric scanning you can use our [custom developped control software](https://github.com/LaboJeanPerrin/Lightsheet) written in Matlab. Via a national instrument card [PCIe-6363](https://www.ni.com/fr-fr/support/model.pcie-6363.html) this software controls the the objective piezo scanner, the galvomirror and the piezo that moves the fiber to scan the light-sheet through the sample. The software is open source. 
+* To control the light-sheet volumetric scanning you can use our [custom developed control software](https://github.com/LaboJeanPerrin/Lightsheet) written in Matlab. Via a national instrument card [PCIe-6363](https://www.ni.com/fr-fr/support/model.pcie-6363.html) this software controls the objective piezo scanner, the galvomirror and the piezo that moves the fiber to scan the light-sheet through the sample. The software is open source. 
 
 
 [<img width="500" alt="Light-sheet_Screen1" src="Figures/Light-sheet_Screen1.png">](Figures/Light-sheet_Screen1.png)
@@ -221,8 +221,8 @@ Calibrate the voltage with a [potentiometer???LINK??????](add link here ??????) 
 
 * Alternatively, you can use:
     *  [ScanImage](https://www.scientifica.uk.com/products/vidrio-technologies-scanimage) the control software provided by Scientifica   
-    *  [Micromanager](https://micro-manager.org/) that supports the control of all Scientifica stages as well as of most commen objective scanners from e.g. Physical Instrument or Piezo Jena.
-    *  or the open source python software presented here: https://www.frontiersin.org/articles/10.3389/fcell.2022.875044/full
+    *  [Micromanager](https://micro-manager.org/) that supports the control of all Scientifica stages as well as of most common objective scanners from e.g. Physical Instrument or Piezo Jena.
+    *  or the open-source python software presented here: https://www.frontiersin.org/articles/10.3389/fcell.2022.875044/full
 
 ### The Sample Chamber Holder and Sample Chamber
 
@@ -234,7 +234,7 @@ Calibrate the voltage with a [potentiometer???LINK??????](add link here ??????) 
 
 https://github.com/vbormuth/OLU/assets/38736127/12681a4f-9d83-438b-acc0-6e80867b9052
 
-*  Take the 3D printed [sample chamber](CAD_models/SampleChamber.stl) and glue with [cyanoacrylate](https://uk.rs-online.com/web/p/glues/0473455) or [UV-curing adhesive](https://www.thorlabs.com/thorproduct.cfm?partnumber=NOA68) two glass windows on both sides as well as an [O-ring](https://www.oring.fr/joint-torique/22-1.html?search_query=&results=45) into the hole on the short side, which will allow you later to hold and position the sample via a [capillary](https://www.alphalabs.co.uk/5-000-2050) (inner diameter 0.85mm, outer diameter 1.47mm, length 115mm) for the imaging sessions. As glue we use a [UV glue](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=196&pn=NOA61) but you can also use standard cyanoacrylate. 
+*  Take the 3D printed [sample chamber](CAD_models/SampleChamber.stl) and glue with [cyanoacrylate](https://uk.rs-online.com/web/p/glues/0473455) or [UV-curing adhesive](https://www.thorlabs.com/thorproduct.cfm?partnumber=NOA68) two glass windows on both sides as well as an [O-ring](https://www.oring.fr/joint-torique/22-1.html?search_query=&results=45) into the hole on the short side, which will allow you later to hold and position the sample via a [capillary](https://www.alphalabs.co.uk/5-000-2050) (inner diameter 0.85mm, outer diameter 1.47mm, length 115mm) for the imaging sessions. As a glue, we use a [UV glue](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=196&pn=NOA61) but you can also use standard cyanoacrylate. 
 
 *  Place the sample chamber into the predefined opening of the sample chamber holder.)
 
@@ -251,7 +251,7 @@ Protect the experimenter from the laser by installing a [beam blocker](https://w
 
 
 ### Now Let's Align the System
-* Fill the sample chamber with water and add a view drops of a 1.5mM fluorescein solution into the water filled sample chamber to visualize the laser. Switch-on the laser at low power until you can see the fluorescence laser profile. Be careful not to look directly into the laser and to keep working at low power (<1mW after excitation objective) for alignment. 
+* Fill the sample chamber with water and add a few drops of a 1.5mM fluorescein solution into the water-filled sample chamber to visualize the laser. Switch on the laser at low power until you can see the fluorescence laser profile. Be careful not to look directly into the laser and to keep working at low power (<1mW after excitation objective) for alignment. 
 * The use of fluorescein requires cleaning with ethanol or isopropanol after alignment to remove residual fluorophores that may cause image noise. 
 * It is also possible to use an agarose cylinder and observe the scattered light from the laser, to do this remove the filter between the detection objective and the camera and follow the same procedure.
 * Align the laser waist under the detection objective by moving the entire light-sheet forming unit with the x-translation stage
@@ -263,18 +263,18 @@ https://github.com/vbormuth/OLU/assets/38736127/597ea417-c125-4dbb-acaa-2d7d1b02
 
 https://github.com/vbormuth/OLU/assets/38736127/a1ec581d-8022-41e5-bffa-b81bc8f1b462
 
-* Remov the fluorscein solution from the sample chamber and clean it. 
-* Now generate the light-sheet by driving the galvanometer with a saw tooth pattern either with a function generator or via the control softward (see above). Adjust the amplitude of the movement such that the light-sheet covers exactly the field of view.
-* Now you can place your prefered sample into the light-sheet and image it. Fine tune the z-position and x-position of the light-sheet until you get the sharpest image as possible.
+* Remove the fluorescein solution from the sample chamber and clean it. 
+* Now generate the light sheet by driving the galvanometer with a saw tooth pattern either with a function generator or via the control software (see above). Adjust the amplitude of the movement such that the light sheet covers exactly the field of view.
+* Now you can place your preferred sample into the light sheet and image it. Fine-tune the z-position and x-position of the light-sheet until you get the sharpest image possible.
 
 
 
 
-* Now you can make 3D scannes of your sampel by manually moving the objective focus of the microscope or by recording 3D time lapse movies using your microscope control software. 
+* Now you can make 3D scanners of your sample by manually moving the objective focus of the microscope or by recording 3D time-lapse movies using your microscope control software. 
 * Troubleshooting:
-    * Your image is not sharp homogeneously across the field of view: The light-sheet might be tilted with respect to the focal plane of the detection objective.  In this case you can correct this by tilting slightly the entire unit. For this, unscrew slightly screws that fix the unit via the adapter plate to the microscope translation stage. Insert a thin paper partly between the adapter plate and the stage such that the unit gets tiltited in the correct direction once you refix the screws. Repeat this procedure until your image is in focus across the entire field of view.
+    * Your image is not sharp homogeneously across the field of view: The light sheet might be tilted with respect to the focal plane of the detection objective.  In this case, you can correct this by tilting slightly the entire unit. For this, unscrew slightly screws that fix the unit via the adapter plate to the microscope translation stage. Insert a thin paper partly between the adapter plate and the stage such that the unit gets tilted in the correct direction once you refix the screws. Repeat this procedure until your image is in focus across the entire field of view.
 
-## Photos of the System in Combination with an Electrophysiolgy System:
+## Photos of the System in Combination with an Electrophysiology System:
 
 <img width="200" alt="BraintegrationSetup" src="https://user-images.githubusercontent.com/38736127/191005334-d6b4648a-3c93-444d-b89d-bb6020adbc93.png">
 
@@ -283,7 +283,7 @@ https://github.com/vbormuth/OLU/assets/38736127/a1ec581d-8022-41e5-bffa-b81bc8f1
 
 ## Example Recordings:
 
-Using the green laser. Shown is a high resolution recording of a zebrafish brain (6dpf) with a pan-neuronally expressed red calcium indicator (elav3-jRGECO):
+Using the green laser. Shown is a high-resolution recording of a zebrafish brain (6dpf) with a pan-neuronally expressed red calcium indicator (elav3-jRGECO):
 
 https://user-images.githubusercontent.com/38736127/186108000-6d6c7374-28b0-485f-a63a-da5b19ce9631.mp4
 
