@@ -7,7 +7,6 @@
 
 
 ## 2P-upgrade
-- [ ] Figure of fiber transmission spectrum in section: Introducing Our Developed Negative Curvature Hollow Core Crystal Fiber
 - [ ] Position the power meter before the coupling lens and adjust the power to about ???mW.
 
 
@@ -21,9 +20,6 @@
 
 ## CAD models
 
-Pieces delivered by Scientifica :
-- [X] column that holds the sample chamber plate
-- [X] the Olympus parts
 
 
 
