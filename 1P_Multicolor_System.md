@@ -147,16 +147,18 @@ This bracket will then be replaced with a custom bracket that has holes to allow
 
 (8) Insert the Fiber support tube (see points 3-5) into the Fiber Holder, fasten it with one M4x20 screw and attach one of the output fibers of the fiber optic coupler to the connector (2).
 
-(9) Screw in the 5X [Zeiss Plan-Neofluar Objectives (5x/0.16 M27)](https://www.micro-shop.zeiss.com/en/us/shop/objectives/420330-9901-000/Objective-EC-Plan-Neofluar-5x-0.16-M27). If your ultimate goal is to build the two-photon version then you should instead the  [Olympus LMPLN5xIR/0.1](https://www.olympus-lifescience.com/modules/pdfgen/pdfmaker/en_pdf-export_objectives.7efd53eb1e8b4d509bc1bbe2184a7e28/LMPLN5XIR.pdf?rev=1615725199) objectives that are optimized for near-infrared transmission.
+(9) Screw in the [Zeiss Plan-Neofluar Objectives (5x/0.16 M27)](https://www.micro-shop.zeiss.com/en/us/shop/objectives/420330-9901-000/Objective-EC-Plan-Neofluar-5x-0.16-M27). If your ultimate goal is to build the two-photon version then you should use instead the  [Olympus LMPLN5xIR/0.1](https://www.olympus-lifescience.com/modules/pdfgen/pdfmaker/en_pdf-export_objectives.7efd53eb1e8b4d509bc1bbe2184a7e28/LMPLN5XIR.pdf?rev=1615725199) objectives, which is optimized for near-infrared transmission.
 
-(10) Fix the Light-sheet Unit to the Scientifica Scope by attaching adapter Plate 2 to Adapter Plate 1 with three M6x20 screws.
+(10) Attach the Light-sheet Unit to the Scientifica Scope by fixing the adapter Plate 2 onto the Adapter Plate 1 using three M6x20 screws.
 
 
 #### Laser Alignement
 
-(20) Before switching on the laser, prepare the room for laser safety (remove any jewelry, make sure no one is in the path of the laser, and that the laser does not hit any reflective surfaces). Unscrew the focusing objective (Obj 2) of the light-sheet unit. Switch on the galvanometric mirror and then switch on the laser at low laser power. Adjust the distance of the fiber relative to the collimation lens until the laser exits the cube well collimated. To do this, move the fiber support tube (black) relative to the fiber holder (red).
+[what happened to 11-19 ? Should we show the obj 1 and obj 2 ?]
 
-(21) Next, carefully center the beam in the opening where Obj 2 was screwed in by carefully adjusting the orientation of the galvanometer mirror. Once this is done, fix the mirror position with the fixing screw.
+(20) Before turning on the laser, prepare the room for laser safety (remove any jewelry, make sure no one is in the path of the laser, and that the laser does not hit any reflective surfaces). Unscrew the focusing objective (Obj 2) of the light-sheet unit. Switch on the galvanometric mirror and then switch on the laser at low power. By moving the fiber support tube (black) relative to the fiber holder (red), adjust the distance of the fiber outlet to the collimation lens (objective ?) until the beam exiting the cube is well collimated.  
+
+(21) Next, carefully center the beam in the opening where Obj 2 will be located by adjusting the orientation of the galvanometer mirror. Once this is done, secure the mirror position with the fixing screw.
 
 
 
@@ -166,14 +168,14 @@ This bracket will then be replaced with a custom bracket that has holes to allow
 
 
 
-To configure the detection path you use the standard ports and configuration of the Scientifica scope.
+To configure the detection path, use the standard ports and configuration of the Scientifica scope.
 
-* Use a detection objective that is best adapted to your application. If you want to install the fast z-scan mode then install the objective with an [objective scanning piezo system](https://www.pifrance.fr/fr/produits/platines-de-nanopositionnement-a-structure-deformable/support-objectif-pifoc-et-scanners-pinano-pour-la-microscopie/p-725-pifoc-objective-scanner-with-long-travel-range-200375/). Slow 
+* Use a detection objective that is best adapted to your application. If you want to install the fast z-scan mode then attach the objective via an [objective scanning piezo system](https://www.pifrance.fr/fr/produits/platines-de-nanopositionnement-a-structure-deformable/support-objectif-pifoc-et-scanners-pinano-pour-la-microscopie/p-725-pifoc-objective-scanner-with-long-travel-range-200375/). 
 <!--- We used an [Olympus 20x objective](https://www.thorlabs.com/catalogpages/Obsolete/2019/N60XW-PF.pdf) in combination with a lens of 150mm focal length as [tube lens](https://www.thorlabs.com/thorproduct.cfm?partnumber=AC254-150-A) to reduce the magnification to 16x for the imaging system. --->
-* Install the filters into the filter wheel
+* Position the filters into the filter wheel adapted to your application. For GFP imaging:
      * a [notch filter to block the 488nm laser line](https://www.thorlabs.com/thorproduct.cfm?partnumber=NF488-15)
      * a [GFP Emission Filter](https://www.thorlabs.com/thorproduct.cfm?partnumber=MF525-39).
-* Attach the camera to the camera port. We used the [Hamamatsu ORCA-Flash4.0 V3 camera](https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/documents/99_SALES_LIBRARY/sys/SCAS0134E_C13440-20CU_tec.pdf)
+* Attach the camera to the camera port. In our systel, we use the [Hamamatsu ORCA-Flash4.0 V3 camera](https://www.hamamatsu.com/content/dam/hamamatsu-photonics/sites/documents/99_SALES_LIBRARY/sys/SCAS0134E_C13440-20CU_tec.pdf)
 
 ### Driving the Light-Sheet Unit
 
