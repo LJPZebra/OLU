@@ -236,7 +236,7 @@ Calibrate the voltage with a [potentiometer???LINK??????](add link here ??????) 
 
 https://github.com/vbormuth/OLU/assets/38736127/12681a4f-9d83-438b-acc0-6e80867b9052
 
-*  Take the 3D printed [sample chamber](CAD_models/SampleChamber.stl) and use [cyanoacrylate](https://uk.rs-online.com/web/p/glues/0473455) or [UV-curing adhesive](https://www.thorlabs.com/thorproduct.cfm?partnumber=NOA68) to glue one glass windows on each side as well as an [O-ring](https://www.oring.fr/joint-torique/22-1.html?search_query=&results=45) into the hole on the short side, which will allow you later to introduce and position the sample via a [capillary](https://www.alphalabs.co.uk/5-000-2050) (inner diameter 0.85mm, outer diameter 1.47mm, length 115mm) for the imaging sessions. As a glue, we use a [UV glue](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=196&pn=NOA61) but you can also use standard cyanoacrylate. [REDITE ? les refs sont déjà dans la première phrase]
+*  Take the 3D printed [sample chamber](CAD_models/SampleChamber.stl) and use [cyanoacrylate](https://uk.rs-online.com/web/p/glues/0473455) or [UV-curing adhesive](https://www.thorlabs.com/thorproduct.cfm?partnumber=NOA68) to glue a glass window on each side as well as an [O-ring](https://www.oring.fr/joint-torique/22-1.html?search_query=&results=45) into the hole on the short side, which will allow you later to introduce and position the sample via a [capillary](https://www.alphalabs.co.uk/5-000-2050) (inner diameter 0.85mm, outer diameter 1.47mm, length 115mm) for the imaging sessions. As a glue, we use a [UV glue](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=196&pn=NOA61) but you can also use standard cyanoacrylate. [REDITE ? les refs sont déjà dans la première phrase]
 
 *  Place the sample chamber into the predefined opening of the sample chamber holder.)
 
@@ -253,11 +253,11 @@ Protect the experimenter from the laser by installing a [beam blocker](https://w
 
 
 ### Now Let's Align the System
-* Fill the sample chamber with water and add a few drops of a 1.5mM fluorescein solution into the water-filled sample chamber to visualize the laser. Switch on the laser at low power until you can see the fluorescence laser profile. Be careful not to look directly into the laser and to keep working at low power (<1mW after excitation objective) for alignment. 
-* The use of fluorescein requires cleaning with ethanol or isopropanol after alignment to remove residual fluorophores that may cause image noise. 
-* It is also possible to use an agarose cylinder and observe the scattered light from the laser, to do this remove the filter between the detection objective and the camera and follow the same procedure.
+* Fill the sample chamber with water and add a few drops of a 1.5mM fluorescein solution into the water-filled sample chamber to visualize the laser. Switch on the laser at low power until you can see the fluorescence laser profile. Be careful not to look directly into the laser and to keep working at low power (<1mW after the second illumination  objective) for alignment. 
+* The use of fluorescein requires cleaning with ethanol or isopropanol after alignment to remove residual fluorophores that may cause imaging noise. 
+* It is also possible to use an agarose cylinder and to observe the scattered light from the laser, to do this remove the filter between the detection objective and the camera and follow the same procedure.
 * Align the laser waist under the detection objective by moving the entire light-sheet forming unit with the x-translation stage
-* Switch on the camera and align the laser into the focal plane of the detection objective by moving the light-sheet forming unit with the z-translation stage until you see a sharp image of the laser with the camera. If you do not see the laser move the galvanometer mirror to bring the laser into the field of view.
+* Switch on the camera and align the laser into the focal plane of the detection objective by moving the light-sheet forming unit with the z-translation stage until you see a sharp image of the laser beam with the camera. If you do not see the laser beam,  move the galvanometer mirror to bring it into the field of view.
 
 https://github.com/vbormuth/OLU/assets/38736127/597ea417-c125-4dbb-acaa-2d7d1b02d45f
 
