@@ -166,12 +166,12 @@ This bracket will then be replaced with a custom bracket that has holes to allow
 
 [<img width="400" alt="DetectionPath" src="Figures/DetectionPath.png">](Figures/DetectionPath.png)
 
-
+[in the figure: peizo->piezo]
 
 To configure the detection path, use the standard ports and configuration of the Scientifica scope.
 
 * Use a detection objective that is best adapted to your application. If you want to install the fast z-scan mode then attach the objective via an [objective scanning piezo system](https://www.pifrance.fr/fr/produits/platines-de-nanopositionnement-a-structure-deformable/support-objectif-pifoc-et-scanners-pinano-pour-la-microscopie/p-725-pifoc-objective-scanner-with-long-travel-range-200375/). 
-<!--- We used an [Olympus 20x objective](https://www.thorlabs.com/catalogpages/Obsolete/2019/N60XW-PF.pdf) in combination with a lens of 150mm focal length as [tube lens](https://www.thorlabs.com/thorproduct.cfm?partnumber=AC254-150-A) to reduce the magnification to 16x for the imaging system. --->
+<!--- We use an [Olympus 20x objective](https://www.thorlabs.com/catalogpages/Obsolete/2019/N60XW-PF.pdf) in combination with a [tube lens](https://www.thorlabs.com/thorproduct.cfm?partnumber=AC254-150-A) of 150mm in focal length yielding a 16x magnification. --->
 * Position the filters into the filter wheel adapted to your application. For GFP imaging:
      * a [notch filter to block the 488nm laser line](https://www.thorlabs.com/thorproduct.cfm?partnumber=NF488-15)
      * a [GFP Emission Filter](https://www.thorlabs.com/thorproduct.cfm?partnumber=MF525-39).
@@ -183,13 +183,13 @@ The light-sheet unit can be operated in two modes:
 
 #### Mode 1: Stand-Alone Light-Sheet Source Without the Need for Additional Computer Interfacing
 
-To drive the galvanometer, a simple and affordable [function generator](https://www.amazon.com/Generator-Precision-Dual-Channel-Arbitrary-Frequency/dp/B07H8CF2WV/ref=sr_1_3?crid=BMHYRYNELBAO&keywords=function+generator+JDS6600&qid=1685005539&sprefix=function+generator+jds6600%2Caps%2C273&sr=8-3) will suffice. Set the mirror to oscillate at approximately 400Hz with a triangular or sawtooth waveform.
+To drive the galvanometer, a simple and affordable [function generator](https://www.amazon.com/Generator-Precision-Dual-Channel-Arbitrary-Frequency/dp/B07H8CF2WV/ref=sr_1_3?crid=BMHYRYNELBAO&keywords=function+generator+JDS6600&qid=1685005539&sprefix=function+generator+jds6600%2Caps%2C273&sr=8-3) is sufficient. Set the mirror to oscillate at approximately 400Hz with a triangular or sawtooth waveform.
 
-If you already use your microscope with an image acquisition software that allows for acquiring z-stacks by controlling either the motorized stage of the z-focus or the piezo objective scanner, then you can operate the light-sheet unit in two modes.
+If your image acquisition software allows the acquisition of z-stacks by controlling either the motorized stage of the z-focus or the piezo objective scanner, then you can operate the light-sheet unit in two modes.
 
 **Slow Scan Mode:**
 
-Even if you haven't installed the objective piezo scanner and the piezocrystal for moving the optical fiber, you can still perform volumetric recordings. Simply control the movement of the objective using the motorized stage of the Scientifica scope, similar to a standard epifluorescence recording. Since the light-sheet unit is attached to the same stage as the objective, it will move along with the objective, ensuring that the light-sheet always illuminates the focal plane.
+Even if you have not installed the piezo-control of the objective and optical fiber, you can still perform volumetric recordings. Simply control the movement of the objective using the motorized stage of the Scientifica scope, similar to a standard epifluorescence recording. Since the light-sheet unit is attached to the same stage as the objective, it will move along with the objective, ensuring that the light-sheet always illuminates the focal plane.
 
 
 
@@ -213,7 +213,7 @@ Calibrate the voltage with a [potentiometer???LINK??????](add link here ??????) 
 
 
 
-* To control the light-sheet volumetric scanning you can use our [custom developed control software](https://github.com/LaboJeanPerrin/Lightsheet) written in Matlab. Via a national instrument card [PCIe-6363](https://www.ni.com/fr-fr/support/model.pcie-6363.html) this software controls the objective piezo scanner, the galvomirror and the piezo that moves the fiber to scan the light-sheet through the sample. The software is open source. 
+* To control the light-sheet volumetric scanning you can use our [custom developed control software](https://github.com/LaboJeanPerrin/Lightsheet) written in Matlab. Via a national instrument card [PCIe-6363](https://www.ni.com/fr-fr/support/model.pcie-6363.html), this software simultaneously drives the objective piezo scanner, the galvomirror and the piezo that moves the fiber in order to scan the light-sheet through the sample. The software is open source. 
 
 
 [<img width="500" alt="Light-sheet_Screen1" src="Figures/Light-sheet_Screen1.png">](Figures/Light-sheet_Screen1.png)
