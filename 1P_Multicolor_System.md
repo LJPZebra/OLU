@@ -1,8 +1,8 @@
 # The Multicolor One-Photon Light Sheet Design
 
-This comprehensive guide provides detailed instructions on building the one-photon light-sheet system. Whether your ultimate goal is to construct the two-photon system or utilize the one-photon configuration, we highly recommend starting with the installation of the one-photon system. This sequential approach allows you to gain a solid foundation and a better understanding of the system's components and functionality, which will facilitate a smoother transition to the advanced two-photon configuration if desired.
+This comprehensive guide provides detailed instructions for building the one-photon light-sheet system. Whether your ultimate goal is to construct the two-photon system or utilize the one-photon configuration, we highly recommend starting with the installation of the one-photon system. This sequential approach allows you to gain a solid foundation and a better understanding of the system's components and functionality, which will facilitate a smoother transition to the advanced two-photon configuration if desired.
 
-The construction of the system can be done on two levels. In the first level, you can use the light-sheet unit as a standalone light source. This basic setup will enable you to perform one-photon imaging experiments effectively in the same manner as you would normally acquire epifluorescence images or stacks. In the second level, you have the option to computer-control the system and perform fast, high-precision volumetric scans. This advanced level of control opens up additional capabilities and enhances the versatility of the light-sheet unit for various imaging applications.
+The construction of the system can be done on two levels. At the first level, the light-sheet unit is a standalone light source. This basic configuration allows you to perform light-sheet imaging experiments in the same manner as you would normally acquire epifluorescence images or stacks. At the second level, the concerted motion of the light-sheet and imaging objective is computer-controled and allows you to perform fast, high-precision volumetric scans. This advanced level of control opens up additional capabilities and enhances the versatility of the light-sheet unit for various imaging applications.
 
 If your ultimate goal is to set up the two-photon version, you have the option to directly use optics optimized for infrared transmission in the initial one-photon installation. This strategic choice ensures compatibility and paves the way for a seamless transition to the two-photon configuration at minimal cost by avoiding the need for component replacements when upgrading to the two-photon version.
 
@@ -53,9 +53,9 @@ Click the images to open the model browser.
 
 ## Custom Parts
 
-### Pieces to Send for Milling
+### Parts to Send for Milling
     
-These pieces are  milled out of an aluminum block. If you do not have a mechanical workshop in-house then you can send the *.step files that we provide below to an [online milling service](https://xometry.eu/fr/usinage-cnc-fraisage-cnc/). For parts with threaded holes, join the mechanical drawings to the .step file.
+These parts are  milled from an aluminum block. If you do not have a mechanical workshop in-house then you can send the *.step files that we provide below to an [online milling service](https://xometry.eu/fr/usinage-cnc-fraisage-cnc/). For parts with threaded holes, join the mechanical drawings to the .step file.
 * The light-sheet unit central cube: [View the 3D model](CAD_models/Cube.stl) or [download the CAD model as a step file](CAD_models/Cube.step) and [mechanical drawings](CAD_models/CubeMechanicalDrawings.pdf).
 * The fiber holder  : [View the 3D model](CAD_models/FiberHolder.stl) or [download the CAD model as a step file](CAD_models/FiberHolder.step) and [mechanical drawings](CAD_models/FiberHolderMechanicalDrawings.pdf).
 * Adaptor plate 1 : [View the 3D model](CAD_models/AdaptorPlate1.stl) or  [download the CAD model as a step file](CAD_models/AdaptorPlate1.step) and [mechanical drawings](CAD_models/AdaptorPlate1MechanicalDrawings.pdf).
@@ -67,11 +67,11 @@ These pieces are  milled out of an aluminum block. If you do not have a mechanic
     
 
 
-### Pieces for 3D Printing
-* [Sample chamber](CAD_models/SampleChamber.stl). You can download the [CAD model as step file](CAD_models/SampleChamber.step) here to send it to your 3D printing service.
+### Parts for 3D Printing
+* [Sample chamber](CAD_models/SampleChamber.stl). You can download the [CAD model as step file](CAD_models/SampleChamber.step) to send it to your 3D printing service.
 
 ## Screw kit
-You will neet Hex Head Socket Cap metric screws:
+You will need Hex Head Socket Cap metric screws:
 
 | type          | length (cm)   | amount |
 | ------------- | ------------- | ------ |
@@ -97,9 +97,9 @@ E.g. this [Srew kit](https://www.amazon.fr/huruirui-hexagonales-int%C3%A9rieures
 
 
 
-(1) Purchase [continous lasers](https://www.oxxius.com/category-products/continuous-and-modulated-lasers/) of wavelength adapted for your experiments.  We use a blue 488nm and a green 561nm laser. Choose the option with [prealigned fiber coupler](https://github.com/vbormuth/OLU/files/9057780/WEBSITE-Datasheet-LBX-488.pdf).
+(1) Purchase [continous lasers](https://www.oxxius.com/category-products/continuous-and-modulated-lasers/) whose wavelength are adapted to your favorite fluorescence probes.  We use a blue 488nm and a green 561nm laser. Choose the option with [prealigned fiber coupler](https://github.com/vbormuth/OLU/files/9057780/WEBSITE-Datasheet-LBX-488.pdf).
 
-(2) To combine the two lasers into a single-mode fiber attach the two inputs of the [fiber optic coupler](https://www.thorlabs.com/thorproduct.cfm?partnumber=TW470R5F2) to the FC/PC connector of each laser. The blue and green lasers will be combined and are available at both output fiber ports.
+(2) To combine the two lasers into a single-mode fiber, attach the two inputs of the [fiber optic coupler](https://www.thorlabs.com/thorproduct.cfm?partnumber=TW470R5F2) to the FC/PC connector of each laser. The blue and green lasers will be combined and available at both output fiber ports.
 
 (3-5) Assemble the Fiber support tube: Take the [FC/PC connector](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM05FC#ad-image-0) which will later hold the optical fiber that delivers the laser. Screw the connector into the [lens tube](https://www.thorlabs.com/thorproduct.cfm?partnumber=SM05M10) (black) but not too far so that you can easily attach and detach the optical fiber. Fix the connector with the two retaining rings.
 
@@ -120,34 +120,34 @@ This bracket will then be replaced with a custom bracket that has holes to allow
 
 
 
-(1-2) Attach the top plate (original piece unscrewed from Scientifica Scope) to the [Custom Bracket](CAD_models/CustomBracket.stl) (custom piece) by using the original screws.
+(1-2) Attach the top plate (previously unscrewed from the Scientifica Scope) to the [Custom Bracket](CAD_models/CustomBracket.stl) (custom piece) using the original screws.
 
-(3) Attach [Adapter Plate 1](CAD_models/AdaptorPlate1.stl) (custom piece) with four M4x30 screws.
+(3) Attach the [Adapter Plate 1](CAD_models/AdaptorPlate1.stl) (custom part) with four M4x30 screws.
 
-(4) Attach the assembly to the top Z-stage of the microscope with two original screws.
+(4) Attach the assembly to the topmost Z-stage of the microscope with two original screws.
 
 #### Assemble the light-sheet unit
 
 [<img width="700" alt="DetectionPath" src="Figures/Light-sheet-unit_assembly.png">](Figures/Light-sheet-unit_assembly.png)
 
 
-(1) Start from [Adapter Plate 2](CAD_models/AdaptorPlate2.stl) (blue, custom piece).
+(1) Start from the [Adapter Plate 2](CAD_models/AdaptorPlate2.stl) (blue, custom piece).
 
-(2) Attach the Horizontal Manual Stage to Adapter Plate 2 with four M3 screws included with the stage.
+(2) Attach the Horizontal Manual Stage to the Adapter Plate 2 with the four M3 screws included with the stage.
 
-(3) Attach the Vertical Manual Stage to the Horizontal Manual Stage with four M3 screws included with the stage.
+(3) Attach the Vertical Manual Stage to the Horizontal Manual Stage with the four M3 screws included with the stage.
 
 (4) Attach the [Light-Sheet Unit Central Cube](CAD_models/Cube.stl) (green, custom piece) to the Vertical Manual stage with four M3x10 screws.
 
-(5) Insert the [Galvanometer Mirror](https://www.thorlabs.com/thorproduct.cfm?partnumber=GVS011) (light blue), align it at 45° relative to the sides of the Light-sheet Cube, and cinch it in place with two M5x30 screws.
+(5) Insert the [Galvanometer Mirror](https://www.thorlabs.com/thorproduct.cfm?partnumber=GVS011) (light blue), align it at 45° relative to the sides of the Light-sheet Cube, and fasten it in place with two M5x30 screws.
 
-(6) Attach the [Piezocrystal (PZ 400 SG OEM)](https://www.piezosystem.com/product/pz-400-oem/) or if you want to start with a simple low-cost version that uses only the slow scanning mode then install instead the [Piezo Dummy](CAD_models/PiezoDummy.stl) (custom piece) to the Light-sheet Cube with two M4x20 screws.
+(6) Attach the [Piezocrystal (PZ 400 SG OEM)](https://www.piezosystem.com/product/pz-400-oem/). If you want to start with a simple low-cost version that uses only the slow scanning mode then install instead the [Piezo Dummy](CAD_models/PiezoDummy.stl) (custom piece) to the Light-sheet Cube with two M4x20 screws.
 
 (7) Attach the [Fiber Holder](CAD_models/FiberHolder.stl) (red, custom piece) to the Piezo with two M4x25 screws.
 
-(8) Insert the Fiber support tube (see points 3-5) into the Fiber Holder and cinch it with one M4x20 screw and attach one of the output fibers of the fiber optic coupler to the connector (2).
+(8) Insert the Fiber support tube (see points 3-5) into the Fiber Holder, fasten it with one M4x20 screw and attach one of the output fibers of the fiber optic coupler to the connector (2).
 
-(9) Screw in the 5x [Zeiss Plan-Neofluar Objectives (5x/0.16 M27)](https://www.micro-shop.zeiss.com/en/us/shop/objectives/420330-9901-000/Objective-EC-Plan-Neofluar-5x-0.16-M27). If your ultimate goal is to build the two-photon version then install in this step directly the  [Olympus LMPLN5xIR/0.1](https://www.olympus-lifescience.com/modules/pdfgen/pdfmaker/en_pdf-export_objectives.7efd53eb1e8b4d509bc1bbe2184a7e28/LMPLN5XIR.pdf?rev=1615725199) objectives that are optimized for near-infrared transmission.
+(9) Screw in the 5X [Zeiss Plan-Neofluar Objectives (5x/0.16 M27)](https://www.micro-shop.zeiss.com/en/us/shop/objectives/420330-9901-000/Objective-EC-Plan-Neofluar-5x-0.16-M27). If your ultimate goal is to build the two-photon version then you should instead the  [Olympus LMPLN5xIR/0.1](https://www.olympus-lifescience.com/modules/pdfgen/pdfmaker/en_pdf-export_objectives.7efd53eb1e8b4d509bc1bbe2184a7e28/LMPLN5XIR.pdf?rev=1615725199) objectives that are optimized for near-infrared transmission.
 
 (10) Fix the Light-sheet Unit to the Scientifica Scope by attaching adapter Plate 2 to Adapter Plate 1 with three M6x20 screws.
 
