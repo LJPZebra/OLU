@@ -3,7 +3,8 @@
 ## 1P-Multicolor unit
 
 - [ ] change scale bar of brain stack
-- [ ] add link to poteniometer and show an image of the cabeling 
+- [ ] add link to poteniometer and show an image of the cabeling
+- [ ] you should instead USE the 5x olympus objective
 
 
 ## 2P-upgrade
