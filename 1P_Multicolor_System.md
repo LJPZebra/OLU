@@ -238,7 +238,7 @@ https://github.com/vbormuth/OLU/assets/38736127/12681a4f-9d83-438b-acc0-6e80867b
 
 *  Take the 3D printed [sample chamber](CAD_models/SampleChamber.stl) and use [cyanoacrylate](https://uk.rs-online.com/web/p/glues/0473455) or [UV-curing adhesive](https://www.thorlabs.com/thorproduct.cfm?partnumber=NOA68) to glue a glass window on each side as well as an [O-ring](https://www.oring.fr/joint-torique/22-1.html?search_query=&results=45) into the hole on the short side, which will allow you later to introduce and position the sample via a [capillary](https://www.alphalabs.co.uk/5-000-2050) (inner diameter 0.85mm, outer diameter 1.47mm, length 115mm) for the imaging sessions. As a glue, we use a [UV glue](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=196&pn=NOA61) but you can also use standard cyanoacrylate. [REDITE ? les refs sont déjà dans la première phrase]
 
-*  Place the sample chamber into the predefined opening of the sample chamber holder.)
+*  Place the sample chamber into the predefined opening of the sample chamber holder.
 
 
 [<img width="400" src="https://user-images.githubusercontent.com/38736127/178137631-2c89b6cf-9c1a-4c7f-b7f9-2d27c1fac82d.png">](https://user-images.githubusercontent.com/38736127/178137631-2c89b6cf-9c1a-4c7f-b7f9-2d27c1fac82d.png)
@@ -257,26 +257,26 @@ Protect the experimenter from the laser by installing a [beam blocker](https://w
 * The use of fluorescein requires cleaning with ethanol or isopropanol after alignment to remove residual fluorophores that may cause imaging noise. 
 * It is also possible to use an agarose cylinder and to observe the scattered light from the laser, to do this remove the filter between the detection objective and the camera and follow the same procedure.
 * Align the laser waist under the detection objective by moving the entire light-sheet forming unit with the x-translation stage
-* Switch on the camera and align the laser into the focal plane of the detection objective by moving the light-sheet forming unit with the z-translation stage until you see a sharp image of the laser beam with the camera. If you do not see the laser beam,  move the galvanometer mirror to bring it into the field of view.
+* Switch on the camera and align the laser into the focal plane of the detection objective by moving the light-sheet forming unit with the z-translation stage until you see a sharp image of the laser beam with the camera. If you do not see the laser beam,  move the galvanometer mirror to bring it within the field of view.
 
 https://github.com/vbormuth/OLU/assets/38736127/597ea417-c125-4dbb-acaa-2d7d1b02d45f
 
-* Fine align the laser waist into the center of the field of view using the x-translation stage
+* Precisely align the laser waist in the center of the field of view using the x-translation stage
 
 https://github.com/vbormuth/OLU/assets/38736127/a1ec581d-8022-41e5-bffa-b81bc8f1b462
 
 * Remove the fluorescein solution from the sample chamber and clean it. 
-* Now generate the light sheet by driving the galvanometer with a saw tooth pattern either with a function generator or via the control software (see above). Adjust the amplitude of the movement such that the light sheet covers exactly the field of view.
+* Now generate the light sheet by driving the galvanometer with a saw tooth pattern either with a function generator or via the control software (see above). Adjust the amplitude of the movement such that the light sheet covers the field of view.
 * Now you can place your preferred sample into the light sheet and image it. Fine-tune the z-position and x-position of the light-sheet until you get the sharpest image possible.
 
 
 
 
-* Now you can make 3D scanners of your sample by manually moving the objective focus of the microscope or by recording 3D time-lapse movies using your microscope control software. 
+* you can now produce 3D scans of your sample by manually moving the objective focus of the microscope or by recording 3D time-lapse movies using your microscope control software. 
 * Troubleshooting:
-    * Your image is not sharp homogeneously across the field of view: The light sheet might be tilted with respect to the focal plane of the detection objective.  In this case, you can correct this by tilting slightly the entire unit. For this, unscrew slightly screws that fix the unit via the adapter plate to the microscope translation stage. Insert a thin paper partly between the adapter plate and the stage such that the unit gets tilted in the correct direction once you refix the screws. Repeat this procedure until your image is in focus across the entire field of view.
+    if your image is not uniformly sharp throughout the field of view, the light sheet might be tilted with respect to the focal plane of the detection objective.  In this case, you can correct this by tilting slightly the entire unit. For this, untighten the screws that connect the unit via the adapter plate to the microscope translation stage. Use a sheet of paper as a spacer between the adapter plate and the stage to tilt the unit in the correct direction once the screws are tighten. Repeat this procedure until your image is in focus across the entire field of view.
 
-## Photos of the System in Combination with an Electrophysiology System:
+## Pictures of the System in Combination with an Electrophysiology System:
 
 <img width="200" alt="BraintegrationSetup" src="https://user-images.githubusercontent.com/38736127/191005334-d6b4648a-3c93-444d-b89d-bb6020adbc93.png">
 
