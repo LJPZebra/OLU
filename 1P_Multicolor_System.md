@@ -164,8 +164,6 @@ Next, carefully center the beam in the opening where Obj 2 will be located by ad
 
 [<img width="400" alt="DetectionPath" src="Figures/DetectionPath.png">](Figures/DetectionPath.png)
 
-[in the figure: peizo->piezo]
-
 To configure the detection path, use the standard ports and configuration of the Scientifica scope.
 
 * Use a detection objective that is best adapted to your application. If you want to install the fast z-scan mode then attach the objective via an [objective scanning piezo system](https://www.pifrance.fr/fr/produits/platines-de-nanopositionnement-a-structure-deformable/support-objectif-pifoc-et-scanners-pinano-pour-la-microscopie/p-725-pifoc-objective-scanner-with-long-travel-range-200375/). 
