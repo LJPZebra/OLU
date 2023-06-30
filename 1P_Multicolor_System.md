@@ -154,11 +154,9 @@ This bracket will then be replaced with a custom bracket that has holes to allow
 
 #### Laser Alignement
 
-[what happened to 11-19 ? Should we show the obj 1 and obj 2 ?]
+Before turning on the laser, prepare the room for laser safety (remove any jewelry, make sure no one is in the path of the laser, and that the laser does not hit any reflective surfaces). Unscrew the focusing objective (Obj 2) of the light-sheet unit. Switch on the galvanometric mirror and then switch on the laser at low power. By moving the fiber support tube (black) relative to the fiber holder (red), adjust the distance of the fiber outlet to the collimation objective (Obj 1) until the beam exiting the cube is well collimated.  
 
-(20) Before turning on the laser, prepare the room for laser safety (remove any jewelry, make sure no one is in the path of the laser, and that the laser does not hit any reflective surfaces). Unscrew the focusing objective (Obj 2) of the light-sheet unit. Switch on the galvanometric mirror and then switch on the laser at low power. By moving the fiber support tube (black) relative to the fiber holder (red), adjust the distance of the fiber outlet to the collimation lens (objective ?) until the beam exiting the cube is well collimated.  
-
-(21) Next, carefully center the beam in the opening where Obj 2 will be located by adjusting the orientation of the galvanometer mirror. Once this is done, secure the mirror position with the fixing screw.
+Next, carefully center the beam in the opening where Obj 2 will be located by adjusting the orientation of the galvanometer mirror. Once this is done, secure the mirror position with the fixing screw. Secure Obj 2 in place again by screwing it in. 
 
 
 
