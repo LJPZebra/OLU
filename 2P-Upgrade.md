@@ -9,7 +9,6 @@ This comprehensive guide provides detailed instructions for upgrading the system
 - [Building Instructions](#building-instructions)
   * [Multiphoton Light-Sheet Unit](#multiphoton-light-sheet-unit)
   * [A Comprehensive Guide for Achieving Efficient Fiber Coupling of the Femtosecond Two-Photon Laser](#a-comprehensive-guide-for-achieving-efficient-fiber-coupling-of-the-femtosecond-two-photon-laser)
-    + [Historical Background](#historical-background)
     + [Introducing Our Developed Negative Curvature Hollow Core Crystal Fiber](#introducing-our-developed-negative-curvature-hollow-core-crystal-fiber)
     + [The Optical Path for Laser-to-Fiber Coupling](#the-optical-path-for-laser-to-fiber-coupling)
     + [Tips and Techniques for Laser Coupling into the Broadband Hollowcore Crystal Fiber](#tips-and-techniques-for-laser-coupling-into-the-broadband-hollowcore-crystal-fiber)
@@ -51,7 +50,7 @@ For both the collimation and illumination objectives (step (9) of the building i
 
 ## A Comprehensive Guide for Achieving Efficient Fiber Coupling of the Femtosecond Two-Photon Laser
 
-### Historical Background
+<!--- ### Historical Background
 
 [IS THIS SECTION useful ?]
 
@@ -60,7 +59,7 @@ Efficient, dispersion-free, and broadband fiber coupling of a two-photon laser s
 The development of single-mode photonic bandgap fibers, in which the light travels through an air-filled hollow core, dramatically reduces dispersion and nonlinear effects and achieves transmission ratios greater than 50% ([Wang et al., 2013](https://www.cambridge.org/core/journals/high-power-laser-science-and-engineering/article/hollowcore-photonic-crystal-fibre-for-high-power-laser-beam-delivery/8D2851845D043DA937A93F431D9F9D9C), [Cregan et al., 1999](https://www.science.org/doi/10.1126/science.285.5433.1537)). These fibers have been successfully used for pulsed laser delivery in the context of multiphoton imaging ([Tai et al., 2004](https://opg.optica.org/abstract.cfm?URI=oe-12-25-6122), [Flusberg et al., 2005](https://opg.optica.org/abstract.cfm?URI=ol-30-17-2272), [Engelbrecht et al., 2008](https://opg.optica.org/abstract.cfm?URI=oe-16-8-5556), [Piyawattanametha et al., 2009](https://opg.optica.org/abstract.cfm?&uri=ol-34-15-2309), [Choi et al., 2014](https://www.nature.com/articles/srep06626)). However, as the light guiding mechanism is based on the creation of an optical bandgap, these fibers only allow single-wavelength transmission and are currently only commercially available for laser wavelengths of 800 nm or 1064 nm (NTK photonics). However, with the rapidly growing collections of genetically encoded actuators and sensors, broadband fiber delivery of the near-infrared spectrum and optimally extended to visible wavelengths, is a prerequisite to taking full advantage of 2P-LSFM in all possible applications while enabling laser source sharing between different setups.
 
 Broadband fiber delivery spanning the visible and the near-infrared spectrum is possible with negative curvature hollow-core photonic crystal fibers (NCF), which do not rely on an optical bandgap to confine the laser light to the fiber's core ([Yu et al., 2016](https://opg.optica.org/abstract.cfm?URI=oe-24-12-12969), [Pryamikov et al., 2011](https://opg.optica.org/abstract.cfm?URI=oe-19-2-1441), [Yu et al., 2012](https://doi.org/10.1364/OE.20.011153)). The simplest cross-sectional geometry of an NCF is based on a ring of touching or non-touching tubes surrounding the core ([Pryamikov et al., 2011](https://opg.optica.org/abstract.cfm?URI=oe-19-2-1441)). Core diameter, tube diameter, inter-tube distance, and tube wall thickness together control the spectral transmission bands, the attenuation level, the quality of higher-order mode suppression, and the sensitivity of the optical properties to bending. Attenuation levels < 0.07 dB/km and bending loss < 0.03 dB/m are reported ([Debord et al., 2017](https://doi.org/10.1364/OPTICA.4.000209)). Due to the minimal lattice structure and the reduced light interaction with the cladding structure, these fibers have very high damage thresholds and can even be used for very high laser energy delivery of up to 100 $\mu\textrm{J}$ peak power when the core is vacuum pumped to reduce nonlinear effects at these high powers ([Li et al., 2019](https://doi.org/10.1016/j.ijleo.2019.163093)). Negative curvature fibers are on the verge of being used in several applications such as laser micromachining and laser surgery. A recent study demonstrated the successful use of a custom HC-NCF with a transmission band of 600 – 830 nm at < 0.3 dB/m attenuation in the design of a handheld two-photon microscopy scanner for human skin autofluorescence ([Sherlock et al., 2016](https://doi.org/10.1002/jbio.201500290)).
-
+--->
 ### Introducing Our Developed Negative Curvature Hollow Core Crystal Fiber
 
 Together with [GLO Photonics](https://www.glophotonics.fr/), we selected an HC-NCF fiber whose optical characteristics are ideally suited for laser delivery in the context of combined one- and two-photon light-sheet microscopy. 
