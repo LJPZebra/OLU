@@ -5,14 +5,15 @@
 
 |                     | PART                                         | SOURCE               | REFERENCE                           | Amount    |                  |
 |---------------------|----------------------------------------------|----------------------|-------------------------------------|-----------|------------------|
-|                     |                                              |                      |                                     | **Basic** | **Fast Scan** |
+|                     |                                              |                      |                                     | **Slow Scan** | **Fast Scan** |
 | **Laser & Fiber**   | Continuous laser at 488 nm with fiber coupler| Oxxius               | LBX-488-50-CSB-PP                   | 1         | 1         |
 |                     | Optical fiber (single mode)                  | Thorlabs             | P1-460-FC-2                         | 1         | 1         |
 |                     | Lens tube                                    | Thorlabs             | SM05M10                             | 1         | 1         |
-|                     | Optional: Second Continuous laser at other wavelength  | Oxxius     |                                     |           |           |
-|                     | Optional: 50:50 Fiber Optic Couplers                   | Thorlabs   | TW470R5F2                           | 1         | 1         |
+|                     | **Optional**: Second Continuous laser at other wavelength  | Oxxius     |                                     | 1         | 1         |
+|                     | **Optional**: 50:50 Fiber Optic Couplers                   | Thorlabs   | TW470R5F2                           | 1         | 1         |
+| **Light-Sheet Unit** | Collimation & illumination objectives       | Zeiss                | EC Plan-Neofluar 5x/0.16 M27 (FWD=18.5mm) | 2     | 2         |
 |                     | FC/PC Fiber Adapter Plate with External SM05 | Thorlabs             | SM05FC                              | 1         | 1         |
-| **Light-sheet Unit**| z-piezo nanopositioner + Amplificator        | Piezo Jena           | "PZ 400 OEM SG + E-440-111          |           | 1         |
+|                     | z-piezo nanopositioner + Amplificator        | Piezo Jena           | "PZ 400 OEM SG + E-440-111          |           | 1         |
 |                     | Galvanometer mirror                          | Thorlabs             | GVS011                              | 1         | 1         |
 |                     | Power supply for Galvo mirro                 | elc                  | ALR3206D                            | 1         | 1         |
 |                     | Function generator                           | Agilent              | EDU33211A                           | 1         | 1         |
@@ -66,4 +67,4 @@
 | **Detection Path**      | Multiphoton short-pass emission filter                        | Semrock         | FF01-750/SP-25               | 1      |
 
 
-||||||
+
