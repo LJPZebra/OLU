@@ -184,8 +184,8 @@ If your image acquisition software allows the acquisition of z-stacks by control
 Even if you have not installed the piezo-control of the objective and optical fiber, you can still perform volumetric recordings. Simply control the movement of the objective using the motorized stage of the Scientifica scope, similar to a standard epifluorescence recording. Since the light-sheet unit is attached to the same stage as the objective, it will move along with the objective, ensuring that the light-sheet always illuminates the focal plane.
 
 
+[<img width="700" alt="DetectionPath" src="/Videos/SlowScan.gif">](/Videos/SlowScan.gif)
 
-https://github.com/vbormuth/OLU/assets/38736127/971596a3-8630-45aa-8d89-9b84befc338a
 
 
 
