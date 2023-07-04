@@ -1,4 +1,6 @@
 
+[<img width="700" alt="DetectionPath" src="/Videos/TankAnim.gif">](/Videos/TankAnim.gif)
+
 
 [<img width="400" alt="AlignmentTutorial" src="https://user-images.githubusercontent.com/38736127/191006948-0e3d6564-67da-4839-9c7a-1fb6fe2ec224.png">](https://raw.githubusercontent.com/vbormuth/OLU/f24412be7b2d0c91e850ace860d14cba895cc621/Videos/TankAnim.mp4)
 
