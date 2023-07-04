@@ -6,7 +6,7 @@ The construction of the system can be done on two levels. At the first level, th
 
 If your ultimate goal is to set up the two-photon version, you have the option to directly use optics optimized for infrared transmission in the initial one-photon installation. This strategic choice ensures compatibility and paves the way for a seamless transition to the two-photon configuration at minimal cost by avoiding the need for component replacements when upgrading to the two-photon version.
 
-[<img width="300" alt="FullSystem_3D-Model" src="Figures/FullSystem_3D-Model.png">](https://a360.co/41PexBK)
+[<img width="600" alt="FullSystem_3D-Model" src="Figures/FullSystem_3D-Model.png">](https://a360.co/41PexBK)
 
 Click the images to open the model browser.
 
@@ -184,7 +184,7 @@ If your image acquisition software allows the acquisition of z-stacks by control
 Even if you have not installed the piezo-control of the objective and optical fiber, you can still perform volumetric recordings. Simply control the movement of the objective using the motorized stage of the Scientifica scope, similar to a standard epifluorescence recording. Since the light-sheet unit is attached to the same stage as the objective, it will move along with the objective, ensuring that the light-sheet always illuminates the focal plane.
 
 
-[<img width="700" alt="DetectionPath" src="/Videos/SlowScan.gif">](/Videos/SlowScan.gif)
+[<img width="300" alt="DetectionPath" src="/Videos/SlowScan.gif">](/Videos/SlowScan.gif)
 
 
 
