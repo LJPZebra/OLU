@@ -109,6 +109,10 @@ You will need to unscrew the bracket that holds the objective support plate from
 
 [<img width="300" alt="DetectionPath" src="/Videos/BracketRemoval.gif">](/Videos/BracketRemoval.gif)
 
+[<img width="300" alt="DetectionPath" src="/Videos/BracketRemoval.gif">](https://user-images.githubusercontent.com/38736127/186108000-6d6c7374-28b0-485f-a63a-da5b19ce9631.mp4)
+
+
+
 This bracket will then be replaced with a custom bracket that has holes to allow the light sheet unit to be attached to the Scientifica system in the next steps. 
 
 
