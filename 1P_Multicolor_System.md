@@ -251,7 +251,8 @@ Protect the experimenter from the laser by installing a [beam blocker](https://w
 * Align the laser waist under the detection objective by moving the entire light-sheet forming unit with the x-translation stage
 * Switch on the camera and align the laser into the focal plane of the detection objective by moving the light-sheet forming unit with the z-translation stage until you see a sharp image of the laser beam with the camera. If you do not see the laser beam,  move the galvanometer mirror to bring it within the field of view.
 
-https://github.com/vbormuth/OLU/assets/38736127/597ea417-c125-4dbb-acaa-2d7d1b02d45f
+
+[<img width="300" alt="DetectionPath" src="/Videos/WaistAdjustment_VerticalPlane.gif">](/Videos/WaistAdjustment_VerticalPlane.gif)
 
 * Precisely align the laser waist in the center of the field of view using the x-translation stage
 
