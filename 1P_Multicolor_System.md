@@ -1,14 +1,3 @@
-
-[<img width="700" alt="DetectionPath" src="/Videos/TankAnim.gif">](/Videos/TankAnim.gif)
-
-
-[<img width="400" alt="AlignmentTutorial" src="https://user-images.githubusercontent.com/38736127/191006948-0e3d6564-67da-4839-9c7a-1fb6fe2ec224.png">](https://raw.githubusercontent.com/vbormuth/OLU/f24412be7b2d0c91e850ace860d14cba895cc621/Videos/TankAnim.mp4)
-
-![TankAnim](https://github.com/vbormuth/OLU/assets/38736127/edeba7e7-d4e0-429d-a7db-d010f70d6104)
-
-
-![gittest](https://github.com/vbormuth/OLU/assets/38736127/1aaea2e1-1410-413b-8060-542662f6f326)
-
 # The Multicolor One-Photon Light Sheet Design
 
 This comprehensive guide provides detailed instructions for building the one-photon light-sheet system. Whether your ultimate goal is to construct the two-photon system or utilize the one-photon configuration, we highly recommend starting with the installation of the one-photon system. This sequential approach allows you to gain a solid foundation and a better understanding of the system's components and functionality, which will facilitate a smoother transition to the advanced two-photon configuration if desired.
@@ -242,6 +231,8 @@ Calibrate the voltage with a [potentiometer???LINK??????](add link here ??????) 
 * 3D print the [sample chamber](CAD_models/SampleChamber.stl). 
 
 https://github.com/vbormuth/OLU/assets/38736127/12681a4f-9d83-438b-acc0-6e80867b9052
+
+[<img width="700" alt="DetectionPath" src="/Videos/TankAnim.gif">](/Videos/TankAnim.gif)
 
 *  Take the 3D printed [sample chamber](CAD_models/SampleChamber.stl) and use [cyanoacrylate](https://uk.rs-online.com/web/p/glues/0473455) or [UV-curing adhesive](https://www.thorlabs.com/thorproduct.cfm?partnumber=NOA68) to glue a glass window on each side as well as an [O-ring](https://www.oring.fr/joint-torique/22-1.html?search_query=&results=45) into the hole on the short side, which will allow you later to introduce and position the sample via a [capillary](https://www.alphalabs.co.uk/5-000-2050) (inner diameter 0.85mm, outer diameter 1.47mm, length 115mm) for the imaging sessions. 
 
