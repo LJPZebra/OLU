@@ -195,8 +195,6 @@ Even if you have not installed the piezo-control of the objective and optical fi
 
 If you have installed a piezoactuator for both the imaging objective and the fiber, you can achieve high precision and fast volumetric recordings. Synchronizing the movement of the fiber with that of the objective is crucial to ensure that the light sheet remains in the focal plane of the objective throughout the volumetric acquisition.
 
-https://github.com/vbormuth/OLU/assets/38736127/8b75b67d-e0e4-44ea-af6d-0a4d4e075307
-
 [<img width="300" alt="DetectionPath" src="/Videos/FastScan.gif">](/Videos/FastScan.gif)
 
 
