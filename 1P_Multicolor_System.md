@@ -107,9 +107,7 @@ E.g. this [Srew kit](https://www.amazon.fr/huruirui-hexagonales-int%C3%A9rieures
 
 You will need to unscrew the bracket that holds the objective support plate from the original Scientifica setup.
 
-
-
-https://github.com/vbormuth/OLU/assets/38736127/3badc957-37bb-4c94-9520-510adb2ce2c6
+[<img width="700" alt="DetectionPath" src="/Videos/BracketRemoval.gif">](/Videos/BracketRemoval.gif)
 
 [<img width="400" alt="AlignmentTutorial" src="https://user-images.githubusercontent.com/38736127/191006948-0e3d6564-67da-4839-9c7a-1fb6fe2ec224.png">](https://github.com/vbormuth/OLU/assets/38736127/3badc957-37bb-4c94-9520-510adb2ce2c6)
 
