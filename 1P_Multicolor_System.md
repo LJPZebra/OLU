@@ -1,3 +1,5 @@
+[<img width="400" alt="AlignmentTutorial" src="https://user-images.githubusercontent.com/38736127/191006948-0e3d6564-67da-4839-9c7a-1fb6fe2ec224.png">](https://github.com/vbormuth/OLU/blob/main/Videos/TankAnim.mp4)
+
 # The Multicolor One-Photon Light Sheet Design
 
 This comprehensive guide provides detailed instructions for building the one-photon light-sheet system. Whether your ultimate goal is to construct the two-photon system or utilize the one-photon configuration, we highly recommend starting with the installation of the one-photon system. This sequential approach allows you to gain a solid foundation and a better understanding of the system's components and functionality, which will facilitate a smoother transition to the advanced two-photon configuration if desired.
