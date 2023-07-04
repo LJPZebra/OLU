@@ -107,7 +107,7 @@ E.g. this [Srew kit](https://www.amazon.fr/huruirui-hexagonales-int%C3%A9rieures
 
 You will need to unscrew the bracket that holds the objective support plate from the original Scientifica setup.
 
-[<img width="700" alt="DetectionPath" src="/Videos/BracketRemoval.gif">](/Videos/BracketRemoval.gif)
+[<img width="300" alt="DetectionPath" src="/Videos/BracketRemoval.gif">](/Videos/BracketRemoval.gif)
 
 This bracket will then be replaced with a custom bracket that has holes to allow the light sheet unit to be attached to the Scientifica system in the next steps. 
 
@@ -226,7 +226,7 @@ Calibrate the voltage with a [potentiometer???LINK??????](add link here ??????) 
 * Install the [sample chamber holder](CAD_models/SampleChamberHolder.stl) (custom part). 
 * 3D print the [sample chamber](CAD_models/SampleChamber.stl). 
 
-[<img width="700" alt="DetectionPath" src="/Videos/TankAnim.gif">](/Videos/TankAnim.gif)
+[<img width="300" alt="DetectionPath" src="/Videos/TankAnim.gif">](/Videos/TankAnim.gif)
 
 *  Take the 3D printed [sample chamber](CAD_models/SampleChamber.stl) and use [cyanoacrylate](https://uk.rs-online.com/web/p/glues/0473455) or [UV-curing adhesive](https://www.thorlabs.com/thorproduct.cfm?partnumber=NOA68) to glue a glass window on each side as well as an [O-ring](https://www.oring.fr/joint-torique/22-1.html?search_query=&results=45) into the hole on the short side, which will allow you later to introduce and position the sample via a [capillary](https://www.alphalabs.co.uk/5-000-2050) (inner diameter 0.85mm, outer diameter 1.47mm, length 115mm) for the imaging sessions. 
 
