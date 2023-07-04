@@ -255,7 +255,10 @@ https://github.com/vbormuth/OLU/assets/38736127/597ea417-c125-4dbb-acaa-2d7d1b02
 
 * Precisely align the laser waist in the center of the field of view using the x-translation stage
 
-https://github.com/vbormuth/OLU/assets/38736127/a1ec581d-8022-41e5-bffa-b81bc8f1b462
+
+[<img width="300" alt="DetectionPath" src="/Videos/WaistAdjustment_HorizontalPlane.gif">](/Videos/WaistAdjustment_HorizontalPlane.gif)
+
+
 
 * Remove the fluorescein solution from the sample chamber and clean it. 
 * Now generate the light sheet by driving the galvanometer with a saw tooth pattern either with a function generator or via the control software (see above). Adjust the amplitude of the movement such that the light sheet covers the field of view.
