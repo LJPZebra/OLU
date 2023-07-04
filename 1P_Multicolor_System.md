@@ -197,6 +197,8 @@ If you have installed a piezoactuator for both the imaging objective and the fib
 
 https://github.com/vbormuth/OLU/assets/38736127/8b75b67d-e0e4-44ea-af6d-0a4d4e075307
 
+[<img width="300" alt="DetectionPath" src="/Videos/FastScan.gif">](/Videos/FastScan.gif)
+
 
 <!--- To achieve this synchronization, utilize your microscope control software to drive the objective scanner, and control the piezocrystal responsible for moving the fiber using the monitor signal from the controller of the focus scanner.
 Calibrate the voltage with a [potentiometer???LINK??????](add link here ??????) --->
