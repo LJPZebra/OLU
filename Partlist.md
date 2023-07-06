@@ -11,16 +11,16 @@
 |                     | **Optional**: Second Continuous laser at other wavelength  | Oxxius     |                                     | 1         | 1         |
 |                     | **Optional**: 50:50 Fiber Optic Couplers                   | Thorlabs   | TW470R5F2                           | 1         | 1         |
 | **Light-Sheet Unit** | Collimation & illumination objectives       | Zeiss                | EC Plan-Neofluar 5x/0.16 M27 (FWD=18.5mm) | 2     | 2         |
+|                     | Lens tube                                    | Thorlabs             | SM05M10                             | 1         | 1         |
 |                     | FC/PC Fiber Adapter Plate with External SM05 | Thorlabs             | SM05FC                              | 1         | 1         |
 |                     | z-piezo nanopositioner + Amplificator        | Piezo Jena           | "PZ 400 OEM SG + E-440-111          |           | 1         |
 |                     | Galvanometer mirror                          | Thorlabs             | GVS011                              | 1         | 1         |
-|                     | Power supply for Galvo mirro                 | elc                  | ALR3206D                            | 1         | 1         |
+|                     | Power supply for Galvo mirro                 | Thorlabs             | GPS011-EC                           | 1         | 1         |
 |                     | Function generator                           | Agilent              | EDU33211A                           | 1         | 1         |
 |                     | Acquisition board                            | National Instruments | NI PCIe-6363                        |           | 1         |
 | **Microscope**      | Microscope body                              | Scientifica          | Scientifica SliceScope Pro 6000     | 1         | 1         |
 | **Detection Path**  | Detection objective (NA 0.95, 25x)           | Leica                | HC FLUOTAR W VISIR                  | 1         | 1         |
 |                     | Objective piezo drive +  Driver              | Piezo Jena           | Mipos 500 SG,Triptics + NV 40/1 CLE | 1         | 1         |
-|                     | Tube lens (f = 150 mm)                       | Thorlabs             | AC254-150-A                         | 1         | 1         |
 |                     | GFP filter (525 nm)                          | Thorlabs             | MF525-39                            | 1         | 1         |
 |                     | Notch filter (488 nm)                        | Thorlabs             | NF488-15                            | 1         | 1         |
 |                     | Camera (sCMOS)                               | Hamamatsu            | C13440 V3                           | 1         | 1         |
@@ -61,8 +61,8 @@
 |                         | Fiber Inspection Scope                                        | Thorlabs        | FS201                        | 1      |
 |                         | Cable Continuity Tester                                       | Fluke Networks  | VisiFault                    | 1      |
 |                         | Laser safety glasses                                          | Thorlabs        | LG3                          | 1      |
-| **Light-Sheet Unit**    | Collimation objective (NA 0.1, 5x)                            | Olympus         | LMPLN5xIR/0.10               | 1      |
-|                         | Illumination objective (NA 0.1, 5x)                           | Olympus         | LMPLN5xIR/0.10               | 1      |
+| **Light-Sheet Unit**    | Collimation & Illumination objective (NA 0.1, 5x)             | Olympus         | LMPLN5xIR/0.10               | 2      |
+|                         | RMS to M27 Adapter                                            | Thorlabs        | RMSA3                        | 1      |
 | **Detection Path**      | Multiphoton short-pass emission filter                        | Semrock         | FF01-750/SP-25               | 1      |
 
 
