@@ -5,7 +5,7 @@
 <!---  https://github.com/vbormuth/OLU/assets/38736127/c6768a30-e7fc-4b7b-ad6b-9d91b2c9e9b4    --->
 
 ## Abstract
-Two-photon light sheet microscopy has a wide range of applications in biology. Here we report on a novel open-source design to transform a standard (or brightfield ?) microscope into a 1P \& 2P light-sheet microscope that offers state-of-the-art imaging resolution and speed. The use of a broadband hollow core fiber for laser delivery enables the sharing of the pulsed laser source with other setups, thus largely reducing the effective cost of this system. 
+Two-photon light sheet microscopy has a wide range of applications in biology. Here we report on a novel open-source design to transform a brightfield microscope into a 1P \& 2P light-sheet microscope that offers state-of-the-art imaging resolution and speed. The use of a broadband hollow core fiber for laser delivery enables the sharing of the pulsed laser source with other setups, thus largely reducing the effective cost of this system. 
 
 ![CompilationFigure](Figures/CompilationFigure.png)
 
