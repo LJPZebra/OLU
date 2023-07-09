@@ -1,5 +1,8 @@
 # A Versatile and Open Source One- and Multi-Photon Light-Sheet Microscope Design
 
+![Setup](Figures/Setup.png)
+
+
 <!---  # An Open Source 1P and 2P miniDSPIM with broadband fiber-based laser delivery    --->
 
 <!---  https://github.com/vbormuth/OLU/assets/38736127/c6768a30-e7fc-4b7b-ad6b-9d91b2c9e9b4    --->
