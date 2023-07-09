@@ -1,4 +1,4 @@
-# A Versatile and Open Source One- and Multi-Photon Light-Sheet Microscope Design
+# A Versatile and Open Source One- and Two-Photon Light-Sheet Microscope Design
 
 ![Setup](Figures/Setup.png)
 
