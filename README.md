@@ -25,7 +25,7 @@ If you use the hardware designs, please cite us:
 
 [A Versatile and Open Source One- and Two-Photon Light-Sheet Microscope Design]()
 
-Thomas Panier\*, Geoffrey Migault\*, Antoine Hubert, Hugo Trentesaux, Benoît Beaudou, Raphael Candelier, Georges Debrégeas, Volker Bormuth
+Thomas Panier\*, Geoffrey Migault\*, Antoine Hubert, Hugo Trentesaux, Benoît Beaudou, Georges Debrégeas, Volker Bormuth
 
 Link to the Biorxiv preprint: 
 
