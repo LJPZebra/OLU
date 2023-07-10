@@ -29,7 +29,7 @@ Thomas Panier\*, Geoffrey Migault\*, Antoine Hubert, Hugo Trentesaux, Benoît Be
 
 
 
-
+<!--- 
 ## Explorable 3D model of the full system
 
 [<img width="600" alt="FullSystem_3D-Model" src="Figures/FullSystem_3D-Model.png">](https://a360.co/41PexBK)
@@ -75,4 +75,4 @@ https://user-images.githubusercontent.com/38736127/174909302-b3901000-2807-471f-
 [CAD models](CAD_models)
 
 
-
+--->
