@@ -27,7 +27,7 @@ If you use the hardware designs, please cite us:
 
 Thomas Panier\*, Geoffrey Migault\*, Antoine Hubert, Hugo Trentesaux, Benoît Beaudou, Georges Debrégeas, Volker Bormuth
 
-Link to the Biorxiv preprint: 
+
 
 
 ## Explorable 3D model of the full system
