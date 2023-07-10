@@ -19,6 +19,17 @@ Here we provide a comprehensive online tutorial that features step-by-step build
 
 
 
+## Citation:
+
+If you use the hardware designs, please cite us:
+
+[A Versatile and Open Source One- and Two-Photon Light-Sheet Microscope Design]()
+
+Thomas Panier\*, Geoffrey Migault\*, Antoine Hubert, Hugo Trentesaux, Benoît Beaudou, Raphael Candelier, Georges Debrégeas, Volker Bormuth
+
+Link to the Biorxiv preprint: 
+
+
 ## Explorable 3D model of the full system
 
 [<img width="600" alt="FullSystem_3D-Model" src="Figures/FullSystem_3D-Model.png">](https://a360.co/41PexBK)
