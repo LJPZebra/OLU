@@ -76,12 +76,3 @@ https://user-images.githubusercontent.com/38736127/174909302-b3901000-2807-471f-
 
 
 
-## Citation:
-
-If you use the hardwar designs, please cite us:
-
-A Versatile and Open Source One- and Two-Photon Light-Sheet Microscope Design
-
-Thomas Panier, Geoffrey Migault, Antoine Hubert, Benoît Beaudou, Georges Debrégeas, Volker Bormuth
-
-Link to the Biorxiv preprint: 
