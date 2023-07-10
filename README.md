@@ -10,9 +10,7 @@
 ## Abstract
 Two-photon light sheet microscopy has a wide range of applications in biology. Here we report on a novel open-source design to transform a brightfield microscope into a 1P \& 2P light-sheet microscope that offers state-of-the-art imaging resolution and speed. The use of a broadband hollow core fiber for laser delivery enables the sharing of the pulsed laser source with other setups, thus largely reducing the effective cost of this system. 
 
-![CompilationFigure](Figures/CompilationFigure.png)
 
-(a) 3D model of the 1P- \& 2P-light-sheet forming unit. (b) 3D design model showing how the light-sheet unit is mounted on the Scientifica scope. The unit is attached to the motorized stage of the system that moves the objective vertically. (c) Attenuation and dispersion spectra of the hollow-core negative curvature fiber; the two main transmission bands (loss $<$ 300dB/km) are highlighted in yellow. Inset left: Schematic of the cross-section of the hypocycloid fiber with 8 cladding tubes. Inset right: EM cross-section image of the fiber (scale bar $10\mu m$). (d) Near and far field profiles of the fiber output at 515nm and 1030nm laser wavelength. (e) Schematic of the fiber with its FC/PC connectorization. The lens increases the numerical aperture (NA) in order to match the NA of the collimation objective (Obj1 in a). (f) Measured light-sheet profile. (g) Single layers of a volumetric brain scan, recorded in one- and two-photon mode, of a 6-day-old zebrafish larva pan-neuronally expressing GCaMP6f and localized to the cell nucleus (Elav3-H2B-GCaMP6f).
 
 
 
