@@ -29,7 +29,10 @@ Thomas Panier\*, Geoffrey Migault\*, Antoine Hubert, Hugo Trentesaux, Benoît Be
 
 
 
-https://github.com/LJPZebra/OLU/assets/38736127/5f767a5f-e8d8-4391-9d52-028ddd4c68b6
+
+
+https://github.com/LJPZebra/OLU/assets/38736127/36e302fc-8bee-4884-8899-0e21d959059e
+
 
 
 
