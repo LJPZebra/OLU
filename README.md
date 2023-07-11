@@ -29,12 +29,17 @@ Thomas Panier\*, Geoffrey Migault\*, Antoine Hubert, Hugo Trentesaux, Benoît Be
 
 
 
+https://github.com/LJPZebra/OLU/assets/38736127/5f767a5f-e8d8-4391-9d52-028ddd4c68b6
+
+
+
 <!--- 
 ## Explorable 3D model of the full system
 
 [<img width="600" alt="FullSystem_3D-Model" src="Figures/FullSystem_3D-Model.png">](https://a360.co/41PexBK)
 
 [<img width="600" alt="2P_laser_injection_3D-Model" src="Figures/2P_laser_injection_3D-Model.png">](https://a360.co/3JVrDGn)
+
 
 
 
