@@ -27,7 +27,7 @@ If you use the hardware designs, please cite us:
 
 Thomas Panier\*, Geoffrey Migault\*, Antoine Hubert, Hugo Trentesaux, Benoît Beaudou, Georges Debrégeas, Volker Bormuth
 
-\url(https://biorxiv.org/cgi/content/short/2023.07.10.548107v1)
+https://biorxiv.org/cgi/content/short/2023.07.10.548107v1
 
 
 
