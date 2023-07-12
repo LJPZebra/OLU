@@ -23,9 +23,11 @@ Here we provide a comprehensive online tutorial that features step-by-step build
 
 If you use the hardware designs, please cite us:
 
-[A Versatile and Open Source One- and Two-Photon Light-Sheet Microscope Design]()
+[A Versatile and Open Source One- and Two-Photon Light-Sheet Microscope Design](https://biorxiv.org/cgi/content/short/2023.07.10.548107v1)
 
 Thomas Panier\*, Geoffrey Migault\*, Antoine Hubert, Hugo Trentesaux, Benoît Beaudou, Georges Debrégeas, Volker Bormuth
+
+\url(https://biorxiv.org/cgi/content/short/2023.07.10.548107v1)
 
 
 
