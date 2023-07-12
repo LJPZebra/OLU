@@ -285,7 +285,9 @@ Protect the experimenter from the laser by installing a [beam blocker](https://w
 
 Using the green laser. Shown is a high-resolution recording of a zebrafish brain (6dpf) with a pan-neuronally expressed red calcium indicator (elav3-jRGECO):
 
-https://user-images.githubusercontent.com/38736127/186108000-6d6c7374-28b0-485f-a63a-da5b19ce9631.mp4
+
+https://github.com/LJPZebra/OLU/assets/38736127/308ce3c6-fe21-4a75-a082-1cd4b1d38281
+
 
 
 ## A Conference Talk Presenting the System:
