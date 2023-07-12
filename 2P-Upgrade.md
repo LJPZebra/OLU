@@ -196,7 +196,10 @@ At 915nm wavelength, the central two-photon absorption peak of GFP and of its ca
 * Left: one-photon mode excited @ 488nm
 * Right:  two-photon mode excited @ 915nm
 
-https://user-images.githubusercontent.com/38736127/178161973-748767bf-004d-487c-9377-4582a705d8d7.mp4
+
+https://github.com/LJPZebra/OLU/assets/38736127/a6df432b-a5b5-4ccf-8948-ba9a2f0df49e
+
+
 
 ## Go back:
 [README](README.md)
